@@ -1,0 +1,34 @@
+name: Comprobar conexiones
+
+on:
+  schedule:
+    - cron: "0 7 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  comprobar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - run: pip install -q requests pillow numpy
+      - name: Comprobar
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_HANDLE: ${{ vars.IG_HANDLE || '@arquitecturaconfidencial' }}
+          ZERNIO_MATCH: ${{ vars.ZERNIO_MATCH || 'arquitecturaconfidencial' }}
+          ZERNIO_IG_ACCOUNT: ${{ vars.ZERNIO_IG_ACCOUNT }}
+          ZERNIO_TT_ACCOUNT: ${{ vars.ZERNIO_TT_ACCOUNT }}
+          ZERNIO_YT_ACCOUNT: ${{ vars.ZERNIO_YT_ACCOUNT }}
+        run: python comprobar.py
+      - name: Guardar el estado
+        if: always()
+        run: python sincronizar.py "Estado $(date +%F)" estado.md

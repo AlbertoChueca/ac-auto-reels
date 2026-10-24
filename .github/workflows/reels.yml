@@ -1,0 +1,111 @@
+name: Reels diarios
+
+on:
+  schedule:
+    # Cada hora: GitHub lanza los programados con horas de retraso a veces. elegir_hueco.py decide si toca un hueco
+    # (14:00 o 20:30 en España) que aún no se ha publicado: lo genera, espera a la hora exacta y publica.
+    - cron: "7 * * * *"
+  workflow_dispatch:
+    inputs:
+      tematica:
+        description: "Temática (auto = la del calendario)"
+        type: choice
+        options: [auto, test, vf, encuesta, galeria, tips, tips_ac, antes_despues, proceso_visual, obra]
+        default: auto
+      publicar_a:
+        description: "Hora de publicación (HH:MM, hora de España). Vacío = en cuanto esté listo"
+        default: ""
+      dry_run:
+        description: "Solo generar el vídeo (no publicar)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reels
+  cancel-in-progress: false
+
+jobs:
+  reel:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Elegir hueco
+        id: slot
+        run: |
+          if [ -z "${{ github.event.schedule }}" ]; then echo "slot=manual" >> "$GITHUB_OUTPUT"; exit 0; fi
+          if [ "${{ vars.ACTIVO }}" != "true" ]; then echo "slot=skip" >> "$GITHUB_OUTPUT"; echo "Apagado: pon la variable ACTIVO = true"; exit 0; fi
+          H=$(python3 elegir_hueco.py); echo "slot=$H" >> "$GITHUB_OUTPUT"; echo "Hueco: $H"
+
+      - uses: actions/setup-python@v6
+        if: steps.slot.outputs.slot != 'skip'
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Caché de ffmpeg
+        if: steps.slot.outputs.slot != 'skip'
+        uses: actions/cache@v4
+        with:
+          path: ~/ffmpeg-bin
+          key: ffmpeg-static-v1
+
+      - name: ffmpeg
+        if: steps.slot.outputs.slot != 'skip'
+        run: |
+          if [ -x ~/ffmpeg-bin/ffmpeg ]; then echo "$HOME/ffmpeg-bin" >> "$GITHUB_PATH"; exit 0; fi
+          mkdir -p ~/ffmpeg-bin /tmp/ffs
+          if timeout 240 curl -fsSL https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz | tar -xJ -C /tmp/ffs; then
+            cp /tmp/ffs/*/bin/ffmpeg /tmp/ffs/*/bin/ffprobe ~/ffmpeg-bin/ && echo "$HOME/ffmpeg-bin" >> "$GITHUB_PATH"
+          elif ! command -v ffmpeg >/dev/null; then
+            timeout 600 sudo apt-get update -qq && timeout 600 sudo apt-get install -y -qq --no-install-recommends ffmpeg
+          fi
+
+      - name: Paquetes de Python
+        if: steps.slot.outputs.slot != 'skip'
+        run: timeout 300 pip install --prefer-binary --timeout 20 -q -r requirements.txt || pip install --prefer-binary -q -r requirements.txt
+
+      - name: Generar y publicar
+        if: steps.slot.outputs.slot != 'skip'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_HANDLE: ${{ vars.IG_HANDLE || '@arquitecturaconfidencial' }}
+          ZERNIO_MATCH: ${{ vars.ZERNIO_MATCH || 'arquitecturaconfidencial' }}
+          ZERNIO_IG_ACCOUNT: ${{ vars.ZERNIO_IG_ACCOUNT }}
+          ZERNIO_TT_ACCOUNT: ${{ vars.ZERNIO_TT_ACCOUNT }}
+          ZERNIO_YT_ACCOUNT: ${{ vars.ZERNIO_YT_ACCOUNT }}
+          INSTAGRAM: ${{ vars.INSTAGRAM || 'true' }}
+          TIKTOK: ${{ vars.TIKTOK || 'true' }}
+          YOUTUBE: ${{ vars.YOUTUBE || 'true' }}
+          TEMATICA: ${{ github.event_name == 'workflow_dispatch' && inputs.tematica != 'auto' && inputs.tematica || '' }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || false }}
+          PUBLISH_AT_MANUAL: ${{ github.event_name == 'workflow_dispatch' && inputs.publicar_a || '' }}
+          PUBLISH_MAX_WAIT_MIN: ${{ vars.PUBLISH_MAX_WAIT_MIN || '90' }}
+        run: python run_daily.py ${{ steps.slot.outputs.slot }}
+
+      - name: Guardar el vídeo para revisarlo
+        if: always() && steps.slot.outputs.slot != 'skip'
+        uses: actions/upload-artifact@v4
+        with:
+          name: reel-${{ steps.slot.outputs.slot }}
+          path: out/**
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Ampliar el banco si se está gastando
+        if: always() && steps.slot.outputs.slot != 'skip'
+        continue-on-error: true
+        timeout-minutes: 15
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python ampliar_banco.py
+
+      - name: Guardar el estado
+        if: always() && steps.slot.outputs.slot != 'skip' && (github.event_name != 'workflow_dispatch' || !inputs.dry_run)
+        run: python sincronizar.py "Reel ${{ steps.slot.outputs.slot }} $(date +%F)" log.jsonl used.json review_log.jsonl image_log.jsonl errores_reels.log fuentes/visual.json
