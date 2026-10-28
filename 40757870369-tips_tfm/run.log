@@ -1,0 +1,65 @@
+temática: tips_tfm · reserva: ['tips_proyectos', 'referentes']
+reel: tips_tfm: Cómo preparar la defensa de tu TFM
+agentes: estratega: playbook actualizado
+reel: guion listo en 86 s · gancho «No defiendas tu TFM sin esto»
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+reel: directora de arte rechaza (Números legibles en la esfera del cronómetro.); intento 2
+modelo de imagen: gemini-3.1-flash-image
+reel: imágenes y voz (gemini:Puck:una-toma) en 54 s
+audio: eliminados 140 ms de siseo
+reel: montaje 1: 34.5 s de vídeo en 50 s
+reel: revisor: 6.0/10 ["Desincronización visual en el paso 4: la gráfica y título del paso 5 ('Maqueta a mano') entran antes de que termine la locución del punto 4 ('adelántate y lleva preparadas las respuestas')."] 
+reel: arreglos: ['ritmo/música']
+audio: eliminados 140 ms de siseo
+reel: montaje 2: 34.5 s de vídeo en 49 s
+reel: revisor: 6.0/10 ['Desincronización en escena 4 y 5: la segunda parte de la locución del punto 4 suena cuando ya se muestra el título y visual del punto 5.'] 
+reel: arreglos: ['ritmo/música']
+audio: eliminados 140 ms de siseo
+reel: montaje 3: 34.5 s de vídeo en 49 s
+reel: revisor: 6.0/10 ['Desajuste de montaje entre escena 4 y 5: el rótulo de la maqueta entra antes de terminar la locución sobre dudas técnicas.'] 
+[tips_tfm] no ha salido:
+Traceback (most recent call last):
+  File "/home/runner/work/ac-auto-reels/ac-auto-reels/run_daily.py", line 112, in <module>
+    meta = reel.hacer(t, out, seed=f"{today}-{slot}-{t}", recientes=ganchos_recientes())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/ac-auto-reels/ac-auto-reels/reel.py", line 652, in hacer
+    raise RuntimeError(f"no llega al 8 tras {montajes} montajes: {rev.get('overall')} · "
+RuntimeError: no llega al 8 tras 3 montajes: 6.0 · Desajuste de montaje entre escena 4 y 5: el rótulo de la maqueta entra antes de terminar la locución sobre dudas técnicas.
+
+reel: tips_proyectos: Cómo dibujar una sección que impresione
+agentes: verificador: corregido: El guion añade la mención 'al tribunal' en el hook (pantalla y voz), lo cual no está en la pieza original y puede interpretarse como una promesa implícita de éxito académico.
+reel: guion listo en 63 s · gancho «¿Tu sección no convence al tribunal?»
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+reel: directora de arte rechaza (Geometría imposible en el tiro central de escaleras, con peldaños en el intradós y encuentros en áng); intento 2
+modelo de imagen: gemini-3.1-flash-image
+reel: imágenes y voz (gemini:Puck:una-toma) en 48 s
+audio: eliminados 80 ms de siseo
+reel: montaje 1: 31.0 s de vídeo en 45 s
+reel: revisor: 8.0/10  
+reel: listo en 170 s · 31.0 s de vídeo · nota 8.0
+¿Tu sección no convence al tribunal en Proyectos o TFM? Revisa esto 👇
+
+5 claves rápidas para salvar tu entrega:
+
+1. Corta por lo importante — Muestra la doble altura o la escalera.
+2. Jerarquiza grosores — Consigue una lectura espacial inmediata.
+3. Añade personas y mobiliario — Define la escala y el uso real.
+4. Dibuja el terreno — Evita que tu edificio parezca flotar.
+5. Representa la luz — Haz visible tu estrategia solar.
+
+📌 Guárdalo para no olvidarlo antes de plotear y compártelo con tu compi de taller.
+
+¿Vas justo con el TFM? Pide tu auditoría gratuita en https://arquitecturaconfidencial.com
+
+Imágenes creadas con IA.
+
+#arquitectura #estudiantedearquitectura #tfmarquitectura #tfgarquitectura #proyectosarquitectura #archihacks
+PRUEBA: no se publica
