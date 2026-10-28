@@ -156,10 +156,17 @@ def normaliza(G, base, tematica):
     G["cierre_pantalla"] = G["cierre_pantalla"][:2]
     if "confidencial" not in G["cierre_voz"].lower():
         G["cierre_voz"] = G["cierre_voz"].rstrip(". ") + ". Más en arquitectura confidencial punto com."
+    if tematica in ("test", "vf", "encuesta"):                     # el cierre del test anuncia la solución, siempre
+        G["cierre_pantalla"] = base["cierre_pantalla"]
+        G["hook_pantalla"] = re.split(r"[:·|-]", G["hook_pantalla"])[0].strip().upper()[:30] or base["hook_pantalla"]
+        if "mañana" not in G["cierre_voz"].lower():
+            G["cierre_voz"] = base["cierre_voz"]
     if tematica in VENTA:
         G["cierre_pantalla"] = base["cierre_pantalla"]
         if "auditor" not in G["cierre_voz"].lower():
             G["cierre_voz"] = base["cierre_voz"]
+    if "confidencial" not in G["cierre_voz"].lower():
+        G["cierre_voz"] = G["cierre_voz"].rstrip(". ") + ". Más en arquitectura confidencial punto com."
     if "pregunta_voz" in base and not (isinstance(G.get("pregunta_voz"), str) and G["pregunta_voz"].strip()):
         G["pregunta_voz"] = base["pregunta_voz"]
     if not base.get("escenas"):
@@ -226,7 +233,7 @@ def gancho(tematica, G, P, pb, recientes=()):
 Tema del reel: «{P.get('hook') or P.get('pregunta')}». Gancho actual: pantalla «{G['hook_pantalla']}», voz «{G['hook_voz']}».
 Escribe 5 ganchos distintos (curiosidad, error, promesa concreta, pregunta directa al estudiante...) y puntúa cada uno de
 1 a 10 por lo que haría parar el scroll a un estudiante de TFM o de Proyectos.
-Reglas: 'pantalla' máx. 7 palabras{'; si lleva número, debe ser ' + str(n) if n else ''}{'; en tests, la pantalla es una etiqueta corta tipo «TEST DE CONSTRUCCIÓN»' if quiz else ''};
+Reglas: 'pantalla' máx. 7 palabras{'; si lleva número, debe ser ' + str(n) if n else ''}{'; en tests, la pantalla es una etiqueta corta de 2-4 palabras SIN dos puntos, tipo «TEST DE CONSTRUCCIÓN»' if quiz else ''};
 'voz' máx. 14 palabras, natural, de España, sin clickbait falso ni promesas («apruebas seguro», «garantizado»: prohibido).
 NO nombres obras, arquitectos, escuelas, herramientas ni datos que no estén en el reel: el gancho tiene que cumplirse en el propio vídeo.
 No repitas estos ganchos recientes: {json.dumps(list(recientes)[-12:], ensure_ascii=False)}
@@ -391,6 +398,8 @@ Devuelve JSON: {{"descripcion": str, "titulo_youtube": str}}""", 0.6)
         d, t = (r.get("descripcion") or "").strip(), (r.get("titulo_youtube") or "").strip()
         if not d or WEB_URL not in d or not marca.limpio(d) or len(d) > 2100:
             raise ValueError("descripción no válida")
+        if tematica in ("test", "vf", "encuesta") and "mañana" not in d.lower():
+            d = d.replace(f"\n\n¿Vas", f"\n📅 {G['cierre_pantalla'][1]}.\n\n¿Vas", 1) if "\n\n¿Vas" in d else d + f"\n📅 {G['cierre_pantalla'][1]}."
         if P.get("portfolio") and any(P["portfolio"]) and "trabajos reales" not in d.lower():
             raise ValueError("falta la nota de planos reales")
         if tematica in ("test", "vf") and P.get("explicacion") and P["explicacion"][:40].lower() in d.lower():
@@ -419,6 +428,7 @@ def preparar(tematica, P, recientes=()):
         hp, hv, _ = fg.result(); G, probs = fv.result()
     G = normaliza(G, base, tematica)
     G["hook_pantalla"], G["hook_voz"] = hp, hv
+    G = normaliza(G, base, tematica)
     frases = _frases(G)
     with ThreadPoolExecutor(3) as ex:                                 # voz, arte y descripción, a la vez
         fd = ex.submit(director_voz, frases, tematica, pb)

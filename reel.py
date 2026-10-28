@@ -450,7 +450,7 @@ def render_quiz(G, P, img, clips, out, tematica, seed=0, bpm=86):
             if tt < t_fin:
                 a = eob(clamp(tt / 0.35))
                 fx.paste_center(fr, tag, W / 2, 310 - (1 - a) * 20, alpha=clamp(a))
-                b = eo(clamp((tt - t_q + 0.3) / 0.4))
+                b = eo(clamp((tt - 0.35) / 0.4))                     # la pregunta, desde el primer segundo
                 fx.paste_center(fr, q, W / 2, y_q + (1 - b) * 30, alpha=b)
                 y = y0
                 for k, c in enumerate(cards):
