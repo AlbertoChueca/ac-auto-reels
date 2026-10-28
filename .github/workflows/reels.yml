@@ -88,7 +88,10 @@ jobs:
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || false }}
           PUBLISH_AT_MANUAL: ${{ github.event_name == 'workflow_dispatch' && inputs.publicar_a || '' }}
           PUBLISH_MAX_WAIT_MIN: ${{ vars.PUBLISH_MAX_WAIT_MIN || '90' }}
-        run: python run_daily.py ${{ steps.slot.outputs.slot }}
+        run: |
+          mkdir -p out
+          set -o pipefail
+          python run_daily.py ${{ steps.slot.outputs.slot }} 2>&1 | tee out/run.log
 
       - name: Guardar el vídeo para revisarlo
         if: always() && steps.slot.outputs.slot != 'skip'
@@ -98,6 +101,19 @@ jobs:
           path: out/**
           retention-days: 7
           if-no-files-found: ignore
+
+      - name: Subir la prueba a la rama «pruebas» (para revisarla)
+        if: always() && github.event_name == 'workflow_dispatch' && inputs.dry_run
+        continue-on-error: true
+        run: |
+          git config user.name reels-bot; git config user.email reels-bot@users.noreply.github.com
+          D=/tmp/pr; rm -rf $D
+          if git fetch -q origin pruebas 2>/dev/null; then git worktree add -q $D FETCH_HEAD && cd $D && git checkout -q -B pruebas
+          else git worktree add -q --detach $D && cd $D && git checkout -q --orphan pruebas && git rm -rfq . ; fi
+          cd $D; P=${{ github.run_id }}-${{ inputs.tematica }}; mkdir -p $P
+          cp $GITHUB_WORKSPACE/out/*.mp4 $GITHUB_WORKSPACE/out/*_portada.jpg $GITHUB_WORKSPACE/out/*.txt $GITHUB_WORKSPACE/out/run.log $P/ 2>/dev/null || true
+          rm -f $P/*_rev.mp4
+          git add -A && git commit -qm "prueba $P" && for i in 1 2 3; do git push -q origin pruebas && break; git pull -q --rebase origin pruebas; done
 
       - name: Ampliar el banco si se está gastando
         if: always() && steps.slot.outputs.slot != 'skip'
