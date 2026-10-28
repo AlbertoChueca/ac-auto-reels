@@ -143,6 +143,38 @@ def guion_base(tematica, P):
     return {"hook_pantalla": hook, "hook_voz": hook + ".", "escenas": esc, "cierre_voz": cierre_voz, "cierre_pantalla": cierre}
 
 
+# ================================================================== forma segura del guion
+def normaliza(G, base, tematica):
+    """Tras cada agente: si algo viene mal formado, se repara con el borrador del banco (nunca rompe el montaje)."""
+    G = dict(G)
+    for k in ("hook_pantalla", "hook_voz", "cierre_voz"):
+        if not isinstance(G.get(k), str) or not G[k].strip():
+            G[k] = base[k]
+    cp = G.get("cierre_pantalla")
+    if not (isinstance(cp, list) and len(cp) >= 2 and all(isinstance(x, str) and x.strip() for x in cp[:2])):
+        G["cierre_pantalla"] = base["cierre_pantalla"]
+    G["cierre_pantalla"] = G["cierre_pantalla"][:2]
+    if "confidencial" not in G["cierre_voz"].lower():
+        G["cierre_voz"] = G["cierre_voz"].rstrip(". ") + ". Más en arquitectura confidencial punto com."
+    if tematica in VENTA:
+        G["cierre_pantalla"] = base["cierre_pantalla"]
+        if "auditor" not in G["cierre_voz"].lower():
+            G["cierre_voz"] = base["cierre_voz"]
+    if "pregunta_voz" in base and not (isinstance(G.get("pregunta_voz"), str) and G["pregunta_voz"].strip()):
+        G["pregunta_voz"] = base["pregunta_voz"]
+    if not base.get("escenas"):
+        G.pop("escenas", None)
+    else:
+        esc = G.get("escenas") if isinstance(G.get("escenas"), list) else []
+        if len(esc) != len(base["escenas"]):
+            esc = base["escenas"]
+        G["escenas"] = [{"titulo": (e.get("titulo") if isinstance(e, dict) and e.get("titulo") else b["titulo"]),
+                         "voz": (e.get("voz") if isinstance(e, dict) and e.get("voz") else b["voz"]),
+                         "sub": b.get("sub", "") if tematica == "referentes" else (e.get("sub", "") if isinstance(e, dict) else ""),
+                         "idea": b.get("idea")} for e, b in zip(esc, base["escenas"])]
+    return G
+
+
 # ================================================================== 2 · guionista
 def guionista(tematica, P, pb):
     base = guion_base(tematica, P)
@@ -231,6 +263,8 @@ def verificador(tematica, G, P, base):
     try:
         r = _ask(f"""Eres el verificador técnico de una cuenta para estudiantes de arquitectura. Eres arquitecto y
 profesor, muy estricto. Revisa este guion contra su pieza verificada.
+NO son problema (son obligatorios): la web «arquitectura confidencial punto com» / arquitecturaconfidencial.com, la
+invitación a guardar, compartir o comentar, la auditoría gratuita del TFM y que se le hable de tú al estudiante.
 Marca como problema: cualquier dato técnico falso o dudoso; cualquier dato que NO esté en la pieza (obra, autor, año,
 cifra, norma, herramienta); que en un test se desvele la respuesta; promesas («apruebas seguro», «te hacemos el TFM»,
 «nadie lo sabrá»); frases que no suenen a español de España; títulos de pantalla de más de 6 palabras.
@@ -378,10 +412,12 @@ def preparar(tematica, P, recientes=()):
         return G, [e.get("idea") for e in esc], [ARCO[i % len(ARCO)] for i in range(len(frases))], \
             descripcion_base(tematica, G, P), G["hook_pantalla"][:90]
     G, base = guionista(tematica, P, pb)
+    G = normaliza(G, base, tematica)
     with ThreadPoolExecutor(2) as ex:                                 # gancho y verificador, a la vez
         fg = ex.submit(gancho, tematica, G, P, pb, recientes)
         fv = ex.submit(verificador, tematica, G, P, base)
         hp, hv, _ = fg.result(); G, probs = fv.result()
+    G = normaliza(G, base, tematica)
     G["hook_pantalla"], G["hook_voz"] = hp, hv
     frases = _frases(G)
     with ThreadPoolExecutor(3) as ex:                                 # voz, arte y descripción, a la vez
