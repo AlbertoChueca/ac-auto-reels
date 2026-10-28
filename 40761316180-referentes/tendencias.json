@@ -1,0 +1,96 @@
+{
+ "formatos_que_funcionan": [
+  "Screencast ultra rápido (15-25s) mostrando flujos de IA desde boceto/CAD a render 4K",
+  "POV humor y drama de entrega (10-18s) con audio viral sobre errores de software o trasnochar",
+  "ASMR de maquetas express (corte físico con cúter/láser) y 'Digital Maquette' en D5 Render (20-40s)",
+  "Hacks de gráfica y desglose de láminas/axonometrías paso a paso (30-55s)",
+  "Plantillas y cheat sheets visuales de alta densidad para pausar y guardar",
+  "Micro-resoluciones accionables (30-45s) con método 1-2-3 sin introducciones",
+  "Comparativas 'Antes vs. Ahora' y desmitificación de métodos tradicionales"
+ ],
+ "ganchos_que_funcionan": [
+  "Aversión a la pérdida: 'Deja de perder 8 horas renderizando para tu entrega de Proyectos de mañana'",
+  "Aversión a la pérdida: 'Si todavía haces [X], estás perdiendo [beneficio concreto]...'",
+  "Situacional/POV empático: 'POV: Son las 4 AM, presentas tu TFG en 3 horas y Photoshop se cerró sin guardar'",
+  "Sensorial con intriga: Primer plano cortando cartón pluma + 'El truco para maquetas que no te enseñan en la escuela'",
+  "Promesa de excelencia académica: 'El detalle en Illustrator que hizo que mi TFM sacara Matrícula de Honor'",
+  "Resultado final inmediato: Mostrar la lámina o render terminado en el primer fotograma antes del proceso",
+  "Anti-consenso: Desafiar una creencia popular del taller o escuela de arquitectura en los primeros 2 segundos"
+ ],
+ "temas_calientes": [
+  "Flujos de trabajo acelerados con IA (MeltFlex, Rendair, Veras) sobre Revit y SketchUp ante entregas inminentes",
+  "Optimización de láminas de entrega y axonométricos en Illustrator para correcciones de Proyectos y TFM",
+  "Técnicas rápidas y trucos de taller para maquetas físicas de entrega en cartón pluma o corte láser",
+  "Modelado de maquetas conceptuales digitales en D5 Render para revisiones semanales",
+  "Frustraciones y anécdotas de entregas nocturnas: caídas de software, pérdidas de archivos y presión de entregas de octubre"
+ ],
+ "tendencias_de_edicion": [
+  "Estética 'Clean / Raw-Premium' con tipografía editorial sobria, lejos del estilo MrBeast",
+  "Audio ultra nítido con micrófono visible o captación ASMR de alta fidelidad frente a voces sintéticas",
+  "Cortes naturales y ritmo dinámico sin transiciones estridentes",
+  "Marcos de retención: inserción de esquemas o láminas estáticas durante 1 segundo para forzar la pausa o captura"
+ ],
+ "que_penaliza_el_algoritmo": [
+  "Contenido sintético masivo generado por IA (guion y voz artificial sin curaduría humana ni etiquetado)",
+  "Engagement bait explícito como 'Comenta GUÍA para recibir el enlace' o 'Mira hasta el final'",
+  "Reutilización de vídeos con marcas de agua de otras plataformas o bitrate no nativo",
+  "Retención artificial y bucles forzados que provocan abandono temprano (high drop-off)"
+ ],
+ "ejemplos": [
+  {
+   "que": "Timelapse de pantalla pasando de boceto en SketchUp a render final con Rendair/Veras (@ShowItBetter / @rendair.ai)",
+   "por_que": "Alivia de inmediato el estrés de renderizado en entregas ajustadas mostrando una solución hiperrápida y visual."
+  },
+  {
+   "que": "Skit de estudio a oscuras con pantalla congelada a horas de la entrega (@arch_student / @estudiantearquitectura)",
+   "por_que": "Genera empatía masiva y activa el compartimiento orgánico entre compañeros que sufren la misma presión."
+  },
+  {
+   "que": "Vídeo ASMR cortando cartón pluma con sonido crujiente y truco de pegado (@scaleplus / @david_cortes_arch)",
+   "por_que": "El componente sensorial retiene hasta el final y da una solución práctica para las maquetas de taller."
+  },
+  {
+   "que": "Desglose plano a plano de un axonométrico ganador en Illustrator (@learnupstairs)",
+   "por_que": "Aporta valor técnico directo que el alumno puede copiar y pegar en su entrega para subir nota."
+  }
+ ],
+ "ideas_de_reel": [
+  "Render express para las primeras entregas de Proyectos: screencast de 20s usando Veras sobre SketchUp con el gancho 'Deja de perder 8 horas renderizando para tu entrega de Proyectos de mañana'.",
+  "POV correcciones de octubre: vídeo de 12s en el aula/estudio a oscuras con audio viral mostrando el choque de presentar la primera corrección del TFG con Photoshop colgado.",
+  "Cheat sheet de Illustrator: micro-resolución de 35s desglosando las 3 capas clave para un axonométrico de Matrícula de Honor, con marco de retención de 1s para captura de pantalla.",
+  "ASMR de taller: corte impecable de cartón pluma para maqueta de corrección con audio hipernítido y tipografía sobria, revelando un tip para uniones invisibles.",
+  "Antes vs. Ahora en visualización: comparativa sin rodeos de una lámina básica de CAD frente a una postproducida con flujo rápido de IA y D5 Render para entregas de TFM."
+ ],
+ "fecha": "2026-10-28",
+ "fuentes": [
+  {
+   "titulo": "renderahouse.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYJXgRd0D5sKbSLkEFjip6JnMSieBhCumpjm6V6oiM2O97CGzkgaFPCfN4BA3Ehnd0aF9nTSYVAGqmbYM5q1Epk6b2Y7J7BsQLQCglyTk2hHOzNdn5yIEAQHSJ5JnYCYrhSB-Ji9U4ZTQqkuYpfeh5_zGovq3-nfoDPYY4aOE="
+  },
+  {
+   "titulo": "rendair.ai",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMNhGHhyMLoJSNMqYKmS5_yU_7yJxcLkxAYl2pUIPkzYU_rwupUivbQRaNHzpAp8vIDXYAeCvhfEVJWLOIxUYkQQ-8Rjv4aVtNR9lszyPjqgrg4OvtnNjUMGdqXaBmNBTSssoJPqds1Uqsjp3SiSHcyEK_rwhEIdM_d3tp7zs_nAZYp0ETqpyz"
+  },
+  {
+   "titulo": "meltflexai.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHv1t9D9yiRfg7gZNsb11WbyFTDUdzDRnizWf7rZoBVP7UfMElvir1vTk6BvI-kLtgZs6t6FZTyh2Yq4OnWrYg4QvZssMz7qjsyiojs4t4TfKUe81CnQRWul6RM1KHMMjYXkR1sXuE8a7V62a4xQsU9Wp5AtuciHfd0p8Ay"
+  },
+  {
+   "titulo": "youtube.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk1nrEIFTuDm98EpPv1kSNnB4-D6P2OBW1YVU5IZ2rGAch3n11EoK2ymFK4oiv5tmalDLHgkC_OiTrYJGtSUXtW9NNi00HAYL8Q8dkdOTSIK8vUN3ovApfaK4KXElXV33VYO4="
+  },
+  {
+   "titulo": "youtube.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_czu9S1Ih3z_tEPN3jiKP0DG26GXg2Tyis3OXvBCH8nfS075QFOCUKPj7D2yRc5q5O-kdsJqh3bD18eECpA6oJuWsINebHVYQmpm2vI2m6nxFNnlQnf7KXUHJ4Mi9VOTU"
+  },
+  {
+   "titulo": "youtube.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDjqLXg5HI5dntddRpTS04LUNPnKjDhc5wLBTcy9rOXbUlnvAGFtDjowqFmyrEnMgsPhQszWIK7qb7Fd3O77opeLsHm_7TuSEZcdFSQNqInaqOcjVmQtHjQyK-o8NteJsb"
+  },
+  {
+   "titulo": "youtube.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-Js7P3wE_e0WhIO5Rxz5Y2WmL_ESe5STqdl9aMB8HkgLcBM-8FBbx_b2Syalfm-ZBug9zkKOOzkZwNyGWNJuu0ZcWjrDtfzZL8sexQLn64ma8ZaYjBwZqIdnnc3ixno5X"
+  }
+ ],
+ "verificado": true
+}

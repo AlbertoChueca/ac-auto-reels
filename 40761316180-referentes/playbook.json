@@ -1,0 +1,45 @@
+{
+ "ganchos_que_funcionan": [
+  "Deja de perder 8 horas renderizando para tu entrega de Proyectos: haz esto en 3 minutos con IA",
+  "El detalle en Illustrator que hizo que este TFM sacara Matrícula de Honor",
+  "POV: Son las 4 AM, entregas tu TFG en 3 horas y Photoshop se cerró sin guardar",
+  "Si todavía maquetas tus láminas de esta forma, estás perdiendo nota en corrección",
+  "El truco de maqueta express en cartón pluma que ningún profesor de taller te enseña"
+ ],
+ "patrones": [
+  "Mostrar el resultado final (lámina o render 4K) en el fotograma 1 antes de explicar el paso a paso",
+  "Estructura 1-2-3 directa a la acción y screencasts ultra rápidos sin saludos ni rodeos",
+  "Cheat sheets y láminas de alta densidad visual diseñadas específicamente para que el usuario pause y guarde",
+  "Estética Clean/Raw-Premium con tipografía editorial sobria y audio nítido o ASMR de taller",
+  "Transición orgánica de la resolución del dolor al CTA de auditoría gratuita de TFM"
+ ],
+ "evitar": [
+  "Intros lentas saludando o pidiendo likes antes de aportar valor",
+  "Edición estridente estilo MrBeast o efectos visuales sobrecargados",
+  "Voces sintéticas/TTS genéricas de baja fidelidad",
+  "Tutoriales teóricos abstractos sin aplicación inmediata para la entrega semanal",
+  "Pitches de venta agresivos que no resuelvan un problema práctico primero"
+ ],
+ "tono_voz": "Empático, cómplice y directo de estudiante veterano/arquitecto joven; resolutivo, estético, sin condescendencia ni pedantería académica.",
+ "duracion_objetivo_s": 28,
+ "pesos": {
+  "tips_tfm": 1,
+  "tips_proyectos": 1,
+  "referentes": 1,
+  "ia": 1,
+  "test": 1,
+  "vf": 1
+ },
+ "hashtags": [
+  "#arquitectura",
+  "#estudiantedearquitectura",
+  "#tfmarquitectura",
+  "#proyectosdearquitectura",
+  "#entregadeproyectos",
+  "#archistudent",
+  "#pfcquitectura",
+  "#renderia"
+ ],
+ "fecha": "2026-10-28",
+ "datos": {}
+}
