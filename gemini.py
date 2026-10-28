@@ -101,16 +101,20 @@ def image(prompt, aspect="9:16", refs=()):
     raise last or RuntimeError("ningún modelo de imagen disponible")
 
 
-def ask_search(prompt, temperature=0.4):
-    """Texto con búsqueda de Google (grounding): para el estratega, que mira qué funciona ahora en el nicho.
-    Devuelve el texto de la respuesta (o lanza si ningún modelo admite la búsqueda)."""
+def ask_search(prompt, temperature=0.4, fuentes=False):
+    """Texto con búsqueda de Google (grounding). fuentes=True devuelve (texto, [{"titulo", "url"}])."""
     body = {"contents": [{"parts": [{"text": prompt}]}], "tools": [{"google_search": {}}],
             "generationConfig": {"temperature": temperature}}
     last = None
     for model in dict.fromkeys(TEXT_MODELS + sorted([m for m in available() if "flash" in m and _text_only(m)], key=_rank)):
         try:
             j = post(model, body)
-            return "".join(p.get("text", "") for p in j["candidates"][0]["content"]["parts"])
+            c = j["candidates"][0]
+            txt = "".join(p.get("text", "") for p in c["content"]["parts"])
+            if not fuentes:
+                return txt
+            web = [ch.get("web") or {} for ch in (c.get("groundingMetadata") or {}).get("groundingChunks") or []]
+            return txt, [{"titulo": w.get("title"), "url": w.get("uri")} for w in web if w.get("uri")]
         except Exception as e:
             last = e
     raise last or RuntimeError("Gemini: sin búsqueda disponible")

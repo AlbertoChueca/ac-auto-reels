@@ -49,12 +49,21 @@ def libres(B, sec):
     return sum(1 for p in B[sec] if f"{sec}:{p['id']}" not in us)
 
 
+def tendencias_txt():
+    try:
+        t = json.load(open(os.path.join(HERE, "tendencias.json")))
+        return json.dumps((t.get("temas_calientes") or []) + (t.get("ideas_de_reel") or []), ensure_ascii=False)[:1200]
+    except Exception:
+        return "(ninguno)"
+
+
 def proponer(B, sec, n):
     import gemini
     ya = [p.get("pregunta") or p.get("hook") for p in B[sec]]
     r = gemini.ask(f"""Crea {n} piezas NUEVAS para el banco de reels de una cuenta para estudiantes de arquitectura.
 {REGLAS[sec]}
-Español de España. No repitas: {json.dumps(ya, ensure_ascii=False)[:3000]}
+Español de España. Aprovecha, si encajan, estos temas calientes de esta semana: {tendencias_txt()}
+No repitas: {json.dumps(ya, ensure_ascii=False)[:3000]}
 Forma exacta (sin 'id'), como estos ejemplos: {json.dumps(B[sec][:2], ensure_ascii=False)[:2500]}
 Devuelve JSON: {{"piezas": [...]}}""", 0.85)
     return r.get("piezas") or []

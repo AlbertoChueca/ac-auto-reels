@@ -30,8 +30,9 @@ y comenta. Los de venta no se tocan.
   logo, cartela, calle ni fecha, con la etiqueta «Trabajo real». Nunca se menciona UDA.
 - **Referentes**: obras reales verificadas (obra · autor, ciudad y año); las imágenes son conceptuales (IA) y se dice.
 
-## Los 8 agentes (agentes.py y reel.py)
-1. **Estratega** (1 vez al día): resultados reales + búsqueda en Google de lo que funciona en el nicho -> playbook.json.
+## Los 9 agentes (agentes.py y reel.py)
+0. **Cazatendencias** (1 vez al día): busca en Google lo que funciona AHORA en reels, TikToks y Shorts del nicho (formatos, ganchos, temas calientes de la época del curso, ejemplos con fuentes) -> tendencias.json.
+1. **Estratega** (1 vez al día): cruza los resultados reales con las tendencias -> playbook.json.
 2. **Guionista**: guion hablado desde la pieza del banco, sin añadir datos.
 3. **Gancho**: 5 ganchos, elige el mejor para parar el scroll.
 4. **Verificador**: rigor técnico y reglas de AC; corrige o vuelve al banco.

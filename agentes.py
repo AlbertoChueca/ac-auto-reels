@@ -1,8 +1,10 @@
-"""Los 8 agentes que pulen cada reel de AC (todos con Gemini; en paralelo siempre que se puede, para ir rápido).
+"""Los 9 agentes que pulen cada reel de AC (todos con Gemini; en paralelo siempre que se puede, para ir rápido).
 
-  1. estratega        1 vez al día: lee los resultados reales (performance.json) y busca en Google qué funciona ahora
-                      en reels para estudiantes de arquitectura -> playbook.json (ganchos, patrones, qué evitar, pesos
-                      de cada temática). Lo usan el guionista, el gancho, la descripción y el calendario.
+  0. cazatendencias   1 vez al día: busca en Google lo que está funcionando AHORA en reels, TikToks y Shorts del nicho
+                      (formatos, ganchos, temas calientes por la época del curso, ejemplos con enlace) -> tendencias.json
+  1. estratega        1 vez al día: cruza los resultados reales (performance.json) con las tendencias -> playbook.json
+                      (ganchos, patrones, qué evitar, pesos de cada temática). Lo usan el guionista, el gancho, la
+                      descripción, el calendario y la ampliación del banco.
   2. guionista        guion hablado a partir de la pieza del banco (sin añadir datos que no estén en ella).
   3. gancho           5 ganchos para los 2 primeros segundos, los puntúa y elige el mejor (sin repetir recientes).
   4. verificador      revisa el rigor de cada frase contra la pieza y las reglas de AC; corrige o vuelve al banco.
@@ -44,6 +46,69 @@ def _log(kind, data):
         pass
 
 
+# ================================================================== 0 · cazatendencias
+TENDENCIAS = os.path.join(HERE, "tendencias.json")
+
+
+def tendencias():
+    try:
+        return json.load(open(TENDENCIAS))
+    except Exception:
+        return {}
+
+
+def cazatendencias(force=False):
+    """Qué está funcionando ESTA semana en el nicho. Dos búsquedas a la vez (nicho y formatos generales de reels) y una
+    síntesis en JSON con ejemplos y enlaces. Si falla, se queda la versión anterior."""
+    t = tendencias()
+    if t.get("fecha") == str(datetime.date.today()) and not force:
+        return t
+    import gemini
+    hoy = datetime.date.today()
+    mes = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre",
+           "diciembre"][hoy.month - 1]
+    q1 = (f"Busca los reels de Instagram, TikToks y YouTube Shorts sobre arquitectura para estudiantes (TFM, TFG, PFC, "
+          f"asignatura de Proyectos, renders, maquetas, referentes, IA para arquitectura, vida de estudiante de "
+          f"arquitectura) que más están funcionando en {mes} de {hoy.year}, en español y en inglés. Para cada patrón: "
+          f"formato, gancho de los 2 primeros segundos, duración, por qué funciona y un ejemplo concreto (cuenta o "
+          f"vídeo). Responde en español, en viñetas, máx. 350 palabras.")
+    q2 = (f"¿Qué formatos, estructuras de gancho y tendencias de edición de Reels, TikTok y YouTube Shorts educativos están "
+          f"consiguiendo más guardados y compartidos en {mes} de {hoy.year}? ¿Qué penalizan ahora los algoritmos? "
+          f"Responde en español, en viñetas, máx. 250 palabras.")
+    try:
+        with ThreadPoolExecutor(2) as ex:
+            f1 = ex.submit(gemini.ask_search, q1, 0.4, True); f2 = ex.submit(gemini.ask_search, q2, 0.4, True)
+            (t1, s1), (t2, s2) = f1.result(), f2.result()
+    except Exception as e:
+        say("cazatendencias sin búsqueda:", str(e)[:150])
+        return t
+    try:
+        r = _ask(f"""Eres el cazatendencias de una cuenta de reels para {AUDIENCIA}. Hoy es {hoy}.
+Con esta investigación (solo lo que esté respaldado; nada inventado), resume lo que funciona AHORA.
+Investigación del nicho: {t1[:3500]}
+Investigación de formatos: {t2[:2500]}
+Ten en cuenta la época del curso en España ({mes}): entregas, correcciones, defensas, convocatorias.
+Devuelve JSON: {{"formatos_que_funcionan": [str], "ganchos_que_funcionan": [str], "temas_calientes": [str],
+"tendencias_de_edicion": [str], "que_penaliza_el_algoritmo": [str], "ejemplos": [{{"que": str, "por_que": str}}],
+"ideas_de_reel": [str]}}""", 0.4)
+        r["fecha"] = str(hoy)
+        r["fuentes"] = [s for s in (s1 + s2) if s.get("url")][:12]
+        json.dump(r, open(TENDENCIAS, "w"), ensure_ascii=False, indent=1)
+        say(f"cazatendencias: {len(r.get('formatos_que_funcionan') or [])} formatos, "
+            f"{len(r.get('temas_calientes') or [])} temas calientes, {len(r['fuentes'])} fuentes")
+        return r
+    except Exception as e:
+        say("cazatendencias: síntesis fallida:", str(e)[:150])
+        return t
+
+
+def _tend_texto(t):
+    if not t:
+        return "(sin tendencias todavía)"
+    return json.dumps({k: t.get(k) for k in ("formatos_que_funcionan", "ganchos_que_funcionan", "temas_calientes",
+                                             "tendencias_de_edicion", "que_penaliza_el_algoritmo")}, ensure_ascii=False)[:2200]
+
+
 # ================================================================== 1 · estratega
 def _recompensa(r):
     v = max(1, r.get("views") or r.get("reach") or 0)
@@ -78,22 +143,13 @@ def estratega(force=False):
     if pb.get("fecha") == str(datetime.date.today()) and not force:
         return pb
     medias, top = resumen_resultados()
-    investigacion = ""
-    try:
-        import gemini
-        investigacion = gemini.ask_search(
-            "Investiga en 2026 qué tipo de reels, TikToks y YouTube Shorts para estudiantes de arquitectura (TFM, TFG, "
-            "asignatura de Proyectos, referentes, renders, IA para arquitectura) consiguen más guardados, compartidos y "
-            "comentarios. Da patrones concretos de ganchos de los 2 primeros segundos, duración, estructura, tono de la "
-            "voz y llamadas a la acción, con ejemplos. Responde en español, en viñetas, máx. 250 palabras.")[:3000]
-    except Exception as e:
-        say("estratega sin búsqueda:", str(e)[:120])
+    investigacion = _tend_texto(cazatendencias(force=force))
     try:
         r = _ask(f"""Eres el estratega de contenido de una cuenta de TikTok, Instagram y YouTube Shorts para {AUDIENCIA}.
 Objetivo: que guarden, compartan y comenten, y que el 20 % de venta lleve a pedir la auditoría gratuita del TFM.
 Resultados reales por temática (recompensa = (guardados×3 + compartidos×3 + comentarios×2 + likes) / vistas): {json.dumps(medias, ensure_ascii=False)}
 Mejores publicaciones: {json.dumps(top, ensure_ascii=False)}
-Investigación del nicho: {investigacion or '(no disponible)'}
+Tendencias de esta semana (del cazatendencias): {investigacion}
 Escribe el playbook de esta semana. Si hay pocos datos (menos de 10 publicaciones), pesos = 1 en todo.
 Devuelve JSON: {{"ganchos_que_funcionan": [str], "patrones": [str], "evitar": [str], "tono_voz": str,
 "duracion_objetivo_s": number, "pesos": {{"tips_tfm": number, "tips_proyectos": number, "referentes": number,
@@ -108,10 +164,13 @@ Devuelve JSON: {{"ganchos_que_funcionan": [str], "patrones": [str], "evitar": [s
 
 
 def _pb_texto(pb):
-    if not pb:
+    t = tendencias()
+    if not pb and not t:
         return "(sin playbook todavía)"
-    return json.dumps({k: pb.get(k) for k in ("ganchos_que_funcionan", "patrones", "evitar", "tono_voz",
-                                              "duracion_objetivo_s")}, ensure_ascii=False)[:1800]
+    out = {k: pb.get(k) for k in ("ganchos_que_funcionan", "patrones", "evitar", "tono_voz", "duracion_objetivo_s")} if pb else {}
+    if t:
+        out["tendencias_ahora"] = {k: t.get(k) for k in ("ganchos_que_funcionan", "formatos_que_funcionan", "temas_calientes")}
+    return json.dumps(out, ensure_ascii=False)[:2600]
 
 
 # ================================================================== guion de reserva (sin IA): solo datos del banco

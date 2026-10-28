@@ -112,6 +112,7 @@ jobs:
           else git worktree add -q --detach $D && cd $D && git checkout -q --orphan pruebas && git rm -rfq . ; fi
           cd $D; P=${{ github.run_id }}-${{ inputs.tematica }}; mkdir -p $P
           cp $GITHUB_WORKSPACE/out/*.mp4 $GITHUB_WORKSPACE/out/*_portada.jpg $GITHUB_WORKSPACE/out/*.txt $GITHUB_WORKSPACE/out/run.log $P/ 2>/dev/null || true
+          cp $GITHUB_WORKSPACE/tendencias.json $GITHUB_WORKSPACE/playbook.json $P/ 2>/dev/null || true
           rm -f $P/*_rev.mp4
           git add -A && git commit -qm "prueba $P" && for i in 1 2 3; do git push -q origin pruebas && break; git pull -q --rebase origin pruebas; done
 
@@ -125,4 +126,4 @@ jobs:
 
       - name: Guardar el estado
         if: always() && steps.slot.outputs.slot != 'skip' && (github.event_name != 'workflow_dispatch' || !inputs.dry_run)
-        run: python sincronizar.py "Reel ${{ steps.slot.outputs.slot }} $(date +%F)" log.jsonl used.json review_log.jsonl image_log.jsonl errores_reels.log fuentes/banco.json playbook.json performance.json
+        run: python sincronizar.py "Reel ${{ steps.slot.outputs.slot }} $(date +%F)" log.jsonl used.json review_log.jsonl image_log.jsonl errores_reels.log fuentes/banco.json playbook.json performance.json tendencias.json
