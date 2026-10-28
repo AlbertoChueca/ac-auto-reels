@@ -24,7 +24,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: reels
+  group: reels-${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && github.run_id || 'publicar' }}
   cancel-in-progress: false
 
 jobs:
