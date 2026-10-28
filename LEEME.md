@@ -9,30 +9,41 @@ comentarios y publica la solución de los tests al día siguiente.
 | 14:00 | Reel (`mediodia`) |
 | 20:30 | Reel (`noche`) |
 
-## Calendario (14 reels a la semana)
+## Calendario (14 reels a la semana: 80 % útil, 20 % venta)
 | | 14:00 | 20:30 |
 |---|---|---|
-| Lunes | Test | Galería |
-| Martes | Tips | V/F |
-| Miércoles | Render sin/con postpro | Test |
-| Jueves | Encuesta | **Tips de AC** |
-| Viernes | Test | Del boceto al render |
-| Sábado | Galería | V/F |
-| Domingo | Así se construye | **Tips de AC** |
+| Lunes | Tips TFM | Referentes |
+| Martes | IA para arquitectura | Test |
+| Miércoles | Tips Proyectos | **Documentación (venta)** |
+| Jueves | Tips TFM | Verdadero o falso |
+| Viernes | Referentes | **Auditoría gratuita (venta)** |
+| Sábado | IA para arquitectura | Tips Proyectos |
+| Domingo | Tips TFM | **Documentación (venta)** |
 
-- **Interacción** (test, V/F, encuesta): el reel acaba en la pregunta y **nunca enseña la solución**. El bot la publica en
-  comentarios 12-24 h después (en TikTok la fija arriba) y responde a cada uno si ha acertado.
-- **Inspiración y aprendizaje**: galerías de referentes para el TFM, tips, render sin y con postproducción, del boceto
-  al render y así se construye.
-- **AC (2 a la semana)**: tips de TFM (tribunal, organización, entrega) que cierran con la auditoría gratuita.
-  Además, **todas** las descripciones acaban con una línea discreta de la auditoría gratuita.
+Cuando hay datos reales (12+ reels medidos), el estratega cambia los huecos útiles hacia lo que más se guarda, comparte
+y comenta. Los de venta no se tocan.
 
-**Enfoque de marca (obligatorio):** asesoría y acompañamiento. Nunca se dice ni se insinúa que «hacemos el TFM» ni nada
-sobre ocultarlo al tutor (`marca.limpio()` bloquea esas frases en descripciones, banco y respuestas del bot).
+- **Todos** los reels llevan voz en off (castellano de España, con altibajos), subtítulos al ritmo de la voz y
+  **arquitecturaconfidencial.com visible en todos los fotogramas** y en el cierre.
+- **Tests y V/F**: el reel acaba en la pregunta y nunca enseña la solución. El bot la publica 12-24 h después.
+- **Documentación (venta)**: planos REALES del equipo (assets/portfolio), recortados para que no salga ningún nombre,
+  logo, cartela, calle ni fecha, con la etiqueta «Trabajo real». Nunca se menciona UDA.
+- **Referentes**: obras reales verificadas (obra · autor, ciudad y año); las imágenes son conceptuales (IA) y se dice.
 
-**Estética:** tinta casi negra, papel de croquis y amarillo rotulador; tipografía TeX Gyre Adventor. Imágenes creadas
-con IA (Gemini), revisadas una a una, y vídeo revisado por otro agente con **nota mínima 8**. Si no llega, prueba otra
-temática del mismo grupo; si nada llega, ese hueco no se publica.
+## Los 8 agentes (agentes.py y reel.py)
+1. **Estratega** (1 vez al día): resultados reales + búsqueda en Google de lo que funciona en el nicho -> playbook.json.
+2. **Guionista**: guion hablado desde la pieza del banco, sin añadir datos.
+3. **Gancho**: 5 ganchos, elige el mejor para parar el scroll.
+4. **Verificador**: rigor técnico y reglas de AC; corrige o vuelve al banco.
+5. **Director de voz**: dirección por frase (sube, baja, pausa, remata).
+6. **Directora de arte**: prompts de imagen de serie + revisión de cada imagen.
+7. **Revisor de vídeo**: ve y escucha el reel; nota mínima **8** (si no, rehace solo lo que falla).
+8. **Editor**: descripción, hashtags y título de YouTube, siempre con la web.
+
+Velocidad: 3-4 y 5-6-8 trabajan a la vez; imágenes y voz se generan en paralelo; ~3-5 min por reel.
+
+**Enfoque de marca (obligatorio):** asesoría y acompañamiento. Nunca «hacemos el TFM» ni nada sobre ocultarlo
+(`marca.limpio()` lo bloquea en guion, descripción, banco y respuestas del bot).
 
 ## Puesta en marcha (una vez)
 1. **Cuentas**: Instagram profesional de AC vinculada a una página de Facebook, TikTok y canal de YouTube.
@@ -58,11 +69,13 @@ temática del mismo grupo; si nada llega, ese hueco no se publica.
 | `ZERNIO_MATCH` | `arquitecturaconfidencial` | Nombre que deben tener las cuentas en Zernio (TikTok y YouTube: arquitecturaconfidencial) |
 | `INSTAGRAM`, `TIKTOK`, `YOUTUBE` | `true` | Interruptores por red |
 | `COMUNIDAD` | `true` | `false` apaga el bot |
+| `GEMINI_VOICE` | `Puck` | Voz de Gemini (Puck, Fenrir, Orus, Charon...) |
 | `PUBLISH_MAX_WAIT_MIN` | `90` | Minutos máximos de espera para publicar a la hora exacta |
 
 ## Archivos
-- `visual.py`: motor (imágenes, montaje, portada, revisión y descripción). `tematicas.py`: calendario.
-- `fuentes/visual.json`: banco de contenido. En test y V/F la opción correcta va primera (se baraja al montar).
+- `reel.py`: motor (imágenes, montaje, portada, revisión). `agentes.py`: los agentes. `voz.py`: voz. `tematicas.py`: calendario.
+- `assets/portfolio/`: planos reales anonimizados por tipo (planimetria, construccion, instalaciones, estructuras).
+- `fuentes/banco.json`: banco de contenido. En test y V/F la opción correcta va primera (se baraja al montar).
   `ampliar_banco.py` lo amplía solo cuando se gasta; cada pregunta nueva la resuelve a ciegas otro modelo y solo entra si
   coincide.
 - `publish_all.py`, `publish_ig.py`, `publish_zernio.py`: publicación. `comunidad.py`: bot de comentarios.

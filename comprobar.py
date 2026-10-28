@@ -45,13 +45,20 @@ else:
     fila(False, "Zernio", "falta el secreto ZERNIO_API_KEY (TikTok y YouTube)")
 
 try:
-    B = json.load(open("fuentes/visual.json"))
+    B = json.load(open("fuentes/banco.json"))
     usados = {x["id"] for x in json.load(open("used.json"))}
-    libres = {k: sum(1 for p in v if f"visual:{p['id']}" not in usados) for k, v in B.items() if isinstance(v, list)}
+    libres = {k: sum(1 for p in v if f"{k}:{p['id']}" not in usados) for k, v in B.items() if isinstance(v, list)}
     fila(all(libres.values()), "Banco de contenido", " · ".join(f"{k} {n}" for k, n in libres.items()) + " sin usar")
 except Exception as e:
     fila(False, "Banco de contenido", str(e)[:150])
 
+if os.environ.get("GEMINI_API_KEY"):
+    try:
+        import voz
+        clip = voz.grabar(["Comprobando la voz de arquitectura confidencial."], ["warm, upbeat"])[0]
+        fila(True, "Voz (Gemini TTS)", f"{voz.ENGINE} · {len(clip) / voz.SR:.1f} s de audio")
+    except Exception as e:
+        fila(False, "Voz", str(e)[:200])
 txt = (f"# Estado ({datetime.date.today()})\n\n| comprobación | detalle |\n|---|---|\n" + "\n".join(filas) + "\n")
 open("estado.md", "w").write(txt)
 if os.environ.get("GITHUB_STEP_SUMMARY"):

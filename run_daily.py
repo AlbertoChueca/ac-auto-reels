@@ -2,8 +2,9 @@
 
     python run_daily.py <mediodia|noche|manual> [--dry-run]
 
-1. elige la temática del calendario (tematicas.py) o la pedida a mano (TEMATICA);
-2. visual.py genera las imágenes, monta el reel, lo revisa (mínimo 8) y escribe la descripción;
+1. (1 vez al día) actualiza los resultados reales y el estratega reescribe el playbook;
+2. elige la temática del calendario 80/20 (tematicas.py) o la pedida a mano (TEMATICA);
+3. reel.py: los agentes escriben y verifican el guion, imágenes y voz a la vez, montaje, revisión (mínimo 8);
    si no sale, prueba hasta 2 temáticas de reserva del mismo grupo;
 3. espera a la hora exacta y publica en Instagram, TikTok y YouTube Shorts;
 4. lo apunta en log.jsonl (de ahí lee el bot de comunidad para contestar y publicar soluciones).
@@ -13,7 +14,7 @@ import datetime, json, os, sys, time, traceback
 from zoneinfo import ZoneInfo
 
 import tematicas
-import visual
+import reel
 
 slot = sys.argv[1] if len(sys.argv) > 1 else "manual"
 dry = "--dry-run" in sys.argv or os.environ.get("DRY_RUN") == "true"
@@ -75,23 +76,40 @@ if not os.environ.get("GEMINI_API_KEY"):
     resumen("## ❌ Falta el secreto GEMINI_API_KEY (imágenes y revisión)")
     raise SystemExit("Falta GEMINI_API_KEY")
 
+if slot == "mediodia" or os.environ.get("APRENDER") == "true":       # aprendizaje: 1 vez al día
+    try:
+        import metricas, agentes
+        print(metricas.actualizar(), flush=True)
+        agentes.estratega(force=True)
+    except Exception as e:
+        print("aprendizaje omitido:", str(e)[:200], flush=True)
+
 pedida = (os.environ.get("TEMATICA") or "").strip()
 rec = recientes()
 tema = pedida if pedida in tematicas.TEMAS else tematicas.tema_de(today, slot, rec)
-cadena = [tema] + tematicas.reserva(tema.replace("tips_ac", "tips"), rec)
+cadena = [tema] + tematicas.reserva(tema, rec)
 print("temática:", tema, "· reserva:", cadena[1:], flush=True)
 
 out = f"out/{today}_{slot}_{now.hour:02d}.mp4"
 meta, errores = None, []
+def ganchos_recientes(n=20):
+    out = []
+    try:
+        for line in open("log.jsonl"):
+            h = json.loads(line).get("hook")
+            if h:
+                out.append(h)
+    except Exception:
+        pass
+    return out[-n:]
+
+
 for t in cadena:
-    if meta is None and errores and time.time() - T0 > 55 * 60:
+    if meta is None and errores and time.time() - T0 > 50 * 60:
         print("tiempo agotado: no pruebo más temáticas", flush=True)
         break
     try:
-        formato = "tips" if t == "tips_ac" else t
-        solo_ac = True if t == "tips_ac" else (False if t == "tips" else None)
-        meta = visual.hacer(formato, out, seed=f"{today}-{slot}-{t}", solo_ac=solo_ac)
-        meta["tematica"] = t
+        meta = reel.hacer(t, out, seed=f"{today}-{slot}-{t}", recientes=ganchos_recientes())
         break
     except Exception as e:
         errores.append(f"{t}: {str(e)[:300]}")
@@ -104,7 +122,8 @@ if meta is None:
     raise SystemExit("Ninguna temática llegó al 8")
 caption = open(out.replace(".mp4", ".txt")).read()
 resumen(f"## ✅ Reel listo: {meta['tematica']} · nota {meta['review_score']}\n\n- Gancho: **{meta['hook']}**\n"
-        f"- Duración: {meta['duration']} s\n" + "".join(f"- Antes falló: `{e}`\n" for e in errores))
+        f"- Duración: {meta['duration']} s · voz `{meta['voz']}` · {meta['montajes']} montaje(s) · generado en "
+        f"{meta['segundos']} s\n" + "".join(f"- Antes falló: `{e}`\n" for e in errores))
 print(caption)
 if dry:
     print("PRUEBA: no se publica")
@@ -125,8 +144,8 @@ if ok:                                             # piezas usadas: no se repite
         pass
     usados += [{"id": i, "fecha": str(today)} for i in meta["ids"]]
     json.dump(usados, open("used.json", "w"), ensure_ascii=False, indent=0)
-log({"tematica": meta["tematica"], "formato": meta["formato"], "hook": meta["hook"], "ids": meta["ids"],
-     "duration": meta["duration"], "review_score": meta["review_score"], "ac": meta["ac"], "solucion": meta["solucion"],
+log({"tematica": meta["tematica"], "hook": meta["hook"], "ids": meta["ids"], "voz": meta["voz"],
+     "duration": meta["duration"], "review_score": meta["review_score"], "venta": meta["venta"], "solucion": meta["solucion"],
      "publicado": res, "ts": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")})
 if not ok:
     raise SystemExit("No se pudo publicar en ninguna red")

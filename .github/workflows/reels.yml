@@ -10,7 +10,7 @@ on:
       tematica:
         description: "Temática (auto = la del calendario)"
         type: choice
-        options: [auto, test, vf, encuesta, galeria, tips, tips_ac, antes_despues, proceso_visual, obra]
+        options: [auto, tips_tfm, tips_proyectos, referentes, ia, test, vf, documentacion, auditoria, encuesta, postpro]
         default: auto
       publicar_a:
         description: "Hora de publicación (HH:MM, hora de España). Vacío = en cuanto esté listo"
@@ -80,6 +80,7 @@ jobs:
           ZERNIO_IG_ACCOUNT: ${{ vars.ZERNIO_IG_ACCOUNT }}
           ZERNIO_TT_ACCOUNT: ${{ vars.ZERNIO_TT_ACCOUNT }}
           ZERNIO_YT_ACCOUNT: ${{ vars.ZERNIO_YT_ACCOUNT }}
+          GEMINI_VOICE: ${{ vars.GEMINI_VOICE || 'Puck' }}
           INSTAGRAM: ${{ vars.INSTAGRAM || 'true' }}
           TIKTOK: ${{ vars.TIKTOK || 'true' }}
           YOUTUBE: ${{ vars.YOUTUBE || 'true' }}
@@ -108,4 +109,4 @@ jobs:
 
       - name: Guardar el estado
         if: always() && steps.slot.outputs.slot != 'skip' && (github.event_name != 'workflow_dispatch' || !inputs.dry_run)
-        run: python sincronizar.py "Reel ${{ steps.slot.outputs.slot }} $(date +%F)" log.jsonl used.json review_log.jsonl image_log.jsonl errores_reels.log fuentes/visual.json
+        run: python sincronizar.py "Reel ${{ steps.slot.outputs.slot }} $(date +%F)" log.jsonl used.json review_log.jsonl image_log.jsonl errores_reels.log fuentes/banco.json playbook.json performance.json

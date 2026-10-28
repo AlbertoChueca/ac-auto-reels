@@ -9,7 +9,7 @@ registros...) antes de subirlo, con reintentos.
 """
 import json, os, shutil, subprocess, sys, tempfile, time
 
-MERGE_DICT = {"banco/verificacion.json", "performance.json"}
+MERGE_DICT = {"performance.json"}
 MERGE_LINES = {"log.jsonl", "review_log.jsonl", "image_log.jsonl", "errores_reels.log", "tiempos.log"}
 
 
@@ -55,7 +55,7 @@ def merge(path, mine, theirs):
         return {"chunks": {**t.get("chunks", {}), **m.get("chunks", {})},
                 "temas": {k: max(t.get("temas", {}).get(k, ""), m.get("temas", {}).get(k, ""))
                           for k in set(t.get("temas", {})) | set(m.get("temas", {}))}}
-    if path == "fuentes/visual.json":              # banco: unión de listas, nunca se pierde nada
+    if path == "fuentes/banco.json":              # banco: unión de listas, nunca se pierde nada
         t, m = theirs or {}, mine or {}
         out = dict(t)
         for k, v in m.items():
