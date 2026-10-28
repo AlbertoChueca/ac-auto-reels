@@ -1,0 +1,75 @@
+temática: tips_tfm · reserva: ['tips_proyectos', 'referentes']
+reel: tips_tfm: Cómo preparar la defensa de tu TFM
+agentes: estratega: playbook actualizado
+agentes: verificador: corregido: El cierre de voz incluye una promesa ('para aprobar tu proyecto'), lo cual incumple la regla estricta de no hacer promesas al alumno.
+reel: guion listo en 78 s · gancho «5 cosas que arruinan tu defensa»
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+voz: toma fallida: 'content'
+voz: toma fallida: 'content'
+voz: toma fallida: 'content'
+voz: toma fallida: 'content'
+voz: Gemini TTS no disponible, uso Chirp 3 HD: sin toma válida para: Y esto es clave: lugar, problema, idea y respuesta. El tribu
+[tips_tfm] no ha salido:
+"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/ac-auto-reels/ac-auto-reels/voz.py", line 192, in <lambda>
+    clips = list(ex.map(lambda t: _recorta(_chirp(t, gkey)), textos))
+                                           ^^^^^^^^^^^^^^^
+  File "/home/runner/work/ac-auto-reels/ac-auto-reels/voz.py", line 99, in _chirp
+    raise RuntimeError(f"Google TTS {r.status_code}: {r.text[:200]}")
+RuntimeError: Google TTS 401: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.goog
+
+reel: tips_proyectos: Cómo dibujar una sección que impresione
+agentes: verificador: corregido: El hook_voz menciona 'al tribunal', dato que no está en la pieza original.; El cierre_voz menciona 'arquitectura confidencial punto com', dato que no está en la pieza original.
+reel: guion listo en 90 s · gancho «5 capas que transforman tu sección»
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+voz: repito «Y esto es clave: lo cortado va grueso y » (13.2 s)
+voz: repito «Y esto es clave: lo cortado va grueso y » (15.5 s)
+reel: imágenes y voz (gemini:Puck) en 52 s
+reel: montaje 1: 48.4 s de vídeo en 74 s
+reel: revisor: 6.0/10 ['La escena 2 muestra una planta arquitectónica en vez de una sección, desalineándose con el tema central.'] 
+modelo de imagen: gemini-3.1-flash-image
+reel: arreglos: ['imagen 2']
+audio: eliminados 80 ms de siseo
+reel: montaje 2: 48.4 s de vídeo en 73 s
+reel: revisor: 8.0/10  
+reel: listo en 343 s · 48.4 s de vídeo · nota 8.0
+5 capas para que tu sección pase de un 5 a matrícula en Proyectos 👇
+
+1. Corta por lo clave — Doble altura, patio o escalera.
+2. Jerarquía de líneas — Cortado grueso, visto/proyectado fino.
+3. Escala y vida — Personas y mobiliario en contexto.
+4. Terreno firme — El proyecto nunca flota en el papel.
+5. Dibuja la luz — Sombras arrojadas y rayos de sol.
+
+📌 Guárdalo para no olvidarlo en tu próxima entrega.
+
+¿Vas al límite con el TFM o PFC? Pide tu auditoría gratuita en https://arquitecturaconfidencial.com
+
+Imágenes creadas con IA.
+
+#proyectosarquitectura #tfmarquitectura #estudiantedearquitectura #entregaproyectos #arquitectura #tfgpfc
+PRUEBA: no se publica
