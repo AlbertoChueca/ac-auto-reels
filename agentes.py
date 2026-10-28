@@ -230,7 +230,9 @@ def gancho(tematica, G, P, pb, recientes=()):
     n = len(G.get("escenas") or [])
     try:
         r = _ask(f"""Eres editor de ganchos de reels para {AUDIENCIA}. Los 2 primeros segundos deciden si se quedan.
-Tema del reel: «{P.get('hook') or P.get('pregunta')}». Gancho actual: pantalla «{G['hook_pantalla']}», voz «{G['hook_voz']}».
+Tema del reel: «{P.get('hook') or P.get('pregunta')}». Lo que se ve, en orden: {json.dumps([e.get('titulo') for e in G.get('escenas') or []], ensure_ascii=False)}.
+El gancho tiene que describir FIELMENTE ese contenido (si son aciertos, no digas «errores»; si son 5, que sean 5).
+Gancho actual: pantalla «{G['hook_pantalla']}», voz «{G['hook_voz']}».
 Escribe 5 ganchos distintos (curiosidad, error, promesa concreta, pregunta directa al estudiante...) y puntúa cada uno de
 1 a 10 por lo que haría parar el scroll a un estudiante de TFM o de Proyectos.
 Reglas: 'pantalla' máx. 7 palabras{'; si lleva número, debe ser ' + str(n) if n else ''}{'; en tests, la pantalla es una etiqueta corta de 2-4 palabras SIN dos puntos, tipo «TEST DE CONSTRUCCIÓN»' if quiz else ''};
@@ -307,7 +309,7 @@ Devuelve JSON: {{"ok": bool, "problemas": [str], "guion": object|null}}""", 0.1,
 
 # ================================================================== 5 · director de voz
 ARCO = ["excited and punchy, rising intonation, grab attention", "confident, explaining to a friend",
-        "lower and closer, like sharing a secret, then lift on the key word", "energetic, faster, emphasise the key word",
+        "lower and closer, confiding, then lift on the key word", "energetic, faster, emphasise the key word",
         "surprised, playful", "calm and clear, slight pause before the key idea", "warm, upbeat, smiling, inviting"]
 
 
@@ -316,7 +318,8 @@ def director_voz(frases, tematica, pb, insistir=""):
     defecto = defecto[:len(frases)] if len(frases) > 1 else [ARCO[0]]
     try:
         r = _ask(f"""You are a voice director for short vertical videos for architecture students (Spain). The narrator is
-a young Castilian-Spanish architect. Write one short acting direction (max 14 words, English) per line so the whole reel
+ALWAYS the same young Castilian-Spanish man: directions change energy, pace and emphasis, NEVER the character,
+gender, age or accent (no whispering, no character voices). Write one short acting direction (max 14 words, English) per line so the whole reel
 has clear ups and downs and sounds human, never flat: a hook with punch, variety in the middle (closer/softer, then
 energetic, surprised, a deliberate pause before the key idea...), and a warm, energetic close. Never the same direction
 twice in a row. Mention pace (faster/slower) and which word to stress.

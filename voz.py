@@ -163,10 +163,9 @@ def _linea_gemini(texto, direccion, key):
     limpio = re.sub(r"^(truco|ojo|y esto es clave|clave)\s*:\s*", "", texto, flags=re.I)
     prompts = [f"{PERFIL}\nPerformance for this line: {direccion}.\nSpeak only the Spanish text after the colon, word "
                f"for word: {texto}",
-               f"In Castilian Spanish from Madrid (distinción, no seseo), {direccion}, sounding like a real person: {texto}",
+               f"{PERFIL}\nPerformance: {direccion}. Text: {texto}",
                f"{PERFIL}\nSpeak only this Spanish text, naturally: {limpio}",
-               f"Castilian Spanish from Spain, natural and expressive: {limpio}",
-               limpio, texto]
+               f"{PERFIL}\nSame narrator, natural and expressive. Text: {limpio}"]
     tomas = []
     esperado = _palabras(texto) / 2.9 + 0.4
     for pr in prompts:
@@ -184,6 +183,64 @@ def _linea_gemini(texto, direccion, key):
     raise RuntimeError(f"sin toma válida para: {texto[:60]}")
 
 
+def _cortes(a, textos):
+    """Corta una toma continua en len(textos) trozos por las pausas más largas cercanas a donde se espera cada corte."""
+    n = len(textos)
+    if n == 1:
+        return [a]
+    hop = int(SR * 0.01)
+    env = np.sqrt(np.convolve(a ** 2, np.ones(hop * 3) / (hop * 3), "same"))[::hop]
+    thr = max(0.01, 0.06 * np.percentile(env, 95))
+    sil = env < thr; runs, i = [], 0
+    while i < len(sil):
+        if sil[i]:
+            j = i
+            while j < len(sil) and sil[j]:
+                j += 1
+            if j - i >= 10 and i > 20 and j < len(sil) - 20:          # pausas de 100 ms o más
+                runs.append((j - i, (i + j) // 2))
+            i = j
+        else:
+            i += 1
+    w = np.array([_palabras(t) + 1.5 for t in textos], float)
+    esperados = np.cumsum(w)[:-1] / w.sum() * len(env)
+    cortes, usados = [], set()
+    for ec in esperados:
+        cands = [(ln, c) for ln, c in runs if c not in usados and abs(c - ec) < 0.2 * len(env)]
+        if not cands:
+            raise RuntimeError("no hay pausa para cortar la toma")
+        ln, c = max(cands, key=lambda x: x[0] - 0.03 * abs(x[1] - ec))
+        cortes.append(c); usados.add(c)
+    if cortes != sorted(cortes):
+        raise RuntimeError("pausas desordenadas")
+    bordes = [0] + [c * hop for c in cortes] + [len(a)]
+    trozos = [_recorta(a[bordes[k]:bordes[k + 1]]) for k in range(n)]
+    for t, tx in zip(trozos, textos):
+        seg, esp = len(t) / SR, _palabras(tx) / 2.9 + 0.4
+        if not (0.4 * esp < seg < 2.2 * esp + 0.8):
+            raise RuntimeError("un trozo no encaja con su frase")
+    return trozos
+
+
+def _una_toma(textos, direcciones, key):
+    """TODO el guion en una sola interpretación: mismo narrador y entonación que fluye de una frase a otra."""
+    notas = "; ".join(f"{i + 1}: {d}" for i, d in enumerate(direcciones))
+    guion = "\n\n".join(textos)
+    prompt = (f"{PERFIL}\nPerformance: ONE continuous take by the SAME narrator from start to finish (same voice, same "
+              f"character), with a clear breath pause (about half a second) between paragraphs. Mood per paragraph -> "
+              f"{notas}.\nSpeak only the Spanish text below the line, word for word, nothing else.\n---\n{guion}")
+    total_esp = sum(_palabras(t) / 2.9 + 0.4 for t in textos)
+    for intento in range(3):
+        try:
+            a = _recorta(_gemini(prompt, key))
+            if not (0.5 * total_esp < len(a) / SR < 1.8 * total_esp + 2):
+                raise RuntimeError(f"toma de {len(a) / SR:.0f} s para {total_esp:.0f} s esperados")
+            return _cortes(a, textos)
+        except Exception as e:
+            print(f"voz: toma única fallida (intento {intento + 1}):", str(e)[:150], flush=True)
+    raise RuntimeError("sin toma única válida")
+
+
 def grabar(textos, direcciones=None):
     """Lista de clips (float32, 24 kHz), uno por texto, ya pulidos. Todas las frases a la vez."""
     global ENGINE
@@ -195,6 +252,12 @@ def grabar(textos, direcciones=None):
         return [_pule(0.2 * np.sin(np.linspace(0, 2 * np.pi * 180 * (_palabras(t) / 2.9 + 0.4),
                                                int(SR * (_palabras(t) / 2.9 + 0.4))))) for t in textos]
     if os.environ.get("VOZ") != "chirp":
+        try:
+            clips = _una_toma(textos, direcciones, key)
+            ENGINE = f"gemini:{VOZ}:una-toma"
+            return [_pule(c) for c in clips]
+        except Exception as e:
+            print("voz: sin toma única; grabo frase a frase con el mismo perfil:", str(e)[:150], flush=True)
         try:
             with ThreadPoolExecutor(min(6, len(textos))) as ex:
                 clips = list(ex.map(lambda td: _linea_gemini(td[0], td[1], key), zip(textos, direcciones)))
