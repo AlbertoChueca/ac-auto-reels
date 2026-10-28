@@ -1,0 +1,46 @@
+{
+ "ganchos_que_funcionan": [
+  "Deja de perder 8 horas renderizando para tu entrega de Proyectos...",
+  "POV: Tu profesor de Proyectos tras ver tu maqueta 3 segundos:",
+  "3 referentes de vivienda colectiva que harán que tu profesor no te destroce el martes...",
+  "El error de concepto en tu axonométrica que delata que no has dormido",
+  "Si estás atascado con la estructura de tu TFM o TFG, usa este esquema exacto"
+ ],
+ "patrones": [
+  "Split screen acelerado mostrando flujo de trabajo tradicional vs. IA generativa en 20s",
+  "Curaduría exprés con greenscreen mostrando 2-3 secciones o axonométricas de referentes poco conocidos",
+  "Micro-frameworks y diagramas técnicos con densidad de información que fuerzan a pausar el vídeo",
+  "POV de correcciones de 7-12s con audio en tendencia enfocado al desahogo y la catarsis",
+  "ASMR de corte y ensamblaje de maquetas con foley nítido en los primeros 2 segundos",
+  "Cierre con llamada a la acción hacia la auditoría gratuita de TFM/TFG o guardar para entrega"
+ ],
+ "evitar": [
+  "Intros lentas con saludos ('Hola arquitectos') o presentaciones personales",
+  "Edición hiperactiva con tipografías estridentes que desentonen con la estética arquitectónica",
+  "Renders o planos genéricos sin explicar el truco o flujo de trabajo aplicado",
+  "Consejos teóricos abstractos sin aplicación gráfica o metodológica inmediata",
+  "Música de fondo demasiado alta que enmascare el sonido foley o la explicación"
+ ],
+ "tono_voz": "Colega senior empático, pragmático y directo; habla desde la trinchera de las entregas sin rodeos académicos inútiles, con criterio estético refinado y rigor técnico.",
+ "duracion_objetivo_s": 25,
+ "pesos": {
+  "tips_tfm": 1.0,
+  "tips_proyectos": 1.0,
+  "referentes": 1.0,
+  "ia": 1.0,
+  "test": 1.0,
+  "vf": 1.0
+ },
+ "hashtags": [
+  "#arquitectura",
+  "#estudiantedearquitectura",
+  "#tfmarquitectura",
+  "#proyectosarquitectura",
+  "#tfgarquitectura",
+  "#pfcarquitectura",
+  "#renderarquitectura",
+  "#maquetasdearquitectura"
+ ],
+ "fecha": "2026-10-28",
+ "datos": {}
+}

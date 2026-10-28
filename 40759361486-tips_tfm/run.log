@@ -1,0 +1,63 @@
+temática: tips_tfm · reserva: ['tips_proyectos', 'referentes']
+reel: tips_tfm: Cómo preparar la defensa de tu TFM
+agentes: cazatendencias: 6 formatos, 5 temas calientes, 0 fuentes
+agentes: estratega: playbook actualizado
+reel: guion listo en 111 s · gancho «Tu proyecto no se defiende solo»
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+reel: directora de arte rechaza (Números claramente legibles en la esfera del cronómetro); intento 2
+modelo de imagen: gemini-3.1-flash-image
+reel: imágenes y voz (gemini:Puck:una-toma) en 43 s
+audio: eliminados 140 ms de siseo
+reel: montaje 1: 45.4 s de vídeo en 64 s
+reel: revisor: 4.0/10 ['Desfase severo entre locución, subtítulos e imagen a partir de la escena 2.', 'Locución no prevista con texto adicional improvisado en la escena 5.'] ['Desincronización con el contenido en pantalla', 'Locución adicional no incluida en el guion']
+reel: arreglos: ['voz']
+audio: eliminados 140 ms de siseo
+reel: montaje 2: 43.8 s de vídeo en 60 s
+reel: revisor: 4.0/10 ['Grave desfase temporal: la locución va adelantada respecto a los rótulos y subtítulos desde la escena 2.', 'La voz añade texto improvisado no presente en el guion ni en los subtítulos hacia el final.', 'Subtítulos desincronizados respecto al audio que suena en cada momento.'] ['Desfase total con la pista de vídeo y subtítulos', 'Inclusión de frases no pautadas en el guion']
+reel: arreglos: ['voz']
+audio: eliminados 120 ms de siseo
+reel: montaje 3: 52.2 s de vídeo en 71 s
+reel: revisor: 4.0/10 ['Fallo grave de edición sonora: entre 0:27 y 0:42 se reproduce una locución distinta al guion asignado.', 'Desincronización total entre el audio reproducido y los subtítulos/escenas en el tramo central y final.'] ['Pista de audio errónea entre 0:27 y 0:42 que no coincide con el guion ni los subtítulos, provocando solapamiento y desfase en el tramo final.']
+[tips_tfm] no ha salido:
+Traceback (most recent call last):
+  File "/home/runner/work/ac-auto-reels/ac-auto-reels/run_daily.py", line 112, in <module>
+    meta = reel.hacer(t, out, seed=f"{today}-{slot}-{t}", recientes=ganchos_recientes())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/ac-auto-reels/ac-auto-reels/reel.py", line 652, in hacer
+    raise RuntimeError(f"no llega al 8 tras {montajes} montajes: {rev.get('overall')} · "
+RuntimeError: no llega al 8 tras 3 montajes: 4.0 · Fallo grave de edición sonora: entre 0:27 y 0:42 se reproduce una locución distinta al guion asignado.; Desincronización total entre el audio reproducido y los subtítulos/escenas en el tramo central y final.; Pista de audio errónea entre 0:27 y 0:42 que no coincide con el guion ni los subtítulos, pr
+
+reel: tips_proyectos: Cómo dibujar una sección que impresione
+reel: guion listo en 53 s · gancho «¿Por qué tu sección no transmite?»
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+reel: directora de arte rechaza (Recorte o parche blanco y negro anómalo que bloquea el lateral derecho inferior de la imagen; Falta ); intento 2
+modelo de imagen: gemini-3.1-flash-image
+reel: imágenes y voz (gemini:Puck:una-toma) en 39 s
+audio: eliminados 140 ms de siseo
+reel: montaje 1: 34.4 s de vídeo en 50 s
+reel: revisor: 8.0/10  
+reel: listo en 156 s · 34.4 s de vídeo · nota 8.0
+¿Tus secciones no convencen en Proyectos o TFM? Aplica estos 5 cambios rápidos 👇
+
+1. Corta por lo importante: busca la doble altura, el patio o la escalera.
+2. Jerarquiza grosores: línea gruesa para lo cortado, fina para lo visto.
+3. Añade personas y mobiliario: aporta escala y demuestra uso real.
+4. Dibuja el terreno: tu edificio no flota en la nada.
+5. Dibuja la luz: mete sombras y rayos para dar profundidad.
+
+📌 Guárdate este post para repasarlo antes de enviar a plotear.
+
+¿Vas justo con el TFM? Auditoría gratuita en https://arquitecturaconfidencial.com
+
+Imágenes creadas con IA.
+
+#arquitectura #estudiantedearquitectura #tfmarquitectura #proyectosarquitectura #tfgarquitectura #pfcarquitectura
+PRUEBA: no se publica

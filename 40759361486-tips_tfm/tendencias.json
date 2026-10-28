@@ -1,0 +1,63 @@
+{
+ "formatos_que_funcionan": [
+  "Workflow Hack con IA: Grabación de pantalla acelerada (split screen) comparando método tradicional vs. IA generativa (Krea/Midjourney + Photoshop/Rhino) en 20-30s",
+  "Humor POV de correcciones: Vídeo corto actuado o reacción (7-12s) con audio en tendencia y texto en pantalla recreando la interacción con el profesor o tribunal",
+  "ASMR de maquetas: Planos macro estéticos, luz natural y audio nítido foley (corte con cúter, lija, cinta) sin voz ni música (15-25s)",
+  "Curaduría exprés con greenscreen: Presentador mostrando 2-3 axonométricas o secciones clave de referentes poco conocidos (35-45s)",
+  "Micro-frameworks y esquemas visuales densos con infografías o listas que fuerzan a pausar la pantalla para consultar",
+  "Deconstrucciones de casos reales y plantillas de utilidad relacional para enviar a compañeros"
+ ],
+ "ganchos_que_funcionan": [
+  "Promesa técnica inmediata con resultado en segundo 0: 'Deja de perder 8 horas renderizando para tu entrega de Proyectos...'",
+  "Catarsis y relatability extrema: 'POV: Tu profesor de Proyectos tras ver tu maqueta 3 segundos:'",
+  "Curaduría salvavidas contra bloqueos: '3 referentes de vivienda colectiva que harán que tu profesor no te destroce el martes...'",
+  "Visual y sonoro ASMR inmediato: Corte perfecto en madera de balsa o encaje limpio de cartón pluma con sonido seco en 0-2s",
+  "Refutación contraintuitiva Zero-Fluff: 'Llevas aplicando mal esta regla...' sin saludos ni intros vacías"
+ ],
+ "temas_calientes": [
+  "Optimización urgente de tiempos de renderizado y visualización axonométrica con IA para entregas de Proyectos",
+  "Supervivencia a las primeras correcciones de curso y críticas de tribunal en TFG/PFC y TFM",
+  "Desbloqueo creativo inicial mediante referentes poco comunes de vivienda y equipamiento",
+  "Detalles constructivos y materialidad en maquetas físicas de entrega",
+  "Plantillas y flujos de trabajo rápidos para evitar trasnochadas ante las entregas de octubre"
+ ],
+ "tendencias_de_edicion": [
+  "Edición minimalista y sobria, abandonando el estilo hiperactivo y saturado",
+  "Tipografías limpias y estables que faciliten la lectura de esquemas técnicos",
+  "Diseño sonoro sutil con efectos foley orgánicos (cortes, papel, clics) en lugar de música invasiva",
+  "Pausas de ritmo calculadas para asimilar información densa",
+  "Estructura Zero-Fluff con resultado mostrado en el segundo 0"
+ ],
+ "que_penaliza_el_algoritmo": [
+  "Contenido sintético masivo (AI slop) con voz artificial genérica sobre metraje de stock repetido",
+  "Clickbait de retención falsa que genera abandono en los primeros 3 segundos",
+  "Engagement bait forzado exigiendo comentar una palabra clave para recibir información que correspondía al vídeo",
+  "Reciclaje de contenido con marcas de agua o metadatos de plataformas competidoras"
+ ],
+ "ejemplos": [
+  {
+   "que": "Tutorial express de visualización rápida con IA y Rhino/Photoshop (@archihacks / @showitbetter)",
+   "por_que": "Alivia el dolor del estudiante que trasnocha ante la entrega y genera un alto ratio de guardados."
+  },
+  {
+   "que": "POV actuado sobre críticas destructivas en revisiones de Proyectos o TFG (@alv_arch / @architecture_factor)",
+   "por_que": "Genera catarsis colectiva y viralidad inmediata al compartirse por chat entre compañeros de clase."
+  },
+  {
+   "que": "Macro ASMR de corte y ensamblaje de piezas de maqueta (@architangle / @archdaily)",
+   "por_que": "Produce alta retención hipnótica (oddly satisfying) mediante sonido limpio y estética cuidada sin distracciones."
+  },
+  {
+   "que": "Curaduría frente a pantalla verde de 3 axos de proyectos poco conocidos (@archisoup / @david_giralte_arq)",
+   "por_que": "Resuelve el bloqueo de las primeras semanas de taller y genera alto volumen de capturas de pantalla y favoritos."
+  }
+ ],
+ "ideas_de_reel": [
+  "Split-screen de 20s: 'Render tradicional de 8 horas vs. flujo rápido con Rhino + Krea para tu entrega de Proyectos de octubre', mostrando el resultado final en el segundo 0.",
+  "POV humor de 8s: 'Tu tutor de TFG/PFC viendo que ignoraste todas sus correcciones de la semana pasada', usando audio en tendencia y remate en texto.",
+  "ASMR de 18s: Planos macro con luz natural cortando cartón pluma y ensamblando la maqueta conceptual para la corrección de taller, solo con audio foley nítido.",
+  "Curaduría greenscreen de 35s: '3 plantas y axos de vivienda colectiva poco conocidas para que tu profesor no te tumbe el concepto en la entrega de este mes'."
+ ],
+ "fecha": "2026-10-28",
+ "fuentes": []
+}
