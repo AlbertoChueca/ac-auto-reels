@@ -93,6 +93,7 @@ Devuelve JSON: {{"formatos_que_funcionan": [str], "ganchos_que_funcionan": [str]
 "ideas_de_reel": [str]}}""", 0.4)
         r["fecha"] = str(hoy)
         r["fuentes"] = [s for s in (s1 + s2) if s.get("url")][:12]
+        r["verificado"] = bool(r["fuentes"])          # sin fuentes = hipótesis: el estratega le da menos peso
         json.dump(r, open(TENDENCIAS, "w"), ensure_ascii=False, indent=1)
         say(f"cazatendencias: {len(r.get('formatos_que_funcionan') or [])} formatos, "
             f"{len(r.get('temas_calientes') or [])} temas calientes, {len(r['fuentes'])} fuentes")
@@ -149,7 +150,7 @@ def estratega(force=False):
 Objetivo: que guarden, compartan y comenten, y que el 20 % de venta lleve a pedir la auditoría gratuita del TFM.
 Resultados reales por temática (recompensa = (guardados×3 + compartidos×3 + comentarios×2 + likes) / vistas): {json.dumps(medias, ensure_ascii=False)}
 Mejores publicaciones: {json.dumps(top, ensure_ascii=False)}
-Tendencias de esta semana (del cazatendencias): {investigacion}
+Tendencias de esta semana (del cazatendencias{'' if tendencias().get('verificado') else ', SIN fuentes: trátalas como hipótesis y da más peso a los resultados reales'}): {investigacion}
 Escribe el playbook de esta semana. Si hay pocos datos (menos de 10 publicaciones), pesos = 1 en todo.
 Devuelve JSON: {{"ganchos_que_funcionan": [str], "patrones": [str], "evitar": [str], "tono_voz": str,
 "duracion_objetivo_s": number, "pesos": {{"tips_tfm": number, "tips_proyectos": number, "referentes": number,

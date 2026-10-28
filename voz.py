@@ -183,7 +183,7 @@ def _linea_gemini(texto, direccion, key):
     raise RuntimeError(f"sin toma válida para: {texto[:60]}")
 
 
-def _cortes(a, textos):
+def _cortes(a, textos, inicios=None):
     """Corta una toma continua en len(textos) trozos por las pausas más largas cercanas a donde se espera cada corte."""
     n = len(textos)
     if n == 1:
@@ -218,6 +218,8 @@ def _cortes(a, textos):
         raise RuntimeError("no hay pausas suficientes para cortar la toma")
     w = np.array([_palabras(t) + 1.5 for t in textos], float)
     esperados = np.cumsum(w)[:-1] / w.sum() * len(env)
+    if inicios:                                       # marcas de quien ha escuchado la toma: mucho más precisas
+        esperados = np.array([s / 0.01 for s in inicios[1:]])
     runs.sort(key=lambda x: x[1]); L = len(env)
     # programación dinámica: n-1 pausas EN ORDEN que mejor encajan con los cortes esperados (y cuanto más largas, mejor)
     coste = lambda k, r: ((runs[r][1] - esperados[k]) / L) ** 2 * 60 - min(runs[r][0], 60) / 60
@@ -246,6 +248,30 @@ def _cortes(a, textos):
     return trozos
 
 
+def _escucha(a, textos):
+    """Otro modelo ESCUCHA la toma: ¿dice exactamente el guion? ¿en qué segundo empieza cada párrafo?
+    Devuelve (ok, inicios o None, motivo)."""
+    import io, json as _j, soundfile as sf
+    import gemini
+    b = io.BytesIO(); sf.write(b, a[::2], SR // 2, format="WAV", subtype="PCM_16")     # 12 kHz: ligero y suficiente
+    guion = "\n".join(f"{i + 1}. {t}" for i, t in enumerate(textos))
+    try:
+        r = gemini.ask([{"text": f"""Escucha esta locución en español y compárala con el guion. Dime si dice EXACTAMENTE el
+guion (se admiten diferencias mínimas de pronunciación) o si añade, quita, repite o cambia frases, y en qué segundo empieza
+cada párrafo numerado.
+Guion:
+{guion}
+Devuelve JSON: {{"coincide": bool, "problemas": [str], "inicios_s": [number]}}  ({len(textos)} números, en orden)"""},
+                        {"inline_data": {"mime_type": "audio/wav", "data": __import__("base64").b64encode(b.getvalue()).decode()}}],
+                       0.1)
+    except Exception as e:
+        return True, None, f"escucha no disponible ({str(e)[:80]})"
+    ini = r.get("inicios_s") or []
+    ok_ini = (len(ini) == len(textos) and all(isinstance(x, (int, float)) for x in ini)
+              and all(ini[i] < ini[i + 1] for i in range(len(ini) - 1)) and ini[-1] < len(a) / SR)
+    return bool(r.get("coincide")), (ini if ok_ini else None), "; ".join(r.get("problemas") or [])[:200]
+
+
 def _una_toma(textos, direcciones, key):
     """TODO el guion en una sola interpretación: mismo narrador y entonación que fluye de una frase a otra."""
     notas = "; ".join(f"{i + 1}: {d}" for i, d in enumerate(direcciones))
@@ -259,7 +285,10 @@ def _una_toma(textos, direcciones, key):
             a = _recorta(_gemini(prompt, key))
             if not (0.5 * total_esp < len(a) / SR < 1.8 * total_esp + 2):
                 raise RuntimeError(f"toma de {len(a) / SR:.0f} s para {total_esp:.0f} s esperados")
-            return _cortes(a, textos)
+            ok, inicios, motivo = _escucha(a, textos)
+            if not ok:
+                raise RuntimeError(f"la toma no dice el guion: {motivo}")
+            return _cortes(a, textos, inicios)
         except Exception as e:
             print(f"voz: toma única fallida (intento {intento + 1}):", str(e)[:150], flush=True)
     raise RuntimeError("sin toma única válida")
