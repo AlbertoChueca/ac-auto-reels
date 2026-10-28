@@ -159,6 +159,8 @@ def normaliza(G, base, tematica):
     if tematica in ("test", "vf", "encuesta"):                     # el cierre del test anuncia la solución, siempre
         G["cierre_pantalla"] = base["cierre_pantalla"]
         G["hook_pantalla"] = re.split(r"[:·|-]", G["hook_pantalla"])[0].strip().upper()[:30] or base["hook_pantalla"]
+        if not re.match(r"^(TEST|¿?VERDADERO|ENCUESTA)", G["hook_pantalla"]):
+            G["hook_pantalla"] = base["hook_pantalla"]
         if "mañana" not in G["cierre_voz"].lower():
             G["cierre_voz"] = base["cierre_voz"]
     if tematica in VENTA:
