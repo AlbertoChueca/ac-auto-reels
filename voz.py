@@ -70,7 +70,14 @@ def _gemini(prompt, key):
                     last = RuntimeError(f"{model} {r.status_code}"); time.sleep(5 * (intento + 1)); continue
                 if r.status_code != 200:
                     last = RuntimeError(f"{model} {r.status_code}: {r.text[:200]}"); break
-                for p in r.json()["candidates"][0]["content"]["parts"]:
+                cands = r.json().get("candidates") or []
+                partes = ((cands[0].get("content") or {}).get("parts") or []) if cands else []
+                if not partes:                                # a veces no devuelve audio: otro intento / otro modelo
+                    last = RuntimeError(f"{model}: sin audio ({(cands[0].get('finishReason') if cands else 'vacío')})")
+                    if intento == 0:
+                        continue
+                    break
+                for p in partes:
                     d = p.get("inlineData") or p.get("inline_data")
                     if d:
                         rate = int((re.findall(r"rate=(\d+)", d.get("mimeType") or d.get("mime_type") or "") or [24000])[0])
@@ -151,21 +158,29 @@ def _ok(a, texto):
 
 
 def _linea_gemini(texto, direccion, key):
-    tomas = []
+    """Hasta 6 tomas: con dirección, más simple, y solo el texto (sin conectores tipo «Truco:»). Vale la primera con
+    duración natural; si ninguna, la más cercana a lo esperado (si es razonable)."""
+    limpio = re.sub(r"^(truco|ojo|y esto es clave|clave)\s*:\s*", "", texto, flags=re.I)
     prompts = [f"{PERFIL}\nPerformance for this line: {direccion}.\nSpeak only the Spanish text after the colon, word "
                f"for word: {texto}",
-               f"In Castilian Spanish from Madrid (distinción, no seseo), {direccion}, sounding like a real person: {texto}"]
-    for pr in prompts + prompts:
+               f"In Castilian Spanish from Madrid (distinción, no seseo), {direccion}, sounding like a real person: {texto}",
+               f"{PERFIL}\nSpeak only this Spanish text, naturally: {limpio}",
+               f"Castilian Spanish from Spain, natural and expressive: {limpio}",
+               limpio, texto]
+    tomas = []
+    esperado = _palabras(texto) / 2.9 + 0.4
+    for pr in prompts:
         try:
             a = _recorta(_gemini(pr, key))
         except Exception as e:
-            if "no hay modelo" in str(e):
-                raise
             print("voz: toma fallida:", str(e)[:150], flush=True); continue
         if _ok(a, texto):
             return a
         tomas.append(a)
         print(f"voz: repito «{texto[:40]}» ({len(a) / SR:.1f} s)", flush=True)
+    buenas = [t for t in tomas if 0.35 * esperado < len(t) / SR < 2.6 * esperado + 1]
+    if buenas:
+        return min(buenas, key=lambda t: abs(np.log((len(t) / SR) / esperado)))
     raise RuntimeError(f"sin toma válida para: {texto[:60]}")
 
 

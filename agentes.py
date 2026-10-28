@@ -189,7 +189,7 @@ def guionista(tematica, P, pb):
     quiz = tematica in ("test", "vf", "encuesta")
     reglas = ("Es un test: NO digas la respuesta ni la insinúes. 'pregunta_voz' lee la pregunta (puedes hacerla más "
               "natural sin cambiar su sentido). Las opciones salen en pantalla, no las leas." if quiz else
-              "Una 'voz' por escena, en el mismo orden. Cada 'voz': 1 o 2 frases, máx. 16 palabras (en referentes, 20), que expliquen el "
+              "Una 'voz' por escena, en el mismo orden. Cada 'voz': 1 o 2 frases, máx. 14 palabras (en referentes, 18), que expliquen el "
               "punto con SOLO la información de su 'dato' (y en referentes, nombra la obra y su autor). Empieza alguna con "
               "un conector natural («Ojo,», «Y esto es clave:», «Truco:»). 'titulo' en pantalla: máx. 5 palabras.")
     try:
@@ -207,7 +207,7 @@ Devuelve JSON con la misma forma que este borrador, mejorado: {json.dumps(base, 
         for k in base:
             r.setdefault(k, base[k])
         if not quiz:
-            lim = 22 if tematica == "referentes" else 18
+            lim = 18 if tematica == "referentes" else 16
             for e, b in zip(r["escenas"], base["escenas"]):
                 if len(str(e.get("voz", "")).split()) > lim:
                     e["voz"] = b["voz"] if len(b["voz"].split()) <= lim + 6 else e["voz"]
@@ -270,8 +270,8 @@ def verificador(tematica, G, P, base):
     try:
         r = _ask(f"""Eres el verificador técnico de una cuenta para estudiantes de arquitectura. Eres arquitecto y
 profesor, muy estricto. Revisa este guion contra su pieza verificada.
-NO son problema (son obligatorios): la web «arquitectura confidencial punto com» / arquitecturaconfidencial.com, la
-invitación a guardar, compartir o comentar, la auditoría gratuita del TFM y que se le hable de tú al estudiante.
+NO son problema: la web «arquitectura confidencial punto com» / arquitecturaconfidencial.com, la invitación a guardar,
+compartir o comentar y que se le hable de tú al estudiante. {'La auditoría gratuita del TFM es obligatoria en el cierre.' if tematica in VENTA else 'Este reel es de contenido ÚTIL: NO añadas la auditoría ni ninguna venta (no es obligatoria aquí).'}
 Marca como problema: cualquier dato técnico falso o dudoso; cualquier dato que NO esté en la pieza (obra, autor, año,
 cifra, norma, herramienta); que en un test se desvele la respuesta; promesas («apruebas seguro», «te hacemos el TFM»,
 «nadie lo sabrá»); frases que no suenen a español de España; títulos de pantalla de más de 6 palabras.
