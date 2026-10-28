@@ -1,0 +1,73 @@
+temática: test · reserva: ['tips_tfm', 'tips_proyectos']
+reel: test: ¿Cómo se llama la estructura triangulada que salva grandes luces en una cubierta?
+agentes: estratega: playbook actualizado
+agentes: verificador: corregido: Se incluye un dato que no está en la pieza original: la mención a la página web 'arquitectura confidencial punto com'.
+[test] no ha salido:
+624, in hacer
+    G, prompts, direcciones, desc, titulo = agentes.preparar(tematica, P, recientes)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/ac-auto-reels/ac-auto-reels/agentes.py", line 370, in preparar
+    direcciones = fd.result(); prompts = fa.result() if fa else []; desc, titulo = fe.result()
+                                                                                   ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/ac-auto-reels/ac-auto-reels/agentes.py", line 328, in editor
+    base = descripcion_base(tematica, G, P)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/ac-auto-reels/ac-auto-reels/agentes.py", line 315, in descripcion_base
+    cuerpo = f"{P['pregunta']}\n\n{ops}\n\n👇 {G['cierre_pantalla'][0]}. 📅 {G['cierre_pantalla'][1]}."
+                                                                             ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+reel: tips_tfm: Cómo preparar la defensa de tu TFM
+agentes: verificador: corregido: Promesa detectada: El hook de pantalla 'Defensa de TFM sin suspender' hace una promesa implícita de aprobado.; Dato no verificado: El cierre de voz y pantalla menciona una página web ('arquitecturacon
+reel: guion listo en 66 s · gancho «5 claves para tu defensa TFM»
+voz: repito «Y esto es clave: hilvana lugar, problema» (17.1 s)
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+reel: imágenes y voz (gemini:Puck) en 78 s
+[tips_tfm] no ha salido:
+Traceback (most recent call last):
+  File "/home/runner/work/ac-auto-reels/ac-auto-reels/run_daily.py", line 112, in <module>
+    meta = reel.hacer(t, out, seed=f"{today}-{slot}-{t}", recientes=ganchos_recientes())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/ac-auto-reels/ac-auto-reels/reel.py", line 643, in hacer
+    mr = render_lista(G, imgs, clips, out, tematica, f"{seed}-{montajes}", bpm)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/ac-auto-reels/ac-auto-reels/reel.py", line 383, in render_lista
+    sub = fx.pill(G["cierre_pantalla"][1], 44, CLARO, OSCURO, padx=34, pady=16, radius=8)
+                  ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+reel: tips_proyectos: Cómo dibujar una sección que impresione
+agentes: verificador: corregido: El hook de pantalla 'Secciones que aprueban entregas' es una promesa de aprobado que no está permitida.; El hook de voz menciona al 'tribunal' y 'antes de imprimir', datos que no aparecen en la pieza 
+reel: guion listo en 122 s · gancho «5 claves para una sección brutal»
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+reel: imágenes y voz (gemini:Puck) en 22 s
+[tips_proyectos] no ha salido:
+Traceback (most recent call last):
+  File "/home/runner/work/ac-auto-reels/ac-auto-reels/run_daily.py", line 112, in <module>
+    meta = reel.hacer(t, out, seed=f"{today}-{slot}-{t}", recientes=ganchos_recientes())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/ac-auto-reels/ac-auto-reels/reel.py", line 643, in hacer
+    mr = render_lista(G, imgs, clips, out, tematica, f"{seed}-{montajes}", bpm)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/ac-auto-reels/ac-auto-reels/reel.py", line 383, in render_lista
+    sub = fx.pill(G["cierre_pantalla"][1], 44, CLARO, OSCURO, padx=34, pady=16, radius=8)
+                  ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+Ninguna temática llegó al 8
