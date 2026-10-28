@@ -1,0 +1,100 @@
+{
+ "formatos_que_funcionan": [
+  "Pantalla dividida de workflow IA (18–25 s): de croquis en Rhino/SketchUp a render hiperrealista con Krea AI/Photoshop",
+  "Timelapse cenital acelerado (25–35 s): montaje de axonométricas explotadas y diagramas de concepto en Illustrator/Photoshop",
+  "POV Humor y correcciones despiadadas (7–12 s): clips cortos en bucle con audio en tendencia recreando profesores o entregas sin dormir",
+  "Plano cenital ASMR de maqueta exprés (15–20 s): ensamblado táctico y materiales low-cost con acabados limpios",
+  "Micro-series temáticas: episodios breves y numerados resolviendo un solo problema técnico para impulsar guardados",
+  "Vídeo-carrusel (45–90 s): formato swipeable estructurado como diapositivas o listas paso a paso"
+ ],
+ "ganchos_que_funcionan": [
+  "Urgencia de entrega inmediata: «¿Tu entrega es mañana? Convierte este croquis en render final en 30 segundos»",
+  "Solución aprobada para correcciones: «El diagrama de concepto que hizo que aprobaran mi proyecto a la primera»",
+  "POV empático de corrección: «POV: Tu profesor de Proyectos mira tu planta durante 3 segundos: 'Aquí no hay proyecto'»",
+  "Ahorro económico y hack práctico: «Deja de gastar en cartón pluma: este material cuesta 2€ y queda nivel concurso»",
+  "Interrupción de patrón (0–2 s): mostrar un error, resultado inusual o afirmación contraintuitiva",
+  "Promesa de valor directo: «Guarda esto si cometes el error X al...» o «La guía rápida para lograr Y»"
+ ],
+ "temas_calientes": [
+  "Flujos de trabajo con IA (Krea AI y Photoshop) para renders de última hora antes de entregas o TFG/PFC",
+  "Despieces conceptuales y axonométricas explotadas para láminas de Proyectos",
+  "Supervivencia y humor ante correcciones duras de profesores y jornadas de 48 horas sin dormir",
+  "Construcción de maquetas conceptuales rápidas y materiales económicos alternativos al cartón pluma"
+ ],
+ "tendencias_de_edicion": [
+  "Subtítulos integrados (burned-in captions) optimizados para consumo sin audio",
+  "Edición orientada al bucle (looping) con transición fluida entre el final y el inicio para generar rewatches",
+  "Formato de pantalla dividida mostrando transformación antes/después",
+  "Tomas cenitales aceleradas o estilo ASMR táctil"
+ ],
+ "que_penaliza_el_algoritmo": [
+  "Marcas de agua y metadatos de otras redes sociales (exportaciones cruzadas como TikTok a Shorts/Reels)",
+  "Baja tasa de finalización (Completion Rate) y caídas de retención drásticas en los primeros 3 segundos",
+  "Ganchos engañosos (Clickbait) que provocan swipe away inmediato",
+  "Contenido masivo o inauténtico de IA sin aporte humano ni valor diferencial"
+ ],
+ "ejemplos": [
+  {
+   "que": "@showitbetter y @up_arch: Flujos de trabajo con Krea AI y Photoshop en pantalla dividida",
+   "por_que": "Resuelve la falta de tiempo antes de jurados o TFG/PFC ofreciendo gratificación visual instantánea al pasar de croquis a render en segundos."
+  },
+  {
+   "que": "@archihacks: Shorts y Reels de timelapses de despieces conceptuales y axonométricas explotadas",
+   "por_que": "Aporta un recurso visual directo y replicable para láminas de Proyectos, generando una alta tasa de guardados (saves)."
+  },
+  {
+   "que": "@doyouknowarchitect y @alexthearchitect: POV humorísticos de correcciones con profesores y entregas",
+   "por_que": "Conecta con el sufrimiento colectivo de la carrera y detona la viralidad mediante compartidos masivos por mensaje directo entre compañeros."
+  },
+  {
+   "que": "@archistudentworld y @studio_arqui: Clips cenitales ASMR con trucos de maquetas low-cost",
+   "por_que": "Combina la satisfacción sensorial del ASMR con soluciones prácticas y económicas de aplicación inmediata."
+  }
+ ],
+ "ideas_de_reel": [
+  "Reel de Workflow IA exprés: Pantalla dividida con el gancho «¿Tu entrega de Proyectos es mañana? Convierte este croquis en render final en 30 segundos» usando Krea AI y Photoshop (18-25 s, subtítulos integrados).",
+  "Reel POV Corrección de octubre: Actuación de 7-10 s en bucle continuo con audio en tendencia: «POV: Tu profesor de Proyectos mira tu planta durante 3 segundos: 'Aquí no hay proyecto'».",
+  "Reel Timelapse de lámina: Micro-episodio mostrando paso a paso el montaje acelerado de una axonométrica explotada en Illustrator con el gancho «El diagrama de concepto que hizo que aprobaran mi proyecto a la primera».",
+  "Reel Hack de maqueta low-cost: Plano cenital ASMR cortando un material alternativo de 2€ con el gancho «Deja de gastar en cartón pluma: este material cuesta 2€ y queda nivel concurso» estructurado para loop perfecto."
+ ],
+ "fecha": "2026-10-28",
+ "fuentes": [
+  {
+   "titulo": "shortgenius.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbyTOyPn5wlHm4cFMm_4OmXu2JTo70q9Cm2owS5ytCxcRZbXC-DR0VVSl1OF4GXPlHGrfkOodqe75r_bBdamA14TXjLyeKm5t8sYQn85orLV6omhu0BBKN8bJqik91eL_omQyySC_Oq3nI"
+  },
+  {
+   "titulo": "opus.pro",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBAUESYNbzdbrUw9SBUEx3WfRtv9vsBkldVYt0D2fv1qpV0rNoHR5IrhYXBTzTC_-4m63ooo7VGmtLt4k3id83Tn9dLf1Mazl6x4BtqS5zA9OEp0fpSkoVRQOWKdak9t3OEpj6hQqyQ67JgkBvC4q-z8XJlvOVTEdZiY5UBMNWWTRVXvXX2kQt"
+  },
+  {
+   "titulo": "klap.app",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_iI6FBcD7nlGLbMddQK-E8XM-LRSbhFTK5joexELacqCFfYn9Rb-RMHSlWn6kT21Ew69WGT2dpWIWro-8JKeDS0xUQ0-maRaI4QSybscmexfFo5zE1vN_nQ=="
+  },
+  {
+   "titulo": "universaltutorhub.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVgKqyWc1Jw9qeYKLdOyXMvYeg_Z5awRYX6FMHXXnaXcVNkvrvldpCBpkU21kr3TBxx-RtwA4EJVV9ZJoh4zhcoE2iXSmY1clijL3A4ASLIKTXjnq7YSvU823KXkLgzcS0GFgbe254hNUjhKdW2SI="
+  },
+  {
+   "titulo": "reddit.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcgyO89E6IxkVXbpScEARJ16ABnrPcZ19dxIBKOs6AOecL-aB5SJjwUi1toZ9GdDzbaHnid3RNyIzqDHLXKmv04iVVpLdAvFXtrRm6kN2Ko8wl0n2hk2i9OuoSBWEgnOYc9HEg87wp9upOdx9Ukqs_hTb_V8CD57jLO6t-apnCkVjJ4fJMkLUEj2aSNaHfbZItLONLGRLsCPZ8C6A="
+  },
+  {
+   "titulo": "socialync.io",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG70nyI7QlmDLBWkx9ZaopAJMFT14FJOWpfLg3Yw3onfYJW8XNpAfuqjMljoGuhOUsKc4cyTBJRBa3QQyux47ZNHYD_OZ4jMmhAVTgCFoo_kQ-KvcGnVRAziKHVwheRMmhrwBshWq3MDoPQ7dp_bkhXVySUfrcHoq4="
+  },
+  {
+   "titulo": "usefastlane.ai",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzb9NHfhnyO0H9VuAiCrYrEx0jbP11epDh6hHvCOBgZnrWq7TI2R5Tdq6Z6AZUhvhLplVZlwsrmmZqNIQpLFiWtXLBQ6XOFb9Z0rmZirMVfDwWwWXc9ut6V6TyYoOsUZJpzsgAcDy8bFOTw8Z5i-Lx19dv"
+  },
+  {
+   "titulo": "youtu.be",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6FCu3sq-rRycSsUUWqadbWqZMHk7VCAQilU8ZDHgDON1CRyUZARjd-64ZXNosJoU8E9_pmqGua5tDLMP2ylhg-8v_gTuz74RI2G8cQJjDlJmBtrjEjCG6CYwVsg5k4IIagGAZgaU="
+  },
+  {
+   "titulo": "digitalapplied.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMoE-J4ahA8yteAK9eCicwb3tmXRj76aBK9sRmFQFvhYq2Kd_07JeghI_cphGHXZHzA3cDSAlSZWG_3zPTF-Lycxg174aZpwuh1QBYmi2aIUIfpyWyW9-lLZHkKcD8tczp8q6pvX6YcYZ9YMiujasYb7n6xZnUm8IyOV6Xy7R6EwLi6auw4g-anZScRw=="
+  }
+ ],
+ "verificado": true
+}

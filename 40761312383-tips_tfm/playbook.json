@@ -1,0 +1,47 @@
+{
+ "ganchos_que_funcionan": [
+  "¿Tu entrega es mañana? Convierte este croquis en render final en 30 segundos",
+  "POV: Tu profesor de Proyectos mira tu planta durante 3 segundos: 'Aquí no hay proyecto'",
+  "El diagrama de concepto que hizo que aprobaran mi proyecto a la primera",
+  "Deja de gastar en cartón pluma: este material cuesta 2€ y queda nivel concurso",
+  "Guarda esto si cometes este error al montar tus axonométricas explotadas",
+  "La fórmula exacta para estructurar la memoria de tu TFM sin perder semanas"
+ ],
+ "patrones": [
+  "Pantalla dividida con workflow antes/después (croquis a render hiperrealista con IA)",
+  "Timelapse cenital acelerado mostrando montaje de axonométricas y diagramas conceptuales",
+  "POV corto en bucle (7-12s) sobre correcciones despiadadas o entregas sin dormir",
+  "Plano cenital estilo ASMR con ensamble táctico de maqueta exprés low-cost",
+  "Estructura swipeable o micro-serie resolviendo un único dolor técnico con llamada a guardar",
+  "Looping perfecto conectando la frase final con el gancho inicial para maximizar retención"
+ ],
+ "evitar": [
+  "Intros lentas de más de 2 segundos sin interrupción de patrón o resultado visible",
+  "Monólogos teóricos densos sin apoyo visual de láminas, planos o software en pantalla",
+  "Audios sin subtítulos quemados (burned-in captions)",
+  "Contenido genérico que no mencione entregas, correcciones, TFG, TFM o software real",
+  "Llamadas a la acción agresivas o genéricas en lugar del puente suave hacia la auditoría gratuita de TFM"
+ ],
+ "tono_voz": "Empático, cómplice de trinchera ('hemos estado ahí sin dormir'), pragmático, directo al grano y con toques de humor ácido sobre la vida en la escuela de arquitectura.",
+ "duracion_objetivo_s": 24,
+ "pesos": {
+  "tips_tfm": 1.0,
+  "tips_proyectos": 1.0,
+  "referentes": 1.0,
+  "ia": 1.0,
+  "test": 1.0,
+  "vf": 1.0
+ },
+ "hashtags": [
+  "#arquitectura",
+  "#estudiantedearquitectura",
+  "#tfmarquitectura",
+  "#tfg",
+  "#proyectosarquitectura",
+  "#renders",
+  "#humorarquitectura",
+  "#entregasarquitectura"
+ ],
+ "fecha": "2026-10-28",
+ "datos": {}
+}
