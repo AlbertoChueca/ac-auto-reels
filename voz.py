@@ -202,22 +202,46 @@ def _cortes(a, textos):
             i = j
         else:
             i += 1
+    if len(runs) < n - 1:                                              # pocas pausas: valen también las breves
+        runs, i = [], 0
+        while i < len(sil):
+            if sil[i]:
+                j = i
+                while j < len(sil) and sil[j]:
+                    j += 1
+                if j - i >= 4 and i > 10 and j < len(sil) - 10:
+                    runs.append((j - i, (i + j) // 2))
+                i = j
+            else:
+                i += 1
+    if len(runs) < n - 1:
+        raise RuntimeError("no hay pausas suficientes para cortar la toma")
     w = np.array([_palabras(t) + 1.5 for t in textos], float)
     esperados = np.cumsum(w)[:-1] / w.sum() * len(env)
-    cortes, usados = [], set()
-    for ec in esperados:
-        cands = [(ln, c) for ln, c in runs if c not in usados and abs(c - ec) < 0.2 * len(env)]
-        if not cands:
-            raise RuntimeError("no hay pausa para cortar la toma")
-        ln, c = max(cands, key=lambda x: x[0] - 0.03 * abs(x[1] - ec))
-        cortes.append(c); usados.add(c)
-    if cortes != sorted(cortes):
-        raise RuntimeError("pausas desordenadas")
+    runs.sort(key=lambda x: x[1]); L = len(env)
+    # programación dinámica: n-1 pausas EN ORDEN que mejor encajan con los cortes esperados (y cuanto más largas, mejor)
+    coste = lambda k, r: ((runs[r][1] - esperados[k]) / L) ** 2 * 60 - min(runs[r][0], 60) / 60
+    m = len(runs); INF = 1e18
+    dp = [[INF] * m for _ in range(n - 1)]; prev = [[-1] * m for _ in range(n - 1)]
+    for r in range(m):
+        dp[0][r] = coste(0, r)
+    for k in range(1, n - 1):
+        mejor, arg = INF, -1
+        for r in range(m):
+            if r > 0 and dp[k - 1][r - 1] < mejor:
+                mejor, arg = dp[k - 1][r - 1], r - 1
+            if arg >= 0:
+                dp[k][r] = mejor + coste(k, r); prev[k][r] = arg
+    r = min(range(m), key=lambda x: dp[n - 2][x])
+    sel = [r]
+    for k in range(n - 2, 0, -1):
+        r = prev[k][r]; sel.append(r)
+    cortes = [runs[x][1] for x in reversed(sel)]
     bordes = [0] + [c * hop for c in cortes] + [len(a)]
     trozos = [_recorta(a[bordes[k]:bordes[k + 1]]) for k in range(n)]
     for t, tx in zip(trozos, textos):
         seg, esp = len(t) / SR, _palabras(tx) / 2.9 + 0.4
-        if not (0.4 * esp < seg < 2.2 * esp + 0.8):
+        if not (0.35 * esp < seg < 2.4 * esp + 1.0):
             raise RuntimeError("un trozo no encaja con su frase")
     return trozos
 
