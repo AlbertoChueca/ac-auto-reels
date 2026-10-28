@@ -158,7 +158,7 @@ def guionista(tematica, P, pb):
 25-35 s). Español de España, de tú, como un compañero mayor que ya aprobó: cercano, directo, con ritmo, frases cortas,
 nada de lenguaje de anuncio ni de IA («descubre», «sumérgete», «increíble», «en el mundo de»: prohibido).
 {reglas}
-{'Reel de VENTA (20 %): enseña con naturalidad cómo AC ayuda al estudiante con su documentación; asesoría y apoyo técnico, nunca «te hacemos el TFM».' if venta else 'Contenido ÚTIL (80 %): valor puro, cero venta en el cuerpo.'}
+{'Reel de VENTA (20 %): enseña con naturalidad el tipo de documentación que el equipo de AC ayuda a preparar (si la pieza tiene «portfolio», las imágenes son TRABAJOS REALES del equipo: puedes decir «esto es un trabajo real de nuestro equipo»). Asesoría y apoyo técnico en las fases que se atascan; nunca «te hacemos el TFM».' if venta else 'Contenido ÚTIL (80 %): valor puro, cero venta en el cuerpo.'}
 'cierre_voz': 1 frase que invite a {'pedir la auditoría gratuita' if venta else 'guardarlo o compartirlo'} y diga la web «arquitectura confidencial punto com».
 Lo que mejor funciona ahora (playbook): {_pb_texto(pb)}
 Pieza del banco (verificada; no añadas datos nuevos): {json.dumps(P, ensure_ascii=False)[:3500]}
@@ -172,6 +172,10 @@ Devuelve JSON con la misma forma que este borrador, mejorado: {json.dumps(base, 
                 e["idea"] = b.get("idea"); e.setdefault("sub", b.get("sub", ""))
                 if tematica == "referentes":
                     e["sub"] = b["sub"]                               # la referencia, siempre la verificada
+        if venta:                                                     # el cierre de venta no se toca
+            r["cierre_pantalla"] = base["cierre_pantalla"]
+            if "auditor" not in r.get("cierre_voz", "").lower():
+                r["cierre_voz"] = base["cierre_voz"]
         return r, base
     except Exception as e:
         say("guionista omitido, uso el banco:", str(e)[:150])
@@ -223,6 +227,7 @@ profesor, muy estricto. Revisa este guion contra su pieza verificada.
 Marca como problema: cualquier dato técnico falso o dudoso; cualquier dato que NO esté en la pieza (obra, autor, año,
 cifra, norma, herramienta); que en un test se desvele la respuesta; promesas («apruebas seguro», «te hacemos el TFM»,
 «nadie lo sabrá»); frases que no suenen a español de España; títulos de pantalla de más de 6 palabras.
+{'Es un reel de VENTA: SÍ está permitido decir que el equipo de AC ayuda o acompaña a preparar esa documentación y que las imágenes son trabajos reales del equipo; NO está permitido decir que se le hace el TFM al alumno ni que nadie lo sabrá.' if tematica in VENTA else ''}
 Pieza: {json.dumps(P, ensure_ascii=False)[:3500]}
 Guion: {todo[:3500]}
 Si hay problemas, devuelve el guion corregido (misma forma, mismo número de escenas, corrige solo lo necesario).
@@ -237,6 +242,10 @@ Devuelve JSON: {{"ok": bool, "problemas": [str], "guion": object|null}}""", 0.1,
                 g2.setdefault(k, G[k])
             for e, b in zip(g2.get("escenas") or [], G.get("escenas") or []):
                 e["idea"] = b.get("idea"); e["sub"] = b.get("sub", "") if tematica == "referentes" else e.get("sub", "")
+            if tematica in VENTA:
+                g2["cierre_pantalla"] = base["cierre_pantalla"]
+                if "auditor" not in g2.get("cierre_voz", "").lower():
+                    g2["cierre_voz"] = base["cierre_voz"]
             say("verificador: corregido:", "; ".join(probs)[:200])
             return g2, probs
         say("verificador: problemas sin corrección válida; vuelvo al banco:", "; ".join(probs)[:200])
@@ -320,7 +329,10 @@ def descripcion_base(tematica, G, P):
         cuerpo = f"{G['hook_pantalla']} 👇\n\n" + "\n".join(lin) + "\n\n📌 Guárdalo para tu próxima entrega."
     fin = (f"👉 Pide tu auditoría gratuita del TFM: {WEB_URL}" if venta else
            f"¿Vas justo con el TFM? Auditoría gratuita en {WEB_URL}")
-    nota = "Imágenes creadas con IA" + (" (conceptuales: busca las obras reales)." if tematica == "referentes" else ".")
+    if P.get("portfolio") and any(P["portfolio"]):
+        nota = "Planos: trabajos reales de nuestro equipo (datos del proyecto anonimizados)."
+    else:
+        nota = "Imágenes creadas con IA" + (" (conceptuales: busca las obras reales)." if tematica == "referentes" else ".")
     return f"{cuerpo}\n\n{fin}\n\n{nota}\n\n{TAGS.get(tematica, TAGS['tips_tfm'])}"
 
 
@@ -330,7 +342,7 @@ def editor(tematica, G, P, pb):
     try:
         r = _ask(f"""Eres el editor de redes de una cuenta para {AUDIENCIA}. Mejora esta descripción para que la guarden y
 la compartan: primera línea con gancho (máx. 90 caracteres), cuerpo escaneable, sin inventar datos, sin desvelar la
-solución de un test. Mantén la línea con la web {WEB_URL} y la nota de imágenes con IA. 5-7 hashtags del nicho en
+solución de un test. Mantén la línea con la web {WEB_URL} y la nota final sobre el origen de las imágenes TAL CUAL (IA o planos reales). 5-7 hashtags del nicho en
 español (playbook: {', '.join((pb or {}).get('hashtags') or [])}). Título de YouTube Shorts: máx. 80 caracteres, con
 palabras que busquen los estudiantes (TFM, Proyectos, arquitectura).
 Descripción actual: {base}
@@ -338,6 +350,8 @@ Devuelve JSON: {{"descripcion": str, "titulo_youtube": str}}""", 0.6)
         d, t = (r.get("descripcion") or "").strip(), (r.get("titulo_youtube") or "").strip()
         if not d or WEB_URL not in d or not marca.limpio(d) or len(d) > 2100:
             raise ValueError("descripción no válida")
+        if P.get("portfolio") and any(P["portfolio"]) and "trabajos reales" not in d.lower():
+            raise ValueError("falta la nota de planos reales")
         if tematica in ("test", "vf") and P.get("explicacion") and P["explicacion"][:40].lower() in d.lower():
             raise ValueError("desvela la solución")
         return d, (t if t and marca.limpio(t) else titulo)[:95]

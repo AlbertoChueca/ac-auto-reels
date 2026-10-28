@@ -145,11 +145,11 @@ def portfolio(cat, seed):
 def lamina(img):
     """El plano entero sobre papel, en vertical (el zoom lento del montaje enseña el detalle)."""
     base = Image.new("RGB", (W, H), (244, 241, 234))
-    im = img.copy(); im.thumbnail((W - 40, 840), Image.LANCZOS)
+    im = img.copy(); im.thumbnail((W - 40, 760), Image.LANCZOS)
     sh = Image.new("RGBA", (im.width + 60, im.height + 60), (0, 0, 0, 0))
     ImageDraw.Draw(sh).rectangle([30, 34, im.width + 30, im.height + 34], fill=(0, 0, 0, 60))
     sh = sh.filter(ImageFilter.GaussianBlur(14))
-    y = int(740 - im.height / 2); x = (W - im.width) // 2
+    y = int(700 - im.height / 2); x = (W - im.width) // 2
     base.paste(sh.convert("RGB"), (x - 30, y - 30), sh)
     base.paste(im, (x, y))
     return base
@@ -374,7 +374,7 @@ def render_lista(G, imgs, clips, out, tematica, seed=0, bpm=86):
     ys = []
     for k, (e, im) in enumerate(pares):
         alto_sub = max([s.height for _, _, s in subs[k]] or [0])
-        y = 1240 if im[1] else 1060
+        y = 1250 if im[1] else 1060
         ys.append(min(y, SAFE_BOT - 40 - alto_sub - 20 - labs[k].height / 2))
     sub_hook = _subs(G["hook_voz"]) if G["hook_voz"].strip(" .") != G["hook_pantalla"].strip(" .") else []
     fondo_fin = _cover_fit(pares[-1][1][0].convert("RGB")).filter(ImageFilter.GaussianBlur(18))
