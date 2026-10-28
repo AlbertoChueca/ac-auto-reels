@@ -44,7 +44,7 @@ temática del mismo grupo; si nada llega, ese hueco no se publica.
    - `ZERNIO_API_KEY`: en Zernio conecta **TikTok y YouTube de AC**. Solo se publica en cuentas cuyo nombre contiene
      «arquitecturaconfidencial» (así nunca se publica en las de UDA aunque estén en el mismo Zernio). Si tu cuenta se
      llama distinto, pon la variable `ZERNIO_MATCH` o los ids en `ZERNIO_TT_ACCOUNT` / `ZERNIO_YT_ACCOUNT`.
-3. **Variables**: `IG_HANDLE` con el usuario real de Instagram (por defecto `@arquitecturaconfidencial`).
+3. **Variables**: `IG_HANDLE` con el usuario real de Instagram (por defecto `@arquitectura_confidencial`).
 4. **Actions → Comprobar conexiones → Run workflow**: todo en verde.
 5. **Actions → Reels diarios → Run workflow** con «Solo generar el vídeo» marcado (prueba varias temáticas) y descarga
    el vídeo en *Artifacts*.
@@ -54,8 +54,8 @@ temática del mismo grupo; si nada llega, ese hueco no se publica.
 | Variable | Por defecto | Qué hace |
 |---|---|---|
 | `ACTIVO` | (vacía) | `true` enciende reels y bot |
-| `IG_HANDLE` | `@arquitecturaconfidencial` | Cuenta de Instagram esperada |
-| `ZERNIO_MATCH` | `arquitecturaconfidencial` | Nombre que deben tener las cuentas en Zernio |
+| `IG_HANDLE` | `@arquitectura_confidencial` | Cuenta de Instagram esperada |
+| `ZERNIO_MATCH` | `arquitecturaconfidencial` | Nombre que deben tener las cuentas en Zernio (TikTok y YouTube: arquitecturaconfidencial) |
 | `INSTAGRAM`, `TIKTOK`, `YOUTUBE` | `true` | Interruptores por red |
 | `COMUNIDAD` | `true` | `false` apaga el bot |
 | `PUBLISH_MAX_WAIT_MIN` | `90` | Minutos máximos de espera para publicar a la hora exacta |

@@ -6,7 +6,7 @@ que «hacemos el TFM» ni nada sobre ocultarlo al tutor: TikTok, Instagram y You
 import os
 
 WEB = os.environ.get("APP_WEB", "arquitecturaconfidencial.com")
-HANDLE = os.environ.get("IG_HANDLE", "@arquitecturaconfidencial")
+HANDLE = os.environ.get("IG_HANDLE", "@arquitectura_confidencial")
 NOMBRE = "AC · ArquitecturaConfidencial"
 FIRMA = "Asesoría para tu TFM de arquitectura"
 CTA = "Auditoría gratuita de tu TFM"
@@ -22,5 +22,6 @@ PROHIBIDO = ("te hacemos el tfm", "hacemos tu tfm", "nadie sabrá", "nadie lo sa
 def limpio(texto):
     """True si el texto no contiene ninguna promesa prohibida (se comprueba antes de publicar)."""
     t = (texto or "").lower()
-    return not any(p in t for p in PROHIBIDO if p != "confidencial") and \
-        "confidencial" not in t.replace("arquitecturaconfidencial", "").replace("arquitectura confidencial", "")
+    for nombre in ("arquitecturaconfidencial", "arquitectura_confidencial", "arquitectura confidencial"):
+        t = t.replace(nombre, "")                      # el nombre de la marca sí puede aparecer
+    return not any(p in t for p in PROHIBIDO)

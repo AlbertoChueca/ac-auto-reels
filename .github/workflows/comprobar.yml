@@ -23,7 +23,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
-          IG_HANDLE: ${{ vars.IG_HANDLE || '@arquitecturaconfidencial' }}
+          IG_HANDLE: ${{ vars.IG_HANDLE || '@arquitectura_confidencial' }}
           ZERNIO_MATCH: ${{ vars.ZERNIO_MATCH || 'arquitecturaconfidencial' }}
           ZERNIO_IG_ACCOUNT: ${{ vars.ZERNIO_IG_ACCOUNT }}
           ZERNIO_TT_ACCOUNT: ${{ vars.ZERNIO_TT_ACCOUNT }}

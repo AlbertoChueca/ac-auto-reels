@@ -79,7 +79,7 @@ class Instagram:
     def __init__(self):
         import publish_ig
         self.g, self.t = publish_ig.GRAPH, os.environ.get("IG_TOKEN")
-        self.yo = os.environ.get("IG_HANDLE", "@arquitecturaconfidencial").lstrip("@").lower()
+        self.yo = os.environ.get("IG_HANDLE", "@arquitectura_confidencial").lstrip("@").lower()
 
     def ok(self):
         return bool(self.t)

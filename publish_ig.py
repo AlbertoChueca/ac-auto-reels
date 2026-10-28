@@ -1,9 +1,9 @@
 """Instagram directo por la Graph API de Meta (gratis, sin Zernio), como en UDA: reels, stories y carruseles.
 
-Env IG_TOKEN: token de PÁGINA de Facebook (empieza por "EAA") de la página vinculada a @arquitecturaconfidencial (cuenta
+Env IG_TOKEN: token de PÁGINA de Facebook (empieza por "EAA") de la página vinculada a @arquitectura_confidencial (cuenta
 profesional), con instagram_basic, instagram_content_publish, pages_show_list, pages_read_engagement e
 instagram_manage_insights. Generado desde un token de usuario de larga duración, no caduca.
-Seguridad: antes de publicar se comprueba que la cuenta es @arquitecturaconfidencial (IG_EXPECT); si no, no se publica.
+Seguridad: antes de publicar se comprueba que la cuenta es @arquitectura_confidencial (IG_EXPECT); si no, no se publica.
 """
 import os, sys, time, requests
 
@@ -32,7 +32,7 @@ def whoami(token):
             raise RuntimeError("No Facebook Page with a linked Instagram account was found for this token")
         me, ig = page, page["instagram_business_account"]
     who = {"user_id": ig["id"], "username": ig.get("username"), "page_id": me["id"]}
-    expect = os.environ.get("IG_EXPECT", os.environ.get("IG_HANDLE", "@arquitecturaconfidencial")).lstrip("@").lower()
+    expect = os.environ.get("IG_EXPECT", os.environ.get("IG_HANDLE", "@arquitectura_confidencial")).lstrip("@").lower()
     if expect and (who["username"] or "").lower() != expect:
         raise RuntimeError(f"el token de Instagram es de @{who['username']}, no de @{expect}: no se publica")
     return who

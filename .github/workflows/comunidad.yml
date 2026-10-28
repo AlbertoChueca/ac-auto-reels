@@ -39,7 +39,7 @@ jobs:
           ZERNIO_IG_ACCOUNT: ${{ vars.ZERNIO_IG_ACCOUNT }}
           ZERNIO_TT_ACCOUNT: ${{ vars.ZERNIO_TT_ACCOUNT }}
           ZERNIO_YT_ACCOUNT: ${{ vars.ZERNIO_YT_ACCOUNT }}
-          IG_HANDLE: ${{ vars.IG_HANDLE || '@arquitecturaconfidencial' }}
+          IG_HANDLE: ${{ vars.IG_HANDLE || '@arquitectura_confidencial' }}
           COMUNIDAD_DEBUG: ${{ inputs.prueba && '1' || '' }}
         run: python comunidad.py ${{ inputs.prueba && '--prueba' || '' }} | tee comunidad.log
       - name: Guardar el estado
