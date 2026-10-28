@@ -1,0 +1,72 @@
+temática: tips_tfm · reserva: ['tips_proyectos', 'referentes']
+reel: tips_tfm: Cómo preparar la defensa de tu TFM
+agentes: estratega: playbook actualizado
+agentes: verificador: corregido: Falta mencionar la auditoría gratuita del TFM en el cierre, lo cual es un elemento obligatorio.
+reel: guion listo en 95 s · gancho «5 fallos típicos defendiendo tu TFM»
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+voz: repito «El tribunal no suspende por el proyecto,» (50.2 s)
+reel: directora de arte rechaza (Presencia de números legibles en la esfera del cronómetro.); intento 2
+modelo de imagen: gemini-3.1-flash-image
+voz: toma fallida: 'content'
+voz: toma fallida: 'content'
+voz: toma fallida: 'content'
+voz: toma fallida: 'content'
+voz: Gemini TTS no disponible, uso Chirp 3 HD: sin toma válida para: Truco: ensaya siempre en voz alta con el tiempo exacto de tu
+[tips_tfm] no ha salido:
+"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/ac-auto-reels/ac-auto-reels/voz.py", line 192, in <lambda>
+    clips = list(ex.map(lambda t: _recorta(_chirp(t, gkey)), textos))
+                                           ^^^^^^^^^^^^^^^
+  File "/home/runner/work/ac-auto-reels/ac-auto-reels/voz.py", line 99, in _chirp
+    raise RuntimeError(f"Google TTS {r.status_code}: {r.text[:200]}")
+RuntimeError: Google TTS 401: {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.goog
+
+reel: tips_proyectos: Cómo dibujar una sección que impresione
+agentes: verificador: corregido: Falta mencionar la auditoría gratuita del TFM en el cierre, que es un elemento obligatorio.
+reel: guion listo en 71 s · gancho «5 claves para tu mejor sección»
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+modelo de imagen: gemini-3.1-flash-image
+reel: imágenes y voz (gemini:Puck) en 27 s
+audio: eliminados 200 ms de siseo
+reel: montaje 1: 38.9 s de vídeo en 53 s
+reel: revisor: 8.0/10  
+reel: listo en 164 s · 38.9 s de vídeo · nota 8.0
+No entregues una sección plana: 5 claves para salvar tu proyecto 👇
+
+1. ✂️ Corta por lo importante: patio, escalera o doble altura.
+2. ✍️ Jerarquía de líneas: cortado grueso, visto fino (básico pero crítico).
+3. 🧍 Escala humana y mobiliario: explican el uso real y la dimensión.
+4. 📐 Dibuja el terreno: tu arquitectura no flota en la lámina.
+5. ☀️ Sombras y rayos de sol: muestran tu estrategia de iluminación.
+
+📌 Guárdalo ahora y revísalo antes de maquetar la entrega.
+
+¿Vas justo de tiempo con el TFM? Pide tu auditoría gratuita en https://arquitecturaconfidencial.com
+
+Imágenes creadas con IA.
+
+#proyectosarquitectura #tfmarquitectura #tfgarquitectura #estudiantedearquitectura #entregasdearquitectura #archihacks
+PRUEBA: no se publica
