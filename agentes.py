@@ -77,7 +77,8 @@ def cazatendencias(force=False):
           f"Responde en español, en viñetas, máx. 250 palabras.")
     try:
         with ThreadPoolExecutor(2) as ex:
-            f1 = ex.submit(gemini.ask_search, q1, 0.4, True); f2 = ex.submit(gemini.ask_search, q2, 0.4, True)
+            pref = t.get("modelo_busqueda")                     # el que la última vez buscó de verdad
+            f1 = ex.submit(gemini.ask_search, q1, 0.4, True, pref); f2 = ex.submit(gemini.ask_search, q2, 0.4, True, pref)
             (t1, s1), (t2, s2) = f1.result(), f2.result()
     except Exception as e:
         say("cazatendencias sin búsqueda:", str(e)[:150])
@@ -93,7 +94,8 @@ Devuelve JSON: {{"formatos_que_funcionan": [str], "ganchos_que_funcionan": [str]
 "ideas_de_reel": [str]}}""", 0.4)
         r["fecha"] = str(hoy)
         r["fuentes"] = [s for s in (s1 + s2) if s.get("url")][:12]
-        r["verificado"] = bool(r["fuentes"])          # sin fuentes = hipótesis: el estratega le da menos peso
+        r["verificado"] = bool(r["fuentes"])
+        r["modelo_busqueda"] = gemini.ULTIMO_BUSCADOR[0] or t.get("modelo_busqueda")          # sin fuentes = hipótesis: el estratega le da menos peso
         json.dump(r, open(TENDENCIAS, "w"), ensure_ascii=False, indent=1)
         say(f"cazatendencias: {len(r.get('formatos_que_funcionan') or [])} formatos, "
             f"{len(r.get('temas_calientes') or [])} temas calientes, {len(r['fuentes'])} fuentes")

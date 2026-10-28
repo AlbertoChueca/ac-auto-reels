@@ -101,12 +101,15 @@ def image(prompt, aspect="9:16", refs=()):
     raise last or RuntimeError("ningún modelo de imagen disponible")
 
 
-def ask_search(prompt, temperature=0.4, fuentes=False):
+ULTIMO_BUSCADOR = [None]
+
+
+def ask_search(prompt, temperature=0.4, fuentes=False, preferido=None):
     """Texto con búsqueda de Google (grounding). fuentes=True devuelve (texto, [{"titulo", "url"}])."""
     body = {"contents": [{"parts": [{"text": prompt}]}], "tools": [{"google_search": {}}],
             "generationConfig": {"temperature": temperature}}
     last, sin_fuentes = None, None
-    orden = [m for m in os.environ.get("GEMINI_SEARCH_MODEL", "").split(",") if m] + TEXT_MODELS + \
+    orden = ([preferido] if preferido else []) + [m for m in os.environ.get("GEMINI_SEARCH_MODEL", "").split(",") if m] + TEXT_MODELS + \
         sorted([m for m in available() if "flash" in m and _text_only(m)], key=_rank)
     for model in list(dict.fromkeys(orden))[:5]:                  # máx. 5 modelos: no se eterniza
         try:
@@ -119,6 +122,7 @@ def ask_search(prompt, temperature=0.4, fuentes=False):
             web = [ch.get("web") or {} for ch in gm.get("groundingChunks") or gm.get("grounding_chunks") or []]
             src = [{"titulo": w.get("title"), "url": w.get("uri")} for w in web if w.get("uri")]
             if src:
+                ULTIMO_BUSCADOR[0] = model
                 return txt, src
             print(f"búsqueda: {model} respondió sin buscar (sin fuentes); pruebo otro modelo", flush=True)
             sin_fuentes = sin_fuentes or (txt, [])
