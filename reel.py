@@ -145,11 +145,11 @@ def portfolio(cat, seed):
 def lamina(img):
     """El plano entero sobre papel, en vertical (el zoom lento del montaje enseña el detalle)."""
     base = Image.new("RGB", (W, H), (244, 241, 234))
-    im = img.copy(); im.thumbnail((W - 40, 760), Image.LANCZOS)
+    im = img.copy(); im.thumbnail((W - 40, 680), Image.LANCZOS)
     sh = Image.new("RGBA", (im.width + 60, im.height + 60), (0, 0, 0, 0))
     ImageDraw.Draw(sh).rectangle([30, 34, im.width + 30, im.height + 34], fill=(0, 0, 0, 60))
     sh = sh.filter(ImageFilter.GaussianBlur(14))
-    y = int(700 - im.height / 2); x = (W - im.width) // 2
+    y = int(640 - im.height / 2); x = (W - im.width) // 2
     base.paste(sh.convert("RGB"), (x - 30, y - 30), sh)
     base.paste(im, (x, y))
     return base
