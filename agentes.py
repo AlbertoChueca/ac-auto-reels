@@ -150,12 +150,12 @@ def guionista(tematica, P, pb):
     quiz = tematica in ("test", "vf", "encuesta")
     reglas = ("Es un test: NO digas la respuesta ni la insinúes. 'pregunta_voz' lee la pregunta (puedes hacerla más "
               "natural sin cambiar su sentido). Las opciones salen en pantalla, no las leas." if quiz else
-              "Una 'voz' por escena, en el mismo orden. Cada 'voz': 1 o 2 frases, máx. 24 palabras, que expliquen el "
+              "Una 'voz' por escena, en el mismo orden. Cada 'voz': 1 o 2 frases, máx. 16 palabras (en referentes, 20), que expliquen el "
               "punto con SOLO la información de su 'dato' (y en referentes, nombra la obra y su autor). Empieza alguna con "
               "un conector natural («Ojo,», «Y esto es clave:», «Truco:»). 'titulo' en pantalla: máx. 5 palabras.")
     try:
-        r = _ask(f"""Eres guionista de reels para {AUDIENCIA}. Escribe el guion HABLADO de este reel (voz en off de unos
-25-35 s). Español de España, de tú, como un compañero mayor que ya aprobó: cercano, directo, con ritmo, frases cortas,
+        r = _ask(f"""Eres guionista de reels para {AUDIENCIA}. Escribe el guion HABLADO de este reel (voz en off de 25-35 s EN TOTAL;
+más largo se abandona). Español de España, de tú, como un compañero mayor que ya aprobó: cercano, directo, con ritmo, frases cortas,
 nada de lenguaje de anuncio ni de IA («descubre», «sumérgete», «increíble», «en el mundo de»: prohibido).
 {reglas}
 {'Reel de VENTA (20 %): enseña con naturalidad el tipo de documentación que el equipo de AC ayuda a preparar (si la pieza tiene «portfolio», las imágenes son TRABAJOS REALES del equipo: puedes decir «esto es un trabajo real de nuestro equipo»). Asesoría y apoyo técnico en las fases que se atascan; nunca «te hacemos el TFM».' if venta else 'Contenido ÚTIL (80 %): valor puro, cero venta en el cuerpo.'}
@@ -168,7 +168,10 @@ Devuelve JSON con la misma forma que este borrador, mejorado: {json.dumps(base, 
         for k in base:
             r.setdefault(k, base[k])
         if not quiz:
+            lim = 22 if tematica == "referentes" else 18
             for e, b in zip(r["escenas"], base["escenas"]):
+                if len(str(e.get("voz", "")).split()) > lim:
+                    e["voz"] = b["voz"] if len(b["voz"].split()) <= lim + 6 else e["voz"]
                 e["idea"] = b.get("idea"); e.setdefault("sub", b.get("sub", ""))
                 if tematica == "referentes":
                     e["sub"] = b["sub"]                               # la referencia, siempre la verificada
@@ -193,10 +196,14 @@ Escribe 5 ganchos distintos (curiosidad, error, promesa concreta, pregunta direc
 1 a 10 por lo que haría parar el scroll a un estudiante de TFM o de Proyectos.
 Reglas: 'pantalla' máx. 7 palabras{'; si lleva número, debe ser ' + str(n) if n else ''}{'; en tests, la pantalla es una etiqueta corta tipo «TEST DE CONSTRUCCIÓN»' if quiz else ''};
 'voz' máx. 14 palabras, natural, de España, sin clickbait falso ni promesas («apruebas seguro», «garantizado»: prohibido).
+NO nombres obras, arquitectos, escuelas, herramientas ni datos que no estén en el reel: el gancho tiene que cumplirse en el propio vídeo.
 No repitas estos ganchos recientes: {json.dumps(list(recientes)[-12:], ensure_ascii=False)}
 Lo que funciona (playbook): {_pb_texto(pb)}
 Devuelve JSON: {{"opciones": [{{"pantalla": str, "voz": str, "nota": number}}]}}""", 0.9)
+        permitido = json.dumps(P, ensure_ascii=False).lower()
+        nombres = lambda t: [w for w in re.findall(r"\b[A-ZÁÉÍÓÚ][a-záéíóúñ]+(?:\s[A-ZÁÉÍÓÚ][a-záéíóúñ]+)+", t)]
         ops = [o for o in r.get("opciones") or [] if o.get("pantalla") and o.get("voz") and marca.limpio(o["pantalla"] + o["voz"])
+               and all(n.lower() in permitido for n in nombres(o["pantalla"] + " " + o["voz"]))
                and len(o["pantalla"].split()) <= 8 and o["pantalla"] not in recientes]
         if n:
             ops = [o for o in ops if not re.search(r"\d", o["pantalla"]) or str(n) in o["pantalla"]]

@@ -353,7 +353,7 @@ def render_lista(G, imgs, clips, out, tematica, seed=0, bpm=86):
     planos = [_plano(im[0], f"{seed}-{k}") for k, (e, im) in enumerate(pares)]
     hook_big = _panel(fx.headline(G["hook_pantalla"], 116, 960, 3, color=CLARO, hot=ACENTO,
                                   hot_words=_hot(G["hook_pantalla"]), shadow=True), 50, 140)
-    tit = _panel(fx.headline(G["hook_pantalla"], 50, 900, 2, color=CLARO, hot=ACENTO, shadow=True), 22, 120)
+    tit = _panel(fx.headline(G.get("titulo_serie") or G["hook_pantalla"], 50, 900, 2, color=CLARO, hot=ACENTO, shadow=True), 22, 120)
     labs, subs = [], []
     for k, (e, im) in enumerate(pares):
         num = fx.pill(str(k + 1), 64, ACENTO, OSCURO, padx=30, pady=14, radius=40)
@@ -622,6 +622,7 @@ def hacer(tematica, out, seed=0, recientes=(), max_montajes=3, limite_s=40 * 60)
     P = pieza(tematica, seed)
     say(f"{tematica}: {P.get('hook') or P.get('pregunta')}")
     G, prompts, direcciones, desc, titulo = agentes.preparar(tematica, P, recientes)
+    G["titulo_serie"] = P.get("hook")                                  # arriba, fijo: el tema real del reel
     frases = agentes._frases(G)
     say(f"guion listo en {time.time() - t0:.0f} s · gancho «{G['hook_pantalla']}»")
     t1 = time.time()
