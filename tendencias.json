@@ -1,0 +1,106 @@
+{
+"formatos_que_funcionan": [
+"Workflow IA para entregas rápidas: grabación de pantalla ágil con saltos rápidos mostrando flujo de boceto a render (20-30 s)",
+"Humor 'Semana de Entrega': formato POV o cámara en mano mostrando el caos del taller con audio viral (7-12 s)",
+"Micro-truco de Diagramas y Axonometrías: tutorial acelerado de una única herramienta gráfica (25-40 s)",
+"ASMR de Maquetas Físicas: planos macro de corte y ensamblaje con sonido ambiente amplificado sin voz (15-25 s)",
+"Píldoras 'Paso a paso': micro-guías y plantillas condensadas enfocadas en guardados",
+"Estética Raw-Premium: apariencia natural estilo UGC combinada con edición profesional invisible",
+"Visualización de datos y casos prácticos: esquemas y gráficos animados para simplificar conceptos"
+],
+"ganchos_que_funcionan": [
+"Pre-hook directo (0-2 s): mostrar el resultado final o dolor antes de explicar el proceso ('Deja de perder 8 horas renderizando para Proyectos: haz esto en 2 minutos')",
+"Gancho de catarsis/relatable en primer plano: 'Día 3 sin dormir antes de presentar el PFC...'",
+"Gancho de error y solución inmediata: 'El error que arruina tus láminas de TFG (y cómo solucionarlo ya)'",
+"Gancho sonoro/visual ASMR: encaje milimétrico de maqueta en primer plano sin introducción",
+"Re-hooks internos: micro-transiciones o cambios visuales cada 3-5 segundos para retener",
+"Finales en bucle (Looping): frase final conectada directamente con la frase inicial del video"
+],
+"temas_calientes": [
+"Optimización de tiempo de renderizado con IA generativa (Krea/Midjourney + Photoshop/Rhino) para entregas inminentes",
+"El colapso y las noches sin dormir durante las semanas de entrega y corrección de TFG/PFC",
+"Mejora estética y corrección de errores en láminas de presentación, axonometrías explotadas y texturas",
+"Proceso técnico y artesanal de corte y ensamble de maquetas físicas (cartón gris y madera balsa)"
+],
+"tendencias_de_edicion": [
+"Subtítulos cinéticos palabra por palabra con destacados de color y cambios de escala",
+"Diseño de audio con micro-efectos de sonido (SFX) y silencios intencionales como puntuación",
+"Respeto estricto de zonas seguras (Safe Zones) para evitar que la interfaz tape diagramas o textos",
+"Cortes rápidos y ritmo acelerado eliminando pausas y silencios muertos"
+],
+"que_penaliza_el_algoritmo": [
+"Marcas de agua y archivos re-subidos con metadatos de otras redes sociales",
+"Intros lentas, saludos o perder los primeros 2 segundos en presentaciones",
+"Audios en tendencia forzados que compiten o solapan la voz educativa",
+"Contenido pasivo que no fomente métricas clave como guardados y compartidos"
+],
+"ejemplos": [
+{
+"que": "Workflow rápido de render con IA generativa",
+"por_que": "Alivia el dolor crítico de falta de tiempo antes de la entrega del TFG/PFC y maximiza los guardados para consulta posterior."
+},
+{
+"que": "POV del caos de la mesa de trabajo en semana de entrega",
+"por_que": "Genera catarsis colectiva, dispara los comentarios y la acción de compartir etiquetando a compañeros de estudio."
+},
+{
+"que": "Micro-truco para axonometría explotada en Illustrator",
+"por_que": "Da una solución gráfica concreta y de aplicación inmediata para mejorar la nota de láminas en Proyectos."
+},
+{
+"que": "ASMR de corte y ensamblado de maqueta de cartón gris",
+"por_que": "Produce un efecto hipnótico que retiene al espectador hasta el final, aumentando el tiempo medio de visualización."
+}
+],
+"ideas_de_reel": [
+"Grabación rápida de pantalla: de boceto a mano a sección renderizada en 2 minutos usando Krea y Photoshop para salvar la entrega de Proyectos.",
+"POV cámara en mano mostrando planos desparramados, pegamento y café a las 5 AM con texto: 'Semana previa a la entrega de TFG...'",
+"Micro-tutorial de 25 segundos resolviendo el texturizado de una axonométrica en Illustrator para subir la nota de la lámina.",
+"Clip ASMR macro sin voz: corte limpio de balsa con cúter y encaje perfecto de una estructura para la entrega de taller."
+],
+"fecha": "2026-10-29",
+"fuentes": [
+{
+"titulo": "vortexxcel.com",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHX3ygRgqy8ulyT1VOlskfXW90-gKzh5Mzc489zUDVdMrQelcCx7LPhQihOOmyhwjxnVFTA746HJqvp9-gTsQv5olIVQMrR-Ket6IV0ifK5hxmfVQdqChEYZE5aTi7DXAC0Cm5e3qcq"
+},
+{
+"titulo": "flexworkstudios.com",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKRJ0aKNXBrK_pjENfiy7_Mtfa2jYCxGbYyGTaop7cvyeYUvuZrdLF_in9nSnWDOxr2Z0Duw-Fu94B4KHo9GLxHYTv6VWgPPV686ggZ_9m3vUrQZsccynsUkhl0Ik5jzPm-WNpAXvi-BYL"
+},
+{
+"titulo": "shortvids.co",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrQJ6omwlnRx71ZM_gf2OsPhOOlpEPz1Vnh5ne0fRiE417JDW67pUrlptwb5V2oJe4YOPNJuaGfAexjoBngn21bZcfwzZde1Vo98bkOUL1DbOWvx-uS7mL7l9_gtK5t-udQAA="
+},
+{
+"titulo": "usefastlane.ai",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE57QJRN4GU5M1s9ER2auIw2FJcggjZ8PaeTV1rFHWtG4CHPhJJsLYt58FZKgcl3C85afN_m-QQSlqVm--O556lhm2iCWSC8juyLUXH955RGsLX0cvNUhPs-8ngqrLiC3xeRmb9X-dCGCknqYxBr5ZNn-yF"
+},
+{
+"titulo": "reddit.com",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMBVVYGRaYyz6SrbfLWytfb-2chl0YByFhcxPdf6-oTTudgyTwEj68T8ajAjuBHyJqhPyvy9xFDG15SXQal5Jf0lrhjA1KD4QdiFbx1wrzDfkOe44F04AJZUo7jcqXrK7wnTV-dLnGEueq7du6OTDs2rdOAJNtxJc7rN5754GIUeIqrINNyQlDiHo0Hn9BPWCX4qO8J2Jvy3aHNsM="
+},
+{
+"titulo": "youtu.be",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5ZEReVIB_ezM0r9xxd72tudNWaeBIcd9eg4t0tjDkucL3_wXhm5SD4EJzGxP83wCzwf_IDi8pibVy33Sj10W4jKngHn_ylUH0yosZRN6r9FP79VvqK4V2r6QfN4m8c5oNNQPKjgU="
+},
+{
+"titulo": "postgun.ai",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEm0EEZjNEu7ePE1ZwDNuBGrIsNH47enl8Y8kfgyhp9ZCqrRyCToae005Jv-lsonn7gBsnC-sXvdC__AvFVvG6332_REK2V9HgLk1wCWrtbGuilE3dFaurG7Nif55PsuL2geVR254nMOMsgDvyN_4Hp8vNK_8vUfHhPYDHC1sfAthy8orYTBdrDmAP"
+},
+{
+"titulo": "blitzcutai.com",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyUQC1R0nFXjCAysnKOqYvbmkNOkRk6ZJOapNjlr_GwH_M5gjqQb1Kxdq5-vFfGim4K73KFCPM79rWyQn5YFO3Wd5lMi2prq10ew5XDmpVNbTjUwrHNK1-BLyQLR3NJClbuGiyXYLRjw=="
+},
+{
+"titulo": "jetfuel.agency",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMkang_s35IrV1cxGIzszMqfl5BrEBtxCN8zlHcxgl4cIJ48npk2q_qNwR1veeLM7omLk4qOIpC3r_jaHbv9hgnEREHp4VQx2BfTvurcUFAHtPg1BXd7XyDTO5WFOLhtrkUXipi7EIgtWAqDa5Ko82tkqKS9Gvv9gCFhul44SaE-3_"
+},
+{
+"titulo": "gpt.social",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEj4bMFxohHAc1hUjQ8xOzSU8lYHqcH-1L1PpLPgxL23KrQo0NEYkWtuhIifYhGaXpGS8nL5ThIZrgcJvD_ynFhoHZH6FZrJ04b2OejGRzHNVhEyBkzkVM63aZtXeLwGEzaDWpKgtO5mTsB5hxa"
+}
+],
+"verificado": true,
+"modelo_busqueda": "gemini-3.5-flash"
+}

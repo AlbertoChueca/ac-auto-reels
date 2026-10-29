@@ -1,0 +1,45 @@
+{
+"ganchos_que_funcionan": [
+"Pre-hook directo al dolor: 'Deja de perder 8 horas renderizando para Proyectos: haz esto en 2 minutos'",
+"Catarsis / Relatable en primer plano: 'Día 3 sin dormir antes de presentar el PFC y mi entrega se ve así...'",
+"Error de jurado: 'El fallo gráfico que hace que el tribunal suspenda tu lámina de TFG'",
+"Visual instantáneo: Corte perfecto de maqueta o render terminado en los primeros 1.5 segundos",
+"Falsa creencia: 'No necesitas saber modelar en 3ds Max para tener la mejor axonometría de la clase'"
+],
+"patrones": [
+"Estructura 0-2s dolor visual, 3-20s flujo ágil en pantalla acelerada, 21-25s resultado + CTA a guardar",
+"Edición Raw-Premium: estética de taller universitario combinada con micro-cortes cada 2-3 segundos",
+"Subtítulos dinámicos palabra por palabra centrados en la safe zone con palabras clave en amarillo o verde",
+"Finales en bucle (looping) conectando la frase final con el hook inicial",
+"CTA sutil de conversión (20 % del contenido): 'Si te atascas con el proyecto o memoria, link en bio para auditoría gratuita de tu TFM'"
+],
+"evitar": [
+"Intros lentas con saludos genéricos ('Hola a todos, hoy os traigo...')",
+"Explicaciones teóricas densas sin apoyo gráfico en pantalla",
+"Música alta que tape la voz o audios saturados de taller sin limpieza previa",
+"Formatos puramente estáticos que no aprovechen el movimiento o el antes/después",
+"Ocultar la solución al final sin micro-recompensas visuales intermedias"
+],
+"tono_voz": "Colega senior de taller: empático con la falta de sueño y la presión de entregas, ultra directo, técnico pero práctico y sin pedantería académica.",
+"duracion_objetivo_s": 25,
+"pesos": {
+"tips_tfm": 1,
+"tips_proyectos": 1,
+"referentes": 1,
+"ia": 1,
+"test": 1,
+"vf": 1
+},
+"hashtags": [
+"#arquitectura",
+"#estudiantedearquitectura",
+"#pfc",
+"#tfgarquitectura",
+"#tfmarquitectura",
+"#entregadeproyectos",
+"#arquitecturaspain",
+"#renderarquitectura"
+],
+"fecha": "2026-10-29",
+"datos": {}
+}

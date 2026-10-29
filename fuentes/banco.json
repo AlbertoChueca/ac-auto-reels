@@ -1,1388 +1,1388 @@
 {
- "_info": "Banco de AC. Cada pieza de lista: hook + puntos (titulo en pantalla, dato = base de la voz, idea = imagen). Referentes: ref = obra · autor (lugar, año), verificados. Test y V/F: la correcta va primera (se baraja al montar).",
- "tips_tfm": [
-  {
-   "id": "tfm_d55740e6",
-   "hook": "5 cosas que el tribunal mira primero en tu TFM",
-   "puntos": [
-    {
-     "titulo": "Una idea en una frase",
-     "dato": "Si no puedes contar tu proyecto en una frase, el tribunal tampoco lo va a entender.",
-     "idea": "estudiante de espaldas presentando un panel de arquitectura ante una mesa de profesores, sala de escuela luminosa"
-    },
-    {
-     "titulo": "Planos coherentes",
-     "dato": "Planta, sección y alzado tienen que contar el mismo edificio: el tribunal busca las incoherencias.",
-     "idea": "planta y sección de un mismo edificio impresas en gran formato sobre una mesa, vista cenital, sin texto legible"
-    },
-    {
-     "titulo": "Construcción resuelta",
-     "dato": "Los detalles constructivos demuestran que tu proyecto se puede construir de verdad.",
-     "idea": "sección constructiva de fachada y forjado dibujada en lámina técnica, sin texto ni números"
-    },
-    {
-     "titulo": "Estructura con sentido",
-     "dato": "Pilares que bajan hasta la cimentación y luces razonables: lo revisan en segundos.",
-     "idea": "maqueta de estructura de madera con pilares y forjados sobre una mesa de taller"
-    },
-    {
-     "titulo": "Un panel que se lea de lejos",
-     "dato": "Una imagen potente y una jerarquía clara: el panel se juzga antes de que hables.",
-     "idea": "paneles de arquitectura colgados en la pared de una sala de exposiciones de escuela, sin texto legible"
-    }
-   ]
-  },
-  {
-   "id": "tfm_219ea7ce",
-   "hook": "Cómo organizar tu TFM para no ir a contrarreloj",
-   "puntos": [
-    {
-     "titulo": "Cierra lugar y programa pronto",
-     "dato": "Cuanto antes cierres solar y programa, antes empieza el proyecto de verdad.",
-     "idea": "vista aérea de un solar urbano vacío entre edificios, luz de mañana"
-    },
-    {
-     "titulo": "Ponte entregas internas",
-     "dato": "Fíjate fechas propias cada dos o tres semanas, no solo las de la escuela.",
-     "idea": "calendario de pared en un estudio con notas adhesivas de colores junto a planos, sin texto legible"
-    },
-    {
-     "titulo": "Planos base cuanto antes",
-     "dato": "Con plantas y secciones base ya puedes avanzar construcción, estructura e instalaciones a la vez.",
-     "idea": "planta arquitectónica en CAD sobre una pantalla de ordenador en un escritorio ordenado, sin texto legible"
-    },
-    {
-     "titulo": "Técnicas en paralelo",
-     "dato": "Si dejas construcción e instalaciones para el final, el proyecto cambia cuando ya no hay tiempo.",
-     "idea": "esquema de instalaciones de colores sobre una planta en una lámina técnica, sin texto"
-    },
-    {
-     "titulo": "El último mes, para paneles",
-     "dato": "Maquetar, renderizar e imprimir siempre lleva más de lo que crees.",
-     "idea": "impresora de gran formato imprimiendo una lámina con un render de arquitectura"
-    }
-   ]
-  },
-  {
-   "id": "tfm_631b7b31",
-   "hook": "5 errores que te pueden costar el TFM",
-   "puntos": [
-    {
-     "titulo": "Cambiar de idea tarde",
-     "dato": "Cada cambio de concepto a mitad te obliga a rehacer planos, estructura e instalaciones.",
-     "idea": "mesa con varias maquetas de cartón descartadas y bocetos tachados, luz de flexo"
-    },
-    {
-     "titulo": "Instalaciones al final",
-     "dato": "Patinillos, cuartos técnicos y recorridos condicionan la planta: hay que pensarlos desde el principio.",
-     "idea": "cuarto técnico de un edificio con tuberías y conductos ordenados, sin personas"
-    },
-    {
-     "titulo": "Detalles sin escala",
-     "dato": "Un detalle constructivo se dibuja a 1:20, 1:10 o 1:5: sin escala no se lee.",
-     "idea": "detalle constructivo de cubierta dibujado a mano sobre papel vegetal, sin texto ni números"
-    },
-    {
-     "titulo": "Una memoria que no explica",
-     "dato": "La memoria tiene que justificar decisiones, no describir los planos.",
-     "idea": "documento encuadernado de arquitectura abierto sobre una mesa con gafas y lápiz, sin texto legible"
-    },
-    {
-     "titulo": "No ensayar la defensa",
-     "dato": "Cronométrate: lo que no cabe en el tiempo de la defensa no lo va a ver nadie.",
-     "idea": "estudiante de espaldas ensayando frente a paneles en una sala vacía con un reloj en la pared"
-    }
-   ]
-  },
-  {
-   "id": "tfm_6f61271c",
-   "hook": "Cómo preparar la defensa de tu TFM",
-   "puntos": [
-    {
-     "titulo": "Empieza por la idea",
-     "dato": "Los primeros treinta segundos tienen que dejar clarísima tu idea de proyecto.",
-     "idea": "sala de defensa de escuela de arquitectura con paneles y una mesa de tribunal vacía"
-    },
-    {
-     "titulo": "Cuenta una historia",
-     "dato": "Lugar, problema, idea y respuesta: el tribunal sigue mejor un relato que una lista de planos.",
-     "idea": "secuencia de láminas de arquitectura colgadas en fila en una pared blanca, sin texto legible"
-    },
-    {
-     "titulo": "Ensaya con reloj",
-     "dato": "Ensaya en voz alta con el tiempo real que te da tu escuela.",
-     "idea": "cronómetro sobre una mesa con planos de arquitectura enrollados"
-    },
-    {
-     "titulo": "Prepara las preguntas difíciles",
-     "dato": "Estructura, construcción y normativa: piensa qué te van a preguntar y lleva la respuesta.",
-     "idea": "maqueta en sección de un edificio que muestra estructura y plantas, luz lateral"
-    },
-    {
-     "titulo": "Lleva la maqueta a mano",
-     "dato": "Una maqueta o un modelo que se pueda girar explica en segundos lo que un plano no.",
-     "idea": "manos sujetando una maqueta blanca de arquitectura frente a una ventana"
-    }
-   ]
-  },
-  {
-   "id": "tfm_a5f62c2c",
-   "hook": "Checklist antes de entregar tu TFM",
-   "puntos": [
-    {
-     "titulo": "Planos coherentes entre sí",
-     "dato": "Revisa que plantas, secciones y alzados coinciden en huecos, alturas y estructura.",
-     "idea": "planos de arquitectura superpuestos sobre una mesa de luz, sin texto legible"
-    },
-    {
-     "titulo": "Escala y norte en todo",
-     "dato": "Cada plano con su escala gráfica y su norte: es lo primero que se echa en falta.",
-     "idea": "plano de emplazamiento minimalista con flecha de norte dibujada, sin letras"
-    },
-    {
-     "titulo": "Detalles completos",
-     "dato": "De la cimentación a la cubierta: que no falte ningún encuentro importante.",
-     "idea": "detalle constructivo de encuentro de forjado con fachada, dibujo técnico sin texto"
-    },
-    {
-     "titulo": "Esquemas de instalaciones",
-     "dato": "Fontanería, saneamiento, electricidad y climatización, con recorridos claros.",
-     "idea": "esquema de instalaciones con líneas de colores sobre una planta, sin texto"
-    },
-    {
-     "titulo": "Impresión de prueba",
-     "dato": "Los colores y los grosores cambian al imprimir: haz siempre una prueba antes.",
-     "idea": "láminas recién impresas sobre una mesa de corte con una regla metálica"
-    }
-   ]
-  },
-  {
-   "id": "tfm_2e439762",
-   "hook": "Cómo elegir el tema de tu TFM",
-   "puntos": [
-    {
-     "titulo": "Un lugar que puedas visitar",
-     "dato": "Visitar el solar te da fotos, medidas y, sobre todo, argumentos.",
-     "idea": "solar con vistas a una ciudad española al atardecer, sin personas"
-    },
-    {
-     "titulo": "Un problema real",
-     "dato": "Un TFM que resuelve un problema real del lugar se defiende casi solo.",
-     "idea": "plaza urbana degradada con edificios antiguos alrededor, luz de tarde"
-    },
-    {
-     "titulo": "Un programa que domines",
-     "dato": "Elige un uso del que puedas hablar con criterio delante del tribunal.",
-     "idea": "interior luminoso de un equipamiento público vacío con grandes ventanales"
-    },
-    {
-     "titulo": "Una escala abarcable",
-     "dato": "Mejor un proyecto mediano bien resuelto que uno enorme a medias.",
-     "idea": "maqueta de un edificio mediano sobre una base de madera con topografía"
-    },
-    {
-     "titulo": "Que te motive",
-     "dato": "Vas a convivir con él muchos meses: que te apetezca de verdad.",
-     "idea": "escritorio de estudiante de arquitectura con bocetos, café y luz cálida de tarde"
-    }
-   ]
-  },
-  {
-   "id": "tfm_4f06c644",
-   "hook": "5 láminas que no pueden faltar en tu TFM",
-   "puntos": [
-    {
-     "titulo": "Situación y emplazamiento",
-     "dato": "Cómo se relaciona tu edificio con la ciudad o con el paisaje.",
-     "idea": "vista aérea de un barrio con un edificio nuevo integrado, luz suave"
-    },
-    {
-     "titulo": "Plantas con mobiliario",
-     "dato": "Con mobiliario y cotas generales para que se entienda el uso.",
-     "idea": "planta de arquitectura con mobiliario dibujado, blanco y negro, sin texto"
-    },
-    {
-     "titulo": "Secciones que expliquen",
-     "dato": "En sección se entienden la luz, las alturas y la estructura.",
-     "idea": "sección arquitectónica con personas y rayos de luz dibujados, sin texto"
-    },
-    {
-     "titulo": "Sección constructiva",
-     "dato": "Demuestra que sabes construirlo, de la cimentación a la cubierta.",
-     "idea": "sección constructiva completa de un edificio en lámina técnica, sin texto ni números"
-    },
-    {
-     "titulo": "Estructura e instalaciones",
-     "dato": "Esquemas claros de estructura y de cada instalación.",
-     "idea": "modelo 3D de estructura de pilares y vigas con conductos de colores, fondo blanco"
-    }
-   ]
-  },
-  {
-   "id": "tfm_70085998",
-   "hook": "Cómo sacarle partido a tus correcciones de TFM",
-   "puntos": [
-    {
-     "titulo": "Lleva dudas concretas",
-     "dato": "Una pregunta concreta se resuelve en minutos; un no sé por dónde seguir, no.",
-     "idea": "mesa de corrección con planos, lápices y una maqueta, dos sillas vacías"
-    },
-    {
-     "titulo": "Lleva opciones dibujadas",
-     "dato": "Dos o tres alternativas sobre la mesa aceleran muchísimo la decisión.",
-     "idea": "tres maquetas de cartón distintas del mismo edificio en fila"
-    },
-    {
-     "titulo": "Apunta cada corrección",
-     "dato": "Escríbelo todo: en la siguiente corrección lo vas a necesitar.",
-     "idea": "cuaderno abierto con croquis a lápiz junto a un plano, sin texto legible"
-    },
-    {
-     "titulo": "Enseña avances siempre",
-     "dato": "Llegar con algo nuevo a cada corrección es lo que mantiene el ritmo.",
-     "idea": "secuencia de bocetos cada vez más definidos sobre una pared de corcho"
-    },
-    {
-     "titulo": "Pregunta por la entrega final",
-     "dato": "Pregunta pronto qué documentación y qué formato exige tu escuela.",
-     "idea": "carpeta de láminas de gran formato apoyada en una mesa de escuela"
-    }
-   ]
-  }
- ],
- "tips_proyectos": [
-  {
-   "id": "proy_c90a4009",
-   "hook": "5 tips para aprobar la asignatura de Proyectos",
-   "puntos": [
-    {
-     "titulo": "Visita el lugar",
-     "dato": "Fotografía, mide y dibuja el solar: el proyecto empieza ahí.",
-     "idea": "calle de una ciudad española con un solar vacío entre medianeras"
-    },
-    {
-     "titulo": "Referentes desde el día uno",
-     "dato": "Analiza dos o tres proyectos que resuelvan algo parecido a lo tuyo.",
-     "idea": "libros de arquitectura abiertos con fotografías de edificios sobre una mesa, sin texto legible"
-    },
-    {
-     "titulo": "Dibuja mucho a mano",
-     "dato": "Con croquis pruebas diez ideas en lo que tardas en modelar una.",
-     "idea": "manos dibujando un croquis de arquitectura con rotulador sobre papel de croquis"
-    },
-    {
-     "titulo": "Piensa en sección",
-     "dato": "La sección explica la luz, la altura y cómo se vive el espacio.",
-     "idea": "maqueta cortada en sección con luz entrando por un lucernario"
-    },
-    {
-     "titulo": "Algo nuevo en cada corrección",
-     "dato": "Avanzar cada semana es lo que más valora un profesor de Proyectos.",
-     "idea": "taller de escuela de arquitectura con mesas llenas de maquetas y planos"
-    }
-   ]
-  },
-  {
-   "id": "proy_3fc67648",
-   "hook": "Cómo encontrar la idea de tu proyecto",
-   "puntos": [
-    {
-     "titulo": "Escucha al lugar",
-     "dato": "Orientación, vistas, topografía y preexistencias te dan las primeras pistas.",
-     "idea": "ladera con vistas al mar y muros de piedra antiguos, luz de atardecer"
-    },
-    {
-     "titulo": "Elige una palabra",
-     "dato": "Patio, umbral, recorrido o mirador: una palabra guía todas tus decisiones.",
-     "idea": "patio interior de una casa con un árbol y luz cenital"
-    },
-    {
-     "titulo": "Maquetas rápidas",
-     "dato": "Maquetas de cartón en diez minutos: piensa con las manos.",
-     "idea": "maquetas rápidas de cartón gris recién cortadas sobre una base de corte"
-    },
-    {
-     "titulo": "Tres alternativas",
-     "dato": "Prueba tres opciones distintas antes de quedarte con una.",
-     "idea": "tres maquetas blancas de volúmenes diferentes sobre la misma base"
-    },
-    {
-     "titulo": "Cuéntala en una frase",
-     "dato": "Si tu idea cabe en una frase, tu proyecto tiene dirección.",
-     "idea": "boceto a lápiz de un edificio en un cuaderno con trazos sueltos"
-    }
-   ]
-  },
-  {
-   "id": "proy_bb28dc0e",
-   "hook": "Cómo dibujar una sección que impresione",
-   "puntos": [
-    {
-     "titulo": "Corta por lo importante",
-     "dato": "La sección tiene que pasar por la doble altura, el patio o la escalera.",
-     "idea": "sección arquitectónica de un edificio con doble altura y escalera, dibujo sin texto"
-    },
-    {
-     "titulo": "Grosores jerarquizados",
-     "dato": "Lo cortado va grueso y lo visto, fino: así se lee al instante.",
-     "idea": "sección en blanco y negro con muros cortados gruesos y líneas finas, sin texto"
-    },
-    {
-     "titulo": "Personas y mobiliario",
-     "dato": "Dan escala y cuentan cómo se usa cada espacio.",
-     "idea": "sección arquitectónica con siluetas de personas y mobiliario, sin texto"
-    },
-    {
-     "titulo": "Dibuja el terreno",
-     "dato": "Incluye el terreno y lo que hay alrededor: el edificio no flota.",
-     "idea": "sección de un edificio apoyado en una ladera con el terreno dibujado, sin texto"
-    },
-    {
-     "titulo": "Dibuja la luz",
-     "dato": "Sombras y rayos de sol explican tu estrategia de luz.",
-     "idea": "sección arquitectónica con rayos de sol y sombras suaves, estilo de lámina, sin texto"
-    }
-   ]
-  },
-  {
-   "id": "proy_b96783cb",
-   "hook": "Cómo hacer un análisis del lugar que sirva",
-   "puntos": [
-    {
-     "titulo": "Sol y orientación",
-     "dato": "Dibuja el recorrido del sol: decide dónde van los huecos y los patios.",
-     "idea": "solar visto desde arriba con sombras largas de los edificios al atardecer"
-    },
-    {
-     "titulo": "Llenos y vacíos",
-     "dato": "Un plano de llenos y vacíos te enseña la estructura del barrio.",
-     "idea": "vista aérea en blanco y negro de un tejido urbano denso, sin texto"
-    },
-    {
-     "titulo": "Recorridos y accesos",
-     "dato": "Por dónde llega la gente define la entrada de tu proyecto.",
-     "idea": "calle peatonal con personas desenfocadas de espaldas caminando hacia una plaza"
-    },
-    {
-     "titulo": "Vistas",
-     "dato": "Lo que se ve desde el solar es un argumento de proyecto.",
-     "idea": "vista desde un solar elevado hacia el casco histórico de una ciudad"
-    },
-    {
-     "titulo": "Alturas y preexistencias",
-     "dato": "Las alturas vecinas y lo que ya existe marcan tu volumen.",
-     "idea": "medianeras de edificios de distintas alturas alrededor de un solar"
-    }
-   ]
-  },
-  {
-   "id": "proy_8a99a602",
-   "hook": "Maquetas para pensar tu proyecto",
-   "puntos": [
-    {
-     "titulo": "Maqueta de trabajo",
-     "dato": "Cartón gris, cúter y cola: rápida y sin miedo a romperla.",
-     "idea": "maqueta de trabajo de cartón gris a medio montar con un cúter al lado"
-    },
-    {
-     "titulo": "Maqueta de lugar",
-     "dato": "Primero el lugar: así cada idea se prueba en su sitio.",
-     "idea": "maqueta de topografía en capas de cartón con edificios alrededor"
-    },
-    {
-     "titulo": "Volumen a 1:500",
-     "dato": "Con volúmenes sencillos decides altura y ocupación en minutos.",
-     "idea": "maqueta blanca de volúmenes a escala 1:500 sobre base de madera"
-    },
-    {
-     "titulo": "Maqueta de luz",
-     "dato": "Una caja con huecos y una linterna: así pruebas la luz interior.",
-     "idea": "interior de una maqueta blanca con luz entrando por una ranura"
-    },
-    {
-     "titulo": "Foto a ras de suelo",
-     "dato": "Fotografíala con el móvil a la altura de los ojos de una figura.",
-     "idea": "foto a ras de una maqueta blanca con pequeñas figuras humanas, luz lateral"
-    }
-   ]
-  },
-  {
-   "id": "proy_57683f28",
-   "hook": "5 errores típicos en la asignatura de Proyectos",
-   "puntos": [
-    {
-     "titulo": "Casarte con la primera idea",
-     "dato": "La primera idea casi nunca es la mejor: compárala con otras.",
-     "idea": "boceto inicial a lápiz junto a una maqueta final distinta"
-    },
-    {
-     "titulo": "Dibujar solo en planta",
-     "dato": "La planta no explica la luz ni la altura: trabaja también en sección.",
-     "idea": "planta y sección del mismo edificio una al lado de la otra, dibujo sin texto"
-    },
-    {
-     "titulo": "Llegar sin nada nuevo",
-     "dato": "Sin avances, la corrección no te sirve ni a ti ni al profesor.",
-     "idea": "mesa de taller vacía con un solo plano antiguo"
-    },
-    {
-     "titulo": "Olvidar la estructura",
-     "dato": "Si no hay estructura pensada, el proyecto no se sostiene, literalmente.",
-     "idea": "maqueta de estructura de madera con pilares y vigas, luz de estudio"
-    },
-    {
-     "titulo": "Paneles sin jerarquía",
-     "dato": "Si todo tiene el mismo tamaño, no se ve nada.",
-     "idea": "pared con paneles de arquitectura desordenados frente a otro panel limpio, sin texto legible"
-    }
-   ]
-  },
-  {
-   "id": "proy_a349bf04",
-   "hook": "Cómo hacer un panel de Proyectos que se lea de lejos",
-   "puntos": [
-    {
-     "titulo": "Una imagen protagonista",
-     "dato": "Una imagen grande que cuente tu idea a tres metros de distancia.",
-     "idea": "panel de arquitectura con un gran render protagonista colgado en una pared, sin texto legible"
-    },
-    {
-     "titulo": "Retícula clara",
-     "dato": "Una retícula ordena planos, imágenes y textos sin esfuerzo.",
-     "idea": "lámina de arquitectura limpia con planos alineados en retícula, sin texto legible"
-    },
-    {
-     "titulo": "Dos o tres colores",
-     "dato": "Un color de acento para lo importante y el resto en grises.",
-     "idea": "diagrama axonométrico blanco con un solo color de acento amarillo, sin texto"
-    },
-    {
-     "titulo": "Diagramas sencillos",
-     "dato": "Un buen diagrama explica tu idea mejor que un párrafo.",
-     "idea": "diagrama axonométrico de volúmenes blancos con flechas de recorrido, sin letras"
-    },
-    {
-     "titulo": "Texto mínimo",
-     "dato": "Títulos cortos y poco texto: el panel se mira, no se lee.",
-     "idea": "panel minimalista de arquitectura con mucho espacio en blanco, sin texto legible"
-    }
-   ]
-  }
- ],
- "ia": [
-  {
-   "id": "ia_eddeb2c9",
-   "hook": "5 formas de usar la IA en tu proyecto de arquitectura",
-   "puntos": [
-    {
-     "titulo": "Moodboards de atmósfera",
-     "dato": "Genera imágenes de ambiente para decidir materiales y luz antes de modelar.",
-     "idea": "moodboard de materiales de arquitectura: madera, hormigón, piedra y vidrio sobre una mesa"
-    },
-    {
-     "titulo": "Del croquis a la imagen",
-     "dato": "Hay herramientas que convierten tu croquis en una vista en minutos, respetando tu dibujo.",
-     "idea": "escritorio con un croquis a mano de un edificio y al lado una pantalla con la misma vista renderizada"
-    },
-    {
-     "titulo": "Variantes en segundos",
-     "dato": "Pide diez variaciones de fachada y quédate solo con lo que aporta a tu idea.",
-     "idea": "cuadrícula de nueve fachadas contemporáneas distintas del mismo edificio, sin texto"
-    },
-    {
-     "titulo": "Ordenar la memoria",
-     "dato": "Un asistente te ayuda a estructurar la memoria; las decisiones y los datos son tuyos.",
-     "idea": "portátil abierto con un documento sobre un escritorio con planos, sin texto legible"
-    },
-    {
-     "titulo": "Simular el tribunal",
-     "dato": "Pídele que te haga de tribunal y te pregunte por estructura y construcción.",
-     "idea": "sala de defensa de arquitectura vacía con paneles colgados y un portátil sobre la mesa"
-    }
-   ]
-  },
-  {
-   "id": "ia_20a129c6",
-   "hook": "IA para tus renders: lo que sí y lo que no",
-   "puntos": [
-    {
-     "titulo": "Sí: mejorar la atmósfera",
-     "dato": "Cielo, luz y ambiente: la IA da vida a un render plano en minutos.",
-     "idea": "render de un edificio contemporáneo con cielo de atardecer espectacular"
-    },
-    {
-     "titulo": "Sí: vegetación y personas",
-     "dato": "Añade árboles y personas para dar escala y vida a la imagen.",
-     "idea": "plaza delante de un edificio público con árboles y personas desenfocadas de espaldas"
-    },
-    {
-     "titulo": "Sí: más resolución",
-     "dato": "Los escaladores con IA mejoran la resolución para imprimir en grande.",
-     "idea": "detalle muy nítido de una fachada de ladrillo y madera"
-    },
-    {
-     "titulo": "No: cambiar tu edificio",
-     "dato": "Si la IA inventa geometría, el render ya no es tu proyecto.",
-     "idea": "fachada contemporánea fotografiada de frente con líneas limpias y coherentes"
-    },
-    {
-     "titulo": "Revisa las normas",
-     "dato": "Algunas escuelas piden declarar el uso de IA: compruébalo antes de entregar.",
-     "idea": "mesa de escuela de arquitectura con una carpeta de entrega y un portátil, sin texto legible"
-    }
-   ]
-  },
-  {
-   "id": "ia_8e2e40de",
-   "hook": "Prompts para que la IA respete tu proyecto",
-   "puntos": [
-    {
-     "titulo": "Di la hora y la luz",
-     "dato": "Atardecer con luz cálida rasante cambia por completo la imagen.",
-     "idea": "fachada de hormigón con luz cálida rasante del atardecer"
-    },
-    {
-     "titulo": "Nombra los materiales",
-     "dato": "Hormigón visto, madera de roble, ladrillo claro: cuanto más concreto, mejor.",
-     "idea": "detalle de fachada con hormigón visto, madera de roble y ladrillo claro"
-    },
-    {
-     "titulo": "Fija la cámara",
-     "dato": "A la altura de los ojos y con un gran angular moderado, como un fotógrafo.",
-     "idea": "calle con un edificio de viviendas fotografiado a altura humana, verticales rectas"
-    },
-    {
-     "titulo": "Describe el entorno",
-     "dato": "Calle, árboles, montañas o mar: el contexto vende el proyecto.",
-     "idea": "edificio contemporáneo junto al mar con pinos y una calle tranquila"
-    },
-    {
-     "titulo": "Usa tu imagen de base",
-     "dato": "Sube tu modelo o tu croquis como referencia para que respete la geometría.",
-     "idea": "pantalla con un modelo 3D blanco de un edificio junto a un croquis en papel"
-    }
-   ]
-  },
-  {
-   "id": "ia_6a1f63d3",
-   "hook": "La IA no aprueba tu TFM por ti: úsala así",
-   "puntos": [
-    {
-     "titulo": "Para iterar, no para decidir",
-     "dato": "Úsala para ver opciones rápido; la decisión de proyecto es tuya.",
-     "idea": "varias maquetas blancas de opciones distintas alineadas sobre una mesa"
-    },
-    {
-     "titulo": "Para lo repetitivo",
-     "dato": "Renombrar, ordenar, resumir: deja que la IA te ahorre esas horas.",
-     "idea": "escritorio ordenado con portátil, planos y una taza de café, luz de mañana"
-    },
-    {
-     "titulo": "Para revisar textos",
-     "dato": "Pásale tu memoria para detectar repeticiones y frases confusas.",
-     "idea": "documento impreso de arquitectura con anotaciones a lápiz en el margen, sin texto legible"
-    },
-    {
-     "titulo": "Para preparar preguntas",
-     "dato": "Que te pregunte lo que preguntaría un tribunal exigente.",
-     "idea": "sala de tribunal vacía con una mesa larga y paneles al fondo"
-    },
-    {
-     "titulo": "Tu criterio es lo que cuenta",
-     "dato": "Lo que se evalúa es cómo piensas el proyecto: eso no se delega en una máquina.",
-     "idea": "estudiante de espaldas mirando un panel de arquitectura en una pared"
-    }
-   ]
-  }
- ],
- "referentes": [
-  {
-   "id": "refe_d78c01a3",
-   "hook": "5 referentes de vivienda colectiva para tu proyecto",
-   "puntos": [
-    {
-     "titulo": "Más espacio por el mismo precio",
-     "ref": "Cité Manifeste · Lacaton & Vassal (Mulhouse, 2005)",
-     "dato": "Con estructura sencilla e invernaderos de bajo coste dan mucha más superficie por el mismo presupuesto.",
-     "idea": "viviendas colectivas contemporáneas con fachada de invernadero de policarbonato translúcido"
-    },
-    {
-     "titulo": "Vivienda que crece",
-     "ref": "Quinta Monroy · Elemental (Iquique, 2004)",
-     "dato": "Se construye la mitad de cada casa y las familias completan la otra mitad con el tiempo.",
-     "idea": "viviendas en hilera con huecos entre ellas preparados para ampliarse, cielo azul"
-    },
-    {
-     "titulo": "Una plaza en el aire",
-     "ref": "Edificio Mirador · MVRDV y Blanca Lleó (Madrid, 2005)",
-     "dato": "Un gran hueco en altura convierte el bloque en mirador y en espacio común para los vecinos.",
-     "idea": "bloque de viviendas alto con un gran hueco en la parte superior que funciona como plaza"
-    },
-    {
-     "titulo": "Una calle dentro del edificio",
-     "ref": "Unité d'Habitation · Le Corbusier (Marsella, 1952)",
-     "dato": "Una calle interior con comercios a media altura y viviendas dúplex que atraviesan el bloque.",
-     "idea": "bloque de viviendas de hormigón sobre pilotis con balcones de colores, luz mediterránea"
-    },
-    {
-     "titulo": "Terrazas para todos",
-     "ref": "Habitat 67 · Moshe Safdie (Montreal, 1967)",
-     "dato": "Módulos prefabricados apilados para que cada vivienda tenga su propia terraza.",
-     "idea": "conjunto de módulos de hormigón apilados en zigzag con terrazas ajardinadas"
-    }
-   ],
-   "tipo": "referentes"
-  },
-  {
-   "id": "refe_23d80f50",
-   "hook": "5 referentes de luz para tu proyecto",
-   "puntos": [
-    {
-     "titulo": "Una cruz de luz",
-     "ref": "Iglesia de la Luz · Tadao Ando (Ibaraki, 1989)",
-     "dato": "Una cruz recortada en el muro de hormigón tras el altar llena de luz la nave.",
-     "idea": "interior sobrio de hormigón con una ranura de luz recortada en el muro"
-    },
-    {
-     "titulo": "Luz cenital que ordena",
-     "ref": "Biblioteca de Exeter · Louis Kahn (1971)",
-     "dato": "Un atrio central con luz cenital y grandes círculos de hormigón organiza toda la biblioteca.",
-     "idea": "atrio interior de hormigón con grandes aberturas circulares y luz cenital"
-    },
-    {
-     "titulo": "Luz filtrada",
-     "ref": "Kolumba · Peter Zumthor (Colonia, 2007)",
-     "dato": "Una celosía de ladrillo filtra la luz sobre las ruinas de una iglesia antigua.",
-     "idea": "sala interior con muro de celosía de ladrillo que filtra puntos de luz"
-    },
-    {
-     "titulo": "Masa y rendijas",
-     "ref": "Termas de Vals · Peter Zumthor (Suiza, 1996)",
-     "dato": "Bloques de piedra y rendijas de luz entre las losas de la cubierta.",
-     "idea": "interior de piedra oscura con agua y finas rendijas de luz en el techo"
-    },
-    {
-     "titulo": "Luz por la estructura",
-     "ref": "Mediateca de Sendai · Toyo Ito (2001)",
-     "dato": "Tubos estructurales que atraviesan las plantas y dejan pasar la luz.",
-     "idea": "interior diáfano con columnas tubulares de acero en celosía y forjados finos"
-    }
-   ],
-   "tipo": "referentes"
-  },
-  {
-   "id": "refe_d988b444",
-   "hook": "5 obras modernas que tienes que conocer para Proyectos",
-   "puntos": [
-    {
-     "titulo": "El espacio que fluye",
-     "ref": "Pabellón de Barcelona · Mies van der Rohe (1929)",
-     "dato": "Muros sueltos bajo una cubierta sobre pilares: el espacio fluye sin habitaciones cerradas.",
-     "idea": "pabellón de planos de piedra y vidrio bajo una losa fina, junto a un estanque"
-    },
-    {
-     "titulo": "Los cinco puntos",
-     "ref": "Villa Savoye · Le Corbusier (Poissy, 1931)",
-     "dato": "Pilotis, planta libre, fachada libre, ventana corrida y cubierta jardín.",
-     "idea": "casa blanca elevada sobre pilotis con ventana corrida, sobre césped"
-    },
-    {
-     "titulo": "La caja de vidrio",
-     "ref": "Casa Farnsworth · Mies van der Rohe (Illinois, 1951)",
-     "dato": "Una sola planta de vidrio elevada sobre el terreno, en mitad del bosque.",
-     "idea": "pabellón de vidrio y acero blanco elevado sobre el terreno en un bosque"
-    },
-    {
-     "titulo": "Volúmenes dispersos",
-     "ref": "Casa Moriyama · Ryue Nishizawa (Tokio, 2005)",
-     "dato": "La casa se rompe en pequeños volúmenes con jardines entre ellos.",
-     "idea": "conjunto de pequeños volúmenes blancos con jardines entre ellos en un barrio denso"
-    },
-    {
-     "titulo": "Un paisaje continuo",
-     "ref": "Rolex Learning Center · SANAA (Lausana, 2010)",
-     "dato": "Una sola planta ondulada con patios: sin muros, el suelo organiza el espacio.",
-     "idea": "edificio de una planta con suelo ondulado y patios circulares acristalados"
-    }
-   ],
-   "tipo": "referentes"
-  },
-  {
-   "id": "refe_ba84825a",
-   "hook": "5 rehabilitaciones de referencia para tu TFM",
-   "puntos": [
-    {
-     "titulo": "El edificio que levita",
-     "ref": "CaixaForum Madrid · Herzog & de Meuron (2008)",
-     "dato": "Retiran la base de una antigua central eléctrica y el edificio parece flotar sobre una plaza.",
-     "idea": "edificio de ladrillo antiguo que parece flotar sobre una plaza pública cubierta"
-    },
-    {
-     "titulo": "La gran sala pública",
-     "ref": "Tate Modern · Herzog & de Meuron (Londres, 2000)",
-     "dato": "La antigua sala de turbinas de una central eléctrica se convierte en un enorme espacio público.",
-     "idea": "enorme nave industrial de ladrillo rehabilitada como sala pública con rampa"
-    },
-    {
-     "titulo": "Una cubierta que dialoga",
-     "ref": "Mercado de Santa Caterina · EMBT (Barcelona, 2005)",
-     "dato": "Una cubierta ondulada de cerámica de colores sobre el mercado histórico.",
-     "idea": "cubierta ondulada de cerámica de colores sobre un mercado antiguo"
-    },
-    {
-     "titulo": "Lo nuevo se distingue",
-     "ref": "Castelvecchio · Carlo Scarpa (Verona)",
-     "dato": "Cada intervención nueva se distingue de lo antiguo con materiales y juntas precisas.",
-     "idea": "sala de museo en un castillo antiguo con piezas nuevas de acero y hormigón"
-    },
-    {
-     "titulo": "Cestería con mangueras",
-     "ref": "Cineteca Matadero · Churtichaga + Quadra-Salcedo (Madrid, 2011)",
-     "dato": "Cestas tejidas con mangueras de riego dan una piel nueva a las naves del antiguo matadero.",
-     "idea": "interior de nave antigua de ladrillo con grandes cestas tejidas iluminadas"
-    }
-   ],
-   "tipo": "referentes"
-  },
-  {
-   "id": "refe_1cd18190",
-   "hook": "5 referentes españoles para tu proyecto",
-   "puntos": [
-    {
-     "titulo": "Muros y arcos",
-     "ref": "Museo Nacional de Arte Romano · Rafael Moneo (Mérida, 1986)",
-     "dato": "Muros paralelos de ladrillo con grandes arcos que evocan la construcción romana.",
-     "idea": "nave de museo con grandes arcos de ladrillo y luz cenital"
-    },
-    {
-     "titulo": "Una casa entre patios",
-     "ref": "Casa Gaspar · Alberto Campo Baeza (Zahora, 1992)",
-     "dato": "Muros blancos encierran patios y la casa vive entre ellos.",
-     "idea": "casa blanca de una planta entre muros altos con patios y limoneros"
-    },
-    {
-     "titulo": "Un camino que desciende",
-     "ref": "Cementerio de Igualada · Enric Miralles y Carme Pinós (1994)",
-     "dato": "Un cementerio excavado en una antigua cantera que se recorre como un camino descendente.",
-     "idea": "camino descendente entre muros de hormigón y piedra en una antigua cantera"
-    },
-    {
-     "titulo": "Terrazas en voladizo",
-     "ref": "Torres Blancas · Sáenz de Oíza (Madrid, 1969)",
-     "dato": "Una torre de hormigón con terrazas curvas en voladizo.",
-     "idea": "torre residencial de hormigón con terrazas curvas en voladizo"
-    },
-    {
-     "titulo": "Aulas entre cerchas",
-     "ref": "Gimnasio Maravillas · Alejandro de la Sota (Madrid, 1962)",
-     "dato": "Las cerchas que salvan la luz del gimnasio alojan las aulas entre ellas.",
-     "idea": "gimnasio con grandes cerchas metálicas y luz lateral entre ellas"
-    }
-   ],
-   "tipo": "referentes"
-  }
- ],
- "documentacion": [
-  {
-   "id": "docu_1c68e0bd",
-   "hook": "Qué documentación podemos preparar contigo para tu TFM",
-   "puntos": [
-    {
-     "titulo": "Planimetría",
-     "dato": "Plantas, secciones y alzados coherentes, listos para tu entrega.",
-     "idea": "planos de arquitectura en gran formato sobre una mesa, blanco y negro, sin texto legible"
-    },
-    {
-     "titulo": "Detalles constructivos",
-     "dato": "Secciones constructivas y detalles a escala 1:20 resueltos de verdad.",
-     "idea": "detalle constructivo de fachada y forjado en lámina técnica, sin texto ni números"
-    },
-    {
-     "titulo": "Instalaciones",
-     "dato": "Esquemas de fontanería, saneamiento, electricidad y climatización.",
-     "idea": "esquema de instalaciones con líneas de colores sobre una planta, sin texto"
-    },
-    {
-     "titulo": "Estructuras con CYPE",
-     "dato": "Cálculo y planos de estructura coherentes con tu proyecto.",
-     "idea": "modelo 3D de estructura de pilares y vigas en pantalla, sin texto legible"
-    },
-    {
-     "titulo": "Infografías",
-     "dato": "Renders y diagramas para que tu panel destaque.",
-     "idea": "render fotorrealista de un edificio cultural contemporáneo al atardecer"
-    }
-   ],
-   "portfolio": [
-    "planimetria",
-    "construccion/construccion_02.jpg",
-    "instalaciones",
-    "estructuras",
-    ""
-   ]
-  },
-  {
-   "id": "docu_78fb472b",
-   "hook": "¿Se te atasca la Construcción del TFM?",
-   "puntos": [
-    {
-     "titulo": "Sección constructiva",
-     "dato": "Te ayudamos a resolver la sección completa, de la cimentación a la cubierta.",
-     "idea": "sección constructiva completa en lámina técnica, sin texto ni números"
-    },
-    {
-     "titulo": "Detalles a 1:20",
-     "dato": "Encuentros de fachada, forjado y cubierta bien resueltos.",
-     "idea": "detalle constructivo de cubierta plana en sección, dibujo técnico sin texto"
-    },
-    {
-     "titulo": "Carpinterías",
-     "dato": "Huecos, dinteles y vierteaguas definidos y coherentes con la fachada.",
-     "idea": "detalle de ventana en sección con carpintería y vierteaguas, dibujo técnico sin texto"
-    },
-    {
-     "titulo": "Materiales justificados",
-     "dato": "Cada capa con su porqué: aislamiento, impermeabilización y acabado.",
-     "idea": "muestras de materiales de construcción en capas sobre una mesa"
-    }
-   ],
-   "portfolio": [
-    "construccion/construccion_01.jpg",
-    "construccion/construccion_02.jpg",
-    "planimetria/planimetria_04.jpg",
-    "construccion/construccion_04.jpg"
-   ]
-  },
-  {
-   "id": "docu_d65b49b3",
-   "hook": "Del croquis al panel: así trabajamos contigo",
-   "puntos": [
-    {
-     "titulo": "Revisamos tu idea",
-     "dato": "Analizamos tu proyecto y lo que pide tu escuela.",
-     "idea": "boceto a mano de un edificio sobre una mesa con planos"
-    },
-    {
-     "titulo": "Planos base",
-     "dato": "Desarrollamos contigo plantas y secciones sobre las que avanzar.",
-     "idea": "planta y sección de arquitectura en pantalla de ordenador, sin texto legible"
-    },
-    {
-     "titulo": "Construcción y estructura",
-     "dato": "Las fases técnicas que más se atascan, resueltas a tiempo.",
-     "idea": "maqueta de estructura de madera junto a un detalle constructivo"
-    },
-    {
-     "titulo": "Infografías y panel",
-     "dato": "Imágenes y paneles para llegar a la defensa con todo listo.",
-     "idea": "render de un edificio contemporáneo colgado como panel en una pared, sin texto legible"
-    }
-   ],
-   "portfolio": [
-    "",
-    "planimetria",
-    "construccion/construccion_03.jpg",
-    ""
-   ]
-  },
-  {
-   "id": "docu_8449f00e",
-   "hook": "Así son unas instalaciones bien resueltas",
-   "puntos": [
-    {
-     "titulo": "Fontanería",
-     "dato": "Agua fría y caliente, llaves y recorridos claros hasta cada aparato.",
-     "idea": "plano de fontanería"
-    },
-    {
-     "titulo": "Saneamiento",
-     "dato": "Bajantes, arquetas y pendientes hasta la conexión con la red.",
-     "idea": "plano de saneamiento"
-    },
-    {
-     "titulo": "Electricidad",
-     "dato": "Mecanismos, puntos de luz y circuitos dibujados sobre la planta.",
-     "idea": "plano de electricidad"
-    },
-    {
-     "titulo": "Climatización",
-     "dato": "Zonas, equipos y recorridos de la instalación en cada planta.",
-     "idea": "plano de climatización"
-    }
-   ],
-   "portfolio": [
-    "instalaciones/instalaciones_01.jpg",
-    "instalaciones/instalaciones_06.jpg",
-    "instalaciones/instalaciones_08.jpg",
-    "instalaciones/instalaciones_03.jpg"
-   ]
-  },
-  {
-   "id": "docu_e1faca00",
-   "hook": "Una estructura resuelta, de la cimentación a la cubierta",
-   "puntos": [
-    {
-     "titulo": "Cimentación",
-     "dato": "Zapatas y encepados acotados, con su armado definido.",
-     "idea": "plano de cimentación"
-    },
-    {
-     "titulo": "Forjados",
-     "dato": "Cada forjado con su tipo, su canto y sus vigas.",
-     "idea": "plano de forjados"
-    },
-    {
-     "titulo": "Detalles de estructura",
-     "dato": "Armados y uniones dibujados para que se puedan construir.",
-     "idea": "detalles de estructura"
-    },
-    {
-     "titulo": "Coherencia con el proyecto",
-     "dato": "La estructura encaja con la planta, no al revés.",
-     "idea": "plano de estructura sobre planta"
-    }
-   ],
-   "portfolio": [
-    "estructuras/estructuras_01.jpg",
-    "estructuras/estructuras_02.jpg",
-    "construccion/construccion_03.jpg",
-    "estructuras/estructuras_03.jpg"
-   ]
-  },
-  {
-   "id": "docu_546a4ca0",
-   "hook": "Detalles constructivos de nivel profesional",
-   "puntos": [
-    {
-     "titulo": "Sección constructiva",
-     "dato": "Cada capa nombrada, de la cimentación a la cubierta.",
-     "idea": "sección constructiva"
-    },
-    {
-     "titulo": "Detalles a 1:20",
-     "dato": "Encuentros de fachada, forjado y cimentación resueltos de verdad.",
-     "idea": "detalles constructivos"
-    },
-    {
-     "titulo": "Uniones",
-     "dato": "Cómo apoya cada pieza: placas, anclajes y morteros.",
-     "idea": "detalle de uniones"
-    },
-    {
-     "titulo": "Carpinterías",
-     "dato": "Puertas y ventanas definidas con medidas y acabados.",
-     "idea": "carpinterías"
-    }
-   ],
-   "portfolio": [
-    "construccion/construccion_01.jpg",
-    "construccion/construccion_02.jpg",
-    "construccion/construccion_04.jpg",
-    "planimetria/planimetria_04.jpg"
-   ]
-  }
- ],
- "auditoria": [
-  {
-   "id": "audi_cd619fc4",
-   "hook": "Así funciona la auditoría gratuita de tu TFM",
-   "puntos": [
-    {
-     "titulo": "Nos cuentas tu TFM",
-     "dato": "Rellenas el formulario de la web con tu proyecto y tu fecha de entrega.",
-     "idea": "portátil abierto sobre un escritorio de arquitecto con planos, sin texto legible"
-    },
-    {
-     "titulo": "Llamada de claridad",
-     "dato": "Vemos dónde estás, qué te falta y qué te pide tu escuela.",
-     "idea": "escritorio con auriculares, cuaderno y planos de arquitectura, luz cálida"
-    },
-    {
-     "titulo": "Un plan por fases",
-     "dato": "Te proponemos un plan claro con presupuesto cerrado por fases.",
-     "idea": "calendario y planos ordenados sobre una mesa de estudio"
-    },
-    {
-     "titulo": "Te acompañamos",
-     "dato": "Trabajamos contigo las fases que más se atascan hasta la entrega.",
-     "idea": "paneles de arquitectura terminados colgados en una pared, sin texto legible"
-    }
-   ]
-  },
-  {
-   "id": "audi_bfd649a5",
-   "hook": "3 señales de que vas justo con tu TFM",
-   "puntos": [
-    {
-     "titulo": "Sin planos base",
-     "dato": "Quedan pocos meses y todavía no tienes plantas y secciones cerradas.",
-     "idea": "mesa con bocetos sueltos y ningún plano definido, luz de noche"
-    },
-    {
-     "titulo": "Técnicas sin empezar",
-     "dato": "Construcción, estructura e instalaciones siguen en blanco.",
-     "idea": "lámina técnica en blanco sobre una mesa de dibujo con escalímetro"
-    },
-    {
-     "titulo": "No sabes cómo defenderlo",
-     "dato": "No tienes claro qué contar al tribunal ni en qué orden.",
-     "idea": "sala de defensa vacía con paneles en blanco en la pared"
-    }
-   ]
-  }
- ],
- "postpro": [
-  {
-   "id": "pp0",
-   "descripcion": "fachada de un edificio de viviendas contemporáneo de cinco plantas"
-  },
-  {
-   "id": "pp1",
-   "descripcion": "salón de una vivienda con gran ventanal"
-  },
-  {
-   "id": "pp2",
-   "descripcion": "biblioteca pública de una planta con plaza delante"
-  },
-  {
-   "id": "pp3",
-   "descripcion": "casa unifamiliar de hormigón con piscina"
-  },
-  {
-   "id": "pp4",
-   "descripcion": "centro cultural con una gran cubierta"
-  },
-  {
-   "id": "pp5",
-   "descripcion": "cocina abierta de una vivienda"
-  },
-  {
-   "id": "pp6",
-   "descripcion": "patio interior de un edificio de viviendas"
-  },
-  {
-   "id": "pp7",
-   "descripcion": "museo junto a un río"
-  }
- ],
- "test": [
-  {
-   "id": "t_albardilla",
-   "pregunta": "¿Cómo se llama la pieza que remata la parte superior de un muro o pretil?",
-   "opciones": [
-    "Albardilla",
-    "Vierteaguas",
-    "Alféizar",
-    "Zócalo"
-   ],
-   "explicacion": "La albardilla corona muros y pretiles y evita que el agua entre por arriba. El vierteaguas protege el hueco de la ventana.",
-   "idea": "remate superior de un pretil de ladrillo en una cubierta plana, detalle cercano"
-  },
-  {
-   "id": "t_vierteaguas",
-   "pregunta": "¿Qué pieza bajo la ventana expulsa el agua hacia fuera de la fachada?",
-   "opciones": [
-    "Vierteaguas",
-    "Dintel",
-    "Jamba",
-    "Mainel"
-   ],
-   "explicacion": "El vierteaguas tiene pendiente y goterón para alejar el agua de la fachada. El dintel está encima del hueco.",
-   "idea": "ventana en una fachada de ladrillo con lluvia, detalle de la parte inferior de la ventana"
-  },
-  {
-   "id": "t_pilotes",
-   "pregunta": "Si el terreno firme está muy profundo, ¿qué cimentación se suele usar?",
-   "opciones": [
-    "Pilotes",
-    "Zapata aislada",
-    "Zapata corrida",
-    "Solera"
-   ],
-   "explicacion": "Los pilotes transmiten las cargas hasta el estrato resistente profundo (o por rozamiento con el terreno).",
-   "idea": "obra con una máquina pilotadora y armaduras de pilotes, sin personas"
-  },
-  {
-   "id": "t_invertida",
-   "pregunta": "En una cubierta invertida, ¿dónde va el aislamiento térmico?",
-   "opciones": [
-    "Encima de la impermeabilización",
-    "Debajo de la impermeabilización",
-    "Bajo el forjado, por dentro",
-    "No lleva aislamiento"
-   ],
-   "explicacion": "En la cubierta invertida el aislamiento (tipo XPS) va sobre la lámina impermeable y la protege. Por eso se llama «invertida».",
-   "idea": "cubierta plana con grava y placas de aislamiento, vista en obra, sin personas"
-  },
-  {
-   "id": "t_patinillo",
-   "pregunta": "¿Cómo se llama el hueco vertical que atraviesa las plantas para pasar instalaciones?",
-   "opciones": [
-    "Patinillo",
-    "Plénum",
-    "Junta de dilatación",
-    "Forjado sanitario"
-   ],
-   "explicacion": "El patinillo (o shunt, si es de ventilación) recorre el edificio en vertical. El plénum es el espacio sobre el falso techo.",
-   "idea": "edificio de viviendas en obra con huecos verticales de instalaciones, tuberías visibles, sin personas"
-  },
-  {
-   "id": "t_cype",
-   "pregunta": "¿Cuál de estos programas sirve para calcular estructuras?",
-   "opciones": [
-    "CYPE",
-    "Lumion",
-    "SketchUp",
-    "Photoshop"
-   ],
-   "explicacion": "CYPE (CYPECAD) es el programa de cálculo de estructuras más usado en España. Lumion es de renders.",
-   "idea": "pantalla de ordenador con un modelo estructural 3D de pilares y vigas, sin texto legible"
-  },
-  {
-   "id": "t_lod",
-   "pregunta": "En BIM, ¿qué indica el LOD de un modelo?",
-   "opciones": [
-    "Su nivel de desarrollo o detalle",
-    "El tipo de licencia",
-    "El formato del archivo",
-    "La escala de impresión"
-   ],
-   "explicacion": "LOD (Level of Development) indica cuánto está definido cada elemento del modelo: de volumen genérico a elemento concreto.",
-   "idea": "modelo BIM de un edificio en una pantalla con distintos niveles de detalle, sin texto"
-  },
-  {
-   "id": "t_puente",
-   "pregunta": "¿Qué es un puente térmico?",
-   "opciones": [
-    "Una zona de la envolvente por donde se pierde más calor",
-    "Un tipo de estructura de puentes",
-    "Una junta de dilatación",
-    "Un aislante muy eficaz"
-   ],
-   "explicacion": "Es un punto débil de la envolvente (frentes de forjado, pilares, contorno de huecos) con más pérdidas de calor y riesgo de condensación.",
-   "idea": "imagen termográfica de una fachada con zonas de color en los frentes de forjado"
-  },
-  {
-   "id": "t_escala",
-   "pregunta": "¿Qué escala es la habitual para un detalle constructivo?",
-   "opciones": [
-    "1:20",
-    "1:200",
-    "1:500",
-    "1:1000"
-   ],
-   "explicacion": "Los detalles constructivos se dibujan a 1:20, 1:10 o 1:5. A 1:200 se dibujan plantas generales.",
-   "idea": "detalle constructivo en sección dibujado a mano sobre papel, sin texto ni números"
-  },
-  {
-   "id": "t_bovedilla",
-   "pregunta": "En un forjado unidireccional, ¿qué pieza va entre las viguetas?",
-   "opciones": [
-    "Bovedilla",
-    "Casetón",
-    "Zuncho",
-    "Correa"
-   ],
-   "explicacion": "Las bovedillas (cerámicas, de hormigón o EPS) apoyan entre viguetas y aligeran el forjado. Los casetones son del reticular.",
-   "idea": "forjado unidireccional en obra con viguetas y bovedillas cerámicas, vista desde arriba, sin personas"
-  },
-  {
-   "id": "t_cercha",
-   "pregunta": "¿Cómo se llama la estructura triangulada que salva grandes luces en una cubierta?",
-   "opciones": [
-    "Cercha",
-    "Ménsula",
-    "Losa",
-    "Pórtico rígido"
-   ],
-   "explicacion": "La cercha trabaja por triangulación: sus barras trabajan a tracción o compresión, lo que permite grandes luces con poco material.",
-   "idea": "nave con cerchas metálicas trianguladas vistas en la cubierta"
-  },
-  {
-   "id": "t_traccion",
-   "pregunta": "En una viga de hormigón armado, ¿qué resiste principalmente las tracciones?",
-   "opciones": [
-    "Las armaduras de acero",
-    "El hormigón",
-    "El encofrado",
-    "El recubrimiento"
-   ],
-   "explicacion": "El hormigón resiste muy bien la compresión, pero poco la tracción: por eso se arma con acero en la zona traccionada.",
-   "idea": "armaduras de acero de una viga dentro del encofrado antes de hormigonar, sin personas"
-  },
-  {
-   "id": "t_celosia",
-   "pregunta": "¿Para qué sirve sobre todo una celosía en fachada?",
-   "opciones": [
-    "Filtrar la luz y dar privacidad",
-    "Soportar el forjado",
-    "Impermeabilizar el muro",
-    "Aislar del ruido de impacto"
-   ],
-   "explicacion": "La celosía tamiza la luz y la radiación solar y da privacidad sin cerrar el paso del aire.",
-   "idea": "fachada con celosía cerámica que proyecta sombras en un interior"
-  },
-  {
-   "id": "t_junta",
-   "pregunta": "¿Para qué sirve una junta de dilatación en un edificio largo?",
-   "opciones": [
-    "Absorber los movimientos por temperatura",
-    "Pasar instalaciones",
-    "Ventilar la fachada",
-    "Evacuar el agua de lluvia"
-   ],
-   "explicacion": "El edificio se dilata y contrae con la temperatura; la junta divide la estructura para que no aparezcan fisuras.",
-   "idea": "junta vertical en una fachada larga de hormigón, detalle"
-  }
- ],
- "vf": [
-  {
-   "id": "vf_hormigon",
-   "pregunta": "El hormigón trabaja muy bien a compresión, pero mal a tracción.",
-   "opciones": [
-    "Verdadero",
-    "Falso"
-   ],
-   "explicacion": "Su resistencia a tracción es muy baja comparada con la de compresión; por eso se arma con acero.",
-   "idea": "probetas de hormigón en un laboratorio, detalle"
-  },
-  {
-   "id": "vf_cubiertas",
-   "pregunta": "La planta de cubiertas se dibuja vista desde abajo.",
-   "opciones": [
-    "Falso",
-    "Verdadero"
-   ],
-   "explicacion": "Se dibuja vista desde arriba: es lo que verías sobrevolando el edificio.",
-   "idea": "vista aérea de una cubierta con lucernarios y paneles solares"
-  },
-  {
-   "id": "vf_muro",
-   "pregunta": "Si un muro de carga es interior, se puede quitar sin reforzar nada.",
-   "opciones": [
-    "Falso",
-    "Verdadero"
-   ],
-   "explicacion": "Un muro de carga sostiene forjados, sea interior o exterior. Quitarlo exige un cálculo y un refuerzo (viga, pórtico...).",
-   "idea": "muro de ladrillo interior en una reforma con forjado encima, sin personas"
-  },
-  {
-   "id": "vf_discontinua",
-   "pregunta": "En planta, la línea discontinua suele indicar elementos por encima del plano de corte u ocultos.",
-   "opciones": [
-    "Verdadero",
-    "Falso"
-   ],
-   "explicacion": "Es la convención habitual: voladizos, vigas, huecos de forjado o elementos ocultos se dibujan a trazos.",
-   "idea": "planta arquitectónica dibujada a mano con líneas discontinuas, sin texto"
-  },
-  {
-   "id": "vf_sur",
-   "pregunta": "En España, una fachada orientada a sur recibe más sol en invierno que una orientada a norte.",
-   "opciones": [
-    "Verdadero",
-    "Falso"
-   ],
-   "explicacion": "En el hemisferio norte el sol de invierno va bajo por el sur: la fachada sur recibe sol directo y la norte casi nada.",
-   "idea": "fachada de viviendas con sol bajo de invierno entrando por las ventanas"
-  },
-  {
-   "id": "vf_madera",
-   "pregunta": "La madera no se puede usar para estructuras de varias plantas.",
-   "opciones": [
-    "Falso",
-    "Verdadero"
-   ],
-   "explicacion": "Con madera contralaminada (CLT) y laminada se construyen edificios de varias plantas e incluso en altura.",
-   "idea": "edificio de madera contralaminada en construcción de varias plantas, sin personas"
-  },
-  {
-   "id": "vf_seccion",
-   "pregunta": "Una sección es un corte vertical del edificio.",
-   "opciones": [
-    "Verdadero",
-    "Falso"
-   ],
-   "explicacion": "La sección corta el edificio con un plano vertical; la planta, con un plano horizontal.",
-   "idea": "maqueta de arquitectura cortada en sección que muestra varias plantas"
-  },
-  {
-   "id": "vf_aislamiento",
-   "pregunta": "Más grosor de aislamiento siempre significa más condensaciones.",
-   "opciones": [
-    "Falso",
-    "Verdadero"
-   ],
-   "explicacion": "Las condensaciones dependen sobre todo de los puentes térmicos y de la barrera de vapor bien colocada, no del grosor.",
-   "idea": "placas de aislamiento térmico en una fachada en obra, sin personas"
-  }
- ],
- "encuesta": [
-  {
-   "id": "e_programa",
-   "pregunta": "¿Con qué programa haces tu TFM?",
-   "opciones": [
-    "Revit",
-    "ArchiCAD",
-    "AutoCAD + SketchUp",
-    "Rhino"
-   ],
-   "idea": "escritorio de estudiante de arquitectura con portátil y planos, luz de tarde"
-  },
-  {
-   "id": "e_fase",
-   "pregunta": "¿Qué parte del TFM se te atraganta más?",
-   "opciones": [
-    "Construcción",
-    "Estructuras",
-    "Instalaciones",
-    "El panel"
-   ],
-   "idea": "mesa llena de planos y maquetas a medio hacer de noche"
-  },
-  {
-   "id": "e_render",
-   "pregunta": "¿Con qué haces tus renders?",
-   "opciones": [
-    "Lumion",
-    "Enscape",
-    "V-Ray",
-    "Twinmotion"
-   ],
-   "idea": "render de un edificio contemporáneo al atardecer"
-  },
-  {
-   "id": "e_horario",
-   "pregunta": "¿Cuándo trabajas mejor en el TFM?",
-   "opciones": [
-    "Por la mañana",
-    "Por la tarde",
-    "Por la noche",
-    "De madrugada"
-   ],
-   "idea": "ventana de un estudio con luz del amanecer y una mesa con planos"
-  },
-  {
-   "id": "e_tipologia",
-   "pregunta": "¿Qué tipología elegirías para tu TFM?",
-   "opciones": [
-    "Vivienda colectiva",
-    "Equipamiento cultural",
-    "Rehabilitación",
-    "Urbanismo"
-   ],
-   "idea": "vista aérea de una ciudad con distintos edificios"
-  },
-  {
-   "id": "e_maqueta",
-   "pregunta": "¿Maqueta física o solo 3D?",
-   "opciones": [
-    "Física siempre",
-    "Solo 3D",
-    "Las dos",
-    "Impresión 3D"
-   ],
-   "idea": "maqueta de madera junto a un portátil con un modelo 3D"
-  }
- ]
+"_info": "Banco de AC. Cada pieza de lista: hook + puntos (titulo en pantalla, dato = base de la voz, idea = imagen). Referentes: ref = obra · autor (lugar, año), verificados. Test y V/F: la correcta va primera (se baraja al montar).",
+"tips_tfm": [
+{
+"id": "tfm_d55740e6",
+"hook": "5 cosas que el tribunal mira primero en tu TFM",
+"puntos": [
+{
+"titulo": "Una idea en una frase",
+"dato": "Si no puedes contar tu proyecto en una frase, el tribunal tampoco lo va a entender.",
+"idea": "estudiante de espaldas presentando un panel de arquitectura ante una mesa de profesores, sala de escuela luminosa"
+},
+{
+"titulo": "Planos coherentes",
+"dato": "Planta, sección y alzado tienen que contar el mismo edificio: el tribunal busca las incoherencias.",
+"idea": "planta y sección de un mismo edificio impresas en gran formato sobre una mesa, vista cenital, sin texto legible"
+},
+{
+"titulo": "Construcción resuelta",
+"dato": "Los detalles constructivos demuestran que tu proyecto se puede construir de verdad.",
+"idea": "sección constructiva de fachada y forjado dibujada en lámina técnica, sin texto ni números"
+},
+{
+"titulo": "Estructura con sentido",
+"dato": "Pilares que bajan hasta la cimentación y luces razonables: lo revisan en segundos.",
+"idea": "maqueta de estructura de madera con pilares y forjados sobre una mesa de taller"
+},
+{
+"titulo": "Un panel que se lea de lejos",
+"dato": "Una imagen potente y una jerarquía clara: el panel se juzga antes de que hables.",
+"idea": "paneles de arquitectura colgados en la pared de una sala de exposiciones de escuela, sin texto legible"
+}
+]
+},
+{
+"id": "tfm_219ea7ce",
+"hook": "Cómo organizar tu TFM para no ir a contrarreloj",
+"puntos": [
+{
+"titulo": "Cierra lugar y programa pronto",
+"dato": "Cuanto antes cierres solar y programa, antes empieza el proyecto de verdad.",
+"idea": "vista aérea de un solar urbano vacío entre edificios, luz de mañana"
+},
+{
+"titulo": "Ponte entregas internas",
+"dato": "Fíjate fechas propias cada dos o tres semanas, no solo las de la escuela.",
+"idea": "calendario de pared en un estudio con notas adhesivas de colores junto a planos, sin texto legible"
+},
+{
+"titulo": "Planos base cuanto antes",
+"dato": "Con plantas y secciones base ya puedes avanzar construcción, estructura e instalaciones a la vez.",
+"idea": "planta arquitectónica en CAD sobre una pantalla de ordenador en un escritorio ordenado, sin texto legible"
+},
+{
+"titulo": "Técnicas en paralelo",
+"dato": "Si dejas construcción e instalaciones para el final, el proyecto cambia cuando ya no hay tiempo.",
+"idea": "esquema de instalaciones de colores sobre una planta en una lámina técnica, sin texto"
+},
+{
+"titulo": "El último mes, para paneles",
+"dato": "Maquetar, renderizar e imprimir siempre lleva más de lo que crees.",
+"idea": "impresora de gran formato imprimiendo una lámina con un render de arquitectura"
+}
+]
+},
+{
+"id": "tfm_631b7b31",
+"hook": "5 errores que te pueden costar el TFM",
+"puntos": [
+{
+"titulo": "Cambiar de idea tarde",
+"dato": "Cada cambio de concepto a mitad te obliga a rehacer planos, estructura e instalaciones.",
+"idea": "mesa con varias maquetas de cartón descartadas y bocetos tachados, luz de flexo"
+},
+{
+"titulo": "Instalaciones al final",
+"dato": "Patinillos, cuartos técnicos y recorridos condicionan la planta: hay que pensarlos desde el principio.",
+"idea": "cuarto técnico de un edificio con tuberías y conductos ordenados, sin personas"
+},
+{
+"titulo": "Detalles sin escala",
+"dato": "Un detalle constructivo se dibuja a 1:20, 1:10 o 1:5: sin escala no se lee.",
+"idea": "detalle constructivo de cubierta dibujado a mano sobre papel vegetal, sin texto ni números"
+},
+{
+"titulo": "Una memoria que no explica",
+"dato": "La memoria tiene que justificar decisiones, no describir los planos.",
+"idea": "documento encuadernado de arquitectura abierto sobre una mesa con gafas y lápiz, sin texto legible"
+},
+{
+"titulo": "No ensayar la defensa",
+"dato": "Cronométrate: lo que no cabe en el tiempo de la defensa no lo va a ver nadie.",
+"idea": "estudiante de espaldas ensayando frente a paneles en una sala vacía con un reloj en la pared"
+}
+]
+},
+{
+"id": "tfm_6f61271c",
+"hook": "Cómo preparar la defensa de tu TFM",
+"puntos": [
+{
+"titulo": "Empieza por la idea",
+"dato": "Los primeros treinta segundos tienen que dejar clarísima tu idea de proyecto.",
+"idea": "sala de defensa de escuela de arquitectura con paneles y una mesa de tribunal vacía"
+},
+{
+"titulo": "Cuenta una historia",
+"dato": "Lugar, problema, idea y respuesta: el tribunal sigue mejor un relato que una lista de planos.",
+"idea": "secuencia de láminas de arquitectura colgadas en fila en una pared blanca, sin texto legible"
+},
+{
+"titulo": "Ensaya con reloj",
+"dato": "Ensaya en voz alta con el tiempo real que te da tu escuela.",
+"idea": "cronómetro sobre una mesa con planos de arquitectura enrollados"
+},
+{
+"titulo": "Prepara las preguntas difíciles",
+"dato": "Estructura, construcción y normativa: piensa qué te van a preguntar y lleva la respuesta.",
+"idea": "maqueta en sección de un edificio que muestra estructura y plantas, luz lateral"
+},
+{
+"titulo": "Lleva la maqueta a mano",
+"dato": "Una maqueta o un modelo que se pueda girar explica en segundos lo que un plano no.",
+"idea": "manos sujetando una maqueta blanca de arquitectura frente a una ventana"
+}
+]
+},
+{
+"id": "tfm_a5f62c2c",
+"hook": "Checklist antes de entregar tu TFM",
+"puntos": [
+{
+"titulo": "Planos coherentes entre sí",
+"dato": "Revisa que plantas, secciones y alzados coinciden en huecos, alturas y estructura.",
+"idea": "planos de arquitectura superpuestos sobre una mesa de luz, sin texto legible"
+},
+{
+"titulo": "Escala y norte en todo",
+"dato": "Cada plano con su escala gráfica y su norte: es lo primero que se echa en falta.",
+"idea": "plano de emplazamiento minimalista con flecha de norte dibujada, sin letras"
+},
+{
+"titulo": "Detalles completos",
+"dato": "De la cimentación a la cubierta: que no falte ningún encuentro importante.",
+"idea": "detalle constructivo de encuentro de forjado con fachada, dibujo técnico sin texto"
+},
+{
+"titulo": "Esquemas de instalaciones",
+"dato": "Fontanería, saneamiento, electricidad y climatización, con recorridos claros.",
+"idea": "esquema de instalaciones con líneas de colores sobre una planta, sin texto"
+},
+{
+"titulo": "Impresión de prueba",
+"dato": "Los colores y los grosores cambian al imprimir: haz siempre una prueba antes.",
+"idea": "láminas recién impresas sobre una mesa de corte con una regla metálica"
+}
+]
+},
+{
+"id": "tfm_2e439762",
+"hook": "Cómo elegir el tema de tu TFM",
+"puntos": [
+{
+"titulo": "Un lugar que puedas visitar",
+"dato": "Visitar el solar te da fotos, medidas y, sobre todo, argumentos.",
+"idea": "solar con vistas a una ciudad española al atardecer, sin personas"
+},
+{
+"titulo": "Un problema real",
+"dato": "Un TFM que resuelve un problema real del lugar se defiende casi solo.",
+"idea": "plaza urbana degradada con edificios antiguos alrededor, luz de tarde"
+},
+{
+"titulo": "Un programa que domines",
+"dato": "Elige un uso del que puedas hablar con criterio delante del tribunal.",
+"idea": "interior luminoso de un equipamiento público vacío con grandes ventanales"
+},
+{
+"titulo": "Una escala abarcable",
+"dato": "Mejor un proyecto mediano bien resuelto que uno enorme a medias.",
+"idea": "maqueta de un edificio mediano sobre una base de madera con topografía"
+},
+{
+"titulo": "Que te motive",
+"dato": "Vas a convivir con él muchos meses: que te apetezca de verdad.",
+"idea": "escritorio de estudiante de arquitectura con bocetos, café y luz cálida de tarde"
+}
+]
+},
+{
+"id": "tfm_4f06c644",
+"hook": "5 láminas que no pueden faltar en tu TFM",
+"puntos": [
+{
+"titulo": "Situación y emplazamiento",
+"dato": "Cómo se relaciona tu edificio con la ciudad o con el paisaje.",
+"idea": "vista aérea de un barrio con un edificio nuevo integrado, luz suave"
+},
+{
+"titulo": "Plantas con mobiliario",
+"dato": "Con mobiliario y cotas generales para que se entienda el uso.",
+"idea": "planta de arquitectura con mobiliario dibujado, blanco y negro, sin texto"
+},
+{
+"titulo": "Secciones que expliquen",
+"dato": "En sección se entienden la luz, las alturas y la estructura.",
+"idea": "sección arquitectónica con personas y rayos de luz dibujados, sin texto"
+},
+{
+"titulo": "Sección constructiva",
+"dato": "Demuestra que sabes construirlo, de la cimentación a la cubierta.",
+"idea": "sección constructiva completa de un edificio en lámina técnica, sin texto ni números"
+},
+{
+"titulo": "Estructura e instalaciones",
+"dato": "Esquemas claros de estructura y de cada instalación.",
+"idea": "modelo 3D de estructura de pilares y vigas con conductos de colores, fondo blanco"
+}
+]
+},
+{
+"id": "tfm_70085998",
+"hook": "Cómo sacarle partido a tus correcciones de TFM",
+"puntos": [
+{
+"titulo": "Lleva dudas concretas",
+"dato": "Una pregunta concreta se resuelve en minutos; un no sé por dónde seguir, no.",
+"idea": "mesa de corrección con planos, lápices y una maqueta, dos sillas vacías"
+},
+{
+"titulo": "Lleva opciones dibujadas",
+"dato": "Dos o tres alternativas sobre la mesa aceleran muchísimo la decisión.",
+"idea": "tres maquetas de cartón distintas del mismo edificio en fila"
+},
+{
+"titulo": "Apunta cada corrección",
+"dato": "Escríbelo todo: en la siguiente corrección lo vas a necesitar.",
+"idea": "cuaderno abierto con croquis a lápiz junto a un plano, sin texto legible"
+},
+{
+"titulo": "Enseña avances siempre",
+"dato": "Llegar con algo nuevo a cada corrección es lo que mantiene el ritmo.",
+"idea": "secuencia de bocetos cada vez más definidos sobre una pared de corcho"
+},
+{
+"titulo": "Pregunta por la entrega final",
+"dato": "Pregunta pronto qué documentación y qué formato exige tu escuela.",
+"idea": "carpeta de láminas de gran formato apoyada en una mesa de escuela"
+}
+]
+}
+],
+"tips_proyectos": [
+{
+"id": "proy_c90a4009",
+"hook": "5 tips para aprobar la asignatura de Proyectos",
+"puntos": [
+{
+"titulo": "Visita el lugar",
+"dato": "Fotografía, mide y dibuja el solar: el proyecto empieza ahí.",
+"idea": "calle de una ciudad española con un solar vacío entre medianeras"
+},
+{
+"titulo": "Referentes desde el día uno",
+"dato": "Analiza dos o tres proyectos que resuelvan algo parecido a lo tuyo.",
+"idea": "libros de arquitectura abiertos con fotografías de edificios sobre una mesa, sin texto legible"
+},
+{
+"titulo": "Dibuja mucho a mano",
+"dato": "Con croquis pruebas diez ideas en lo que tardas en modelar una.",
+"idea": "manos dibujando un croquis de arquitectura con rotulador sobre papel de croquis"
+},
+{
+"titulo": "Piensa en sección",
+"dato": "La sección explica la luz, la altura y cómo se vive el espacio.",
+"idea": "maqueta cortada en sección con luz entrando por un lucernario"
+},
+{
+"titulo": "Algo nuevo en cada corrección",
+"dato": "Avanzar cada semana es lo que más valora un profesor de Proyectos.",
+"idea": "taller de escuela de arquitectura con mesas llenas de maquetas y planos"
+}
+]
+},
+{
+"id": "proy_3fc67648",
+"hook": "Cómo encontrar la idea de tu proyecto",
+"puntos": [
+{
+"titulo": "Escucha al lugar",
+"dato": "Orientación, vistas, topografía y preexistencias te dan las primeras pistas.",
+"idea": "ladera con vistas al mar y muros de piedra antiguos, luz de atardecer"
+},
+{
+"titulo": "Elige una palabra",
+"dato": "Patio, umbral, recorrido o mirador: una palabra guía todas tus decisiones.",
+"idea": "patio interior de una casa con un árbol y luz cenital"
+},
+{
+"titulo": "Maquetas rápidas",
+"dato": "Maquetas de cartón en diez minutos: piensa con las manos.",
+"idea": "maquetas rápidas de cartón gris recién cortadas sobre una base de corte"
+},
+{
+"titulo": "Tres alternativas",
+"dato": "Prueba tres opciones distintas antes de quedarte con una.",
+"idea": "tres maquetas blancas de volúmenes diferentes sobre la misma base"
+},
+{
+"titulo": "Cuéntala en una frase",
+"dato": "Si tu idea cabe en una frase, tu proyecto tiene dirección.",
+"idea": "boceto a lápiz de un edificio en un cuaderno con trazos sueltos"
+}
+]
+},
+{
+"id": "proy_bb28dc0e",
+"hook": "Cómo dibujar una sección que impresione",
+"puntos": [
+{
+"titulo": "Corta por lo importante",
+"dato": "La sección tiene que pasar por la doble altura, el patio o la escalera.",
+"idea": "sección arquitectónica de un edificio con doble altura y escalera, dibujo sin texto"
+},
+{
+"titulo": "Grosores jerarquizados",
+"dato": "Lo cortado va grueso y lo visto, fino: así se lee al instante.",
+"idea": "sección en blanco y negro con muros cortados gruesos y líneas finas, sin texto"
+},
+{
+"titulo": "Personas y mobiliario",
+"dato": "Dan escala y cuentan cómo se usa cada espacio.",
+"idea": "sección arquitectónica con siluetas de personas y mobiliario, sin texto"
+},
+{
+"titulo": "Dibuja el terreno",
+"dato": "Incluye el terreno y lo que hay alrededor: el edificio no flota.",
+"idea": "sección de un edificio apoyado en una ladera con el terreno dibujado, sin texto"
+},
+{
+"titulo": "Dibuja la luz",
+"dato": "Sombras y rayos de sol explican tu estrategia de luz.",
+"idea": "sección arquitectónica con rayos de sol y sombras suaves, estilo de lámina, sin texto"
+}
+]
+},
+{
+"id": "proy_b96783cb",
+"hook": "Cómo hacer un análisis del lugar que sirva",
+"puntos": [
+{
+"titulo": "Sol y orientación",
+"dato": "Dibuja el recorrido del sol: decide dónde van los huecos y los patios.",
+"idea": "solar visto desde arriba con sombras largas de los edificios al atardecer"
+},
+{
+"titulo": "Llenos y vacíos",
+"dato": "Un plano de llenos y vacíos te enseña la estructura del barrio.",
+"idea": "vista aérea en blanco y negro de un tejido urbano denso, sin texto"
+},
+{
+"titulo": "Recorridos y accesos",
+"dato": "Por dónde llega la gente define la entrada de tu proyecto.",
+"idea": "calle peatonal con personas desenfocadas de espaldas caminando hacia una plaza"
+},
+{
+"titulo": "Vistas",
+"dato": "Lo que se ve desde el solar es un argumento de proyecto.",
+"idea": "vista desde un solar elevado hacia el casco histórico de una ciudad"
+},
+{
+"titulo": "Alturas y preexistencias",
+"dato": "Las alturas vecinas y lo que ya existe marcan tu volumen.",
+"idea": "medianeras de edificios de distintas alturas alrededor de un solar"
+}
+]
+},
+{
+"id": "proy_8a99a602",
+"hook": "Maquetas para pensar tu proyecto",
+"puntos": [
+{
+"titulo": "Maqueta de trabajo",
+"dato": "Cartón gris, cúter y cola: rápida y sin miedo a romperla.",
+"idea": "maqueta de trabajo de cartón gris a medio montar con un cúter al lado"
+},
+{
+"titulo": "Maqueta de lugar",
+"dato": "Primero el lugar: así cada idea se prueba en su sitio.",
+"idea": "maqueta de topografía en capas de cartón con edificios alrededor"
+},
+{
+"titulo": "Volumen a 1:500",
+"dato": "Con volúmenes sencillos decides altura y ocupación en minutos.",
+"idea": "maqueta blanca de volúmenes a escala 1:500 sobre base de madera"
+},
+{
+"titulo": "Maqueta de luz",
+"dato": "Una caja con huecos y una linterna: así pruebas la luz interior.",
+"idea": "interior de una maqueta blanca con luz entrando por una ranura"
+},
+{
+"titulo": "Foto a ras de suelo",
+"dato": "Fotografíala con el móvil a la altura de los ojos de una figura.",
+"idea": "foto a ras de una maqueta blanca con pequeñas figuras humanas, luz lateral"
+}
+]
+},
+{
+"id": "proy_57683f28",
+"hook": "5 errores típicos en la asignatura de Proyectos",
+"puntos": [
+{
+"titulo": "Casarte con la primera idea",
+"dato": "La primera idea casi nunca es la mejor: compárala con otras.",
+"idea": "boceto inicial a lápiz junto a una maqueta final distinta"
+},
+{
+"titulo": "Dibujar solo en planta",
+"dato": "La planta no explica la luz ni la altura: trabaja también en sección.",
+"idea": "planta y sección del mismo edificio una al lado de la otra, dibujo sin texto"
+},
+{
+"titulo": "Llegar sin nada nuevo",
+"dato": "Sin avances, la corrección no te sirve ni a ti ni al profesor.",
+"idea": "mesa de taller vacía con un solo plano antiguo"
+},
+{
+"titulo": "Olvidar la estructura",
+"dato": "Si no hay estructura pensada, el proyecto no se sostiene, literalmente.",
+"idea": "maqueta de estructura de madera con pilares y vigas, luz de estudio"
+},
+{
+"titulo": "Paneles sin jerarquía",
+"dato": "Si todo tiene el mismo tamaño, no se ve nada.",
+"idea": "pared con paneles de arquitectura desordenados frente a otro panel limpio, sin texto legible"
+}
+]
+},
+{
+"id": "proy_a349bf04",
+"hook": "Cómo hacer un panel de Proyectos que se lea de lejos",
+"puntos": [
+{
+"titulo": "Una imagen protagonista",
+"dato": "Una imagen grande que cuente tu idea a tres metros de distancia.",
+"idea": "panel de arquitectura con un gran render protagonista colgado en una pared, sin texto legible"
+},
+{
+"titulo": "Retícula clara",
+"dato": "Una retícula ordena planos, imágenes y textos sin esfuerzo.",
+"idea": "lámina de arquitectura limpia con planos alineados en retícula, sin texto legible"
+},
+{
+"titulo": "Dos o tres colores",
+"dato": "Un color de acento para lo importante y el resto en grises.",
+"idea": "diagrama axonométrico blanco con un solo color de acento amarillo, sin texto"
+},
+{
+"titulo": "Diagramas sencillos",
+"dato": "Un buen diagrama explica tu idea mejor que un párrafo.",
+"idea": "diagrama axonométrico de volúmenes blancos con flechas de recorrido, sin letras"
+},
+{
+"titulo": "Texto mínimo",
+"dato": "Títulos cortos y poco texto: el panel se mira, no se lee.",
+"idea": "panel minimalista de arquitectura con mucho espacio en blanco, sin texto legible"
+}
+]
+}
+],
+"ia": [
+{
+"id": "ia_eddeb2c9",
+"hook": "5 formas de usar la IA en tu proyecto de arquitectura",
+"puntos": [
+{
+"titulo": "Moodboards de atmósfera",
+"dato": "Genera imágenes de ambiente para decidir materiales y luz antes de modelar.",
+"idea": "moodboard de materiales de arquitectura: madera, hormigón, piedra y vidrio sobre una mesa"
+},
+{
+"titulo": "Del croquis a la imagen",
+"dato": "Hay herramientas que convierten tu croquis en una vista en minutos, respetando tu dibujo.",
+"idea": "escritorio con un croquis a mano de un edificio y al lado una pantalla con la misma vista renderizada"
+},
+{
+"titulo": "Variantes en segundos",
+"dato": "Pide diez variaciones de fachada y quédate solo con lo que aporta a tu idea.",
+"idea": "cuadrícula de nueve fachadas contemporáneas distintas del mismo edificio, sin texto"
+},
+{
+"titulo": "Ordenar la memoria",
+"dato": "Un asistente te ayuda a estructurar la memoria; las decisiones y los datos son tuyos.",
+"idea": "portátil abierto con un documento sobre un escritorio con planos, sin texto legible"
+},
+{
+"titulo": "Simular el tribunal",
+"dato": "Pídele que te haga de tribunal y te pregunte por estructura y construcción.",
+"idea": "sala de defensa de arquitectura vacía con paneles colgados y un portátil sobre la mesa"
+}
+]
+},
+{
+"id": "ia_20a129c6",
+"hook": "IA para tus renders: lo que sí y lo que no",
+"puntos": [
+{
+"titulo": "Sí: mejorar la atmósfera",
+"dato": "Cielo, luz y ambiente: la IA da vida a un render plano en minutos.",
+"idea": "render de un edificio contemporáneo con cielo de atardecer espectacular"
+},
+{
+"titulo": "Sí: vegetación y personas",
+"dato": "Añade árboles y personas para dar escala y vida a la imagen.",
+"idea": "plaza delante de un edificio público con árboles y personas desenfocadas de espaldas"
+},
+{
+"titulo": "Sí: más resolución",
+"dato": "Los escaladores con IA mejoran la resolución para imprimir en grande.",
+"idea": "detalle muy nítido de una fachada de ladrillo y madera"
+},
+{
+"titulo": "No: cambiar tu edificio",
+"dato": "Si la IA inventa geometría, el render ya no es tu proyecto.",
+"idea": "fachada contemporánea fotografiada de frente con líneas limpias y coherentes"
+},
+{
+"titulo": "Revisa las normas",
+"dato": "Algunas escuelas piden declarar el uso de IA: compruébalo antes de entregar.",
+"idea": "mesa de escuela de arquitectura con una carpeta de entrega y un portátil, sin texto legible"
+}
+]
+},
+{
+"id": "ia_8e2e40de",
+"hook": "Prompts para que la IA respete tu proyecto",
+"puntos": [
+{
+"titulo": "Di la hora y la luz",
+"dato": "Atardecer con luz cálida rasante cambia por completo la imagen.",
+"idea": "fachada de hormigón con luz cálida rasante del atardecer"
+},
+{
+"titulo": "Nombra los materiales",
+"dato": "Hormigón visto, madera de roble, ladrillo claro: cuanto más concreto, mejor.",
+"idea": "detalle de fachada con hormigón visto, madera de roble y ladrillo claro"
+},
+{
+"titulo": "Fija la cámara",
+"dato": "A la altura de los ojos y con un gran angular moderado, como un fotógrafo.",
+"idea": "calle con un edificio de viviendas fotografiado a altura humana, verticales rectas"
+},
+{
+"titulo": "Describe el entorno",
+"dato": "Calle, árboles, montañas o mar: el contexto vende el proyecto.",
+"idea": "edificio contemporáneo junto al mar con pinos y una calle tranquila"
+},
+{
+"titulo": "Usa tu imagen de base",
+"dato": "Sube tu modelo o tu croquis como referencia para que respete la geometría.",
+"idea": "pantalla con un modelo 3D blanco de un edificio junto a un croquis en papel"
+}
+]
+},
+{
+"id": "ia_6a1f63d3",
+"hook": "La IA no aprueba tu TFM por ti: úsala así",
+"puntos": [
+{
+"titulo": "Para iterar, no para decidir",
+"dato": "Úsala para ver opciones rápido; la decisión de proyecto es tuya.",
+"idea": "varias maquetas blancas de opciones distintas alineadas sobre una mesa"
+},
+{
+"titulo": "Para lo repetitivo",
+"dato": "Renombrar, ordenar, resumir: deja que la IA te ahorre esas horas.",
+"idea": "escritorio ordenado con portátil, planos y una taza de café, luz de mañana"
+},
+{
+"titulo": "Para revisar textos",
+"dato": "Pásale tu memoria para detectar repeticiones y frases confusas.",
+"idea": "documento impreso de arquitectura con anotaciones a lápiz en el margen, sin texto legible"
+},
+{
+"titulo": "Para preparar preguntas",
+"dato": "Que te pregunte lo que preguntaría un tribunal exigente.",
+"idea": "sala de tribunal vacía con una mesa larga y paneles al fondo"
+},
+{
+"titulo": "Tu criterio es lo que cuenta",
+"dato": "Lo que se evalúa es cómo piensas el proyecto: eso no se delega en una máquina.",
+"idea": "estudiante de espaldas mirando un panel de arquitectura en una pared"
+}
+]
+}
+],
+"referentes": [
+{
+"id": "refe_d78c01a3",
+"hook": "5 referentes de vivienda colectiva para tu proyecto",
+"puntos": [
+{
+"titulo": "Más espacio por el mismo precio",
+"ref": "Cité Manifeste · Lacaton & Vassal (Mulhouse, 2005)",
+"dato": "Con estructura sencilla e invernaderos de bajo coste dan mucha más superficie por el mismo presupuesto.",
+"idea": "viviendas colectivas contemporáneas con fachada de invernadero de policarbonato translúcido"
+},
+{
+"titulo": "Vivienda que crece",
+"ref": "Quinta Monroy · Elemental (Iquique, 2004)",
+"dato": "Se construye la mitad de cada casa y las familias completan la otra mitad con el tiempo.",
+"idea": "viviendas en hilera con huecos entre ellas preparados para ampliarse, cielo azul"
+},
+{
+"titulo": "Una plaza en el aire",
+"ref": "Edificio Mirador · MVRDV y Blanca Lleó (Madrid, 2005)",
+"dato": "Un gran hueco en altura convierte el bloque en mirador y en espacio común para los vecinos.",
+"idea": "bloque de viviendas alto con un gran hueco en la parte superior que funciona como plaza"
+},
+{
+"titulo": "Una calle dentro del edificio",
+"ref": "Unité d'Habitation · Le Corbusier (Marsella, 1952)",
+"dato": "Una calle interior con comercios a media altura y viviendas dúplex que atraviesan el bloque.",
+"idea": "bloque de viviendas de hormigón sobre pilotis con balcones de colores, luz mediterránea"
+},
+{
+"titulo": "Terrazas para todos",
+"ref": "Habitat 67 · Moshe Safdie (Montreal, 1967)",
+"dato": "Módulos prefabricados apilados para que cada vivienda tenga su propia terraza.",
+"idea": "conjunto de módulos de hormigón apilados en zigzag con terrazas ajardinadas"
+}
+],
+"tipo": "referentes"
+},
+{
+"id": "refe_23d80f50",
+"hook": "5 referentes de luz para tu proyecto",
+"puntos": [
+{
+"titulo": "Una cruz de luz",
+"ref": "Iglesia de la Luz · Tadao Ando (Ibaraki, 1989)",
+"dato": "Una cruz recortada en el muro de hormigón tras el altar llena de luz la nave.",
+"idea": "interior sobrio de hormigón con una ranura de luz recortada en el muro"
+},
+{
+"titulo": "Luz cenital que ordena",
+"ref": "Biblioteca de Exeter · Louis Kahn (1971)",
+"dato": "Un atrio central con luz cenital y grandes círculos de hormigón organiza toda la biblioteca.",
+"idea": "atrio interior de hormigón con grandes aberturas circulares y luz cenital"
+},
+{
+"titulo": "Luz filtrada",
+"ref": "Kolumba · Peter Zumthor (Colonia, 2007)",
+"dato": "Una celosía de ladrillo filtra la luz sobre las ruinas de una iglesia antigua.",
+"idea": "sala interior con muro de celosía de ladrillo que filtra puntos de luz"
+},
+{
+"titulo": "Masa y rendijas",
+"ref": "Termas de Vals · Peter Zumthor (Suiza, 1996)",
+"dato": "Bloques de piedra y rendijas de luz entre las losas de la cubierta.",
+"idea": "interior de piedra oscura con agua y finas rendijas de luz en el techo"
+},
+{
+"titulo": "Luz por la estructura",
+"ref": "Mediateca de Sendai · Toyo Ito (2001)",
+"dato": "Tubos estructurales que atraviesan las plantas y dejan pasar la luz.",
+"idea": "interior diáfano con columnas tubulares de acero en celosía y forjados finos"
+}
+],
+"tipo": "referentes"
+},
+{
+"id": "refe_d988b444",
+"hook": "5 obras modernas que tienes que conocer para Proyectos",
+"puntos": [
+{
+"titulo": "El espacio que fluye",
+"ref": "Pabellón de Barcelona · Mies van der Rohe (1929)",
+"dato": "Muros sueltos bajo una cubierta sobre pilares: el espacio fluye sin habitaciones cerradas.",
+"idea": "pabellón de planos de piedra y vidrio bajo una losa fina, junto a un estanque"
+},
+{
+"titulo": "Los cinco puntos",
+"ref": "Villa Savoye · Le Corbusier (Poissy, 1931)",
+"dato": "Pilotis, planta libre, fachada libre, ventana corrida y cubierta jardín.",
+"idea": "casa blanca elevada sobre pilotis con ventana corrida, sobre césped"
+},
+{
+"titulo": "La caja de vidrio",
+"ref": "Casa Farnsworth · Mies van der Rohe (Illinois, 1951)",
+"dato": "Una sola planta de vidrio elevada sobre el terreno, en mitad del bosque.",
+"idea": "pabellón de vidrio y acero blanco elevado sobre el terreno en un bosque"
+},
+{
+"titulo": "Volúmenes dispersos",
+"ref": "Casa Moriyama · Ryue Nishizawa (Tokio, 2005)",
+"dato": "La casa se rompe en pequeños volúmenes con jardines entre ellos.",
+"idea": "conjunto de pequeños volúmenes blancos con jardines entre ellos en un barrio denso"
+},
+{
+"titulo": "Un paisaje continuo",
+"ref": "Rolex Learning Center · SANAA (Lausana, 2010)",
+"dato": "Una sola planta ondulada con patios: sin muros, el suelo organiza el espacio.",
+"idea": "edificio de una planta con suelo ondulado y patios circulares acristalados"
+}
+],
+"tipo": "referentes"
+},
+{
+"id": "refe_ba84825a",
+"hook": "5 rehabilitaciones de referencia para tu TFM",
+"puntos": [
+{
+"titulo": "El edificio que levita",
+"ref": "CaixaForum Madrid · Herzog & de Meuron (2008)",
+"dato": "Retiran la base de una antigua central eléctrica y el edificio parece flotar sobre una plaza.",
+"idea": "edificio de ladrillo antiguo que parece flotar sobre una plaza pública cubierta"
+},
+{
+"titulo": "La gran sala pública",
+"ref": "Tate Modern · Herzog & de Meuron (Londres, 2000)",
+"dato": "La antigua sala de turbinas de una central eléctrica se convierte en un enorme espacio público.",
+"idea": "enorme nave industrial de ladrillo rehabilitada como sala pública con rampa"
+},
+{
+"titulo": "Una cubierta que dialoga",
+"ref": "Mercado de Santa Caterina · EMBT (Barcelona, 2005)",
+"dato": "Una cubierta ondulada de cerámica de colores sobre el mercado histórico.",
+"idea": "cubierta ondulada de cerámica de colores sobre un mercado antiguo"
+},
+{
+"titulo": "Lo nuevo se distingue",
+"ref": "Castelvecchio · Carlo Scarpa (Verona)",
+"dato": "Cada intervención nueva se distingue de lo antiguo con materiales y juntas precisas.",
+"idea": "sala de museo en un castillo antiguo con piezas nuevas de acero y hormigón"
+},
+{
+"titulo": "Cestería con mangueras",
+"ref": "Cineteca Matadero · Churtichaga + Quadra-Salcedo (Madrid, 2011)",
+"dato": "Cestas tejidas con mangueras de riego dan una piel nueva a las naves del antiguo matadero.",
+"idea": "interior de nave antigua de ladrillo con grandes cestas tejidas iluminadas"
+}
+],
+"tipo": "referentes"
+},
+{
+"id": "refe_1cd18190",
+"hook": "5 referentes españoles para tu proyecto",
+"puntos": [
+{
+"titulo": "Muros y arcos",
+"ref": "Museo Nacional de Arte Romano · Rafael Moneo (Mérida, 1986)",
+"dato": "Muros paralelos de ladrillo con grandes arcos que evocan la construcción romana.",
+"idea": "nave de museo con grandes arcos de ladrillo y luz cenital"
+},
+{
+"titulo": "Una casa entre patios",
+"ref": "Casa Gaspar · Alberto Campo Baeza (Zahora, 1992)",
+"dato": "Muros blancos encierran patios y la casa vive entre ellos.",
+"idea": "casa blanca de una planta entre muros altos con patios y limoneros"
+},
+{
+"titulo": "Un camino que desciende",
+"ref": "Cementerio de Igualada · Enric Miralles y Carme Pinós (1994)",
+"dato": "Un cementerio excavado en una antigua cantera que se recorre como un camino descendente.",
+"idea": "camino descendente entre muros de hormigón y piedra en una antigua cantera"
+},
+{
+"titulo": "Terrazas en voladizo",
+"ref": "Torres Blancas · Sáenz de Oíza (Madrid, 1969)",
+"dato": "Una torre de hormigón con terrazas curvas en voladizo.",
+"idea": "torre residencial de hormigón con terrazas curvas en voladizo"
+},
+{
+"titulo": "Aulas entre cerchas",
+"ref": "Gimnasio Maravillas · Alejandro de la Sota (Madrid, 1962)",
+"dato": "Las cerchas que salvan la luz del gimnasio alojan las aulas entre ellas.",
+"idea": "gimnasio con grandes cerchas metálicas y luz lateral entre ellas"
+}
+],
+"tipo": "referentes"
+}
+],
+"documentacion": [
+{
+"id": "docu_1c68e0bd",
+"hook": "Qué documentación podemos preparar contigo para tu TFM",
+"puntos": [
+{
+"titulo": "Planimetría",
+"dato": "Plantas, secciones y alzados coherentes, listos para tu entrega.",
+"idea": "planos de arquitectura en gran formato sobre una mesa, blanco y negro, sin texto legible"
+},
+{
+"titulo": "Detalles constructivos",
+"dato": "Secciones constructivas y detalles a escala 1:20 resueltos de verdad.",
+"idea": "detalle constructivo de fachada y forjado en lámina técnica, sin texto ni números"
+},
+{
+"titulo": "Instalaciones",
+"dato": "Esquemas de fontanería, saneamiento, electricidad y climatización.",
+"idea": "esquema de instalaciones con líneas de colores sobre una planta, sin texto"
+},
+{
+"titulo": "Estructuras con CYPE",
+"dato": "Cálculo y planos de estructura coherentes con tu proyecto.",
+"idea": "modelo 3D de estructura de pilares y vigas en pantalla, sin texto legible"
+},
+{
+"titulo": "Infografías",
+"dato": "Renders y diagramas para que tu panel destaque.",
+"idea": "render fotorrealista de un edificio cultural contemporáneo al atardecer"
+}
+],
+"portfolio": [
+"planimetria",
+"construccion/construccion_02.jpg",
+"instalaciones",
+"estructuras",
+""
+]
+},
+{
+"id": "docu_78fb472b",
+"hook": "¿Se te atasca la Construcción del TFM?",
+"puntos": [
+{
+"titulo": "Sección constructiva",
+"dato": "Te ayudamos a resolver la sección completa, de la cimentación a la cubierta.",
+"idea": "sección constructiva completa en lámina técnica, sin texto ni números"
+},
+{
+"titulo": "Detalles a 1:20",
+"dato": "Encuentros de fachada, forjado y cubierta bien resueltos.",
+"idea": "detalle constructivo de cubierta plana en sección, dibujo técnico sin texto"
+},
+{
+"titulo": "Carpinterías",
+"dato": "Huecos, dinteles y vierteaguas definidos y coherentes con la fachada.",
+"idea": "detalle de ventana en sección con carpintería y vierteaguas, dibujo técnico sin texto"
+},
+{
+"titulo": "Materiales justificados",
+"dato": "Cada capa con su porqué: aislamiento, impermeabilización y acabado.",
+"idea": "muestras de materiales de construcción en capas sobre una mesa"
+}
+],
+"portfolio": [
+"construccion/construccion_01.jpg",
+"construccion/construccion_02.jpg",
+"planimetria/planimetria_04.jpg",
+"construccion/construccion_04.jpg"
+]
+},
+{
+"id": "docu_d65b49b3",
+"hook": "Del croquis al panel: así trabajamos contigo",
+"puntos": [
+{
+"titulo": "Revisamos tu idea",
+"dato": "Analizamos tu proyecto y lo que pide tu escuela.",
+"idea": "boceto a mano de un edificio sobre una mesa con planos"
+},
+{
+"titulo": "Planos base",
+"dato": "Desarrollamos contigo plantas y secciones sobre las que avanzar.",
+"idea": "planta y sección de arquitectura en pantalla de ordenador, sin texto legible"
+},
+{
+"titulo": "Construcción y estructura",
+"dato": "Las fases técnicas que más se atascan, resueltas a tiempo.",
+"idea": "maqueta de estructura de madera junto a un detalle constructivo"
+},
+{
+"titulo": "Infografías y panel",
+"dato": "Imágenes y paneles para llegar a la defensa con todo listo.",
+"idea": "render de un edificio contemporáneo colgado como panel en una pared, sin texto legible"
+}
+],
+"portfolio": [
+"",
+"planimetria",
+"construccion/construccion_03.jpg",
+""
+]
+},
+{
+"id": "docu_8449f00e",
+"hook": "Así son unas instalaciones bien resueltas",
+"puntos": [
+{
+"titulo": "Fontanería",
+"dato": "Agua fría y caliente, llaves y recorridos claros hasta cada aparato.",
+"idea": "plano de fontanería"
+},
+{
+"titulo": "Saneamiento",
+"dato": "Bajantes, arquetas y pendientes hasta la conexión con la red.",
+"idea": "plano de saneamiento"
+},
+{
+"titulo": "Electricidad",
+"dato": "Mecanismos, puntos de luz y circuitos dibujados sobre la planta.",
+"idea": "plano de electricidad"
+},
+{
+"titulo": "Climatización",
+"dato": "Zonas, equipos y recorridos de la instalación en cada planta.",
+"idea": "plano de climatización"
+}
+],
+"portfolio": [
+"instalaciones/instalaciones_01.jpg",
+"instalaciones/instalaciones_06.jpg",
+"instalaciones/instalaciones_08.jpg",
+"instalaciones/instalaciones_03.jpg"
+]
+},
+{
+"id": "docu_e1faca00",
+"hook": "Una estructura resuelta, de la cimentación a la cubierta",
+"puntos": [
+{
+"titulo": "Cimentación",
+"dato": "Zapatas y encepados acotados, con su armado definido.",
+"idea": "plano de cimentación"
+},
+{
+"titulo": "Forjados",
+"dato": "Cada forjado con su tipo, su canto y sus vigas.",
+"idea": "plano de forjados"
+},
+{
+"titulo": "Detalles de estructura",
+"dato": "Armados y uniones dibujados para que se puedan construir.",
+"idea": "detalles de estructura"
+},
+{
+"titulo": "Coherencia con el proyecto",
+"dato": "La estructura encaja con la planta, no al revés.",
+"idea": "plano de estructura sobre planta"
+}
+],
+"portfolio": [
+"estructuras/estructuras_01.jpg",
+"estructuras/estructuras_02.jpg",
+"construccion/construccion_03.jpg",
+"estructuras/estructuras_03.jpg"
+]
+},
+{
+"id": "docu_546a4ca0",
+"hook": "Detalles constructivos de nivel profesional",
+"puntos": [
+{
+"titulo": "Sección constructiva",
+"dato": "Cada capa nombrada, de la cimentación a la cubierta.",
+"idea": "sección constructiva"
+},
+{
+"titulo": "Detalles a 1:20",
+"dato": "Encuentros de fachada, forjado y cimentación resueltos de verdad.",
+"idea": "detalles constructivos"
+},
+{
+"titulo": "Uniones",
+"dato": "Cómo apoya cada pieza: placas, anclajes y morteros.",
+"idea": "detalle de uniones"
+},
+{
+"titulo": "Carpinterías",
+"dato": "Puertas y ventanas definidas con medidas y acabados.",
+"idea": "carpinterías"
+}
+],
+"portfolio": [
+"construccion/construccion_01.jpg",
+"construccion/construccion_02.jpg",
+"construccion/construccion_04.jpg",
+"planimetria/planimetria_04.jpg"
+]
+}
+],
+"auditoria": [
+{
+"id": "audi_cd619fc4",
+"hook": "Así funciona la auditoría gratuita de tu TFM",
+"puntos": [
+{
+"titulo": "Nos cuentas tu TFM",
+"dato": "Rellenas el formulario de la web con tu proyecto y tu fecha de entrega.",
+"idea": "portátil abierto sobre un escritorio de arquitecto con planos, sin texto legible"
+},
+{
+"titulo": "Llamada de claridad",
+"dato": "Vemos dónde estás, qué te falta y qué te pide tu escuela.",
+"idea": "escritorio con auriculares, cuaderno y planos de arquitectura, luz cálida"
+},
+{
+"titulo": "Un plan por fases",
+"dato": "Te proponemos un plan claro con presupuesto cerrado por fases.",
+"idea": "calendario y planos ordenados sobre una mesa de estudio"
+},
+{
+"titulo": "Te acompañamos",
+"dato": "Trabajamos contigo las fases que más se atascan hasta la entrega.",
+"idea": "paneles de arquitectura terminados colgados en una pared, sin texto legible"
+}
+]
+},
+{
+"id": "audi_bfd649a5",
+"hook": "3 señales de que vas justo con tu TFM",
+"puntos": [
+{
+"titulo": "Sin planos base",
+"dato": "Quedan pocos meses y todavía no tienes plantas y secciones cerradas.",
+"idea": "mesa con bocetos sueltos y ningún plano definido, luz de noche"
+},
+{
+"titulo": "Técnicas sin empezar",
+"dato": "Construcción, estructura e instalaciones siguen en blanco.",
+"idea": "lámina técnica en blanco sobre una mesa de dibujo con escalímetro"
+},
+{
+"titulo": "No sabes cómo defenderlo",
+"dato": "No tienes claro qué contar al tribunal ni en qué orden.",
+"idea": "sala de defensa vacía con paneles en blanco en la pared"
+}
+]
+}
+],
+"postpro": [
+{
+"id": "pp0",
+"descripcion": "fachada de un edificio de viviendas contemporáneo de cinco plantas"
+},
+{
+"id": "pp1",
+"descripcion": "salón de una vivienda con gran ventanal"
+},
+{
+"id": "pp2",
+"descripcion": "biblioteca pública de una planta con plaza delante"
+},
+{
+"id": "pp3",
+"descripcion": "casa unifamiliar de hormigón con piscina"
+},
+{
+"id": "pp4",
+"descripcion": "centro cultural con una gran cubierta"
+},
+{
+"id": "pp5",
+"descripcion": "cocina abierta de una vivienda"
+},
+{
+"id": "pp6",
+"descripcion": "patio interior de un edificio de viviendas"
+},
+{
+"id": "pp7",
+"descripcion": "museo junto a un río"
+}
+],
+"test": [
+{
+"id": "t_albardilla",
+"pregunta": "¿Cómo se llama la pieza que remata la parte superior de un muro o pretil?",
+"opciones": [
+"Albardilla",
+"Vierteaguas",
+"Alféizar",
+"Zócalo"
+],
+"explicacion": "La albardilla corona muros y pretiles y evita que el agua entre por arriba. El vierteaguas protege el hueco de la ventana.",
+"idea": "remate superior de un pretil de ladrillo en una cubierta plana, detalle cercano"
+},
+{
+"id": "t_vierteaguas",
+"pregunta": "¿Qué pieza bajo la ventana expulsa el agua hacia fuera de la fachada?",
+"opciones": [
+"Vierteaguas",
+"Dintel",
+"Jamba",
+"Mainel"
+],
+"explicacion": "El vierteaguas tiene pendiente y goterón para alejar el agua de la fachada. El dintel está encima del hueco.",
+"idea": "ventana en una fachada de ladrillo con lluvia, detalle de la parte inferior de la ventana"
+},
+{
+"id": "t_pilotes",
+"pregunta": "Si el terreno firme está muy profundo, ¿qué cimentación se suele usar?",
+"opciones": [
+"Pilotes",
+"Zapata aislada",
+"Zapata corrida",
+"Solera"
+],
+"explicacion": "Los pilotes transmiten las cargas hasta el estrato resistente profundo (o por rozamiento con el terreno).",
+"idea": "obra con una máquina pilotadora y armaduras de pilotes, sin personas"
+},
+{
+"id": "t_invertida",
+"pregunta": "En una cubierta invertida, ¿dónde va el aislamiento térmico?",
+"opciones": [
+"Encima de la impermeabilización",
+"Debajo de la impermeabilización",
+"Bajo el forjado, por dentro",
+"No lleva aislamiento"
+],
+"explicacion": "En la cubierta invertida el aislamiento (tipo XPS) va sobre la lámina impermeable y la protege. Por eso se llama «invertida».",
+"idea": "cubierta plana con grava y placas de aislamiento, vista en obra, sin personas"
+},
+{
+"id": "t_patinillo",
+"pregunta": "¿Cómo se llama el hueco vertical que atraviesa las plantas para pasar instalaciones?",
+"opciones": [
+"Patinillo",
+"Plénum",
+"Junta de dilatación",
+"Forjado sanitario"
+],
+"explicacion": "El patinillo (o shunt, si es de ventilación) recorre el edificio en vertical. El plénum es el espacio sobre el falso techo.",
+"idea": "edificio de viviendas en obra con huecos verticales de instalaciones, tuberías visibles, sin personas"
+},
+{
+"id": "t_cype",
+"pregunta": "¿Cuál de estos programas sirve para calcular estructuras?",
+"opciones": [
+"CYPE",
+"Lumion",
+"SketchUp",
+"Photoshop"
+],
+"explicacion": "CYPE (CYPECAD) es el programa de cálculo de estructuras más usado en España. Lumion es de renders.",
+"idea": "pantalla de ordenador con un modelo estructural 3D de pilares y vigas, sin texto legible"
+},
+{
+"id": "t_lod",
+"pregunta": "En BIM, ¿qué indica el LOD de un modelo?",
+"opciones": [
+"Su nivel de desarrollo o detalle",
+"El tipo de licencia",
+"El formato del archivo",
+"La escala de impresión"
+],
+"explicacion": "LOD (Level of Development) indica cuánto está definido cada elemento del modelo: de volumen genérico a elemento concreto.",
+"idea": "modelo BIM de un edificio en una pantalla con distintos niveles de detalle, sin texto"
+},
+{
+"id": "t_puente",
+"pregunta": "¿Qué es un puente térmico?",
+"opciones": [
+"Una zona de la envolvente por donde se pierde más calor",
+"Un tipo de estructura de puentes",
+"Una junta de dilatación",
+"Un aislante muy eficaz"
+],
+"explicacion": "Es un punto débil de la envolvente (frentes de forjado, pilares, contorno de huecos) con más pérdidas de calor y riesgo de condensación.",
+"idea": "imagen termográfica de una fachada con zonas de color en los frentes de forjado"
+},
+{
+"id": "t_escala",
+"pregunta": "¿Qué escala es la habitual para un detalle constructivo?",
+"opciones": [
+"1:20",
+"1:200",
+"1:500",
+"1:1000"
+],
+"explicacion": "Los detalles constructivos se dibujan a 1:20, 1:10 o 1:5. A 1:200 se dibujan plantas generales.",
+"idea": "detalle constructivo en sección dibujado a mano sobre papel, sin texto ni números"
+},
+{
+"id": "t_bovedilla",
+"pregunta": "En un forjado unidireccional, ¿qué pieza va entre las viguetas?",
+"opciones": [
+"Bovedilla",
+"Casetón",
+"Zuncho",
+"Correa"
+],
+"explicacion": "Las bovedillas (cerámicas, de hormigón o EPS) apoyan entre viguetas y aligeran el forjado. Los casetones son del reticular.",
+"idea": "forjado unidireccional en obra con viguetas y bovedillas cerámicas, vista desde arriba, sin personas"
+},
+{
+"id": "t_cercha",
+"pregunta": "¿Cómo se llama la estructura triangulada que salva grandes luces en una cubierta?",
+"opciones": [
+"Cercha",
+"Ménsula",
+"Losa",
+"Pórtico rígido"
+],
+"explicacion": "La cercha trabaja por triangulación: sus barras trabajan a tracción o compresión, lo que permite grandes luces con poco material.",
+"idea": "nave con cerchas metálicas trianguladas vistas en la cubierta"
+},
+{
+"id": "t_traccion",
+"pregunta": "En una viga de hormigón armado, ¿qué resiste principalmente las tracciones?",
+"opciones": [
+"Las armaduras de acero",
+"El hormigón",
+"El encofrado",
+"El recubrimiento"
+],
+"explicacion": "El hormigón resiste muy bien la compresión, pero poco la tracción: por eso se arma con acero en la zona traccionada.",
+"idea": "armaduras de acero de una viga dentro del encofrado antes de hormigonar, sin personas"
+},
+{
+"id": "t_celosia",
+"pregunta": "¿Para qué sirve sobre todo una celosía en fachada?",
+"opciones": [
+"Filtrar la luz y dar privacidad",
+"Soportar el forjado",
+"Impermeabilizar el muro",
+"Aislar del ruido de impacto"
+],
+"explicacion": "La celosía tamiza la luz y la radiación solar y da privacidad sin cerrar el paso del aire.",
+"idea": "fachada con celosía cerámica que proyecta sombras en un interior"
+},
+{
+"id": "t_junta",
+"pregunta": "¿Para qué sirve una junta de dilatación en un edificio largo?",
+"opciones": [
+"Absorber los movimientos por temperatura",
+"Pasar instalaciones",
+"Ventilar la fachada",
+"Evacuar el agua de lluvia"
+],
+"explicacion": "El edificio se dilata y contrae con la temperatura; la junta divide la estructura para que no aparezcan fisuras.",
+"idea": "junta vertical en una fachada larga de hormigón, detalle"
+}
+],
+"vf": [
+{
+"id": "vf_hormigon",
+"pregunta": "El hormigón trabaja muy bien a compresión, pero mal a tracción.",
+"opciones": [
+"Verdadero",
+"Falso"
+],
+"explicacion": "Su resistencia a tracción es muy baja comparada con la de compresión; por eso se arma con acero.",
+"idea": "probetas de hormigón en un laboratorio, detalle"
+},
+{
+"id": "vf_cubiertas",
+"pregunta": "La planta de cubiertas se dibuja vista desde abajo.",
+"opciones": [
+"Falso",
+"Verdadero"
+],
+"explicacion": "Se dibuja vista desde arriba: es lo que verías sobrevolando el edificio.",
+"idea": "vista aérea de una cubierta con lucernarios y paneles solares"
+},
+{
+"id": "vf_muro",
+"pregunta": "Si un muro de carga es interior, se puede quitar sin reforzar nada.",
+"opciones": [
+"Falso",
+"Verdadero"
+],
+"explicacion": "Un muro de carga sostiene forjados, sea interior o exterior. Quitarlo exige un cálculo y un refuerzo (viga, pórtico...).",
+"idea": "muro de ladrillo interior en una reforma con forjado encima, sin personas"
+},
+{
+"id": "vf_discontinua",
+"pregunta": "En planta, la línea discontinua suele indicar elementos por encima del plano de corte u ocultos.",
+"opciones": [
+"Verdadero",
+"Falso"
+],
+"explicacion": "Es la convención habitual: voladizos, vigas, huecos de forjado o elementos ocultos se dibujan a trazos.",
+"idea": "planta arquitectónica dibujada a mano con líneas discontinuas, sin texto"
+},
+{
+"id": "vf_sur",
+"pregunta": "En España, una fachada orientada a sur recibe más sol en invierno que una orientada a norte.",
+"opciones": [
+"Verdadero",
+"Falso"
+],
+"explicacion": "En el hemisferio norte el sol de invierno va bajo por el sur: la fachada sur recibe sol directo y la norte casi nada.",
+"idea": "fachada de viviendas con sol bajo de invierno entrando por las ventanas"
+},
+{
+"id": "vf_madera",
+"pregunta": "La madera no se puede usar para estructuras de varias plantas.",
+"opciones": [
+"Falso",
+"Verdadero"
+],
+"explicacion": "Con madera contralaminada (CLT) y laminada se construyen edificios de varias plantas e incluso en altura.",
+"idea": "edificio de madera contralaminada en construcción de varias plantas, sin personas"
+},
+{
+"id": "vf_seccion",
+"pregunta": "Una sección es un corte vertical del edificio.",
+"opciones": [
+"Verdadero",
+"Falso"
+],
+"explicacion": "La sección corta el edificio con un plano vertical; la planta, con un plano horizontal.",
+"idea": "maqueta de arquitectura cortada en sección que muestra varias plantas"
+},
+{
+"id": "vf_aislamiento",
+"pregunta": "Más grosor de aislamiento siempre significa más condensaciones.",
+"opciones": [
+"Falso",
+"Verdadero"
+],
+"explicacion": "Las condensaciones dependen sobre todo de los puentes térmicos y de la barrera de vapor bien colocada, no del grosor.",
+"idea": "placas de aislamiento térmico en una fachada en obra, sin personas"
+}
+],
+"encuesta": [
+{
+"id": "e_programa",
+"pregunta": "¿Con qué programa haces tu TFM?",
+"opciones": [
+"Revit",
+"ArchiCAD",
+"AutoCAD + SketchUp",
+"Rhino"
+],
+"idea": "escritorio de estudiante de arquitectura con portátil y planos, luz de tarde"
+},
+{
+"id": "e_fase",
+"pregunta": "¿Qué parte del TFM se te atraganta más?",
+"opciones": [
+"Construcción",
+"Estructuras",
+"Instalaciones",
+"El panel"
+],
+"idea": "mesa llena de planos y maquetas a medio hacer de noche"
+},
+{
+"id": "e_render",
+"pregunta": "¿Con qué haces tus renders?",
+"opciones": [
+"Lumion",
+"Enscape",
+"V-Ray",
+"Twinmotion"
+],
+"idea": "render de un edificio contemporáneo al atardecer"
+},
+{
+"id": "e_horario",
+"pregunta": "¿Cuándo trabajas mejor en el TFM?",
+"opciones": [
+"Por la mañana",
+"Por la tarde",
+"Por la noche",
+"De madrugada"
+],
+"idea": "ventana de un estudio con luz del amanecer y una mesa con planos"
+},
+{
+"id": "e_tipologia",
+"pregunta": "¿Qué tipología elegirías para tu TFM?",
+"opciones": [
+"Vivienda colectiva",
+"Equipamiento cultural",
+"Rehabilitación",
+"Urbanismo"
+],
+"idea": "vista aérea de una ciudad con distintos edificios"
+},
+{
+"id": "e_maqueta",
+"pregunta": "¿Maqueta física o solo 3D?",
+"opciones": [
+"Física siempre",
+"Solo 3D",
+"Las dos",
+"Impresión 3D"
+],
+"idea": "maqueta de madera junto a un portátil con un modelo 3D"
+}
+]
 }
