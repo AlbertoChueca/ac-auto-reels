@@ -166,8 +166,34 @@ def youtube_short(video_url, caption, title, first_comment=None):
 
 
 # ------------------------------------------------------------------ analíticas
-def analytics(post_id):
-    r = requests.get(f"{API}/analytics", headers=_h(), params={"postId": post_id}, timeout=60)
-    if r.status_code == 202:
-        return None
-    return _check(r, "analytics")
+def analytics(post_id, debug=False):
+    """Métricas de una publicación. Zernio ha cambiado la forma del endpoint alguna vez: se prueban las variantes y se
+    devuelve la primera con datos. 202 = aún no hay datos."""
+    intentos = [("GET", f"{API}/analytics", {"postId": post_id}),
+                ("GET", f"{API}/analytics/{post_id}", None),
+                ("GET", f"{API}/posts/{post_id}/analytics", None),
+                ("GET", f"{API}/posts/{post_id}", None)]
+    for metodo, url, params in intentos:
+        try:
+            r = requests.request(metodo, url, headers=_h(), params=params, timeout=60)
+        except Exception as e:
+            if debug:
+                print("analytics", url, "error", str(e)[:100], flush=True)
+            continue
+        if debug:
+            print("analytics", url.replace(API, ""), r.status_code, r.text[:400].replace("\n", " "), flush=True)
+        if r.status_code == 202:
+            return None
+        if r.status_code >= 400 or not r.content:
+            continue
+        try:
+            j = r.json()
+        except Exception:
+            continue
+        if isinstance(j, dict) and isinstance(j.get("data"), dict):
+            j = j["data"]
+        if isinstance(j, dict) and isinstance(j.get("post"), dict) and not j.get("analytics"):
+            j = j["post"]
+        if isinstance(j, dict) and (j.get("analytics") or j.get("platformAnalytics") or j.get("metrics")):
+            return j
+    return {}

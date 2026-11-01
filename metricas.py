@@ -38,9 +38,7 @@ def actualizar(dias=60):
                     m = IG.media_insights(pid[3:])
                 else:
                     import publish_zernio as Z
-                    a = Z.analytics(pid) or {}
-                    if os.environ.get("METRICAS_DEBUG"):
-                        print("zernio", dest, json.dumps(a)[:600], flush=True)
+                    a = Z.analytics(pid, debug=bool(os.environ.get("METRICAS_DEBUG"))) or {}
                     if isinstance(a.get("data"), dict):                   # a veces viene envuelto en data
                         a = a["data"]
                     m = dict(a.get("analytics") or a.get("metrics") or {})
