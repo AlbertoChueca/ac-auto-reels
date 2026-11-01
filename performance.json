@@ -24,5 +24,57 @@
 "tiktok_video": {},
 "youtube_short": {}
 }
+},
+"2026-10-29_manual_443239": {
+"date": "2026-10-29",
+"tematica": "tips_tfm",
+"hook": "¿Sales de corregir más perdido?",
+"review_score": 8.0,
+"views": 28,
+"reach": 27,
+"likes": 0,
+"comments": 0,
+"shares": 0,
+"saved": 1,
+"watch_ms": 5822,
+"por_red": {
+"instagram_reel": {
+"views": 28,
+"reach": 27,
+"likes": 0,
+"comments": 0,
+"shares": 0,
+"saved": 1,
+"watch_ms": 5822
+},
+"tiktok_video": {},
+"youtube_short": {}
+}
+},
+"2026-10-29_manual_035781": {
+"date": "2026-10-29",
+"tematica": "referentes",
+"hook": "¿Sin concepto? 5 referentes para Proyectos",
+"review_score": 8.0,
+"views": 56,
+"reach": 50,
+"likes": 0,
+"comments": 0,
+"shares": 0,
+"saved": 0,
+"watch_ms": 4587,
+"por_red": {
+"instagram_reel": {
+"views": 56,
+"reach": 50,
+"likes": 0,
+"comments": 0,
+"shares": 0,
+"saved": 0,
+"watch_ms": 4587
+},
+"tiktok_video": {},
+"youtube_short": {}
+}
 }
 }
