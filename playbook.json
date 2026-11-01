@@ -1,50 +1,47 @@
 {
 "ganchos_que_funcionan": [
-"Dejé de renderizar durante horas para el TFG y usé esto...",
-"De boceto feo a render final en 10 segundos",
-"Mi entrega de Proyectos es en 3 horas y esto es lo que llevo...",
-"POV: 48h despierto antes de entregar el PFC",
-"Si no sabes cómo defender la forma de tu edificio en la corrección, haz esto",
-"Guarda este protocolo antes de tu próxima entrega de Proyectos",
-"El truco con cartón pluma y corte limpio que ningún profesor te explica",
-"Por qué casi todos suspenden al diagramar la lámina y cómo arreglarlo"
+"¿Sales de corregir más perdido de lo que entraste? Aplica este cambio hoy.",
+"Deja de perder 5 horas renderizando para Proyectos: usa este flujo rápido.",
+"Si tu tribunal está harto de los referentes de siempre, usa estos 3 proyectos.",
+"El 90% suspende o se estanca en el TFM por cometer este error conceptual.",
+"POV: Faltan 48 horas para la entrega final y tu render va por el 2%."
 ],
 "patrones": [
-"Transformación rápida A/B: de modelo básico en SketchUp/Revit a visualización con IA en menos de 20 segundos",
-"Cheat sheet con pausa de captura de pantalla (2-3 segundos) con alta densidad de valor para forzar guardados",
-"POV empático de noche en vela / entrega exprés que resuelve un problema urgente con humor",
-"Pantalla verde analizando láminas o planos reales señalando el error típico de corrección y la solución",
-"Plano cenital estilo ASMR con sonido ambiente nítido mostrando maquetación conceptual rápida",
-"Puente al final del contenido de valor hacia la auditoría gratuita de TFM/TFG para desbloquear correcciones"
+"Mostrar el resultado final o solución visual impactante en los primeros 2 segundos.",
+"Ritmo de edición rápido con zooms sutiles o subtítulos cinéticos cada 1.5 a 2 segundos.",
+"Estructura: Frustración real de entrega -> Solución práctica en pantalla -> CTA para guardar.",
+"Grabación nativa de pantalla (Rhino, Photoshop, IA) o formato plano cenital de taller.",
+"Cierre de ventas sutil (20% de vídeos): invitar a comentar o enviar DM para auditoría gratuita de TFM."
 ],
 "evitar": [
-"Intros lentas con saludos o presentaciones teóricas sin mostrar el resultado en los primeros 2 segundos",
-"Tutoriales densos de software de más de 60 segundos sin dinamismo visual ni cortes limpios",
-"Venta agresiva o directa sin haber aportado una solución accionable previa",
-"Sobreedición con subtítulos estridentes o efectos que distraigan del contenido arquitectónico",
-"Hablar de teoría académica abstracta sin aplicarla a una lámina, planta o entrega real"
+"Intros lentas, saludos o presentaciones personales que aumenten el abandono en los primeros 3 segundos.",
+"Listados abstractos de referentes sin diagramas ni aplicación gráfica directa a la entrega.",
+"Vídeos de más de 35 segundos con ritmo plano sin cambios de encuadre.",
+"Marcas de agua cruzadas de TikTok u otras aplicaciones externas.",
+"Voces sintéticas impersonales o clips de stock genéricos sin valor arquitectónico."
 ],
-"tono_voz": "Empático, directo, de colega veterano que ya pasó por el infierno de las entregas y te da el atajo definitivo sin rodeos ni superioridad académica",
+"tono_voz": "Colega veterano empático, directo y resolutivo; comprende el estrés y las noches en vela de las entregas y ofrece atajos profesionales sin rodeos teóricos.",
 "duracion_objetivo_s": 22,
 "pesos": {
-"tips_tfm": 1,
-"tips_proyectos": 1,
-"referentes": 1,
-"ia": 1,
-"test": 1,
-"vf": 1
+"tips_tfm": 1.0,
+"tips_proyectos": 1.0,
+"referentes": 1.0,
+"ia": 1.0,
+"test": 1.0,
+"vf": 1.0
 },
 "hashtags": [
 "#arquitectura",
 "#estudiantedearquitectura",
-"#tfgarquitectura",
 "#tfmarquitectura",
+"#tfgarquitectura",
 "#proyectosarquitectura",
-"#pfc",
-"#renderarquitectura",
-"#entregaproyectos",
-"#tipsdearquitectura"
+"#entregasdearquitectura",
+"#pfc"
 ],
-"fecha": "2026-10-29",
-"datos": {}
+"fecha": "2026-11-01",
+"datos": {
+"referentes": 0.0226,
+"tips_tfm": 0.2093
+}
 }

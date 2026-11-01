@@ -1,80 +1,102 @@
 {
 "formatos_que_funcionan": [
-"Grabación de pantalla con transición rápida A/B de boceto o modelo 3D básico (SketchUp/Revit) a render con IA (15-25 s)",
-"POV y vlogs rápidos de humor con audio en tendencia sobre noches en vela y entregas (7-15 s)",
-"Timelapse de diagramación y dibujo en iPad/Photoshop sobre plantas y referentes arquitectónicos (30-45 s)",
-"Plano cenital en primera persona (estilo ASMR) de trucos de corte y maquetas conceptuales rápidas (15-30 s)",
-"Marcos de trabajo y cheat sheets accionables en pantalla diseñados para guardar como material de consulta",
-"Pantalla verde con análisis orgánico en directo de planos, documentos o capturas reales"
+"Flujo de trabajo IA + Software (tutorial exprés en grabación de pantalla de 15–30s)",
+"Humor / Vlog: 'POV entregas y vida de estudiante' (cámara rápida, plano fijo o noches en vela de 10–20s)",
+"Referentes ocultos para salvar tu TFG / PFC (secuencia dinámica con diagramas de 30–45s)",
+"Hacks de Maquetas y Diagramación Pro (plano cenital hands-only/ASMR de 20–40s)",
+"Guías rápidas y micro-marcos (15–30s con listas visuales y capturas accionables para guardar)",
+"Casos de estudio / Desmentidos (formato antes/después resolviendo un problema concreto)"
 ],
 "ganchos_que_funcionan": [
-"\"Dejé de renderizar durante horas para el TFG y usé esto...\"",
-"\"De boceto feo a render final en 10 segundos\"",
-"\"Mi entrega de Proyectos es en 3 horas y esto es lo que llevo...\"",
-"\"POV: 48h despierto antes de entregar el PFC\"",
-"\"3 referentes que salvarán la idea de tu proyecto...\"",
-"\"Si no sabes cómo defender la forma de tu edificio, haz esto\"",
-"\"El truco con cortadora/cartón pluma que ningún profesor te cuenta...\"",
-"\"Guarda este protocolo antes de tu próxima corrección / entrega\"",
-"\"Por qué casi todos fallan al hacer [X] y la corrección exacta\""
+"Deja de perder 5 horas renderizando para Proyectos, usa este flujo...",
+"Stop rendering like it’s 2020",
+"POV: Faltan 6 horas para la entrega del TFG y el render va por el 2%",
+"Si tu tribunal está harto de los referentes de siempre, usa estos 3 proyectos...",
+"El truco para cortar metacrilato sin romperlo a las 3 AM",
+"El 90% comete este error al...",
+"Cómo pasé de X a Y cambiando solo esta variable",
+"Corte directo a la solución visual final desde el primer fotograma (0–2s)"
 ],
 "temas_calientes": [
-"Uso de IA para acelerar renders y entregas exprés de Proyectos y TFG/TFM",
-"Supervivencia y noches en vela ante las primeras entregas y correcciones fuertes de octubre",
-"Diagramación rápida de conceptos, flujos y justificación formal en láminas",
-"Construcción de maquetas de concepto exprés con materiales económicos o corte rápido",
-"Protocolos y trucos para defender el proyecto frente a las críticas del tribunal o profesores"
+"Optimización y ahorro urgente de tiempo en entregas mediante IA (Midjourney, Veras, Krea) en Rhino o Photoshop",
+"Estrés, noches sin dormir y plazos límite de entregas y correcciones académicas de noviembre",
+"Referentes arquitectónicos alternativos para convencer al tribunal en la fase conceptual de TFG/TFM/PFC",
+"Hacks prácticos de taller: corte de materiales (metacrilato), ensamblaje rápido de maquetas y diagramación gráfica pro"
 ],
 "tendencias_de_edicion": [
-"Edición Clean (anti-fatiga): cortes limpios, ritmo dinámico pero sin sobreedición hiperactiva",
-"Pausas para captura de pantalla: fotogramas estáticos de 2-3 segundos con alta densidad informativa visual (cheat sheets, diagramas)",
-"Integración orgánica de datos mediante pantalla verde con planos, láminas o capturas reales analizadas por el creador",
-"Enfoque cenital ASMR con sonido ambiente nítido para procesos manuales de maquetación"
+"Pausado dinámico con cortes, zooms sutiles o subtítulos cinéticos cada 1.5–2 segundos",
+"Estética nativa y orgánica grabada directamente en pantalla o cámara de taller",
+"Audio vocal limpio y claro (con o sin música baja de fondo o audios en tendencia)",
+"Formato visual hands-only con estímulo tipo ASMR"
 ],
 "que_penaliza_el_algoritmo": [
-"Contenido IA genérico (slop): guiones y voces clonadas sin curación experta ni presencia humana auténtica",
-"Ganchos engañosos (retention bait): alargar el vídeo sin entregar la solución prometida al inicio",
-"Marcas de agua de otras redes sociales y reciclaje con baja resolución o compresión degradada",
-"Incentivar spam de comentarios automatizados ('comenta X para recibir DM') sin propiciar debate orgánico"
+"Marcas de agua cruzadas de TikTok u otras herramientas de terceros",
+"Intros lentas o saludos que generen un alto skip/swipe-away rate en los primeros 3 segundos",
+"Contenido IA genérico y masivo con voces sintéticas repetitivas y clips de stock sin valor",
+"Baiting superficial, comentarios vacíos de bots y uso de más de 5 hashtags por publicación"
 ],
 "ejemplos": [
 {
-"que": "De boceto/SketchUp a render con IA para entregas exprés (@showitbetter, @upstairs.design)",
-"por_que": "Alivia de inmediato la presión de las entregas de octubre mostrando cómo obtener acabados profesionales y ahorrar horas de trabajo."
+"que": "@arch.hacks / @salvador.arch (Tutorial exprés de IA + Software)",
+"por_que": "Resuelve la urgencia de ahorrar horas de renderizado integrando IA con herramientas tradicionales como Photoshop o Rhino."
 },
 {
-"que": "POV de humor 'Noches en vela antes de entrega' con café y maqueta a medio terminar (@archi.life)",
-"por_que": "Despierta una alta empatía comunitaria en época de correcciones, multiplicando compartidos por chat y comentarios de estudiantes identificados."
+"que": "@archistudentlife / @laura.archistudent (Humor / POV entregas)",
+"por_que": "Genera alta retención y viralidad por empatía e identificación compartida con el estrés de las entregas y noches en vela."
 },
 {
-"que": "Desglose visual de diagramas y referentes sobre plano (@arch_graphics, @luis_architect)",
-"por_que": "Aporta valor utilitario directo y didáctico que los alumnos aplican de inmediato en sus láminas de proyectos, maximizando la tasa de guardados."
+"que": "@showitbetter / @archisource (Referentes ocultos para TFG/PFC)",
+"por_que": "Aporta valor académico directo e incentiva masivamente la métrica de guardados para la fase conceptual."
 },
 {
-"que": "Hacks de maquetas rápidas de concepto en plano cenital (@archi_student, @studio_draft)",
-"por_que": "Combina el atractivo visual del ASMR con la resolución práctica de falta de tiempo y presupuesto para revisiones semanales."
+"que": "@scale_model_arch / @the_architecture_student (Hacks de maquetas y diagramación)",
+"por_que": "Combina la satisfacción estética del ASMR cenital con un tip de utilidad inmediata para maquetar o entregar planos."
 }
 ],
 "ideas_de_reel": [
-"Reel de 20s con pantalla verde: 'Guarda este protocolo antes de tu corrección de Proyectos de esta semana' mostrando el desglose paso a paso de 3 diagramas clave que debes incluir en tu lámina.",
-"Transición rápida A/B (15s): De modelo esquemático básico en SketchUp a render final con IA en segundos con el gancho: 'Dejé de renderizar durante horas para el TFG y usé esto para la entrega de octubre'.",
-"POV humor (10s): 'Mi entrega de Proyectos es en 3 horas y esto es lo que llevo', mostrando la mesa llena de cartón pluma, cutter, café frío y cortes rápidos al avance real.",
-"Cheat sheet con pausa de captura (30s): 'Por qué casi todos fallan al justificar la forma del edificio y la corrección exacta', terminando en una lámina estática de 3 segundos lista para captura de pantalla.",
-"Plano cenital ASMR (20s): 'Make a concept model in 15 mins': corte de cartón pluma y montaje rápido de maqueta volumétrica para llevar a la corrección del profesor."
+"Tutorial de pantalla (15s): 'Deja de perder 5 horas renderizando para Proyectos...' integrando Krea/Veras con Photoshop para la entrega de noviembre.",
+"POV humor (12s): 'POV: Faltan 6 horas para la entrega de corrección y el render va por el 2%', con cámara rápida en taller de madrugada.",
+"Guía académica (30s): 'Si tu tribunal de TFG está harto de los mismos referentes...', mostrando 3 proyectos poco vistos y sus diagramas clave para guardar.",
+"Plano cenital ASMR (25s): 'El truco para cortar metacrilato sin romperlo a las 3 AM' para salvar la maqueta de la entrega.",
+"Desmentido/Antes-Después (20s): 'El 90% comete este error al diagramar sus láminas de Proyectos', mostrando el resultado corregido desde el segundo 0."
 ],
-"fecha": "2026-10-29",
+"fecha": "2026-11-01",
 "fuentes": [
 {
-"titulo": "re-thinkingthefuture.com",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4QX0EooEv6ouS0AVqVM-jJFqIoIsoIVNKIBAHP6L-4Yh8_NKkoeHbRhTa4a7sfIDhY0VzXeNHddg33hbmnrHEMvDQ_LBn53U0ExIIVb-3g4_FL9bIJe1vqVcSvFhmN7tl45XDph4Hs27CV9m4R4KXqMi1vP5nTyWm2Sw6u1OUL6JPb1ci2Zv-pzhUyNdss__dmQhgzo4YToZq9H4qhtHQsDid1WkgJovtt77aUu0="
+"titulo": "reddit.com",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYzW8HS9foS2Wzf8HFB7BNeOxASDHP3PSMDOhY1nFmk4VO5UfuRBso85Z5EeTRECB1U5ZLM6WQZ05-nOY4qrUG1_rlec31GN5zIQ3_NyNFolnyAkeGfgP-kUIYFn-ovORQWHN6TP5T_yMYkwWUzUnJeHpHFlxXxaxuaDBYZKp1Ne6GczNHljilAZaK1EIWzrPQKpeqJv41xp3WrR8lsx5mfaJn"
 },
 {
-"titulo": "archfine.com",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrXkGfScGe-gXky7izYWSvz6Dfi5G9rGehC8wMTXVtOTaK3gVKB109Zjs167kVwYRuokhfkxB119xgHfMp-VHdP4S50db1QO9luzxbEWX4lczF1MpIjJjWluEdGNkFe0mJVhOqIopzRY7NpsbjfiKmt2_-dTl9Uz--"
+"titulo": "ugccopilot.ai",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHyr8XeOs9wwExVfb94SBMZFQcJTkZhU9gPRRz0kmVrpEKKQTECrd4izlQSMF7lqVCD929WqMf6-hnaAAA9qUPw01XnB4wXH8ML_0UeD-t732vfESZw6BxCO4SDtDXNassAvmL0VxkeVI="
 },
 {
-"titulo": "youtube.com",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNd_14mQyKvml3bpXU6heBBajrVUkpoVS3ojnESTy5RyOvltsy_PJlObw0OW8WoBXY0Z7NgKueUqB_F8kQFxVvXfAAJEK4fzhQAEYcM7XOEsxEWXYA8j7kYLjL16caYiQ="
+"titulo": "postlinkapp.com",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDHHIwauRuAaXv4re5lHQHX5YFkA-7YCeXi8P4pnABoDSRPXRNcFYQ626n8EG4_ACgTAzn8TjE3TxIOi4yHbdER3PzNxwLBzn7q1WiwxJpcR2IC4zwq2Z9GCAKmCoo8xmEtKPJSH5o-AqNeipXhS1Y2MD2qfe-IA=="
+},
+{
+"titulo": "fluxnote.io",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3pStVg5aw_b7C9F8XHXwV3NF7KzYD7fi2h9--g658mAWe3h4PY-dtwgBxMGfdXOsAqXijBR0KR6_QM3lXB_4PL7T9qFeREGmn7yowhswbNb4xB0QzW-u19G7bgY-4I2h2JJ202YP0v0_bCqHIfrZdzAkRFU8AOw=="
+},
+{
+"titulo": "usefastlane.ai",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECFGjmjmni-XWoPnPxjfB28Jt9RrSMZ-sbofQnha-TOc24Pk-0R0QGrzN79O1v69T_z4XDYcGeTSpj3x-mf2JjUQgzp7FmazGtPQXwfGlGIAaJb482tqtBsF0Bf9J_VuIQqP2Y1n6MZ3zSQcpUE45IsbSv"
+},
+{
+"titulo": "usefastlane.ai",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFr0sGeIXaO09Zu7XHD38DbzUwIU4uAl1m2eAEtP51H3Q1oIXSFZb2gFpH2rUNuePsW7bw7xHBEuL2386vo_cUzobGnpOSrjW-P2eaHpS2Y1jp8RGnqHUepIwqnvo4i0Xkss_4R6wny7s6s7FxRU1APnwc="
+},
+{
+"titulo": "360uniquizer.com",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpa26PABoBUyvvS4z33Wx6UMVW2Jha-weVzS1lk4ObpZutXNvUhVSdE08Rx1Y65gkEBaHajlXKbDr8tA5rN1L6HMdR2B1uJdg54s6WwHir8Zj_dXTjtWlFrRzkqvR3zS4ca-TSeIfE62GvtzGKwSkw043XY0I="
+},
+{
+"titulo": "reelforgeai.io",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEbi9UlSjl31Qmy-xVC22FkaYvXOVdqxO4SnM00mm78siNTBAkKvh2VR3v0og3MP1yh3Vk5b6-hTnvMxdxkA_63S717todAphY7qEeDzRcxxRUM38SuQHC3hLuyIak89pxnax3iRXhqCfwIIeA0VfWiXjnm6u1XgczijDE3Q=="
+},
+{
+"titulo": "medium.com",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2bXujVOhgI07hu_sxLx_Hg7qQZ9i5BOWFbMEFvfzoRg_RYfky6WCSk-6sFZzZQCFVuHvk9nM8z38kwmK16g6Cogp29PpwlAu9EhvtBPTv0iVl34DEkvSJmK8Z_DCyD9zpL7bcUmDvh4vL_7aUWWoyyzGPayu1riNlmxyBQ7cr6otsd4Cj3I8ji6k5zx7mwYZE44dazrlVDsIEVdF1pZbCoTQIc1AsFS9tVQ=="
 }
 ],
 "verificado": true,
