@@ -1,6 +1,6 @@
 # Bot de comunidad
 
-_Última pasada: 2026-11-01 19:46 UTC · 0 respuestas_
+_Última pasada: 2026-11-01 23:41 UTC · 0 respuestas_
 
 | Fecha | Red | Tipo | Gancho | Comentarios | Solución publicada |
 |---|---|---|---|---|---|
@@ -10,3 +10,6 @@ _Última pasada: 2026-11-01 19:46 UTC · 0 respuestas_
 | 2026-10-29 | instagram | referentes | ¿Sin concepto? 5 referentes para Proyect | 0 | — |
 | 2026-10-29 | tiktok | referentes | ¿Sin concepto? 5 referentes para Proyect | 0 | — |
 | 2026-10-29 | youtube | referentes | ¿Sin concepto? 5 referentes para Proyect | 0 | — |
+| 2026-11-01 | instagram | documentacion | 4 entregas técnicas de tu TFM | 0 | — |
+| 2026-11-01 | tiktok | documentacion | 4 entregas técnicas de tu TFM | 0 | — |
+| 2026-11-01 | youtube | documentacion | 4 entregas técnicas de tu TFM | 0 | — |
