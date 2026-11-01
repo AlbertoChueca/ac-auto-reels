@@ -1,0 +1,30 @@
+name: Métricas
+
+on:
+  schedule:
+    - cron: "40 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  metricas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - run: pip install -q requests
+      - name: Leer resultados reales
+        env:
+          ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_HANDLE: ${{ vars.IG_HANDLE || '@arquitectura_confidencial' }}
+          ZERNIO_MATCH: ${{ vars.ZERNIO_MATCH || 'arquitecturaconfidencial' }}
+        run: python metricas.py | tee -a $GITHUB_STEP_SUMMARY
+      - name: Guardar
+        if: always()
+        run: python sincronizar.py "Métricas $(date +%F)" performance.json metricas.md
