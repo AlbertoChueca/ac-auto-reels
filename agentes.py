@@ -114,8 +114,13 @@ def _tend_texto(t):
 
 # ================================================================== 1 · estratega
 def _recompensa(r):
+    """Interacción por vista + retención (tiempo visto / duración): lo que decide si la red lo enseña a más gente."""
     v = max(1, r.get("views") or r.get("reach") or 0)
-    return ((r.get("saved") or 0) * 3 + (r.get("shares") or 0) * 3 + (r.get("comments") or 0) * 2 + (r.get("likes") or 0)) / v
+    inter = ((r.get("saved") or 0) * 3 + (r.get("shares") or 0) * 3 + (r.get("comments") or 0) * 2 + (r.get("likes") or 0)) / v
+    ret = 0.0
+    if r.get("watch_ms") and r.get("duration"):
+        ret = min(1.0, (r["watch_ms"] / 1000) / float(r["duration"]))
+    return inter + 0.5 * ret
 
 
 def resumen_resultados():
@@ -130,7 +135,8 @@ def resumen_resultados():
     medias = {t: round(sum(_recompensa(x) for x in v) / len(v), 4) for t, v in por.items() if t}
     top = sorted(perf.values(), key=_recompensa, reverse=True)
     return medias, [{"tematica": r.get("tematica"), "hook": r.get("hook"), "views": r.get("views"),
-                     "guardados": r.get("saved"), "compartidos": r.get("shares"), "comentarios": r.get("comments")}
+                     "guardados": r.get("saved"), "compartidos": r.get("shares"), "comentarios": r.get("comments"),
+                     "retencion": (round(r["watch_ms"] / 1000 / float(r["duration"]), 2) if r.get("watch_ms") and r.get("duration") else None)}
                     for r in top[:6]]
 
 
@@ -150,7 +156,8 @@ def estratega(force=False):
     try:
         r = _ask(f"""Eres el estratega de contenido de una cuenta de TikTok, Instagram y YouTube Shorts para {AUDIENCIA}.
 Objetivo: que guarden, compartan y comenten, y que el 20 % de venta lleve a pedir la auditoría gratuita del TFM.
-Resultados reales por temática (recompensa = (guardados×3 + compartidos×3 + comentarios×2 + likes) / vistas): {json.dumps(medias, ensure_ascii=False)}
+Resultados reales por temática (recompensa = interacción por vista + retención): {json.dumps(medias, ensure_ascii=False)}
+Regla de oro: la retención (tiempo visto / duración) manda; un gancho que no retiene en 3 s hunde el reel aunque el contenido sea bueno.
 Mejores publicaciones: {json.dumps(top, ensure_ascii=False)}
 Tendencias de esta semana (del cazatendencias{'' if tendencias().get('verificado') else ', SIN fuentes: trátalas como hipótesis y da más peso a los resultados reales'}): {investigacion}
 Escribe el playbook de esta semana. Si hay pocos datos (menos de 10 publicaciones), pesos = 1 en todo.
@@ -253,16 +260,19 @@ def guionista(tematica, P, pb):
     quiz = tematica in ("test", "vf", "encuesta")
     reglas = ("Es un test: NO digas la respuesta ni la insinúes. 'pregunta_voz' lee la pregunta (puedes hacerla más "
               "natural sin cambiar su sentido). Las opciones salen en pantalla, no las leas." if quiz else
-              "Una 'voz' por escena, en el mismo orden. Cada 'voz': 1 o 2 frases, máx. 14 palabras (en referentes, 18), que expliquen el "
-              "punto con SOLO la información de su 'dato' (y en referentes, nombra la obra y su autor). Empieza alguna con "
-              "un conector natural («Ojo,», «Y esto es clave:», «Truco:»). 'titulo' en pantalla: máx. 5 palabras.")
+              "Una 'voz' por escena, en el mismo orden. Cada 'voz': UNA frase de máx. 12 palabras (en referentes, 15), que "
+              "explique el punto con SOLO la información de su 'dato' (en referentes, nombra obra y autor). Sin relleno: "
+              "cada palabra tiene que ganarse su sitio. Empieza alguna con un conector natural («Ojo:», «Clave:»). "
+              "'titulo' en pantalla: máx. 4 palabras, concretas.")
     try:
-        r = _ask(f"""Eres guionista de reels para {AUDIENCIA}. Escribe el guion HABLADO de este reel (voz en off de 25-35 s EN TOTAL;
-más largo se abandona). Español de España, de tú, como un compañero mayor que ya aprobó: cercano, directo, con ritmo, frases cortas,
+        r = _ask(f"""Eres guionista de reels para {AUDIENCIA}. Escribe el guion HABLADO de este reel (voz en off de 20-28 s EN TOTAL;
+el dato real de la cuenta: la gente abandona a los 5 s si no hay tensión, así que cada frase va al grano).
+'hook_voz': máx. 10 palabras, con tensión o curiosidad (un error, una consecuencia, una promesa concreta, una pregunta
+que duela), SIN saludos ni «hoy te traigo». Se oye en el segundo 0. Español de España, de tú, como un compañero mayor que ya aprobó: cercano, directo, con ritmo, frases cortas,
 nada de lenguaje de anuncio ni de IA («descubre», «sumérgete», «increíble», «en el mundo de»: prohibido).
 {reglas}
 {'Reel de VENTA (20 %): enseña con naturalidad el tipo de documentación que el equipo de AC ayuda a preparar (si la pieza tiene «portfolio», las imágenes son TRABAJOS REALES del equipo: puedes decir «esto es un trabajo real de nuestro equipo»). Asesoría y apoyo técnico en las fases que se atascan; nunca «te hacemos el TFM».' if venta else 'Contenido ÚTIL (80 %): valor puro, cero venta en el cuerpo.'}
-'cierre_voz': 1 frase que invite a {'pedir la auditoría gratuita' if venta else 'guardarlo o compartirlo'} y diga la web «arquitectura confidencial punto com».
+'cierre_voz': máx. 12 palabras: {'invita a pedir la auditoría gratuita' if venta else 'una pregunta concreta para comentar (p. ej. «¿cuál te falta?») o «guárdalo»'} + la web «arquitectura confidencial punto com».
 Lo que mejor funciona ahora (playbook): {_pb_texto(pb)}
 Pieza del banco (verificada; no añadas datos nuevos): {json.dumps(P, ensure_ascii=False)[:3500]}
 Devuelve JSON con la misma forma que este borrador, mejorado: {json.dumps(base, ensure_ascii=False)[:3000]}""", 0.75)
@@ -271,7 +281,7 @@ Devuelve JSON con la misma forma que este borrador, mejorado: {json.dumps(base, 
         for k in base:
             r.setdefault(k, base[k])
         if not quiz:
-            lim = 18 if tematica == "referentes" else 16
+            lim = 16 if tematica == "referentes" else 13
             for e, b in zip(r["escenas"], base["escenas"]):
                 if len(str(e.get("voz", "")).split()) > lim:
                     e["voz"] = b["voz"] if len(b["voz"].split()) <= lim + 6 else e["voz"]
@@ -297,9 +307,12 @@ def gancho(tematica, G, P, pb, recientes=()):
 Tema del reel: «{P.get('hook') or P.get('pregunta')}». Lo que se ve, en orden: {json.dumps([e.get('titulo') for e in G.get('escenas') or []], ensure_ascii=False)}.
 El gancho tiene que describir FIELMENTE ese contenido (si son aciertos, no digas «errores»; si son 5, que sean 5).
 Gancho actual: pantalla «{G['hook_pantalla']}», voz «{G['hook_voz']}».
-Escribe 5 ganchos distintos (curiosidad, error, promesa concreta, pregunta directa al estudiante...) y puntúa cada uno de
-1 a 10 por lo que haría parar el scroll a un estudiante de TFM o de Proyectos.
-Reglas: 'pantalla' máx. 7 palabras{'; si lleva número, debe ser ' + str(n) if n else ''}{'; en tests, la pantalla es una etiqueta corta de 2-4 palabras SIN dos puntos, tipo «TEST DE CONSTRUCCIÓN»' if quiz else ''};
+Escribe 5 ganchos distintos y puntúa cada uno de 1 a 10 por lo que haría parar el scroll a un estudiante de TFM o de
+Proyectos EN EL PRIMER SEGUNDO. Lo que funciona: un error concreto que está cometiendo («Tu sección no dice nada»),
+una consecuencia («Esto te baja la nota en Proyectos»), una cifra, un contraste («Esto no te lo enseñan en la escuela»),
+o una pregunta que duela. Lo que NO funciona: ganchos vagos («¿Sin concepto?»), genéricos («5 consejos para tu TFM»),
+o que suenen a anuncio. Habla de tú y en presente.
+Reglas: 'pantalla' máx. 6 palabras (se lee en un vistazo){'; si lleva número, debe ser ' + str(n) if n else ''}{'; en tests, la pantalla es una etiqueta corta de 2-4 palabras SIN dos puntos, tipo «TEST DE CONSTRUCCIÓN»' if quiz else ''};
 'voz' máx. 14 palabras, natural, de España, sin clickbait falso ni promesas («apruebas seguro», «garantizado»: prohibido).
 NO nombres obras, arquitectos, escuelas, herramientas ni datos que no estén en el reel: el gancho tiene que cumplirse en el propio vídeo.
 No repitas estos ganchos recientes: {json.dumps(list(recientes)[-12:], ensure_ascii=False)}
@@ -309,6 +322,7 @@ Devuelve JSON: {{"opciones": [{{"pantalla": str, "voz": str, "nota": number}}]}}
         nombres = lambda t: [w for w in re.findall(r"\b[A-ZÁÉÍÓÚ][a-záéíóúñ]+(?:\s[A-ZÁÉÍÓÚ][a-záéíóúñ]+)+", t)]
         ops = [o for o in r.get("opciones") or [] if o.get("pantalla") and o.get("voz") and marca.limpio(o["pantalla"] + o["voz"])
                and all(n.lower() in permitido for n in nombres(o["pantalla"] + " " + o["voz"]))
+               and len(o["voz"].split()) <= 12
                and len(o["pantalla"].split()) <= 8 and o["pantalla"] not in recientes]
         if n:
             ops = [o for o in ops if not re.search(r"\d", o["pantalla"]) or str(n) in o["pantalla"]]
@@ -455,9 +469,10 @@ def editor(tematica, G, P, pb):
     base = descripcion_base(tematica, G, P)
     titulo = (G.get("hook_pantalla") if tematica not in ("test", "vf", "encuesta") else P["pregunta"])[:90]
     try:
-        r = _ask(f"""Eres el editor de redes de una cuenta para {AUDIENCIA}. Mejora esta descripción para que la guarden y
-la compartan: primera línea con gancho (máx. 90 caracteres), cuerpo escaneable, sin inventar datos, sin desvelar la
-solución de un test. Mantén la línea con la web {WEB_URL} y la nota final sobre el origen de las imágenes TAL CUAL (IA o planos reales). 5-7 hashtags del nicho en
+        r = _ask(f"""Eres el editor de redes de una cuenta para {AUDIENCIA}. Mejora esta descripción para que la guarden, la
+compartan y COMENTEN: primera línea = el gancho con la palabra clave que buscan (máx. 90 caracteres); cuerpo escaneable
+con los puntos (así el reel se guarda como chuleta); una pregunta concreta y fácil de responder al final («¿Cuál te
+falta?», «¿Qué número eres?»); sin inventar datos, sin desvelar la solución de un test. Mantén la línea con la web {WEB_URL} y la nota final sobre el origen de las imágenes TAL CUAL (IA o planos reales). 5 hashtags como máximo: 3 del nicho exacto (tfm, proyectos, estudiantedearquitectura) y 2 amplios de arquitectura, en
 español (playbook: {', '.join((pb or {}).get('hashtags') or [])}). Título de YouTube Shorts: máx. 80 caracteres, con
 palabras que busquen los estudiantes (TFM, Proyectos, arquitectura).
 Descripción actual: {base}

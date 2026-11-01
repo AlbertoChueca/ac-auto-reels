@@ -1,6 +1,6 @@
 """Calendario semanal de AC: 2 reels al día, 14 a la semana. 80 % útil (11) y 20 % venta (3).
 
-           14:00             20:30
+           14:00             21:00
     lun    tips_tfm          referentes
     mar    ia                test
     mié    tips_proyectos    documentacion   (venta)

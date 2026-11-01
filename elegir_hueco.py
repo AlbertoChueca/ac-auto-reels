@@ -9,7 +9,7 @@ import datetime, json, os
 from zoneinfo import ZoneInfo
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-HUECOS = [("mediodia", 14, 0), ("noche", 20, 30)]
+HUECOS = [("mediodia", 14, 0), ("noche", 21, 0)]
 HASTA = {"mediodia": (19, 15), "noche": (23, 45)}
 HORA = {s: (h, m) for s, h, m in HUECOS}
 

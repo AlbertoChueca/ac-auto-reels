@@ -7,10 +7,10 @@ comentarios y publica la solución de los tests al día siguiente.
 | Hora (España) | Qué |
 |---|---|
 | 14:00 | Reel (`mediodia`) |
-| 20:30 | Reel (`noche`) |
+| 21:00 | Reel (`noche`) |
 
 ## Calendario (14 reels a la semana: 80 % útil, 20 % venta)
-| | 14:00 | 20:30 |
+| | 14:00 | 21:00 |
 |---|---|---|
 | Lunes | Tips TFM | Referentes |
 | Martes | IA para arquitectura | Test |
@@ -23,6 +23,9 @@ comentarios y publica la solución de los tests al día siguiente.
 Cuando hay datos reales (12+ reels medidos), el estratega cambia los huecos útiles hacia lo que más se guarda, comparte
 y comenta. Los de venta no se tocan.
 
+- **Retención primero** (dato real de la cuenta: abandono a los 5 s): gancho en pantalla y en voz desde el fotograma 0,
+  máximo 4 puntos por reel (22-30 s), un cambio visual cada 2-3 s (corte a plano cerrado a mitad de cada escena),
+  subtítulos grandes de 2-3 palabras (se ve sin sonido), barra de progreso y cierre de 2 s con pregunta para comentar.
 - **Todos** los reels llevan voz en off (castellano de España, con altibajos), subtítulos al ritmo de la voz y
   **arquitecturaconfidencial.com visible en todos los fotogramas** y en el cierre.
 - **Tests y V/F**: el reel acaba en la pregunta y nunca enseña la solución. El bot la publica 12-24 h después.

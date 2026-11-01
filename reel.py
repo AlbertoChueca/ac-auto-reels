@@ -38,6 +38,8 @@ SAFE_TOP, SAFE_BOT = 250, 1480
 GRID = (240, 1680)
 WEB = marca.WEB
 LETRAS = "ABCD"
+MAX_PUNTOS = 4                           # 4 puntos ≈ 22-30 s: lo que aguanta una cuenta nueva
+OBJETIVO_S = 30                          # por encima, el revisor lo marca
 
 
 def say(*a):
@@ -62,6 +64,11 @@ def pieza(tematica, seed=0):
         return {"id": "+".join(p["id"] for p in el), "ids": [f"postpro:{p['id']}" for p in el], "escenas_pp": el,
                 "hook": "Tu render sin y con postproducción"}
     p = json.loads(json.dumps(rng.choice(frescas))); p["ids"] = [f"{tematica}:{p['id']}"]
+    if isinstance(p.get("puntos"), list) and len(p["puntos"]) > MAX_PUNTOS:      # reels cortos: retienen más
+        n0 = len(p["puntos"]); p["puntos"] = p["puntos"][:MAX_PUNTOS]
+        if isinstance(p.get("portfolio"), list):
+            p["portfolio"] = p["portfolio"][:MAX_PUNTOS]
+        p["hook"] = re.sub(rf"\b{n0}\b", str(MAX_PUNTOS), p.get("hook", ""), count=1)
     if tematica in ("test", "vf"):                     # la correcta va primera en el banco: se baraja
         ops = list(p["opciones"]); buena = ops[0]
         ops = ["Verdadero", "Falso"] if tematica == "vf" else (rng.shuffle(ops) or ops)
@@ -145,11 +152,11 @@ def portfolio(cat, seed):
 def lamina(img):
     """El plano entero sobre papel, en vertical (el zoom lento del montaje enseña el detalle)."""
     base = Image.new("RGB", (W, H), (244, 241, 234))
-    im = img.copy(); im.thumbnail((W - 40, 680), Image.LANCZOS)
+    im = img.copy(); im.thumbnail((W - 40, 560), Image.LANCZOS)
     sh = Image.new("RGBA", (im.width + 60, im.height + 60), (0, 0, 0, 0))
     ImageDraw.Draw(sh).rectangle([30, 34, im.width + 30, im.height + 34], fill=(0, 0, 0, 60))
     sh = sh.filter(ImageFilter.GaussianBlur(14))
-    y = int(640 - im.height / 2); x = (W - im.width) // 2
+    y = int(600 - im.height / 2); x = (W - im.width) // 2
     base.paste(sh.convert("RGB"), (x - 30, y - 30), sh)
     base.paste(im, (x, y))
     return base
@@ -196,20 +203,31 @@ def _cover_fit(img, zoom=1.0):
     return im.crop((x, y, x + W, y + H))
 
 
-def _plano(img, seed, oscuro=0.0):
+def _plano(img, seed, oscuro=0.0, punch=True):
+    """Ken Burns suave y, a mitad del plano, un CORTE a un encuadre más cerrado (punch-in): dobla el ritmo visual sin
+    generar otra imagen. punch=False: un solo movimiento (gancho, quiz)."""
     r = random.Random(str(seed))
-    z0, z1 = (1.0, 1.12) if r.random() < 0.6 else (1.12, 1.0)
-    c0 = (r.uniform(0.35, 0.65), r.uniform(0.4, 0.6)); c1 = (r.uniform(0.35, 0.65), r.uniform(0.4, 0.6))
-    iw, ih = img.size; s = max(W / iw, H / ih) * 1.14
+    z0, z1 = (1.0, 1.10) if r.random() < 0.6 else (1.10, 1.0)
+    c0 = (r.uniform(0.38, 0.62), r.uniform(0.42, 0.58)); c1 = (r.uniform(0.38, 0.62), r.uniform(0.42, 0.58))
+    c2 = (r.uniform(0.3, 0.7), r.uniform(0.35, 0.65))                    # encuadre del corte
+    iw, ih = img.size; s = max(W / iw, H / ih) * 1.3
     big = img.convert("RGB").resize((int(iw * s), int(ih * s)), Image.BICUBIC)
     if oscuro:
         big = Image.blend(big, Image.new("RGB", big.size, OSCURO), oscuro)
     bw, bh = big.size; base = min(bw / W, bh / H)
 
-    def f(p):
-        p = clamp(p); z = z0 + (z1 - z0) * eo(p); c = (c0[0] + (c1[0] - c0[0]) * p, c0[1] + (c1[1] - c0[1]) * p)
+    def ventana(z, c):
         ww, wh = W * base / z, H * base / z; x = (bw - ww) * c[0]; y = (bh - wh) * c[1]
         return big.resize((W, H), Image.BILINEAR, box=(x, y, x + ww, y + wh))
+
+    def f(p):
+        p = clamp(p)
+        if punch and p >= 0.55:                                            # segunda mitad: plano cerrado que sigue moviéndose
+            q = (p - 0.55) / 0.45
+            return ventana(1.22 + 0.06 * q, (c2[0] + (c1[0] - c2[0]) * 0.3 * q, c2[1] + (c1[1] - c2[1]) * 0.3 * q))
+        q = p / (0.55 if punch else 1.0)
+        return ventana(z0 + (z1 - z0) * eo(q), (c0[0] + (c1[0] - c0[0]) * q, c0[1] + (c1[1] - c0[1]) * q))
+    f.corte = 0.55 if punch else None
     return f
 
 
@@ -241,30 +259,48 @@ def _hot(t):
 
 
 def _web_pill():
-    return fx.pill(WEB, 34, (14, 16, 20, 200), CLARO, padx=26, pady=12, radius=8, outline=ACENTO)
+    return fx.pill(WEB, 30, (14, 16, 20, 150), (236, 232, 222), padx=20, pady=9, radius=8)
+
+
+def _marca_agua(fr, wp):
+    fr.alpha_composite(wp, (44, SAFE_TOP + 16))
 
 
 def _cierre_marca():
     return fx.logo(96, CLARO, ACENTO), fx.pill(WEB, 50, ACENTO, OSCURO, padx=36, pady=18, radius=8)
 
 
-def _trozos(texto, n=6):
-    """Subtítulos: grupos de hasta n palabras (sin dejar una sola palabra al final)."""
+def _trozos(texto, n=3):
+    """Subtítulos: grupos de 2-3 palabras (sin dejar una sola palabra suelta al final)."""
     ws = texto.split(); out = []
     while ws:
         k = n if len(ws) > n + 1 else len(ws)
+        if len(ws) == n + 1:
+            k = 2
         out.append(" ".join(ws[:k])); ws = ws[k:]
     return out
 
 
-def _subs(texto):
-    """[(t0_rel, t1_rel, imagen)] proporcional a la longitud de cada trozo (0-1 del clip)."""
+def _subs(texto, size=78):
+    """[(t0_rel, t1_rel, imagen)] proporcional a la longitud de cada trozo (0-1 del clip). Grandes y centrados: se leen
+    sin sonido (la mayoría ve los reels en silencio)."""
     tr = _trozos(texto); tot = sum(len(t) + 3 for t in tr); acc = 0; out = []
     for t in tr:
         a = acc / tot; acc += len(t) + 3
-        im = fx.headline(t, 56, 920, 2, color=CLARO, hot=ACENTO, hot_words=_hot(t), shadow=True)
-        out.append((a, acc / tot, _panel(im, 20, 120)))
+        hot = _hot(t) or tuple(w.lower().strip("¿?¡!.,:;") for w in t.split() if len(w) > 6)[:1]
+        im = fx.headline(t.upper(), size, 940, 2, color=CLARO, hot=ACENTO, hot_words=hot, shadow=True)
+        out.append((a, acc / tot, _panel(im, 22, 135)))
     return out
+
+
+def _progreso(k, n):
+    """Barra fina de progreso + «2/4»: el espectador ve que es corto y se queda."""
+    im = Image.new("RGBA", (W, 30), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    x0, x1 = 60, W - 60; seg = (x1 - x0 - 10 * (n - 1)) / n
+    for i in range(n):
+        xa = x0 + i * (seg + 10)
+        d.rounded_rectangle([xa, 10, xa + seg, 18], 4, fill=ACENTO if i <= k else (255, 255, 255, 90))
+    return im
 
 
 def _opcion(letra, texto, ancho=900):
@@ -326,93 +362,95 @@ def _encode(out, frames, mix):
 
 
 def _cierre(fr, G, lt, lg, web, q, sub):
-    a = eob(clamp(lt / 0.4))
-    fx.paste_center(fr, q, W / 2, 620 - (1 - a) * 30, alpha=clamp(a))
-    b = eob(clamp((lt - 0.4) / 0.4))
-    fx.paste_center(fr, sub, W / 2, 620 + q.height / 2 + 80 - (1 - b) * 20, alpha=clamp(b))
-    c = clamp((lt - 0.7) / 0.35)
-    fx.paste_center(fr, lg, W / 2, 1120, alpha=c)
-    d = eob(clamp((lt - 0.9) / 0.4))
-    fx.paste_center(fr, web, W / 2, 1260, scale=0.9 + 0.1 * d, alpha=clamp(d))
+    a = eob(clamp(lt / 0.3))
+    fx.paste_center(fr, q, W / 2, 640 - (1 - a) * 30, alpha=clamp(a))
+    b = eob(clamp((lt - 0.25) / 0.3))
+    fx.paste_center(fr, sub, W / 2, 640 + q.height / 2 + 80 - (1 - b) * 20, alpha=clamp(b))
+    c = clamp((lt - 0.45) / 0.3)
+    fx.paste_center(fr, lg, W / 2, 1110, alpha=c)
+    fx.paste_center(fr, web, W / 2, 1240, scale=0.92 + 0.08 * c, alpha=c)
 
 
 # ------------------------------------------------------------------ montaje: lista
 def render_lista(G, imgs, clips, out, tematica, seed=0, bpm=86):
-    """clips: [hook, escena1..N, cierre]. imgs: [(img, real)] por escena."""
+    """clips: [hook, escena1..N, cierre]. imgs: [(img, real)] por escena.
+    Retención: gancho en pantalla desde el fotograma 0 y voz desde 0,0 s; cada escena dura lo que su voz (+0,25 s) con un
+    corte a mitad; subtítulos de 2-3 palabras grandes; cierre de 2 s con pregunta para comentar (y el bucle vuelve al
+    gancho)."""
     esc = G["escenas"]
     pares = [(e, im) for e, im in zip(esc, imgs) if im[0] is not None]
     idx = [k for k, im in enumerate(imgs) if im[0] is not None]
     clips_esc = [clips[1 + k] for k in idx]
-    d_hook = max(1.8, len(clips[0]) / SR + 0.35)
-    d_esc = [max(2.4, len(c) / SR + 0.45) for c in clips_esc]
-    d_fin = max(3.2, len(clips[-1]) / SR + 0.9)
+    n = len(pares)
+    d_hook = max(1.4, len(clips[0]) / SR + 0.2)
+    d_esc = [max(2.0, len(c) / SR + 0.25) for c in clips_esc]
+    d_fin = max(2.0, len(clips[-1]) / SR + 0.4)
     t0s = [d_hook]
     for d in d_esc[:-1]:
         t0s.append(t0s[-1] + d)
     t_fin = t0s[-1] + d_esc[-1]; total = t_fin + d_fin
     planos = [_plano(im[0], f"{seed}-{k}") for k, (e, im) in enumerate(pares)]
-    hook_big = _panel(fx.headline(G["hook_pantalla"], 116, 960, 3, color=CLARO, hot=ACENTO,
-                                  hot_words=_hot(G["hook_pantalla"]), shadow=True), 50, 140)
-    tit = _panel(fx.headline(G.get("titulo_serie") or G["hook_pantalla"], 50, 900, 2, color=CLARO, hot=ACENTO, shadow=True), 22, 120)
-    labs, subs = [], []
+    plano_hook = _plano(pares[0][1][0], f"{seed}-h", punch=False)
+    hook_big = _panel(fx.headline(G["hook_pantalla"], 124, 960, 3, color=CLARO, hot=ACENTO,
+                                  hot_words=_hot(G["hook_pantalla"]), shadow=True), 46, 120)
+    labs, subs, bars = [], [], []
     for k, (e, im) in enumerate(pares):
-        num = fx.pill(str(k + 1), 64, ACENTO, OSCURO, padx=30, pady=14, radius=40)
-        tx = fx.headline(e["titulo"], 86, 940, 2, color=CLARO, hot=ACENTO, hot_words=_hot(e["titulo"]), shadow=True)
+        num = fx.pill(str(k + 1), 60, ACENTO, OSCURO, padx=28, pady=12, radius=40)
+        tx = fx.headline(e["titulo"], 84, 940, 2, color=CLARO, hot=ACENTO, hot_words=_hot(e["titulo"]), shadow=True)
         partes = [num, tx]
         if e.get("sub"):
-            partes.append(fx.text_block(e["sub"], F_REG, 38, 900, ACENTO, align="center"))
+            partes.append(fx.text_block(e["sub"], F_REG, 36, 900, ACENTO, align="center"))
         if im[1]:
-            partes.append(fx.pill("Trabajo real", 30, CLARO, OSCURO, padx=20, pady=8, radius=6))
-        elif tematica == "referentes":
-            partes.append(fx.text_block("Imagen conceptual creada con IA", F_REG, 26, 900, (200, 196, 186), align="center"))
-        hh = sum(p.height for p in partes) + 12 * (len(partes) - 1)
-        lab = Image.new("RGBA", (max(p.width for p in partes), hh), (0, 0, 0, 0)); y = 0
-        for p in partes:
-            lab.alpha_composite(p, ((lab.width - p.width) // 2, y)); y += p.height + 12
-        labs.append(_panel(lab, 40, 140)); subs.append(_subs(e["voz"]))
-    # posición de cada etiqueta: centrada (o bajo el plano real) y SIEMPRE con sitio para el subtítulo y la web
-    ys = []
+            partes.append(fx.pill("Trabajo real", 28, CLARO, OSCURO, padx=18, pady=7, radius=6))
+        hh = sum(x.height for x in partes) + 10 * (len(partes) - 1)
+        lab = Image.new("RGBA", (max(x.width for x in partes), hh), (0, 0, 0, 0)); y = 0
+        for x in partes:
+            lab.alpha_composite(x, ((lab.width - x.width) // 2, y)); y += x.height + 10
+        labs.append(_panel(lab, 36, 125)); subs.append(_subs(e["voz"])); bars.append(_progreso(k, n))
+    # etiqueta arriba (bajo la barra) y subtítulos grandes en el tercio inferior, dentro de la zona segura
+    y_lab = [SAFE_TOP + 120 + labs[k].height / 2 if not im[1] else 1000 for k, (e, im) in enumerate(pares)]
+    y_sub = 1250
+    y_subs = []                                                       # en los planos reales, el subtítulo baja lo justo
     for k, (e, im) in enumerate(pares):
-        alto_sub = max([s.height for _, _, s in subs[k]] or [0])
-        y = 1250 if im[1] else 1060
-        ys.append(min(y, SAFE_BOT - 40 - alto_sub - 20 - labs[k].height / 2))
-    sub_hook = _subs(G["hook_voz"]) if G["hook_voz"].strip(" .") != G["hook_pantalla"].strip(" .") else []
+        alto = max([s.height for _, _, s in subs[k]] or [0])
+        y_subs.append(y_sub if not im[1] else min(SAFE_BOT - alto / 2, max(y_sub, y_lab[k] + labs[k].height / 2 + 16 + alto / 2)))
+    sub_hook = _subs(G["hook_voz"], 70) if G["hook_voz"].strip(" .¡!¿?").lower() != G["hook_pantalla"].strip(" .¡!¿?").lower() else []
     fondo_fin = _cover_fit(pares[-1][1][0].convert("RGB")).filter(ImageFilter.GaussianBlur(18))
     fondo_fin = Image.blend(fondo_fin, Image.new("RGB", (W, H), OSCURO), 0.6).convert("RGBA")
     q = fx.headline(G["cierre_pantalla"][0], 96, 960, 2, color=CLARO, hot=ACENTO, hot_words=_hot(G["cierre_pantalla"][0]), shadow=True)
     sub = fx.pill(G["cierre_pantalla"][1], 44, CLARO, OSCURO, padx=34, pady=16, radius=8)
     lg, web = _cierre_marca(); wp = _web_pill(); grad = _degradados()
-    voces = [(0.12, clips[0])] + [(t + 0.18, c) for t, c in zip(t0s, clips_esc)] + [(t_fin + 0.35, clips[-1])]
-    mix = _mezcla(total, voces, t0s[1:] + [t_fin], [(fx.shimmer(), t_fin + 0.2, 0.4)], seed, bpm)
+    voces = [(0.0, clips[0])] + [(t + 0.1, c) for t, c in zip(t0s, clips_esc)] + [(t_fin + 0.15, clips[-1])]
+    cortes = t0s[1:] + [t_fin] + [t0s[k] + d_esc[k] * 0.55 for k in range(n)]          # también los punch-in
+    mix = _mezcla(total, voces, sorted(cortes), [(fx.shimmer(), t_fin + 0.1, 0.35)], seed, bpm)
 
     def frames():
         for f in range(int(total * FPS)):
             tt = f / FPS
             if tt < t_fin:
-                if tt < d_hook:                                       # gancho sobre la primera imagen
-                    fr = planos[0](tt / (d_hook + d_esc[0]) * 0.5).convert("RGBA"); fr.alpha_composite(grad)
-                    a = eob(clamp(tt / 0.3)); im = hook_big
-                    if a < 1:
-                        s_ = 0.9 + 0.1 * a; im = im.resize((int(im.width * s_), int(im.height * s_)))
-                    fx.paste_center(fr, im, W / 2, 760, alpha=clamp(a * 1.5) * (1 - clamp((tt - d_hook + 0.2) / 0.2)))
+                if tt < d_hook:                                       # gancho: texto desde el fotograma 0 + punch-in
+                    fr = plano_hook(tt / d_hook).convert("RGBA"); fr.alpha_composite(grad)
+                    s_ = 1.0 + 0.12 * (1 - eo(clamp(tt / 0.45)))     # entra «golpeando» (grande -> tamaño), ya visible
+                    im = hook_big if s_ == 1.0 else hook_big.resize((int(hook_big.width * s_), int(hook_big.height * s_)))
+                    fx.paste_center(fr, im, W / 2, 720, alpha=1 - clamp((tt - d_hook + 0.15) / 0.15))
                     for a0, a1, s in sub_hook:
-                        if a0 <= (tt - 0.12) / max(0.1, len(clips[0]) / SR) < a1:
-                            fx.paste_center(fr, s, W / 2, 1330)
+                        if a0 <= tt / max(0.1, len(clips[0]) / SR) < a1:
+                            fx.paste_center(fr, s, W / 2, y_sub)
                 else:
                     k = max(i for i, a in enumerate(t0s) if a <= tt); lt = tt - t0s[k]
-                    p = (0.5 + 0.5 * lt / d_esc[0]) if k == 0 else lt / d_esc[k]
-                    fr = planos[k](p).convert("RGBA")
-                    if k > 0 and lt < 0.16:
-                        fr = Image.blend(planos[k - 1](1.0).convert("RGBA"), fr, lt / 0.16)
+                    fr = planos[k](lt / d_esc[k]).convert("RGBA")
+                    if k > 0 and lt < 0.12:
+                        fr = Image.blend(planos[k - 1](1.0).convert("RGBA"), fr, lt / 0.12)
                     fr.alpha_composite(grad)
-                    fx.paste_center(fr, tit, W / 2, SAFE_TOP + 50 + tit.height / 2)
-                    a = eob(clamp((lt - 0.05) / 0.35))
-                    fx.paste_center(fr, labs[k], W / 2, ys[k] - (1 - a) * 40, alpha=clamp(a))
+                    fr.alpha_composite(bars[k], (0, SAFE_TOP + 74))
+                    a = eob(clamp((lt - 0.02) / 0.28))
+                    fx.paste_center(fr, labs[k], W / 2, y_lab[k] - (1 - a) * 30, alpha=clamp(a))
                     dur_v = max(0.1, len(clips_esc[k]) / SR)
                     for a0, a1, s in subs[k]:
-                        if a0 <= (lt - 0.18) / dur_v < a1:
-                            fx.paste_center(fr, s, W / 2, ys[k] + labs[k].height / 2 + 20 + s.height / 2)
-                fx.paste_center(fr, wp, W / 2, SAFE_BOT + 20)
+                        if a0 <= (lt - 0.1) / dur_v < a1:
+                            pop = 0.94 + 0.06 * eob(clamp(((lt - 0.1) / dur_v - a0) * dur_v / 0.12))
+                            fx.paste_center(fr, s, W / 2, y_subs[k], scale=pop)
+                _marca_agua(fr, wp)
             else:
                 fr = fondo_fin.copy(); _cierre(fr, G, tt - t_fin, lg, web, q, sub)
             yield fr
@@ -426,21 +464,22 @@ def render_quiz(G, P, img, clips, out, tematica, seed=0, bpm=86):
     """clips: [hook, pregunta, cierre]."""
     ops = P["opciones"]; letras = "VF" if tematica == "vf" else LETRAS
     d_h = len(clips[0]) / SR; d_q = len(clips[1]) / SR
-    t_q = 0.15 + d_h + 0.25
-    t_ops = [t_q + d_q * 0.55 + 0.55 * k for k in range(len(ops))]
-    t_cd = max(t_q + d_q + 0.4, t_ops[-1] + 0.8)
-    t_fin = t_cd + 5.0; d_fin = max(3.2, len(clips[2]) / SR + 0.9); total = t_fin + d_fin
-    plano = _plano(img, f"{seed}-q", oscuro=0.55)
+    t_q = d_h + 0.15
+    t_ops = [t_q + d_q * 0.5 + 0.45 * k for k in range(len(ops))]
+    t_cd = max(t_q + d_q + 0.3, t_ops[-1] + 0.7)
+    CD = 3                                                               # cuenta atrás de 3 s (5 se hacía largo)
+    t_fin = t_cd + CD; d_fin = max(2.0, len(clips[2]) / SR + 0.4); total = t_fin + d_fin
+    plano = _plano(img, f"{seed}-q", oscuro=0.55, punch=False)
     tag = fx.pill(G["hook_pantalla"][:34], 44, ACENTO, OSCURO, padx=34, pady=16, radius=8)
     q = fx.headline(P["pregunta"], 80 if len(P["pregunta"]) < 70 else 68, 960, 4, color=CLARO, hot=ACENTO, shadow=True)
     cards = [_opcion(letras[k], o) for k, o in enumerate(ops)]
-    gap = 18; y_q = 380 + q.height / 2
+    gap = 18; y_q = 430 + q.height / 2
     y0 = max(y_q + q.height / 2 + 30, 960 - (sum(c.height for c in cards) + gap * (len(cards) - 1)) / 2)
     cq = fx.headline(G["cierre_pantalla"][0], 96, 960, 2, color=CLARO, hot=ACENTO, shadow=True)
     sub = fx.pill(G["cierre_pantalla"][1], 42, CLARO, OSCURO, padx=32, pady=16, radius=8)
     lg, web = _cierre_marca(); wp = _web_pill(); grad = _degradados()
-    voces = [(0.15, clips[0]), (t_q, clips[1]), (t_fin + 0.35, clips[2])]
-    extra = [(fx.blip(k), t, 0.5) for k, t in enumerate(t_ops)] + [(fx.tick2(k == 4), t_cd + k, 0.6) for k in range(5)]
+    voces = [(0.0, clips[0]), (t_q, clips[1]), (t_fin + 0.15, clips[2])]
+    extra = [(fx.blip(k), t, 0.5) for k, t in enumerate(t_ops)] + [(fx.tick2(k == CD - 1), t_cd + k, 0.6) for k in range(CD)]
     mix = _mezcla(total, voces, [t_fin], extra, seed, bpm)
 
     def frames():
@@ -449,7 +488,7 @@ def render_quiz(G, P, img, clips, out, tematica, seed=0, bpm=86):
             fr = plano(min(1.0, tt / total)).convert("RGBA"); fr.alpha_composite(grad)
             if tt < t_fin:
                 a = eob(clamp(tt / 0.35))
-                fx.paste_center(fr, tag, W / 2, 310 - (1 - a) * 20, alpha=clamp(a))
+                fx.paste_center(fr, tag, W / 2, 360 - (1 - a) * 20, alpha=clamp(a))
                 b = eo(clamp((tt - 0.35) / 0.4))                     # la pregunta, desde el primer segundo
                 fx.paste_center(fr, q, W / 2, y_q + (1 - b) * 30, alpha=b)
                 y = y0
@@ -459,7 +498,7 @@ def render_quiz(G, P, img, clips, out, tematica, seed=0, bpm=86):
                     y += c.height + gap
                 if tt >= t_cd:
                     k = int(tt - t_cd); s = (tt - t_cd) - k; R = 150
-                    f_ = fx.font(F_BOLD, 88); txt = str(5 - k); bb = f_.getbbox(txt)
+                    f_ = fx.font(F_BOLD, 88); txt = str(CD - k); bb = f_.getbbox(txt)
                     n = Image.new("RGBA", (bb[2] - bb[0] + 8, bb[3] - bb[1] + 8), (0, 0, 0, 0))
                     ImageDraw.Draw(n).text((4 - bb[0], 4 - bb[1]), txt, font=f_, fill=ACENTO)
                     ring = Image.new("RGBA", (R, R), (0, 0, 0, 0)); d = ImageDraw.Draw(ring)
@@ -467,7 +506,7 @@ def render_quiz(G, P, img, clips, out, tematica, seed=0, bpm=86):
                     d.arc([6, 6, R - 6, R - 6], -90, -90 + 360 * (1 - s), fill=ACENTO, width=10)
                     ring.alpha_composite(n, ((R - n.width) // 2, (R - n.height) // 2))
                     fx.paste_center(fr, ring, W / 2, min(SAFE_BOT - 60 - R / 2, y + 10 + R / 2))
-                fx.paste_center(fr, wp, W / 2, SAFE_BOT + 20)
+                _marca_agua(fr, wp)
             else:
                 fr = Image.blend(fr.convert("RGB"), Image.new("RGB", (W, H), OSCURO), 0.5).convert("RGBA")
                 _cierre(fr, G, tt - t_fin, lg, web, cq, sub)
@@ -486,7 +525,7 @@ def render_postpro(G, pares, clips, out, seed=0, bpm=86):
     for d in d_p[:-1]:
         t0s.append(t0s[-1] + d)
     t_fin = t0s[-1] + d_p[-1]; d_fin = max(3.2, len(clips[-1]) / SR + 0.9); total = t_fin + d_fin
-    pa = [(_plano(a, f"{seed}-a{k}"), _plano(d, f"{seed}-a{k}")) for k, (a, d) in enumerate(pares)]
+    pa = [(_plano(a, f"{seed}-a{k}", punch=False), _plano(d, f"{seed}-a{k}", punch=False)) for k, (a, d) in enumerate(pares)]
     hook_big = _panel(fx.headline(G["hook_pantalla"], 112, 960, 3, color=CLARO, hot=ACENTO, shadow=True), 50, 140)
     tit = _panel(fx.headline(G["hook_pantalla"], 50, 900, 2, color=CLARO, hot=ACENTO, shadow=True), 22, 120)
     p_sin = fx.pill("SIN POSTPRO", 60, (40, 42, 48), CLARO, padx=38, pady=16, radius=6)
@@ -526,8 +565,8 @@ def render_postpro(G, pares, clips, out, seed=0, bpm=86):
                     dur_v = max(0.1, len(clips_p[k]) / SR)
                     for a0, a1, s in subs[k]:
                         if a0 <= (lt - 1.0) / dur_v < a1:
-                            fx.paste_center(fr, s, W / 2, 1200)
-                fx.paste_center(fr, wp, W / 2, SAFE_BOT + 20)
+                            fx.paste_center(fr, s, W / 2, 1250)
+                _marca_agua(fr, wp)
             else:
                 fr = fondo_fin.copy(); _cierre(fr, G, tt - t_fin, lg, web, q, sub)
             yield fr
@@ -583,15 +622,18 @@ Tipo: {NOMBRE[tematica]}. Gancho en pantalla: «{G['hook_pantalla']}». Escenas:
 Guion de la voz (debe decir esto): {json.dumps(frases, ensure_ascii=False)}
 {'Es un test: la solución NO debe aparecer ni decirse; si aparece, es un defecto grave.' if tematica in QUIZ else ''}
 {('Las escenas ' + ', '.join(map(str, meta_r['reales'])) + ' son PLANOS REALES del equipo (etiqueta «Trabajo real»): sus textos y cotas técnicas son normales, NO son defecto; solo cuenta que se vean nítidos.') if meta_r.get('reales') else ''}
-Comprueba:
+Comprueba, POR ESTE ORDEN DE IMPORTANCIA:
+- RETENCIÓN (lo que más pesa): el gancho tiene que leerse y oírse en el PRIMER segundo; nada de intros, saludos ni
+  silencios; que haya un cambio visual al menos cada 3 s; que no haya tramos muertos; duración total: {'test/encuesta' if tematica in QUIZ else 'lista'} de {OBJETIVO_S} s como máximo
+  (este dura {meta_r.get('duration')} s: si pasa de {OBJETIVO_S + 6} s es defecto objetivo).
 - VOZ: acento de España (con distinción z/c, sin seseo), que suene humana y con altibajos (no plana, no robótica, no de
   anuncio), que diga el guion sin trabarse, repetir ni leer indicaciones, volumen claro sobre la música.
 - IMÁGENES: bonitas, verosímiles, coherentes con su título; sin defectos de IA (geometría imposible, letras raras).
 - TEXTOS: legibles en el móvil, dentro de la zona segura, subtítulos sincronizados, la web visible.
 - RITMO: que el gancho se entienda en 2 s y no decaiga; cierre claro.
 ESCALA ANCLADA: 8 = profesional y publicable SIN defectos objetivos (lo opinable va a "suggestions" y no baja de 8);
-6-7 = algún defecto objetivo; 5 o menos = grave (voz con acento latino o robótica, imagen absurda, solución desvelada,
-vídeo roto).
+6-7 = algún defecto objetivo (gancho que tarda, tramo muerto, demasiado largo, texto que no se lee); 5 o menos = grave
+(voz con acento latino o robótica, imagen absurda, solución desvelada, vídeo roto).
 "malas" = números (1 = primera escena) de las imágenes con defecto objetivo. "voz" = defectos objetivos de la voz.
 Devuelve JSON: {{"overall": number, "issues": [str], "suggestions": [str], "malas": [int], "voz": [str], "critical": bool}}"""},
                           {"inline_data": {"mime_type": "video/mp4", "data": data}}], 0.3)

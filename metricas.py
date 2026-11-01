@@ -59,7 +59,7 @@ def actualizar(dias=60):
         if por:
             ig = next((str(v)[3:] for v in (e.get("publicado") or {}).values() if str(v).startswith("ig:")), None)
             clave = f"{e['date']}_{e.get('slot')}" + (f"_{ig[-6:]}" if ig and e.get("slot") == "manual" else "")
-            perf[clave] = {"date": e["date"], "tematica": e.get("tematica"), "hook": e.get("hook"),
+            perf[clave] = {"date": e["date"], "tematica": e.get("tematica"), "hook": e.get("hook"), "duration": e.get("duration"),
                                                      "review_score": e.get("review_score"), **tot, "por_red": por}
             n += 1
     json.dump(perf, open(PERF, "w"), ensure_ascii=False, indent=0)
