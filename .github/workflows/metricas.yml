@@ -24,7 +24,7 @@ jobs:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           IG_HANDLE: ${{ vars.IG_HANDLE || '@arquitectura_confidencial' }}
           ZERNIO_MATCH: ${{ vars.ZERNIO_MATCH || 'arquitecturaconfidencial' }}
-        run: python metricas.py | tee -a $GITHUB_STEP_SUMMARY
+        run: METRICAS_DEBUG=1 python metricas.py | tee -a $GITHUB_STEP_SUMMARY
       - name: Guardar
         if: always()
         run: python sincronizar.py "Métricas $(date +%F)" performance.json metricas.md

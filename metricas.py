@@ -39,7 +39,11 @@ def actualizar(dias=60):
                 else:
                     import publish_zernio as Z
                     a = Z.analytics(pid) or {}
-                    m = dict(a.get("analytics") or {})
+                    if os.environ.get("METRICAS_DEBUG"):
+                        print("zernio", dest, json.dumps(a)[:600], flush=True)
+                    if isinstance(a.get("data"), dict):                   # a veces viene envuelto en data
+                        a = a["data"]
+                    m = dict(a.get("analytics") or a.get("metrics") or {})
                     for pa in a.get("platformAnalytics") or []:          # métricas por red (Zernio)
                         for k, v in (pa.get("analytics") or {}).items():
                             m.setdefault(k, v)
@@ -53,7 +57,9 @@ def actualizar(dias=60):
                 else:
                     tot[k] = tot.get(k, 0) + v
         if por:
-            perf[f"{e['date']}_{e.get('slot')}"] = {"date": e["date"], "tematica": e.get("tematica"), "hook": e.get("hook"),
+            ig = next((str(v)[3:] for v in (e.get("publicado") or {}).values() if str(v).startswith("ig:")), None)
+            clave = f"{e['date']}_{e.get('slot')}" + (f"_{ig[-6:]}" if ig and e.get("slot") == "manual" else "")
+            perf[clave] = {"date": e["date"], "tematica": e.get("tematica"), "hook": e.get("hook"),
                                                      "review_score": e.get("review_score"), **tot, "por_red": por}
             n += 1
     json.dump(perf, open(PERF, "w"), ensure_ascii=False, indent=0)
@@ -79,7 +85,7 @@ def informe():
         for red, m in (r.get("por_red") or {}).items():
             v = m.get("views") or m.get("reach") or 0
             inter = (m.get("saved", 0) + m.get("shares", 0) + m.get("comments", 0))
-            ret = f"{m['watch_ms'] / 1000:.1f} s / {dur.get(k)} s" if m.get("watch_ms") and dur.get(k) else "—"
+            d_ = dur.get(r.get("hook")); ret = f"{m['watch_ms'] / 1000:.1f} s / {d_} s" if m.get("watch_ms") and d_ else "—"
             filas.append(f"| {r['date']} | {r.get('tematica')} | {(r.get('hook') or '')[:38]} | {red.split('_')[0]} | {m.get('views', '—')} | "
                          f"{m.get('reach', '—')} | {m.get('likes', 0)} | {m.get('comments', 0)} | {m.get('shares', 0)} | {m.get('saved', 0)} | "
                          f"{ret} | {(100 * inter / v):.1f} |" if v else
@@ -88,8 +94,7 @@ def informe():
     open(os.path.join(HERE, "metricas.md"), "w").write(txt)
     return txt
 
-    print(informe())
-
 
 if __name__ == "__main__":
     print(actualizar())
+    print(informe())
