@@ -719,6 +719,7 @@ def hacer(tematica, out, seed=0, recientes=(), max_montajes=3, limite_s=40 * 60)
     meta = {"tematica": tematica, "hook": G["hook_pantalla"], "hook_voz": G["hook_voz"], "duration": mr["duration"],
             "cover": cover, "thumb_ms": 600, "review_score": rev.get("overall"), "ids": P["ids"], "voz": voz.ENGINE,
             "venta": tematica in agentes.VENTA, "solucion": solucion(tematica, P), "titulo": titulo, "montajes": montajes,
+            "pregunta": None if tematica in QUIZ else G["cierre_pantalla"][0],
             "segundos": round(time.time() - t0)}
     say(f"listo en {meta['segundos']} s · {mr['duration']} s de vídeo · nota {rev.get('overall')}")
     return meta

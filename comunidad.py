@@ -63,7 +63,8 @@ def publicaciones():
                 continue
         except Exception:
             continue
-        info = {"tematica": e.get("tematica"), "hook": e.get("hook"), "ts": e.get("ts"), "fecha": e["date"]}
+        info = {"tematica": e.get("tematica"), "hook": e.get("hook"), "ts": e.get("ts"), "fecha": e["date"],
+                "pregunta": e.get("pregunta")}
         for k, v in (e.get("publicado") or {}).items():
             v = str(v)
             if v.startswith("error"):
@@ -395,6 +396,17 @@ def main():
             continue
         sol = _sol(pieza)
         revelada = bool(ps.get("solucion"))
+        # 0) primer comentario propio con la pregunta (arranque en frío: los primeros comentarios empujan el reel)
+        if info.get("pregunta") and not sol and not ps.get("primer") and not any(c["mio"] for c in coms):
+            txt0 = f"{info['pregunta']} Te leo 👇"
+            try:
+                if PRUEBA:
+                    say(f"[prueba] {clave}: primer comentario: «{txt0}»")
+                else:
+                    cid0 = api.comentar(pid, txt0); api.fijar(pid, cid0)
+                ps["primer"] = NOW.isoformat()
+            except Exception as e:
+                errores[red] = f"no deja comentar: {str(e)[:180]}"
         # 1) la solución (o los resultados) entre 12 y 24 h después
         if sol and not revelada and NOW >= momento_solucion(clave, info, st):
             txt = texto_solucion(sol, coms)

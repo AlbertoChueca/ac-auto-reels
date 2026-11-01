@@ -146,6 +146,7 @@ if ok:                                             # piezas usadas: no se repite
     json.dump(usados, open("used.json", "w"), ensure_ascii=False, indent=0)
 log({"tematica": meta["tematica"], "hook": meta["hook"], "ids": meta["ids"], "voz": meta["voz"],
      "duration": meta["duration"], "review_score": meta["review_score"], "venta": meta["venta"], "solucion": meta["solucion"],
+     "pregunta": meta.get("pregunta"),
      "publicado": res, "ts": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")})
 if not ok:
     raise SystemExit("No se pudo publicar en ninguna red")
