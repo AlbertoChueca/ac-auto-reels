@@ -1,0 +1,90 @@
+{
+ "formatos_que_funcionan": [
+  "Workflow Express: Boceto a render fotorrealista con IA (transición acelerada en 15-25s)",
+  "ASMR / Making-of de maquetas en plano detalle POV con sonido ambiental limpio (30-45s)",
+  "POV humor relatable sobre crisis de entregas, desvelos y software congelado (10-15s)",
+  "Curaduría express y tutoriales paso a paso de diagramas axonométricos y referentes alternativos (35-50s)",
+  "Cheatsheets y frameworks visuales (guías paso a paso y listas de comprobación)",
+  "Mitos vs. Realidad y corrección práctica de errores comunes",
+  "Microcasos de estudio ágiles de menos de 60 segundos"
+ ],
+ "ganchos_que_funcionan": [
+  "Transformación visual de choque: 'Convierte este garabato feo en un render final para tu TFG en 10 segundos.'",
+  "Sonido ASMR de corte con cutter + texto: 'Madrugada antes de la entrega de Proyectos...'",
+  "Momento crítico de pánico relatable: 'Faltan 2 horas para la entrega de PFC y se cierra el programa...'",
+  "Contradicción académica: 'Deja de usar siempre los mismos 3 edificios clásicos en la entrega de tu asignatura de Proyectos.'",
+  "Resultado + Contradicción (0-2s): 'Por qué hacer X está arruinando tus Y (y la solución)'",
+  "Anclaje de utilidad: 'Guarda este video si vas a necesitar [beneficio/solución] pronto'",
+  "Gancho visual inmediato con demostración en vivo antes de hablar"
+ ],
+ "temas_calientes": [
+  "Uso de IA generativa (Veras, Krea, Midjourney) para acelerar renders desde croquis en entregas contrarreloj de noviembre",
+  "Técnicas de maquetería rápida y corte limpio para las revisiones de Proyectos",
+  "Caídas de software y bloqueos en renderizado al 99% a horas del límite de entrega",
+  "Búsqueda de referentes arquitectónicos alternativos para memorias de TFG/TFM",
+  "Creación de diagramas axonométricos claros para paneles de entrega y correcciones de taller",
+  "Sobrevivir a la presión de entregas intermedias y correcciones duras de noviembre"
+ ],
+ "tendencias_de_edicion": [
+  "Ritmo fluido con cambios de plano o B-roll cada 2-3 segundos (sin sobreestimulación exhaustiva)",
+  "Diseño 'pausable' con cajas de texto o esquemas para detener la reproducción y guardar",
+  "Subtítulos dinámicos de alto contraste con palabras clave resaltadas",
+  "Audio limpio y efectos de sonido (SFX) sutiles combinados con ASMR ambiental"
+ ],
+ "que_penaliza_el_algoritmo": [
+  "Contenido generado por IA genérico o sintético sin aportación original ni voz propia",
+  "Resubidas con marcas de agua o logos de otras plataformas",
+  "Clickbait engañoso que genera abandono en los primeros 3 segundos",
+  "Engagement-bait agresivo y hashtags irrelevantes para forzar métricas"
+ ],
+ "ejemplos": [
+  {
+   "que": "Workflow acelerado de boceto a render con IA (tipo @arquinovatos)",
+   "por_que": "Ofrece un 'efecto magia' inmediato en 15-25 segundos y soluciona la falta crítica de tiempo en las entregas de TFG/TFM."
+  },
+  {
+   "que": "Making-of ASMR cortando cartón pluma en POV de madrugada (tipo @sam_arch_design)",
+   "por_que": "Aporta satisfacción sensorial limpia y despierta empatía comunitaria ante el esfuerzo físico de la entrega de Proyectos."
+  },
+  {
+   "que": "POV del programa colapsando a punto de entregar (tipo @dosisdearquitectura)",
+   "por_que": "Genera alta viralidad mediante envíos por dark social y catarsis colectiva entre estudiantes bajo presión."
+  },
+  {
+   "que": "Guía en pantalla para armar un diagrama axonométrico rápido (tipo @arqmanes)",
+   "por_que": "Entrega utilidad académica directa y eleva la calidad gráfica para evitar bloqueos en el panel de entrega."
+  }
+ ],
+ "ideas_de_reel": [
+  "Boceto a render en 15s con IA: Croquis rápido de alzado transformado en render final para la entrega de TFG de noviembre con gancho visual inmediato.",
+  "ASMR de entrega nocturna: Primer plano de bisturí cortando acrílico con sonido limpio y texto sobre las correcciones de Proyectos.",
+  "POV pánico de software: Expresión frente al monitor congelado al 99% de renderizado a dos horas del límite del PFC.",
+  "Microcaso de diagramas: Grabación de pantalla con paso a paso pausable para crear una axonometría limpia para la memoria de TFM sin perder horas.",
+  "Mitos vs. Realidad en paneles de Proyectos: Desmontando errores comunes que restan nota en la corrección de noviembre y cómo arreglarlos con un framework visual."
+ ],
+ "fecha": "2026-11-01",
+ "fuentes": [
+  {
+   "titulo": "youtube.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG85xS_TzS3ZWAXw2PL1T39Dl0io7Wo-3XeXyhRREDGalNU6YrBnDsFyfUMWMo-3QjupQHMmgrMkEJjDPkBDC1G5euGL6euF4xBQYlePGKjwe9avgxb-C8G3s7YBak-l_7T"
+  },
+  {
+   "titulo": "youtube.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUdKxlFkt3eWqCYRcoh-agU95CV0UvpQzWL2pc59n545vu5xcbaT-qdsV1VOLEo5X5k1lUFY_WK88oqxVg5lt42q74EJgbf498Qc4sHzsKOCUOd5YXhexQNzZV8MAyk9v0"
+  },
+  {
+   "titulo": "youtube.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW9-tIxFEa2DE_HYU_kvkXXRYZbmhq3I6Y3nFuUTLlnzSLSmuoicE19xM8OtRc3IbjSbY_LSbNf4xPfKwFcgk3CJBnhjhOqrO6X4FbWJvqkSYVaql_VzPS0Vl-jJhCIBMQ"
+  },
+  {
+   "titulo": "dezeen.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbiCe5ORDBfaayA20kM8gGCHkTO9BaJobSR1_zCXrexVd6PRvlowG8x0bZk8puNBtw9iGs4SIRztY-e-Q10d1O874ArUOdeeijFeNXwJn67lMMHnPFRQnp-xfRrNraRGeKt_rA3BnsqZstbV7SzFdDhr9r6-PzH9CPdlZco9s3f4fR0Qzq0XlF4b6sxJoAgV9uWfrWYB76QG4="
+  },
+  {
+   "titulo": "youtube.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMQZdY0hJb6UQ0u-I_9MC8j0trJoX8z3sMW3C-Pkw47J1WKU-bdGkxkapJ0mTnzW4BqJyafhfkw2afEZNtj8DHXScPuQe24VnGxuW7LNl8ze9U2lPZsBng_YVsUWtH4wxv"
+  }
+ ],
+ "verificado": true,
+ "modelo_busqueda": "gemini-3.6-flash"
+}

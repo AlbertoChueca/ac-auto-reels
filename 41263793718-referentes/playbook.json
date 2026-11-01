@@ -1,0 +1,45 @@
+{
+ "ganchos_que_funcionan": [
+  "¿Sales de corregir más perdido que cuando entraste? Aplica esto hoy.",
+  "Convierte este garabato feo en un render final para tu entrega en 10 segundos.",
+  "Faltan 2 horas para la entrega de PFC y tu programa se congela: haz esto ya.",
+  "Deja de usar los mismos 3 referentes de siempre si quieres pasar de 8 en Proyectos.",
+  "Por qué tu axonométrica está arruinando la nota de tu panel (y cómo arreglarla)."
+ ],
+ "patrones": [
+  "Gancho visual o dolor relatable en los primeros 1.5 segundos sin intros ni saludos.",
+  "Ritmo dinámico con cambio de plano, zoom o B-roll cada 2-3 segundos para sostener retención.",
+  "Diseño pausable: pantallas con esquemas o checklists densas que obligan a pausar el reel y guardarlo.",
+  "Estructura Problema urgente -> Solución express (15s) -> CTA de guardado o auditoría de TFM."
+ ],
+ "evitar": [
+  "Saludos iniciales, autopromoción temprana o silencios en los primeros 3 segundos.",
+  "Listados abstractos de referentes teóricos sin aplicación práctica inmediata a la entrega.",
+  "Planos fijos hablando a cámara sin apoyo gráfico ni subtítulos destacados.",
+  "Ventas directas agresivas sin haber entregado valor aplicable antes de los 15 segundos."
+ ],
+ "tono_voz": "Cómplice, directo y pragmático: entiende la agonía de las noches sin dormir, habla de tú a tú como un tutor senior resolutivo y elimina el relleno académico.",
+ "duracion_objetivo_s": 25,
+ "pesos": {
+  "tips_tfm": 1.0,
+  "tips_proyectos": 1.0,
+  "referentes": 1.0,
+  "ia": 1.0,
+  "test": 1.0,
+  "vf": 1.0
+ },
+ "hashtags": [
+  "#arquitectura",
+  "#estudiantedearquitectura",
+  "#tfmarquitectura",
+  "#tfgarquitectura",
+  "#entregasdearquitectura",
+  "#proyectosarquitectura",
+  "#pfc"
+ ],
+ "fecha": "2026-11-01",
+ "datos": {
+  "referentes": 0.0,
+  "tips_tfm": 0.1071
+ }
+}
