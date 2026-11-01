@@ -1,0 +1,69 @@
+{
+ "formatos_que_funcionan": [
+  "Tutorial acelerado (x1.5) grabado en pantalla con voz en off y subtítulos dinámicos (15-25s)",
+  "POV Humor / 'Noche de entrega' en bucle de 7-12s con B-roll estético y audio en tendencia",
+  "'Salva tu TFG/PFC': Análisis express intercalando creador con planos, axonometrías y secciones (35-50s)",
+  "ASMR de maquetas con planos detalle de corte y ensamble explicando errores a evitar (20-30s)",
+  "Checklists y guías paso a paso enfocadas a guardados",
+  "Micro-análisis prácticos de 30-45s con esquemas visuales y demostración inmediata",
+  "'Mitos vs. Realidad' sobre entregas y correcciones para detonar debate y compartidos"
+ ],
+ "ganchos_que_funcionan": [
+  "Negación directa: 'Deja de perder 8 horas en Photoshop: usa esta IA para tu entrega de Proyectos'",
+  "Negación de hábitos: 'Deja de hacer X si quieres lograr Y en tu corrección'",
+  "Gancho de pérdida: 'El error fatal al cortar cartón pluma que arruina el acabado de tu maqueta'",
+  "Gancho de coste invisible: 'El error invisible que te está costando [tiempo/nota] en Proyectos'",
+  "Promesa de atajo: '3 referentes conceptuales que salvarán tu proyecto si estás estancado'",
+  "Promesa de resultado accionable: 'Cómo [resultado] en 3 pasos clave (guárdalo para no perderlo)'",
+  "POV empático: 'El jurado de Proyectos viendo cómo puse un árbol gigante para tapar la fachada que no definí'"
+ ],
+ "temas_calientes": [
+  "Optimización de renders y diagramas express con herramientas de IA frente a entregas inminentes",
+  "Desbloqueo de concepto y referentes para defensas y correcciones intermedias de TFG/TFM/PFC",
+  "Fallos comunes de ejecución y acabados en maquetas físicas (cartón pluma, metacrilato)",
+  "Empatía y humor sobre la recta final de entregas de noviembre (noches en vela, renders cargando, café, jurados)"
+ ],
+ "tendencias_de_edicion": [
+  "Edición limpia y orgánica con ritmo fluido y cortes naturales, dejando atrás la hiperestimulación",
+  "B-roll contextual real y estético (pantallas de renderizado, planos, maquetas)",
+  "Demostración inmediata en pantalla del resultado o esquema gráfico desde los primeros 2 segundos",
+  "Subtítulos dinámicos de lectura rápida con resaltado de palabras clave para consumo silenciado",
+  "Formatos cortos (7-12s) diseñados para reproducción continua en bucle",
+  "Audio ambiente / ASMR bien ecualizado combinado con voz explicativa descriptiva"
+ ],
+ "que_penaliza_el_algoritmo": [
+  "Contenido 100% IA genérico con voces sintéticas artificiales y metraje inconexo",
+  "Clickbait con retención forzada ('mira hasta el final') sin resolución rápida ni valor real",
+  "Marcas de agua cruzadas de otras plataformas (TikTok, CapCut, etc.)",
+  "Videos con compresión deficiente o resolución inferior a 1080p",
+  "Engagement bait artificial pidiendo comentarios forzados ('comenta SI para parte 2')"
+ ],
+ "ejemplos": [
+  {
+   "que": "Workflow rápido de IA para diagramas y renders en pantalla (15-25s)",
+   "por_que": "Resuelve la falta de tiempo extrema del estudiante en época de entregas con productividad tangible e inmediata."
+  },
+  {
+   "que": "POV de humor sobre la noche de entrega y parches de última hora (7-12s)",
+   "por_que": "Genera validación emocional y alta tasa de compartidos por identificación entre compañeros de clase."
+  },
+  {
+   "que": "Cápsula conceptual 'Salva tu TFG/PFC' con axonometrías y referentes (35-50s)",
+   "por_que": "Elimina el bloqueo creativo en fases críticas de corrección y aporta valor académico directo que se guarda para consulta."
+  },
+  {
+   "que": "ASMR de corte de cartón pluma y metacrilato advirtiendo un error de maqueta (20-30s)",
+   "por_que": "Combina la curiosidad por evitar penalizaciones en la evaluación con el placer visual y auditivo del proceso manual."
+  }
+ ],
+ "ideas_de_reel": [
+  "Tutorial de pantalla x1.5 (20s): 'Deja de perder 8 horas en Photoshop: usa esta IA para tu entrega de Proyectos', demostrando el render de un diagrama axonométrico en 3 pasos clave antes de la entrega de noviembre.",
+  "B-roll estético POV en bucle (9s): 'El jurado de Proyectos viendo cómo puse un árbol gigante para tapar la fachada que no definí' grabado a las 4 AM con café y barras de progreso de render.",
+  "Guía visual de referentes (40s): '3 referentes conceptuales que salvarán tu proyecto si estás estancado', mostrando cortes limpios entre el creador, plantas y secciones para desbloquear correcciones de TFG/PFC.",
+  "Primer plano ASMR (25s): 'El error fatal al cortar cartón pluma que arruina el acabado de tu maqueta', enseñando el fallo de biselado con bisturí y la técnica correcta para entregar una maqueta impecable."
+ ],
+ "fecha": "2026-11-01",
+ "fuentes": [],
+ "verificado": false,
+ "modelo_busqueda": "gemini-3.6-flash"
+}

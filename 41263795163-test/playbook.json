@@ -1,0 +1,43 @@
+{
+ "ganchos_que_funcionan": [
+  "¿Sales de corregir más perdido de lo que entraste? Aplica esto antes de borrar nada.",
+  "El error invisible en tu entrega de Proyectos que te está bajando la nota sin que te enteres.",
+  "Deja de perder 8 horas montando láminas: este flujo de trabajo salva tu entrega.",
+  "Si tu tribunal de TFM ve esto en tu sección constructiva, estás fuera."
+ ],
+ "patrones": [
+  "Gancho visual en pantalla en los primeros 2 segundos mostrando el error o plano real",
+  "Estructura Problema-Agitación-Solución en 3 pasos aplicables para maximizar guardados",
+  "Grabación acelerada x1.5 de pantalla con subtítulos dinámicos y B-roll de planos o maquetas",
+  "Llamada a la acción natural al final: comentar para auditoría gratuita o guardar para la entrega"
+ ],
+ "evitar": [
+  "Intros lentas, saludos o rodeos iniciales sin mostrar el contenido en el segundo 1",
+  "Listas de referentes abstractos sin conexión práctica directa con el proyecto",
+  "Vídeos estáticos hablando a cámara sin apoyo visual, cortes rápidos ni zoom",
+  "Lenguaje excesivamente teórico o académico desvinculado de la presión real de entrega"
+ ],
+ "tono_voz": "Colega senior empático, pragmático y directo; entiende el agobio de entregas y habla claro, combinando humor cómplice con rigor técnico",
+ "duracion_objetivo_s": 25,
+ "pesos": {
+  "tips_tfm": 1.0,
+  "tips_proyectos": 1.0,
+  "referentes": 1.0,
+  "ia": 1.0,
+  "test": 1.0,
+  "vf": 1.0
+ },
+ "hashtags": [
+  "#arquitectura",
+  "#estudiantearquitectura",
+  "#proyectosarquitectura",
+  "#tfmarquitectura",
+  "#entregadeproyectos",
+  "#pfcarquitectura"
+ ],
+ "fecha": "2026-11-01",
+ "datos": {
+  "referentes": 0.0,
+  "tips_tfm": 0.1071
+ }
+}
