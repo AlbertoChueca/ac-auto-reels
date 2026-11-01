@@ -1,0 +1,48 @@
+{
+ "ganchos_que_funcionan": [
+  "Deja de perder 8 horas renderizando para tu entrega de Proyectos",
+  "¿Sales de corregir más perdido de lo que entraste? Aplica esto hoy",
+  "La IA que salvará tu TFG/PFC si vas contra reloj",
+  "POV: Entregas en 3 horas y tu axonométrica no se entiende",
+  "Deja de hacer esto en tus paneles si no quieres suspender Proyectos",
+  "3 páginas de referentes que tu tribunal de TFM no espera ver"
+ ],
+ "patrones": [
+  "Gancho visual o sonoro en el segundo 1 (resultado final impactante o sonido de corte/maqueta)",
+  "Planteamiento del dolor del estudiante (bloqueo en corrección, falta de tiempo, render infinito)",
+  "Cheat sheet visual o solución práctica en 3 pasos con pantalla dividida o diagramas claros",
+  "Cortes dinámicos por bloque de idea ('Raw-Pro') con subtítulos legibles y destacados",
+  "Llamada a la acción orientada a guardar para entrega o solicitar auditoría gratuita de TFM"
+ ],
+ "evitar": [
+  "Intros lentas saludando o explicando el contexto antes de dar valor",
+  "Contenido genérico generado por IA sin contexto real de taller o escuela de arquitectura",
+  "Listados abstractos de referentes sin aplicación directa al proyecto o concepto",
+  "Audios sobrecargados o efectos estridentes que resten profesionalidad a la lámina",
+  "Vídeos de más de 45 segundos sin dinamismo visual o demostración práctica inmediata"
+ ],
+ "tono_voz": "Empático, directo y cómplice con el estrés de taller; técnico pero accesible, sin rodeos académicos innecesarios.",
+ "duracion_objetivo_s": 32,
+ "pesos": {
+  "tips_tfm": 1,
+  "tips_proyectos": 1,
+  "referentes": 1,
+  "ia": 1,
+  "test": 1,
+  "vf": 1
+ },
+ "hashtags": [
+  "#arquitectura",
+  "#estudiantedearquitectura",
+  "#tfmarquitectura",
+  "#pfc",
+  "#proyectosarquitectura",
+  "#entregadeproyectos",
+  "#rendersarquitectura"
+ ],
+ "fecha": "2026-11-01",
+ "datos": {
+  "referentes": 0.0,
+  "tips_tfm": 0.1071
+ }
+}

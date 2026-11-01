@@ -1,0 +1,93 @@
+{
+ "formatos_que_funcionan": [
+  "Grabación de pantalla ágil con pantalla dividida o corte directo (boceto a lápiz/SketchUp a render con IA)",
+  "POV & Humor Relatable con audios virales/dramáticos sobre el caos del taller y entregas",
+  "ASMR Process con planos detalle y sonido ambiente de maquetas y postproducción (sin voz hablada)",
+  "Presentador con pantalla verde o voz en off sobre imágenes de diagramas, axonométricas y webs de referentes",
+  "Cheat Sheets visuales (guías de 3 pasos con diagramas o esquemas claros)",
+  "Análisis de errores (mini-estudios de caso de menos de 45 segundos con solución práctica inmediata)",
+  "Checklists y recursos estructurados para guardado y referencia futura"
+ ],
+ "ganchos_que_funcionan": [
+  "Deja de perder 8 horas renderizando para tu entrega de Proyectos",
+  "La IA que salvará tu TFG",
+  "POV: Entregas el PFC en 3 horas y la impresora 3D acaba de fallar",
+  "Sonido seco y envolvente (crack/corte de bisturí) emparejado con un fotograma inicial impecable de maqueta terminada",
+  "3 páginas para buscar referentes de proyectos que tu profesor no quiere que conozcas",
+  "Guarda esto para cuando tengas que...",
+  "Deja de hacer X si no quieres perder Y (framing negativo)",
+  "Demostración inmediata: mostrar el resultado final en el segundo 1 antes del proceso"
+ ],
+ "temas_calientes": [
+  "Hacks de render con IA y optimización de flujo de trabajo (Visualizer, Midjourney, Photoshop IA) para entregas inmediatas",
+  "La trasnochada del taller: maquetas de cartón, cortes con bisturí, quemaduras de silicona y entregas a las 4 AM",
+  "Preparación para jurados y correcciones: axonométricas explotadas y diagramas conceptuales",
+  "Búsqueda de referentes arquitectónicos alternativos para defensas de TFG/PFC/TFM",
+  "ASMR y técnicas de montaje de maquetas en cartón pluma y postproducción en Photoshop"
+ ],
+ "tendencias_de_edicion": [
+  "Estética 'Raw-Pro': ritmo fluido y calmado, con cortes por concepto (no por segundo) y tipografías sobrias",
+  "Subtítulos contextuales estructurados en bloques de frases legibles y completas",
+  "Audio y sound design sobrio: efectos de sonido realistas y micro-animaciones funcionales sin saturar"
+ ],
+ "que_penaliza_el_algoritmo": [
+  "Contenido de IA masivo y genérico (voces sintéticas o guiones repetitivos sin valor original)",
+  "Engagement bait forzado (pedir comentar palabras clave sin aportar valor autónomo)",
+  "Marcas de agua de otras plataformas y contenido resubido sin aportación propia",
+  "Clickbait con ganchos engañosos que provocan abandono masivo en los primeros 2 segundos"
+ ],
+ "ejemplos": [
+  {
+   "que": "@archi.hacks / @arqMANES (Hacks de Render con IA)",
+   "por_que": "Resuelve en 15-25s el dolor crítico del estudiante con poco tiempo al mostrar el paso rápido de boceto a render final."
+  },
+  {
+   "que": "@thearchistudent (POV & Humor de taller)",
+   "por_que": "Genera empatía inmediata en vídeos de 7-12s reflejando la presión de entregas, provocando compartidos masivos en grupos de estudio."
+  },
+  {
+   "que": "@archisource (ASMR Process de Maquetas)",
+   "por_que": "Retiene a la audiencia en 30-45s con audio envolvente de corte de bisturí y un acabado visual estético aplicable a paneles académicos."
+  },
+  {
+   "que": "@illustrarch (Referentes y Consejos para Jurados)",
+   "por_que": "Entrega valor directo en 20-35s con recursos visuales poco conocidos para defender correcciones ante el profesorado."
+  }
+ ],
+ "ideas_de_reel": [
+  "Hack de Render en 20s: Pantalla dividida de boceto de SketchUp a Photoshop IA con el gancho: 'Deja de perder 8 horas renderizando para tu entrega de Proyectos'.",
+  "POV Taller de 9s: Plano tembloroso a las 4 AM con maqueta de cartón pluma y el gancho: 'POV: Entregas el PFC en 3 horas y la impresora 3D acaba de fallar'.",
+  "ASMR de Maqueta en 30s: Sonido nítido de corte con bisturí sobre cartón pluma arrancando en el segundo 1 con el modelo final terminado.",
+  "Cheat Sheet para Jurados en 30s: Presentador frente a pantalla verde mostrando '3 páginas para buscar referentes de proyectos que tu profesor no quiere que conozcas'.",
+  "Análisis de Errores de Panel: Vídeo 'Raw-Pro' de 35s mostrando el error crítico al diagramar una axonométrica explotada para la corrección y su solución inmediata."
+ ],
+ "fecha": "2026-11-01",
+ "fuentes": [
+  {
+   "titulo": "successfularchistudent.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECxvY9lHZCXXZ1ejeJBf6jybv2T6wmm3VOHSI_Z9Vp7qSkSvdQVjnos8f7mSJ6XPrglT7zOSVH4IBAQ7o_n3ndR2JzR2ii3wv_yRU_A3ynIASiNlljPpbYk_oHCv12h6gr30TciUGUdGvYefinIo6fQ4dSIqlhu5Nt-c_S"
+  },
+  {
+   "titulo": "quvi.ai",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0LFil029PqJMTVgYRVglnyDDgPsOVJtNsXpRndqPlitCIzuOMKsDBJKSNShyTCcWEKk7_zO5Y1jHL1stZY2bm_H_jCGRMa8cr9-k59MmG0ZsLRHGAkYpGo-pqZr28xeCGEUUXgWFvWWrKghVJdFatrHm-wA=="
+  },
+  {
+   "titulo": "youtube.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_jzw8Mn-qcn4d3iX60znEvcbhdXoWETNiOMznMOUtrwfo7a7cM8xr6yAtB8LMWgs_IW6MioGXPXGsCcQK6vpzLZx4NjuR4KuyQ7-JeY4JzEM5XXee7qwecoQ5dNDdEE0="
+  },
+  {
+   "titulo": "instagram.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6JVEB1k7b4idzneK0RG-bJyZU5msLvVw9uwBApVzBVt3MenVSIUBF3a-tkrxKpe_OHCgXwoZEGpEdoR316G11jSk95cpUaWXFtXyU_aPR7fhj7JHaWmY4yEw4xHt4ZwI="
+  },
+  {
+   "titulo": "youtube.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxyKeicqU-GCIUE8bXuK8QJlBvA4c0ttiX6jrCJBHTlF7nF1zoVuqu8nuW-aEKrhcudLzsHhJXlLcSg1_CgIhHtrwNtCdQhNuvTCKNdpDsVR45a0JeUvvszA0ISqcI2Ks="
+  },
+  {
+   "titulo": "illustrarch.com",
+   "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaePGa_Mqb8vWMlC-Ns9mukQmVDDrukinOywOXDxDXkVmp0iW-HVggfS3r5K7d2JJfX9rze0dKawdhWA4noHw48TaWds2SkijKX95-5bNC71Yjd76H-dizkKmUemVvZeyi75nSt6mKjwg2KNllXxPZG7eoWN9YIr_9T44IFkzoI6IK6WwHBRx7DayzfGCmbdfQ7u1XAFYkm9wLFNRGI5OCxbw="
+  }
+ ],
+ "verificado": true,
+ "modelo_busqueda": "gemini-3.5-flash"
+}
