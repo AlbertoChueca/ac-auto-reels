@@ -1,26 +1,28 @@
 {
 "ganchos_que_funcionan": [
-"¿Sales de corregir más perdido de lo que entraste? Aplica este cambio hoy.",
-"Deja de perder 5 horas renderizando para Proyectos: usa este flujo rápido.",
-"Si tu tribunal está harto de los referentes de siempre, usa estos 3 proyectos.",
-"El 90% suspende o se estanca en el TFM por cometer este error conceptual.",
-"POV: Faltan 48 horas para la entrega final y tu render va por el 2%."
+"¿Sales de corregir más perdido de lo que entraste? Aplica esto en tu TFM.",
+"No vuelvas a perder 8 horas renderizando para tu entrega de Proyectos...",
+"Son las 4:00 AM y tu entrega es a las 8:00: el salvavidas para maqueta/planos.",
+"El error del 90% al justificar la estructura en el TFM que suspende entregas.",
+"3 referentes que tu profesor de Proyectos amará en la corrección de esta semana.",
+"Deja de perder semanas en el concepto: diagrama clave estilo BIG en 2 minutos."
 ],
 "patrones": [
-"Mostrar el resultado final o solución visual impactante en los primeros 2 segundos.",
-"Ritmo de edición rápido con zooms sutiles o subtítulos cinéticos cada 1.5 a 2 segundos.",
-"Estructura: Frustración real de entrega -> Solución práctica en pantalla -> CTA para guardar.",
-"Grabación nativa de pantalla (Rhino, Photoshop, IA) o formato plano cenital de taller.",
-"Cierre de ventas sutil (20% de vídeos): invitar a comentar o enviar DM para auditoría gratuita de TFM."
+"Mostrar el resultado final (render/maqueta/esquema resuelto) en los primeros 2 segundos.",
+"Formato mini-clase de 15 a 25 segundos resolviendo una fricción técnica o conceptual concreta.",
+"Cortes dinámicos y cambios de estímulo visual (B-roll, zoom, puntero) cada 1.5 a 2.5 segundos.",
+"Subtítulos dinámicos palabra por palabra para retención visual sin audio.",
+"Pantalla verde interactuando directamente con planos, secciones o diagramas conceptuales.",
+"Llamada a la acción (CTA) sutil al 20%: 'Comenta AUDITORIA si quieres desbloquear tu TFM'."
 ],
 "evitar": [
-"Intros lentas, saludos o presentaciones personales que aumenten el abandono en los primeros 3 segundos.",
-"Listados abstractos de referentes sin diagramas ni aplicación gráfica directa a la entrega.",
-"Vídeos de más de 35 segundos con ritmo plano sin cambios de encuadre.",
-"Marcas de agua cruzadas de TikTok u otras aplicaciones externas.",
-"Voces sintéticas impersonales o clips de stock genéricos sin valor arquitectónico."
+"Intros lentas con saludos o presentaciones ('Hola chicos, hoy os traigo...') que causan abandono en <3s.",
+"Vídeos teóricos abstractos sin aplicación gráfica inmediata ni ejemplos visuales.",
+"Superar los 40 segundos sin justificación de retención alta.",
+"Exportar con marcas de agua de CapCut, TikTok o logos de otras plataformas.",
+"Voz monótona sin diseño sonoro orgánico o efectos de transición."
 ],
-"tono_voz": "Colega veterano empático, directo y resolutivo; comprende el estrés y las noches en vela de las entregas y ofrece atajos profesionales sin rodeos teóricos.",
+"tono_voz": "Cercano, empático con el agobio de entregas, directo al grano, técnico pero sin rodeos universitarios; de colega arquitecto senior que ya pasó por eso y te ahorra noches en blanco.",
 "duracion_objetivo_s": 22,
 "pesos": {
 "tips_tfm": 1.0,
@@ -32,16 +34,16 @@
 },
 "hashtags": [
 "#arquitectura",
-"#estudiantedearquitectura",
 "#tfmarquitectura",
 "#tfgarquitectura",
+"#estudiantedearquitectura",
 "#proyectosarquitectura",
-"#entregasdearquitectura",
 "#pfc"
 ],
-"fecha": "2026-11-01",
+"fecha": "2026-11-02",
 "datos": {
 "referentes": 0.0226,
-"tips_tfm": 0.2093
+"tips_tfm": 0.2093,
+"documentacion": 0.0986
 }
 }
