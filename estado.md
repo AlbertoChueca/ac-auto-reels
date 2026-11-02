@@ -1,4 +1,4 @@
-# Estado (2026-10-28)
+# Estado (2026-11-02)
 
 | comprobación | detalle |
 |---|---|
@@ -7,4 +7,5 @@
 | ✅ Instagram (API de Meta) | @arquitectura_confidencial · publica directo |
 | ✅ TikTok (Zernio) | conectada |
 | ✅ YouTube (Zernio) | conectada |
-| ✅ Banco de contenido | galeria 8 · tips 7 · antes_despues 8 · proceso 6 · obra 4 · test 14 · vf 8 · encuesta 6 sin usar |
+| ✅ Banco de contenido | tips_tfm 7 · tips_proyectos 7 · ia 4 · referentes 4 · documentacion 5 · auditoria 2 · postpro 8 · test 14 · vf 8 · encuesta 6 sin usar |
+| ✅ Voz (Gemini TTS) | gemini:Puck · 3.1 s de audio |
