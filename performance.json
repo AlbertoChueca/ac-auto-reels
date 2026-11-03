@@ -31,25 +31,48 @@
 "hook": "¿Sales de corregir más perdido?",
 "duration": 28.5,
 "review_score": 8.0,
-"views": 28,
+"views": 32,
 "reach": 27,
 "likes": 0,
 "comments": 0,
 "shares": 0,
 "saved": 1,
-"watch_ms": 5822,
+"watch_ms": 6518,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0,
 "por_red": {
 "instagram_reel": {
-"views": 28,
+"views": 29,
 "reach": 27,
 "likes": 0,
 "comments": 0,
 "shares": 0,
 "saved": 1,
-"watch_ms": 5822
+"watch_ms": 6518
 },
-"tiktok_video": {},
-"youtube_short": {}
+"tiktok_video": {
+"views": 0,
+"reach": 0,
+"likes": 0,
+"comments": 0,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+},
+"youtube_short": {
+"views": 3,
+"reach": 0,
+"likes": 0,
+"comments": 0,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+}
 }
 },
 "2026-10-29_manual_035781": {
@@ -58,13 +81,16 @@
 "hook": "¿Sin concepto? 5 referentes para Proyectos",
 "duration": 50.7,
 "review_score": 8.0,
-"views": 56,
+"views": 58,
 "reach": 50,
 "likes": 0,
 "comments": 0,
 "shares": 0,
 "saved": 0,
 "watch_ms": 4587,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0,
 "por_red": {
 "instagram_reel": {
 "views": 56,
@@ -75,8 +101,28 @@
 "saved": 0,
 "watch_ms": 4587
 },
-"tiktok_video": {},
-"youtube_short": {}
+"tiktok_video": {
+"views": 0,
+"reach": 0,
+"likes": 0,
+"comments": 0,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+},
+"youtube_short": {
+"views": 2,
+"reach": 0,
+"likes": 0,
+"comments": 0,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+}
 }
 },
 "2026-11-01_noche": {
@@ -85,25 +131,98 @@
 "hook": "4 entregas técnicas de tu TFM",
 "duration": 27.5,
 "review_score": 8.0,
-"views": 225,
-"reach": 199,
+"views": 637,
+"reach": 288,
 "likes": 3,
-"comments": 1,
+"comments": 3,
 "shares": 0,
-"saved": 2,
-"watch_ms": 2733,
+"saved": 3,
+"watch_ms": 2695,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0,
 "por_red": {
 "instagram_reel": {
-"views": 225,
-"reach": 199,
+"views": 233,
+"reach": 207,
 "likes": 3,
 "comments": 1,
 "shares": 0,
 "saved": 2,
-"watch_ms": 2733
+"watch_ms": 2695
 },
-"tiktok_video": {},
-"youtube_short": {}
+"tiktok_video": {
+"views": 249,
+"reach": 81,
+"likes": 0,
+"comments": 1,
+"shares": 0,
+"saved": 1,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+},
+"youtube_short": {
+"views": 155,
+"reach": 0,
+"likes": 0,
+"comments": 1,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+}
+}
+},
+"2026-11-02_noche": {
+"date": "2026-11-02",
+"tematica": "referentes",
+"hook": "4 referentes para tu corrección",
+"duration": 30.5,
+"review_score": 8.0,
+"views": 807,
+"reach": 152,
+"likes": 7,
+"comments": 3,
+"shares": 3,
+"saved": 1,
+"watch_ms": 4066,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0,
+"por_red": {
+"instagram_reel": {
+"views": 168,
+"reach": 152,
+"likes": 4,
+"comments": 1,
+"shares": 3,
+"saved": 1,
+"watch_ms": 4066
+},
+"tiktok_video": {
+"views": 261,
+"reach": 0,
+"likes": 1,
+"comments": 1,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+},
+"youtube_short": {
+"views": 378,
+"reach": 0,
+"likes": 2,
+"comments": 1,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+}
 }
 }
 }
