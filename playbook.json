@@ -1,29 +1,27 @@
 {
 "ganchos_que_funcionan": [
-"¿Sales de corregir más perdido de lo que entraste? Aplica esto en tu TFM.",
-"No vuelvas a perder 8 horas renderizando para tu entrega de Proyectos...",
-"Son las 4:00 AM y tu entrega es a las 8:00: el salvavidas para maqueta/planos.",
-"El error del 90% al justificar la estructura en el TFM que suspende entregas.",
-"3 referentes que tu profesor de Proyectos amará en la corrección de esta semana.",
-"Deja de perder semanas en el concepto: diagrama clave estilo BIG en 2 minutos."
+"¿Sales de corregir con tu tutor más perdido que al entrar?",
+"Deja de perder 10 horas montando paneles: usa este workflow para tu entrega",
+"3 referentes que tu profesor amará ver en tu entrega de TFG/TFM",
+"POV: Son las 4:00 AM, entregas a las 8:00 y tu memoria técnica no cierra",
+"Cómo justificar tu concepto en 30 segundos sin que el tribunal te lo tumbe"
 ],
 "patrones": [
-"Mostrar el resultado final (render/maqueta/esquema resuelto) en los primeros 2 segundos.",
-"Formato mini-clase de 15 a 25 segundos resolviendo una fricción técnica o conceptual concreta.",
-"Cortes dinámicos y cambios de estímulo visual (B-roll, zoom, puntero) cada 1.5 a 2.5 segundos.",
-"Subtítulos dinámicos palabra por palabra para retención visual sin audio.",
-"Pantalla verde interactuando directamente con planos, secciones o diagramas conceptuales.",
-"Llamada a la acción (CTA) sutil al 20%: 'Comenta AUDITORIA si quieres desbloquear tu TFM'."
+"Gancho con dolor real de corrección o entrega en pantalla (<1.5 s) con texto gigante",
+"Grabación de pantalla acelerada (workflow/IA) o B-roll de taller/maqueta con cortes cada 1.5 a 2 segundos",
+"Estructura problema-solución express: 'El tribunal te pide X -> Resuélvelo con esta estructura en 3 pasos'",
+"Checklist o plantilla visual en pantalla diseñada específicamente para ser guardada",
+"CTA directo al final hacia la auditoría gratuita de TFM/TFG ('Comenta AUDITORÍA y revisamos tu entrega')"
 ],
 "evitar": [
-"Intros lentas con saludos o presentaciones ('Hola chicos, hoy os traigo...') que causan abandono en <3s.",
-"Vídeos teóricos abstractos sin aplicación gráfica inmediata ni ejemplos visuales.",
-"Superar los 40 segundos sin justificación de retención alta.",
-"Exportar con marcas de agua de CapCut, TikTok o logos de otras plataformas.",
-"Voz monótona sin diseño sonoro orgánico o efectos de transición."
+"Intros lentas o saludos genéricos ('Hola chicos, hoy os traigo...')",
+"Vídeos de más de 30 segundos con ritmo estático o planos fijos",
+"Avatares sintéticos o clonación de voz de IA sin edición humana ni autenticidad",
+"Listados abstractos de referentes sin enseñar el plano, sección o axo aplicable",
+"Publicar sin subtítulos dinámicos de alto contraste para consumo en silencio"
 ],
-"tono_voz": "Cercano, empático con el agobio de entregas, directo al grano, técnico pero sin rodeos universitarios; de colega arquitecto senior que ya pasó por eso y te ahorra noches en blanco.",
-"duracion_objetivo_s": 22,
+"tono_voz": "Empático, cómplice del estrés de entregas, directo al grano, con autoridad técnica práctica y sin academicismos vacíos.",
+"duracion_objetivo_s": 18,
 "pesos": {
 "tips_tfm": 1.0,
 "tips_proyectos": 1.0,
@@ -33,17 +31,19 @@
 "vf": 1.0
 },
 "hashtags": [
-"#arquitectura",
 "#tfmarquitectura",
 "#tfgarquitectura",
 "#estudiantedearquitectura",
 "#proyectosarquitectura",
-"#pfc"
+"#entregadearquitectura",
+"#arquitecturaespaña",
+"#tipsarquitectura",
+"#maquetaarquitectura"
 ],
-"fecha": "2026-11-02",
+"fecha": "2026-11-04",
 "datos": {
-"referentes": 0.0226,
-"tips_tfm": 0.2093,
-"documentacion": 0.0986
+"referentes": 0.0477,
+"tips_tfm": 0.2081,
+"documentacion": 0.0771
 }
 }
