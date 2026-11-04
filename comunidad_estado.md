@@ -1,6 +1,6 @@
 # Bot de comunidad
 
-_Última pasada: 2026-11-04 09:28 UTC · 0 respuestas_
+_Última pasada: 2026-11-04 18:04 UTC · 0 respuestas_
 
 | Fecha | Red | Tipo | Gancho | Comentarios | Solución publicada |
 |---|---|---|---|---|---|
@@ -16,3 +16,6 @@ _Última pasada: 2026-11-04 09:28 UTC · 0 respuestas_
 | 2026-11-02 | instagram | referentes | 4 referentes para tu corrección | 1 | — |
 | 2026-11-02 | tiktok | referentes | 4 referentes para tu corrección | 1 | — |
 | 2026-11-02 | youtube | referentes | 4 referentes para tu corrección | 1 | — |
+| 2026-11-04 | instagram | tips_proyectos | Análisis de lugar que sí sirve | 0 | — |
+| 2026-11-04 | tiktok | tips_proyectos | Análisis de lugar que sí sirve | 0 | — |
+| 2026-11-04 | youtube | tips_proyectos | Análisis de lugar que sí sirve | 0 | — |
