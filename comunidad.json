@@ -58,15 +58,30 @@
 "instagram:ig:18099177134387724": {
 "primer": "2026-11-04T18:04:24.701542+00:00",
 "personas": [],
-"comentarios": 0
+"comentarios": 1
 },
 "tiktok:6aeb401312b9b418101b9bae": {
 "primer": "2026-11-04T18:04:24.701542+00:00",
 "personas": [],
-"comentarios": 0
+"comentarios": 1
 },
 "youtube:6aeb401212b9b418101b9ba1": {
 "primer": "2026-11-04T18:04:24.701542+00:00",
+"personas": [],
+"comentarios": 1
+},
+"instagram:ig:17963403392999847": {
+"primer": "2026-11-04T23:46:53.329928+00:00",
+"personas": [],
+"comentarios": 0
+},
+"tiktok:6aeba0a5002a5c1f2268353a": {
+"primer": "2026-11-04T23:46:53.329928+00:00",
+"personas": [],
+"comentarios": 0
+},
+"youtube:6aeba0a456ac89b92d52b202": {
+"primer": "2026-11-04T23:46:53.329928+00:00",
 "personas": [],
 "comentarios": 0
 }
@@ -82,6 +97,8 @@
 "6ae8f728113da4cb5655a62e": "7703678981052140832",
 "6ae8f72708eb076cb2f4778e": "0lbjPJ69fdw",
 "6aeb401312b9b418101b9bae": "7704322105210539297",
-"6aeb401212b9b418101b9ba1": "DJAYSCoOumE"
+"6aeb401212b9b418101b9ba1": "DJAYSCoOumE",
+"6aeba0a5002a5c1f2268353a": "7704428350302883105",
+"6aeba0a456ac89b92d52b202": "3XMa1ybruQc"
 }
 }
