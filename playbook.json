@@ -1,49 +1,52 @@
 {
 "ganchos_que_funcionan": [
-"¿Sales de corregir con tu tutor más perdido que al entrar?",
-"Deja de perder 10 horas montando paneles: usa este workflow para tu entrega",
-"3 referentes que tu profesor amará ver en tu entrega de TFG/TFM",
-"POV: Son las 4:00 AM, entregas a las 8:00 y tu memoria técnica no cierra",
-"Cómo justificar tu concepto en 30 segundos sin que el tribunal te lo tumbe"
+"Esta lámina de entrega suspende hoy mismo: mira cómo salvarla en 30 segundos",
+"Si tardas más de 10 minutos en renderizar tus secciones para Proyectos, estás perdiendo el PFC",
+"POV: Faltan 2 horas para la entrega de Proyectos y Rhino acaba de cerrarse sin guardar",
+"Deja de usar Photoshop como en 2015 para tus entregas de arquitectura",
+"¿Sales de corregir con tu tutor más perdido de lo que entraste?",
+"Usa este referente de BIG si te quedaste en blanco con el concepto de tu TFM"
 ],
 "patrones": [
-"Gancho con dolor real de corrección o entrega en pantalla (<1.5 s) con texto gigante",
-"Grabación de pantalla acelerada (workflow/IA) o B-roll de taller/maqueta con cortes cada 1.5 a 2 segundos",
-"Estructura problema-solución express: 'El tribunal te pide X -> Resuélvelo con esta estructura en 3 pasos'",
-"Checklist o plantilla visual en pantalla diseñada específicamente para ser guardada",
-"CTA directo al final hacia la auditoría gratuita de TFM/TFG ('Comenta AUDITORÍA y revisamos tu entrega')"
+"Inicio mid-action al segundo 0 sin saludos ni introducciones",
+"Edición Blitz Cut sin silencios ni pausas con subtítulos dinámicos en palabras clave",
+"Screencast acelerado mostrando flujos de trabajo de software e IA (15-25 s)",
+"Contraste visual tipo Roast o rediseño antes/después de láminas en pantalla dividida",
+"Checklists y micro-guías de alto valor técnico diseñadas para obligar a guardar",
+"Remate final con llamada a la acción contextualizada para agendar auditoría gratuita del TFM"
 ],
 "evitar": [
-"Intros lentas o saludos genéricos ('Hola chicos, hoy os traigo...')",
-"Vídeos de más de 30 segundos con ritmo estático o planos fijos",
-"Avatares sintéticos o clonación de voz de IA sin edición humana ni autenticidad",
-"Listados abstractos de referentes sin enseñar el plano, sección o axo aplicable",
-"Publicar sin subtítulos dinámicos de alto contraste para consumo en silencio"
+"Intros lentas, saludos de bienvenida ('Hola a todos') o autopresentaciones",
+"Formatos teóricos largos sin apoyo visual ni demostración práctica directa",
+"Tomas estáticas a cámara fija sin B-roll, overlays gráficos o dinamismo visual",
+"Ganchos genéricos que no apunten a un dolor urgente de entrega o corrección",
+"Reels de más de 45 segundos que diluyan el tiempo de retención promedio"
 ],
-"tono_voz": "Empático, cómplice del estrés de entregas, directo al grano, con autoridad técnica práctica y sin academicismos vacíos.",
-"duracion_objetivo_s": 18,
+"tono_voz": "Colega veterano de estudio: directo, pragmático, cómplice del agobio de entregas pero 100 % resolutivo y sin rodeos académicos.",
+"duracion_objetivo_s": 22,
 "pesos": {
-"tips_tfm": 1.0,
-"tips_proyectos": 1.0,
-"referentes": 1.0,
-"ia": 1.0,
-"test": 1.0,
-"vf": 1.0
+"tips_tfm": 1,
+"tips_proyectos": 1,
+"referentes": 1,
+"ia": 1,
+"test": 1,
+"vf": 1
 },
 "hashtags": [
-"#tfmarquitectura",
-"#tfgarquitectura",
+"#arquitectura",
 "#estudiantedearquitectura",
+"#tfmarquitectura",
+"#pfcarquitectura",
 "#proyectosarquitectura",
 "#entregadearquitectura",
-"#arquitecturaespaña",
-"#tipsarquitectura",
-"#maquetaarquitectura"
+"#archistudent",
+"#rhino3d"
 ],
-"fecha": "2026-11-04",
+"fecha": "2026-11-06",
 "datos": {
-"referentes": 0.0477,
-"tips_tfm": 0.2081,
-"documentacion": 0.0771
+"referentes": 0.0503,
+"tips_tfm": 0.2021,
+"documentacion": 0.0702,
+"tips_proyectos": 0.3162
 }
 }
