@@ -1,15 +1,9 @@
 # Bot de comunidad
 
-_Última pasada: 2026-11-05 22:06 UTC · 0 respuestas_
+_Última pasada: 2026-11-06 02:33 UTC · 0 respuestas_
 
 | Fecha | Red | Tipo | Gancho | Comentarios | Solución publicada |
 |---|---|---|---|---|---|
-| 2026-10-29 | instagram | tips_tfm | ¿Sales de corregir más perdido? | 0 | — |
-| 2026-10-29 | tiktok | tips_tfm | ¿Sales de corregir más perdido? | 0 | — |
-| 2026-10-29 | youtube | tips_tfm | ¿Sales de corregir más perdido? | 0 | — |
-| 2026-10-29 | instagram | referentes | ¿Sin concepto? 5 referentes para Proyect | 0 | — |
-| 2026-10-29 | tiktok | referentes | ¿Sin concepto? 5 referentes para Proyect | 0 | — |
-| 2026-10-29 | youtube | referentes | ¿Sin concepto? 5 referentes para Proyect | 0 | — |
 | 2026-11-01 | instagram | documentacion | 4 entregas técnicas de tu TFM | 1 | — |
 | 2026-11-01 | tiktok | documentacion | 4 entregas técnicas de tu TFM | 1 | — |
 | 2026-11-01 | youtube | documentacion | 4 entregas técnicas de tu TFM | 1 | — |
