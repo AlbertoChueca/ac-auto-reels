@@ -1,6 +1,6 @@
 # Bot de comunidad
 
-_Última pasada: 2026-11-06 11:08 UTC · 0 respuestas_
+_Última pasada: 2026-11-06 18:05 UTC · 0 respuestas_
 
 | Fecha | Red | Tipo | Gancho | Comentarios | Solución publicada |
 |---|---|---|---|---|---|
@@ -16,3 +16,6 @@ _Última pasada: 2026-11-06 11:08 UTC · 0 respuestas_
 | 2026-11-04 | instagram | documentacion | ¿Atascado con la Construcción? | 1 | — |
 | 2026-11-04 | tiktok | documentacion | ¿Atascado con la Construcción? | 1 | — |
 | 2026-11-04 | youtube | documentacion | ¿Atascado con la Construcción? | 1 | — |
+| 2026-11-06 | instagram | referentes | Tu espacio parece una cueva | 0 | — |
+| 2026-11-06 | tiktok | referentes | Tu espacio parece una cueva | 0 | — |
+| 2026-11-06 | youtube | referentes | Tu espacio parece una cueva | 0 | — |
