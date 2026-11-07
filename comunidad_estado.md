@@ -1,6 +1,6 @@
 # Bot de comunidad
 
-_Última pasada: 2026-11-07 16:54 UTC · 0 respuestas_
+_Última pasada: 2026-11-07 20:58 UTC · 0 respuestas_
 
 | Fecha | Red | Tipo | Gancho | Comentarios | Solución publicada |
 |---|---|---|---|---|---|
@@ -22,6 +22,6 @@ _Última pasada: 2026-11-07 16:54 UTC · 0 respuestas_
 | 2026-11-06 | instagram | auditoria | Auditoría TFM: cómo funciona | 1 | — |
 | 2026-11-06 | tiktok | auditoria | Auditoría TFM: cómo funciona | 1 | — |
 | 2026-11-06 | youtube | auditoria | Auditoría TFM: cómo funciona | 1 | — |
-| 2026-11-07 | instagram | ia | La IA no aprueba tu TFM | 0 | — |
-| 2026-11-07 | tiktok | ia | La IA no aprueba tu TFM | 0 | — |
-| 2026-11-07 | youtube | ia | La IA no aprueba tu TFM | 0 | — |
+| 2026-11-07 | instagram | ia | La IA no aprueba tu TFM | 1 | — |
+| 2026-11-07 | tiktok | ia | La IA no aprueba tu TFM | 1 | — |
+| 2026-11-07 | youtube | ia | La IA no aprueba tu TFM | 1 | — |
