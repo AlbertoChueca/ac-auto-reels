@@ -1,29 +1,28 @@
 {
 "ganchos_que_funcionan": [
-"Esta lámina de entrega suspende hoy mismo: mira cómo salvarla en 30 segundos",
-"Si tardas más de 10 minutos en renderizar tus secciones para Proyectos, estás perdiendo el PFC",
-"POV: Faltan 2 horas para la entrega de Proyectos y Rhino acaba de cerrarse sin guardar",
-"Deja de usar Photoshop como en 2015 para tus entregas de arquitectura",
-"¿Sales de corregir con tu tutor más perdido de lo que entraste?",
-"Usa este referente de BIG si te quedaste en blanco con el concepto de tu TFM"
+"Tu espacio parece una cueva (y tu profesor lo sabe)",
+"El error que arruina tus planos de Proyectos a 2 días de entregar",
+"Convertí este croquis sucio en render final en 10 segundos",
+"Deja de justificar tu TFM así si quieres aprobar con nota",
+"4 referentes clave para salvar tu corrección de esta semana",
+"¿Sales de corregir más perdido que cuando entraste? Aplica esto"
 ],
 "patrones": [
-"Inicio mid-action al segundo 0 sin saludos ni introducciones",
-"Edición Blitz Cut sin silencios ni pausas con subtítulos dinámicos en palabras clave",
-"Screencast acelerado mostrando flujos de trabajo de software e IA (15-25 s)",
-"Contraste visual tipo Roast o rediseño antes/después de láminas en pantalla dividida",
-"Checklists y micro-guías de alto valor técnico diseñadas para obligar a guardar",
-"Remate final con llamada a la acción contextualizada para agendar auditoría gratuita del TFM"
+"Gancho dual: texto impactante en pantalla simultáneo a locución rápida en los primeros 1,5 segundos",
+"Mostrar el resultado final (render/axonométrica) antes de explicar el paso a paso",
+"POV y empatía de entrega crítica (humor y caos) combinados con solución exprés",
+"Retention loops: frase de cierre que enlaza perfectamente con la frase de apertura",
+"Edición ágil sin silencios muertos (dead air) acompañada de subtítulos kinéticos dinámicos"
 ],
 "evitar": [
-"Intros lentas, saludos de bienvenida ('Hola a todos') o autopresentaciones",
-"Formatos teóricos largos sin apoyo visual ni demostración práctica directa",
-"Tomas estáticas a cámara fija sin B-roll, overlays gráficos o dinamismo visual",
-"Ganchos genéricos que no apunten a un dolor urgente de entrega o corrección",
-"Reels de más de 45 segundos que diluyan el tiempo de retención promedio"
+"Intros lentas saludando o presentándose antes de entrar en materia",
+"Contenido con marcas de agua o resubido directamente de otras redes",
+"Explicaciones teóricas largas sin soporte visual de planos, diagramas o 3D",
+"Pausas y transiciones lentas de más de 1 segundo sin cambio de plano o estímulo visual",
+"Vender la auditoría de forma agresiva o desconectada del problema del estudiante"
 ],
-"tono_voz": "Colega veterano de estudio: directo, pragmático, cómplice del agobio de entregas pero 100 % resolutivo y sin rodeos académicos.",
-"duracion_objetivo_s": 22,
+"tono_voz": "Empático, directo y de colega veterano que ya superó las entregas. Cero formalismos académicos, enérgico y ultra pragmático.",
+"duracion_objetivo_s": 25,
 "pesos": {
 "tips_tfm": 1,
 "tips_proyectos": 1,
@@ -34,19 +33,18 @@
 },
 "hashtags": [
 "#arquitectura",
-"#estudiantedearquitectura",
+"#estudiantesdearquitectura",
 "#tfmarquitectura",
-"#pfcarquitectura",
-"#proyectosarquitectura",
-"#entregadearquitectura",
-"#archistudent",
-"#rhino3d"
+"#proyectsarquitectura",
+"#tfgarquitectura",
+"#pfc"
 ],
-"fecha": "2026-11-06",
+"fecha": "2026-11-07",
 "datos": {
-"referentes": 0.0503,
+"referentes": 0.1788,
 "tips_tfm": 0.2021,
-"documentacion": 0.0702,
-"tips_proyectos": 0.3162
+"documentacion": 0.0703,
+"tips_proyectos": 0.3178,
+"auditoria": 0.2079
 }
 }
