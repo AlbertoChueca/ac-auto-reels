@@ -87,7 +87,7 @@
 "comments": 0,
 "shares": 0,
 "saved": 0,
-"watch_ms": 5381,
+"watch_ms": 5356,
 "clicks": 0,
 "follows": 0,
 "profile_visits": 0,
@@ -99,7 +99,7 @@
 "comments": 0,
 "shares": 0,
 "saved": 0,
-"watch_ms": 5381
+"watch_ms": 5356
 },
 "tiktok_video": {
 "views": 0,
@@ -131,7 +131,7 @@
 "hook": "4 entregas técnicas de tu TFM",
 "duration": 27.5,
 "review_score": 8.0,
-"views": 647,
+"views": 651,
 "reach": 441,
 "likes": 3,
 "comments": 3,
@@ -152,7 +152,7 @@
 "watch_ms": 2854
 },
 "tiktok_video": {
-"views": 249,
+"views": 250,
 "reach": 232,
 "likes": 0,
 "comments": 1,
@@ -163,7 +163,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 163,
+"views": 166,
 "reach": 0,
 "likes": 0,
 "comments": 1,
@@ -181,7 +181,7 @@
 "hook": "4 referentes para tu corrección",
 "duration": 30.5,
 "review_score": 8.0,
-"views": 821,
+"views": 826,
 "reach": 407,
 "likes": 7,
 "comments": 3,
@@ -213,7 +213,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 369,
+"views": 374,
 "reach": 0,
 "likes": 2,
 "comments": 1,
@@ -231,13 +231,13 @@
 "hook": "Análisis de lugar que sí sirve",
 "duration": 20.6,
 "review_score": 8.0,
-"views": 67,
+"views": 68,
 "reach": 56,
 "likes": 0,
 "comments": 3,
 "shares": 0,
 "saved": 3,
-"watch_ms": 3805,
+"watch_ms": 4004,
 "clicks": 0,
 "follows": 0,
 "profile_visits": 0,
@@ -249,7 +249,7 @@
 "comments": 1,
 "shares": 0,
 "saved": 3,
-"watch_ms": 3805
+"watch_ms": 4004
 },
 "tiktok_video": {
 "views": 1,
@@ -263,7 +263,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 4,
+"views": 5,
 "reach": 0,
 "likes": 0,
 "comments": 1,
@@ -281,13 +281,13 @@
 "hook": "¿Atascado con la Construcción?",
 "duration": 24.5,
 "review_score": 8.0,
-"views": 731,
-"reach": 226,
+"views": 732,
+"reach": 377,
 "likes": 5,
 "comments": 3,
 "shares": 0,
 "saved": 1,
-"watch_ms": 2034,
+"watch_ms": 2053,
 "clicks": 0,
 "follows": 0,
 "profile_visits": 0,
@@ -299,11 +299,11 @@
 "comments": 1,
 "shares": 0,
 "saved": 1,
-"watch_ms": 2034
+"watch_ms": 2053
 },
 "tiktok_video": {
 "views": 263,
-"reach": 94,
+"reach": 245,
 "likes": 1,
 "comments": 1,
 "shares": 0,
@@ -313,9 +313,109 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 325,
+"views": 326,
 "reach": 0,
 "likes": 3,
+"comments": 1,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+}
+}
+},
+"2026-11-06_mediodia": {
+"date": "2026-11-06",
+"tematica": "referentes",
+"hook": "Tu espacio parece una cueva",
+"duration": 23.7,
+"review_score": 8.0,
+"views": 154,
+"reach": 105,
+"likes": 4,
+"comments": 3,
+"shares": 0,
+"saved": 0,
+"watch_ms": 69491,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0,
+"por_red": {
+"instagram_reel": {
+"views": 120,
+"reach": 105,
+"likes": 3,
+"comments": 1,
+"shares": 0,
+"saved": 0,
+"watch_ms": 69491
+},
+"tiktok_video": {
+"views": 2,
+"reach": 0,
+"likes": 0,
+"comments": 1,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+},
+"youtube_short": {
+"views": 32,
+"reach": 0,
+"likes": 1,
+"comments": 1,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+}
+}
+},
+"2026-11-06_noche": {
+"date": "2026-11-06",
+"tematica": "auditoria",
+"hook": "Auditoría TFM: cómo funciona",
+"duration": 22.5,
+"review_score": 8.0,
+"views": 39,
+"reach": 13,
+"likes": 0,
+"comments": 3,
+"shares": 0,
+"saved": 0,
+"watch_ms": 2725,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0,
+"por_red": {
+"instagram_reel": {
+"views": 14,
+"reach": 13,
+"likes": 0,
+"comments": 1,
+"shares": 0,
+"saved": 0,
+"watch_ms": 2725
+},
+"tiktok_video": {
+"views": 1,
+"reach": 0,
+"likes": 0,
+"comments": 1,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+},
+"youtube_short": {
+"views": 24,
+"reach": 0,
+"likes": 0,
 "comments": 1,
 "shares": 0,
 "saved": 0,
