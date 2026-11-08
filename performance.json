@@ -331,7 +331,7 @@
 "hook": "Tu espacio parece una cueva",
 "duration": 23.7,
 "review_score": 8.0,
-"views": 166,
+"views": 167,
 "reach": 110,
 "likes": 4,
 "comments": 3,
@@ -363,7 +363,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 38,
+"views": 39,
 "reach": 0,
 "likes": 1,
 "comments": 1,
@@ -431,7 +431,7 @@
 "hook": "La IA no aprueba tu TFM",
 "duration": 25.0,
 "review_score": 8.0,
-"views": 385,
+"views": 387,
 "reach": 80,
 "likes": 0,
 "comments": 3,
@@ -463,7 +463,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 43,
+"views": 45,
 "reach": 0,
 "likes": 0,
 "comments": 1,
@@ -481,25 +481,25 @@
 "hook": "TEST DE ARQUITECTURA",
 "duration": 21.5,
 "review_score": 8.0,
-"views": 957,
-"reach": 144,
+"views": 960,
+"reach": 146,
 "likes": 7,
-"comments": 0,
+"comments": 1,
 "shares": 0,
 "saved": 0,
-"watch_ms": 4775,
+"watch_ms": 4719,
 "clicks": 0,
 "follows": 0,
 "profile_visits": 0,
 "por_red": {
 "instagram_reel": {
-"views": 154,
-"reach": 144,
+"views": 156,
+"reach": 146,
 "likes": 2,
-"comments": 0,
+"comments": 1,
 "shares": 0,
 "saved": 0,
-"watch_ms": 4775
+"watch_ms": 4719
 },
 "tiktok_video": {
 "views": 262,
@@ -513,7 +513,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 541,
+"views": 542,
 "reach": 0,
 "likes": 5,
 "comments": 0,

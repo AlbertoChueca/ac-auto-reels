@@ -1,50 +1,51 @@
 {
 "ganchos_que_funcionan": [
-"Tu espacio parece una cueva (y tu profesor lo sabe)",
-"El error que arruina tus planos de Proyectos a 2 días de entregar",
-"Convertí este croquis sucio en render final en 10 segundos",
-"Deja de justificar tu TFM así si quieres aprobar con nota",
-"4 referentes clave para salvar tu corrección de esta semana",
-"¿Sales de corregir más perdido que cuando entraste? Aplica esto"
+"Deja de perder 10 horas en Lumion para tu TFG/PFC: usa este flujo de trabajo",
+"Tu espacio parece una cueva y tu profesor de Proyectos te lo va a demoler",
+"El error en planta que arruina tu entrega de TFM sin que te des cuenta",
+"Faltan 48 horas para la entrega de Proyectos y tu análisis de lugar no sirve de nada",
+"¿Sales de corregir más perdido que antes? Aplica esta regla en tu siguiente panel"
 ],
 "patrones": [
-"Gancho dual: texto impactante en pantalla simultáneo a locución rápida en los primeros 1,5 segundos",
-"Mostrar el resultado final (render/axonométrica) antes de explicar el paso a paso",
-"POV y empatía de entrega crítica (humor y caos) combinados con solución exprés",
-"Retention loops: frase de cierre que enlaza perfectamente con la frase de apertura",
-"Edición ágil sin silencios muertos (dead air) acompañada de subtítulos kinéticos dinámicos"
+"Gancho visual o advertencia directa en los primeros 2 segundos con subtítulos dinámicos resaltados",
+"Grabación de pantalla con flujo rápido mostrando transformación directa antes/después en menos de 20s",
+"Cheat sheets y listas densas de recursos prácticos estructurados explícitamente para guardar",
+"Cierre con CTA de baja fricción enfocado en salvar la entrega: 'Comenta AUDITORÍA para revisar tu TFM gratis'",
+"Ritmo condensado sin silencios ni pausas muertas para disparar la tasa de finalización"
 ],
 "evitar": [
-"Intros lentas saludando o presentándose antes de entrar en materia",
-"Contenido con marcas de agua o resubido directamente de otras redes",
-"Explicaciones teóricas largas sin soporte visual de planos, diagramas o 3D",
-"Pausas y transiciones lentas de más de 1 segundo sin cambio de plano o estímulo visual",
-"Vender la auditoría de forma agresiva o desconectada del problema del estudiante"
+"Intros lentas de presentación personal antes de mostrar el valor",
+"Contenido generado por IA de bajo esfuerzo sin aplicación arquitectónica real",
+"Videos puramente teóricos o abstractos sin planos, maquetas o pantallas de software",
+"Exceder los 30 segundos en tutoriales que pueden sintetizarse en 15 segundos",
+"CTAs agresivos de venta en lugar de ofrecer la auditoría gratuita como solución de alivio"
 ],
-"tono_voz": "Empático, directo y de colega veterano que ya superó las entregas. Cero formalismos académicos, enérgico y ultra pragmático.",
-"duracion_objetivo_s": 25,
+"tono_voz": "Colega veterano y mentor directo: empático con el estrés de entrega, sin tecnicismos vacíos, resolutivo y con un toque de humor ácido sobre el jurado y las desveladas.",
+"duracion_objetivo_s": 18,
 "pesos": {
-"tips_tfm": 1,
-"tips_proyectos": 1,
-"referentes": 1,
-"ia": 1,
-"test": 1,
-"vf": 1
+"tips_tfm": 1.0,
+"tips_proyectos": 1.0,
+"referentes": 1.0,
+"ia": 1.0,
+"test": 1.0,
+"vf": 1.0
 },
 "hashtags": [
 "#arquitectura",
-"#estudiantesdearquitectura",
+"#estudiantearquitectura",
 "#tfmarquitectura",
-"#proyectsarquitectura",
-"#tfgarquitectura",
-"#pfc"
+"#tfgfc",
+"#proyectosdearquitectura",
+"#rendersarquitectura"
 ],
-"fecha": "2026-11-07",
+"fecha": "2026-11-08",
 "datos": {
-"referentes": 0.1788,
-"tips_tfm": 0.2021,
+"referentes": 0.1775,
+"tips_tfm": 0.1995,
 "documentacion": 0.0703,
-"tips_proyectos": 0.3178,
-"auditoria": 0.2079
+"tips_proyectos": 0.3115,
+"auditoria": 0.1814,
+"ia": 0.064,
+"test": 0.1191
 }
 }

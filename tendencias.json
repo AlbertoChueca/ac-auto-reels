@@ -1,109 +1,103 @@
 {
 "formatos_que_funcionan": [
-"Boceto o croquis a Render/Maqueta con IA (15–25 s)",
-"Humor / POV: Caos de la entrega final (TFG, TFM, PFC) (10–18 s)",
-"Micro-hacks de Maquetas y Representación Visual en Photoshop, Rhino o D5 (25–45 s)",
-"Desglose exprés de Referentes y Conceptos para ideación (40–60 s)",
-"Micro-frameworks y listas prácticas paso a paso (30–45 s)",
-"Desmitificación y exposición de errores comunes ('Lo estás haciendo mal')",
-"Demostración del resultado primero antes de explicar el proceso"
+"Grabación de pantalla con flujo de trabajo rápido y hacks de IA mostrando transformación antes/después (15–25s)",
+"Recursos de consulta rápida o cheat sheets (tutoriales paso a paso, plantillas, listas densas de alto valor para guardar)",
+"ASMR visual en time-lapse POV del proceso de maquetas con sonido ambiente (10–20s)",
+"Humor y situaciones identificables sobre entregas, jurados y desvelos con audios en tendencia (7–12s)",
+"Bolsillo de recursos y curaduría de referentes y texturas en pantalla interactiva con voz en off rápida (25–40s)",
+"Desmitificaciones y micro-casos de antes vs. después resueltos en menos de 60 segundos"
 ],
 "ganchos_que_funcionan": [
-"Convertí mi garabato de Proyectos en un render final en 10 segundos (Boceto a render)",
-"Faltan 4 horas para la entrega de TFG y pasó esto... (POV caos)",
-"Deja de hacer tus maquetas así (usa este truco) o El error que arruina tus planos de Proyectos",
-"El referente de arquitectura que tienes que usar para aprobar tu entrega",
-"Resultado + Brecha de curiosidad: 'Esta plantilla me ahorró 5 horas esta semana y casi nadie la usa'",
-"Gancho dual: texto amplio en pantalla combinado con locución directa sin pausas muertas"
+"Advertencia o contradicción: 'Deja de perder 10 horas en Lumion para tu TFG/PFC, usa esto'",
+"Urgencia y crunch de entrega: 'Faltan 6 horas para la entrega de Proyectos...'",
+"Identificación con el tribunal/desvelo: 'El jurado evaluando mi PFC después de 3 días sin dormir'",
+"Curaduría contra el criterio docente: '3 páginas de referentes que tu profesor de Proyectos no quiere que conozcas'",
+"Promesa de valor directo: 'Guarda esta herramienta si trabajas en...'",
+"Freno de scroll por error crítico: 'El error que arruina tu...'"
 ],
 "temas_calientes": [
-"Soluciones exprés para entregas intermedias y correcciones críticas de noviembre en Proyectos, TFG y TFM",
-"Uso práctico de IA generativa (Krea, Midjourney, Magnific) para pasar de croquis a renders finales",
-"POV y empatía estudiantil sobre desvelos, renders congelados y maquetas rotas a última hora",
-"Hacks técnicos de software (Photoshop, Rhino, D5) para planos y postproducción rápida",
-"Corte eficiente de materiales para maquetas de entrega",
-"Referentes conceptuales y diagramas axonométricos rápidos para justificar el proyecto ante el tribunal"
+"Optimización de renders y diagramas mediante IA para reducir tiempos de entrega de TFG/PFC",
+"Técnicas de maquetería rápida y corte contrarreloj previas a correcciones intermedias",
+"Supervivencia a las correcciones críticas y evaluación de tribunales en plena época de entregas de noviembre",
+"Búsqueda acelerada de referentes y texturas de nicho para la fase de proyecto",
+"El impacto del desvelo acumulado y la presión del sprint final de entrega"
 ],
 "tendencias_de_edicion": [
-"Edición limpia (Clean Pacing) con ritmo ágil, sin pausas muertas (dead air) y con subtítulos kinéticos",
-"Bucles de retención (Retention loops) donde la frase final enlaza de forma fluida con el gancho inicial",
-"Transición visual acelerada mostrando el resultado final de alto impacto en los primeros 1,5 a 3 segundos",
-"Gancho dual simultáneo de texto en pantalla y voz en off para consumo con o sin audio"
+"Subtítulos dinámicos contextuales con palabras clave resaltadas para visualización en silencio y captura de pantalla",
+"Edición híbrida combinando persona a cámara para generar confianza con B-roll fluido, esquemas y capturas de pantalla",
+"Enfoque en time-lapses con sonido ambiente ASMR detallado o música chill",
+"Ritmo ultra condensado y sin pausas para maximizar la tasa de finalización (completion rate)"
 ],
 "que_penaliza_el_algoritmo": [
-"Contenido resubido y vídeos reciclados con marcas de agua de otras plataformas",
-"Ganchos engañosos (clickbait o engagement bait) con caída abrupta de retención a los 3 segundos",
-"Pedir guardados o compartidos sin aportar valor práctico real",
-"AI Slop: vídeos sintéticos masivos despersonalizados sin criterio, voz o factor humano auténtico"
+"Contenido de IA de bajo esfuerzo (AI slop) con guiones genéricos, voces sintéticas repetitivas y sin aporte original",
+"Alta tasa de swipe-away provocada por arranques lentos o ganchos engañosos (clickbait)",
+"Resubidas con marcas de agua de plataformas competidoras o formatos mal adaptados",
+"Relleno artificial para estirar la duración del vídeo sin aportar valor"
 ],
 "ejemplos": [
 {
-"que": "Boceto a render con IA (@bydavidparra / @arqmanes)",
-"por_que": "Ofrece alto impacto visual instantáneo y una solución rápida ante la falta de tiempo en entregas críticas."
+"que": "Transformación de boceto a mano/3D simple a render mediante IA en 20 segundos (@arch.hacks / @showitbetter)",
+"por_que": "Resuelve la falta de tiempo ante las entregas de TFG/PFC y genera un volumen masivo de guardados."
 },
 {
-"que": "Humor / POV del caos previo a entrega de TFG/PFC (@surya.arch / @dearquitectura)",
-"por_que": "Apela a la vivencia común del desvelo y la presión académica, disparando comentarios y métricas de compartidos."
+"que": "Plano macro POV de bisturí cortando metacrilato contrarreloj con sonido ambiente (@daniels_arch)",
+"por_que": "Combina el atractivo sensorial del ASMR con la empatía inmediata ante el estrés de entregas inminentes."
 },
 {
-"que": "Micro-hacks de maquetas y planos en Photoshop/Rhino (@ray.arch / @estudiantedearquitectura)",
-"por_que": "Aporta valor técnico aplicable de inmediato a las correcciones, lo que maximiza la tasa de guardados."
+"que": "Meme actuado con audio en tendencia sobre el jurado revisando un PFC sin dormir (@architerror / @arch.design.memes)",
+"por_que": "Genera alta identificación (relatability), provocando que los estudiantes se etiqueten y compartan en grupos de clase."
 },
 {
-"que": "Desglose exprés de referentes de arquitectura (@oliver_architecture / @arqpedia)",
-"por_que": "Sintetiza teoría compleja mediante axonométricas y diagramas rápidos para facilitar la ideación del proyecto."
+"que": "Curaduría en pantalla interactiva de webs secretas de texturas y referentes (@archisource)",
+"por_que": "Ofrece un recurso de consulta rápida de alto valor práctico para fases de proyecto, incentivando guardados directos."
 }
 ],
 "ideas_de_reel": [
-"Micro-hack de Photoshop/D5: 'El error en tus planos que te va a costar la corrección de Proyectos de esta semana' (25 s con resultado primero).",
-"Boceto a render con IA: 'Pasé mi croquis sucio a render final en Krea para la entrega de noviembre' (15 s con gancho dual y bucle de retención).",
-"POV entrega final: 'Faltan 4 horas para la pre-entrega de TFG y Lumion se cerró solo' (12 s con audio en tendencia y edición limpia).",
-"Referente exprés: 'El referente de vivienda colectiva que necesitas citar en tu entrega de Proyectos para asegurar el aprobado' (45 s con micro-framework visual).",
-"Micro-hack de maqueta: 'Deja de cortar el cartón así: truco rápido para terminar tu maqueta sin destrozarla la noche antes' (30 s con formato 'lo estás haciendo mal')."
+"Workflow IA: 'Deja de perder 10 horas en Lumion para tu entrega de Proyectos: convierte este 3D básico en render con IA antes de tu corrección de noviembre'.",
+"ASMR de entrega: Time-lapse macro con bisturí cortando material y texto: 'Faltan 6 horas para la entrega intermedia de Proyectos y la maqueta va así...'.",
+"Cheat sheet de recursos: '3 páginas de texturas y referentes que tu profesor de Proyectos no quiere que conozcas para salvar tu TFG'.",
+"Meme de entregas: Vídeo corto con audio viral mostrando la cara del tribunal al abrir los planos tras 3 noches sin dormir.",
+"Micro-caso Antes/Después: 'El error que arruina tus paneles de entrega en Photoshop y cómo solucionarlo en 20 segundos'."
 ],
-"fecha": "2026-11-07",
+"fecha": "2026-11-08",
 "fuentes": [
 {
-"titulo": "youtube.com",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKZ0HGUDYvrqcYBqjLJrcGA_EMXsVYyrZt7bICZVaDsu--bi9-u7Y3Hwq8WAMbVFqYoU5YTYGdrtqec2FLfDVa6C5eqIECic-rqMEiIr-WQIUFx9L6EE1MfcG1JRNYZwhO"
+"titulo": "shortgenius.com",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLIB0Dvf0v_59aYrW1XDd3-BOvywJmS0_sBZ1K-Za7-Di4yiOeZ4V6MMUITWgCNvdcFzOUyMAZaVyZixlsapGgBmpXOUEi59qRdOfIy9HI_pYkiwQyLMbW_gHBHOxm2PEimoX0kHF0G4KP"
 },
 {
-"titulo": "youtube.com",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEINSXC-Ycih6u79qRKU1foCICD2fKikge-z2JyHWBPGlvG1qU0PkPEKoNM6OHOZ9mhFrNbbGmhCQa4tIJZkw_fgD22bvICB8sJxPd0vAMOZ5JCH9is9gmlX_WIe4AZAVfM"
+"titulo": "vibevo.io",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMQP_APTiebsWN_MFgdqGowToXP-CJ7usye59tM-OUUAd9ET-mzgFqoagJPkpC0dbY0S8oJOewg72caQVhCEsIBP4HKm26sbBXSromLl4yVFUfP-oLgXbfHOQpogPeVRxK7NTMwV31NoJAOo6xnuM-qSJJQ2X_mHe8KmO5qzvlzZ_eTtsfBQEUo1yG1HThFKMAYDzXyXHUK4i6E4b_vJk="
 },
 {
-"titulo": "youtube.com",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMO60d9jbp-J2E5JTiOByUwoEnRdm9GCXIdy8kACXz3w81QjaoRpa1pZmwnL1M4G8VRv7L7VGHQboc-93ut3FNG9O1zxxUJB14Y3z3T1BFK3G7IyWPipTczwzN_wqzqJkQ"
-},
-{
-"titulo": "darkroomagency.com",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqY-ej8I4_VGDibFMGK05q1T43qqwe-AYDzmoXAN7kS1OhEPyFq3NBErUgY3RRo9Gc4tJokViso1V9yBKQrDjkvRaTAGDSSS9dIcj6kbffiO_SedD96E2u-HP1dtfR6uVcRKnaoFQSnA7aG8JU6QxOumniAIsWYJo8JEkO"
-},
-{
-"titulo": "miraflow.ai",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-lRtVEKi6XSNQWeeudhfDy9X4ut38cg7M-FRHk9AJLJaX-xcc7yov3AgYed43xyyzhXX2ownY4Jgw5egJMNG8oWY8ke6nGMtZN5IcbvWJNezzgmxf6eoy_0WlK1hz3UCWgtqD19yS_WGNWLDA2bU1aP9-"
-},
-{
-"titulo": "klap.app",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQ-NOswt-ZdWPXpVt179GZNuxy5xz3B4iaWPsISH451_MQjHf1TipddXSbR8bAoAObl3lHDsDlxkuBh6osRE_Fad9CVKybSjSZZJqLQoJxAraRWSwjnRn-iw=="
-},
-{
-"titulo": "opus.pro",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhRCTX_yt7l7BFWBsNW-nu7ueq1DdOMky58TrvnScD_cXDu0dDJ-X5r_ZmK_kE661iJY6PIDhb-sXAFL0_M17tSdoYOT5dV0dpOSujYt7vaWhNBR2PIzLYZGDfsv2Pfn4BKdm0_XqPZz40cip5hCI="
+"titulo": "reddit.com",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEW-Pijnlmp-80dX2ai-bE9Zfz7OsDJMuQf3NdBk9RyVhywFXrvq1UtM_tzTwj48-thC5Z6JoEf4tfLZIeNE6mTo19PnSDgaDkq9Z_AmsUrgWUKUrJQTfVD94l4_FtuIiLfgvA-Zr9Q6TI1pldWhjJ-B8yai91yOF_tz91PsQ9Be9dk-_6F_lNMNrmc8hLxYtPVrglTvJtvUF3mBsp7nvNSd9ahNlLG"
 },
 {
 "titulo": "digitalapplied.com",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXfonI_8ZA5iIWRwDL0YJ_m8IAK0ImCvSoU60xxt816VmhaRG74EEmfyR916IglRvRdHWm8rWUjJnlwtb939-8xiMH1yJpZNEA7nma5m77RhyNzMpZ45oU_XQ0qyNwwh2Q__uGZmDsXeP-VWt3prnHpIguUSZwz2f66QCr86hfENLwRAkM0t9ihab7YQ=="
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtqTqARUfEDY4xWyDbQRhBclgPSmDTf_B2ZUP_aiFqpSNL4ueHu6WkI4QnjGtuDkeOg7k12Aqcog8URjXKzhuDdMwzO9fwPRj6szkiW894qvg4gJhZHVFqqsw9d9CFXPk-j3HBGgoV7UcECR7JphFyaqeJs9EZLYkwo9oXMjqgrGDOUV-bhn4-LGi7hg=="
 },
 {
-"titulo": "blitzcutai.com",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECuMPAewq9hSdnSY9M6-iCAaMbEIye37PIXzf4zUU_RrHkvOUy3a4PpOG-i73Ikgi2ZyZoipiHogcXnPQGzIvqoQ3VlEvkgc7cZR-4Urimdp52lwUlRV9IlRDWUZ7xXwsoxzsD1UCbYg=="
+"titulo": "blckalpaca.at",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYW33BSuSCHvuUabqQkbEC69VYJ-6rlB1pBHS8UFA8TL9l-X5HPOr0_90W16WvHSj9y5BQhC1JWwBsvF_OVjw_Qrw0A8WbUd0I0NPMzTBpv-sB2uwlul3yEvqrrrJMvS4FL6oQz6c6m5Hq1NX0G7pNmzR04tlMpTLGSzDkIvk-_KRAB5L_6CkfsA1cvcVkiGiL3G_I07aGXodM8laD_GQ5-Jllp5Fx-qMpXPz7mzse2up9gU9GyhdAZl2FeclyK5CxSFBd4_jxqS2flg_jHbfUpUR396HWr-vfMy6CNt3x_T0="
 },
 {
-"titulo": "tiktok.com",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHodJkImr_FRsxeTgRYvD6_FMyWnsPkhLfF1Sgvg9EBaxwbenkaevYz8VSYugATgkVgSrpXXVJ3ZkxqDeYwLAFEPVNwJhW7k6MPUOMIwNQF82kDamp5S-Q5_WVNR-QiK16_awUrtLRYdIFg01YKHmzf4jmKwHPcojCQ2cD5098lxiEawUvzijvszOFfHHLF8tk4P2Qt_ArAbt-tsg=="
+"titulo": "sumalemarketing.com",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH94DFa_W742D5BcKc8wgVVaWqbTmDEVVnE0PRbSdhY1tjGLGPQaFXCEmA9uRMOUmWHyD-64Lqe31almQXzabe996u4AkfOwsjXXtiG1eKh9uZ0uqr4TsPBzZJTKI23SNd3j9lL8cwgi0c="
+},
+{
+"titulo": "crowbert.com",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0m3eNomBa48UfhkIHo3oqnMeRG9k624yoxGTNF6nglGRsA3akM_KHeBHFHwSZxOMBRFpzWifwJ2lpbFBG0czYuY_puKswawwh5S4_qTfAG8Aj9F8K6afJj6PbgcRlOp-7cNRpko0="
+},
+{
+"titulo": "gyre.pro",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkF9pcFZpZVTaTRX5TKA3ruKo7lnaGLEGkF2d15kh6dS8R0BjfrSORziSQJSOn4UcJaGMcCYJVNIH8DtgxH3uRZkOuhoH2b5arRbd9wh7gqa2p-ycwLx2xjIa9eEtF59_jmhjf7X84hq_Ydw-aG5_FZ8ykNMyl8Abra8XjCwvONibo"
+},
+{
+"titulo": "esekai.agency",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFh1lSDHO9W5hSs6eor1owaWGUuIeOKpWxTpm3J1hrevnqqqbeKGoKAYp6IKQyxNkneVs1IztKi9sKjzA8ThQZcEpY5AmxxolTXpQNp4VPN3SmlmbeWIVP28Cj3U4nWR4hXF2MKetHW9GES1410kZ-FrWx0PA_RRxvifW4zhTQ8a67Rlw=="
 }
 ],
 "verificado": true,
-"modelo_busqueda": "gemini-3.6-flash"
+"modelo_busqueda": "gemini-3.5-flash"
 }
