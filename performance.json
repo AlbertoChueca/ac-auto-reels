@@ -31,7 +31,7 @@
 "hook": "¿Sales de corregir más perdido?",
 "duration": 28.5,
 "review_score": 8.0,
-"views": 34,
+"views": 35,
 "reach": 27,
 "likes": 0,
 "comments": 0,
@@ -63,7 +63,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 4,
+"views": 5,
 "reach": 0,
 "likes": 0,
 "comments": 0,
@@ -81,7 +81,7 @@
 "hook": "¿Sin concepto? 5 referentes para Proyectos",
 "duration": 50.7,
 "review_score": 8.0,
-"views": 59,
+"views": 61,
 "reach": 51,
 "likes": 0,
 "comments": 0,
@@ -102,7 +102,7 @@
 "watch_ms": 5356
 },
 "tiktok_video": {
-"views": 0,
+"views": 1,
 "reach": 0,
 "likes": 0,
 "comments": 0,
@@ -113,7 +113,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 2,
+"views": 3,
 "reach": 0,
 "likes": 0,
 "comments": 0,
@@ -131,7 +131,7 @@
 "hook": "4 entregas técnicas de tu TFM",
 "duration": 27.5,
 "review_score": 8.0,
-"views": 651,
+"views": 653,
 "reach": 441,
 "likes": 3,
 "comments": 3,
@@ -152,7 +152,7 @@
 "watch_ms": 2854
 },
 "tiktok_video": {
-"views": 250,
+"views": 251,
 "reach": 232,
 "likes": 0,
 "comments": 1,
@@ -163,7 +163,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 166,
+"views": 167,
 "reach": 0,
 "likes": 0,
 "comments": 1,
@@ -181,7 +181,7 @@
 "hook": "4 referentes para tu corrección",
 "duration": 30.5,
 "review_score": 8.0,
-"views": 826,
+"views": 829,
 "reach": 407,
 "likes": 7,
 "comments": 3,
@@ -202,7 +202,7 @@
 "watch_ms": 4103
 },
 "tiktok_video": {
-"views": 261,
+"views": 263,
 "reach": 236,
 "likes": 1,
 "comments": 1,
@@ -213,7 +213,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 374,
+"views": 375,
 "reach": 0,
 "likes": 2,
 "comments": 1,
@@ -231,7 +231,7 @@
 "hook": "Análisis de lugar que sí sirve",
 "duration": 20.6,
 "review_score": 8.0,
-"views": 68,
+"views": 70,
 "reach": 56,
 "likes": 0,
 "comments": 3,
@@ -252,7 +252,7 @@
 "watch_ms": 4004
 },
 "tiktok_video": {
-"views": 1,
+"views": 3,
 "reach": 1,
 "likes": 0,
 "comments": 1,
@@ -281,7 +281,7 @@
 "hook": "¿Atascado con la Construcción?",
 "duration": 24.5,
 "review_score": 8.0,
-"views": 732,
+"views": 731,
 "reach": 377,
 "likes": 5,
 "comments": 3,
@@ -302,7 +302,7 @@
 "watch_ms": 2053
 },
 "tiktok_video": {
-"views": 263,
+"views": 264,
 "reach": 245,
 "likes": 1,
 "comments": 1,
@@ -313,7 +313,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 326,
+"views": 324,
 "reach": 0,
 "likes": 3,
 "comments": 1,
@@ -331,29 +331,29 @@
 "hook": "Tu espacio parece una cueva",
 "duration": 23.7,
 "review_score": 8.0,
-"views": 154,
-"reach": 106,
+"views": 166,
+"reach": 110,
 "likes": 4,
 "comments": 3,
 "shares": 0,
 "saved": 0,
-"watch_ms": 68861,
+"watch_ms": 67119,
 "clicks": 0,
 "follows": 0,
 "profile_visits": 0,
 "por_red": {
 "instagram_reel": {
-"views": 120,
-"reach": 106,
+"views": 125,
+"reach": 109,
 "likes": 3,
 "comments": 1,
 "shares": 0,
 "saved": 0,
-"watch_ms": 68861
+"watch_ms": 67119
 },
 "tiktok_video": {
-"views": 2,
-"reach": 0,
+"views": 3,
+"reach": 1,
 "likes": 0,
 "comments": 1,
 "shares": 0,
@@ -363,7 +363,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 32,
+"views": 38,
 "reach": 0,
 "likes": 1,
 "comments": 1,
@@ -381,28 +381,78 @@
 "hook": "Auditoría TFM: cómo funciona",
 "duration": 22.5,
 "review_score": 8.0,
-"views": 40,
-"reach": 14,
+"views": 50,
+"reach": 20,
 "likes": 0,
 "comments": 3,
 "shares": 0,
 "saved": 0,
-"watch_ms": 2606,
+"watch_ms": 2762,
 "clicks": 0,
 "follows": 0,
 "profile_visits": 0,
 "por_red": {
 "instagram_reel": {
-"views": 15,
-"reach": 14,
+"views": 20,
+"reach": 19,
 "likes": 0,
 "comments": 1,
 "shares": 0,
 "saved": 0,
-"watch_ms": 2606
+"watch_ms": 2762
 },
 "tiktok_video": {
-"views": 1,
+"views": 2,
+"reach": 1,
+"likes": 0,
+"comments": 1,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+},
+"youtube_short": {
+"views": 28,
+"reach": 0,
+"likes": 0,
+"comments": 1,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+}
+}
+},
+"2026-11-07_mediodia": {
+"date": "2026-11-07",
+"tematica": "ia",
+"hook": "La IA no aprueba tu TFM",
+"duration": 25.0,
+"review_score": 8.0,
+"views": 385,
+"reach": 80,
+"likes": 0,
+"comments": 3,
+"shares": 0,
+"saved": 0,
+"watch_ms": 2426,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0,
+"por_red": {
+"instagram_reel": {
+"views": 83,
+"reach": 80,
+"likes": 0,
+"comments": 1,
+"shares": 0,
+"saved": 0,
+"watch_ms": 2426
+},
+"tiktok_video": {
+"views": 259,
 "reach": 0,
 "likes": 0,
 "comments": 1,
@@ -413,10 +463,60 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 24,
+"views": 43,
 "reach": 0,
 "likes": 0,
 "comments": 1,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+}
+}
+},
+"2026-11-07_noche": {
+"date": "2026-11-07",
+"tematica": "test",
+"hook": "TEST DE ARQUITECTURA",
+"duration": 21.5,
+"review_score": 8.0,
+"views": 957,
+"reach": 144,
+"likes": 7,
+"comments": 0,
+"shares": 0,
+"saved": 0,
+"watch_ms": 4775,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0,
+"por_red": {
+"instagram_reel": {
+"views": 154,
+"reach": 144,
+"likes": 2,
+"comments": 0,
+"shares": 0,
+"saved": 0,
+"watch_ms": 4775
+},
+"tiktok_video": {
+"views": 262,
+"reach": 0,
+"likes": 0,
+"comments": 0,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+},
+"youtube_short": {
+"views": 541,
+"reach": 0,
+"likes": 5,
+"comments": 0,
 "shares": 0,
 "saved": 0,
 "clicks": 0,
