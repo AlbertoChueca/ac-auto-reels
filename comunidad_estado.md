@@ -1,6 +1,6 @@
 # Bot de comunidad
 
-_Última pasada: 2026-11-09 08:06 UTC · 0 respuestas_
+_Última pasada: 2026-11-09 18:55 UTC · 0 respuestas_
 
 | Fecha | Red | Tipo | Gancho | Comentarios | Solución publicada |
 |---|---|---|---|---|---|
@@ -23,7 +23,6 @@ _Última pasada: 2026-11-09 08:06 UTC · 0 respuestas_
 | 2026-11-07 | tiktok | ia | La IA no aprueba tu TFM | 1 | — |
 | 2026-11-07 | youtube | ia | La IA no aprueba tu TFM | 1 | — |
 | 2026-11-07 | instagram | test | TEST DE ARQUITECTURA | 1 | sí |
-| 2026-11-07 | tiktok | test | TEST DE ARQUITECTURA | 1 | sí |
 | 2026-11-07 | youtube | test | TEST DE ARQUITECTURA | 1 | sí |
 | 2026-11-08 | instagram | tips_tfm | Prepara el relato de tu defensa | 1 | — |
 | 2026-11-08 | tiktok | tips_tfm | Prepara el relato de tu defensa | 1 | — |
