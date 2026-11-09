@@ -144,22 +144,37 @@
 },
 "youtube:6aefa9c7fb0a669d3d6b3b52": {
 "personas": [],
-"comentarios": 0,
+"comentarios": 1,
 "solucion": "2026-11-08T20:36:21.361219+00:00",
 "solucion_id": "Ugyve4R4NA28y97e_Vp4AaABAg"
 },
 "instagram:ig:18131304383309097": {
 "primer": "2026-11-08T20:36:21.361219+00:00",
 "personas": [],
-"comentarios": 0
+"comentarios": 1
 },
 "tiktok:6af0ab9ef89cfac593e4d62d": {
 "primer": "2026-11-08T20:36:21.361219+00:00",
 "personas": [],
-"comentarios": 0
+"comentarios": 1
 },
 "youtube:6af0ab9ef89cfac593e4d629": {
 "primer": "2026-11-08T20:36:21.361219+00:00",
+"personas": [],
+"comentarios": 1
+},
+"instagram:ig:18353092753268982": {
+"primer": "2026-11-09T00:59:44.963401+00:00",
+"personas": [],
+"comentarios": 0
+},
+"tiktok:6af0e3d6b75538aac860c74b": {
+"primer": "2026-11-09T00:59:44.963401+00:00",
+"personas": [],
+"comentarios": 0
+},
+"youtube:6af0e3d54711d17e2e9dbaf7": {
+"primer": "2026-11-09T00:59:44.963401+00:00",
 "personas": [],
 "comentarios": 0
 }
@@ -187,6 +202,8 @@
 "6aefa9c7fb0a669d3d6b3b59": "7705564213569260833",
 "6aefa9c7fb0a669d3d6b3b52": "pDVaqKMJvIg",
 "6af0ab9ef89cfac593e4d62d": "7705847755360439585",
-"6af0ab9ef89cfac593e4d629": "YWoJwG5zI6w"
+"6af0ab9ef89cfac593e4d629": "YWoJwG5zI6w",
+"6af0e3d6b75538aac860c74b": "7705909551878376737",
+"6af0e3d54711d17e2e9dbaf7": "BMO_9Lb27TI"
 }
 }
