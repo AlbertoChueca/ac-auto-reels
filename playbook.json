@@ -1,27 +1,27 @@
 {
 "ganchos_que_funcionan": [
-"Deja de perder 10 horas en Lumion para tu TFG/PFC: usa este flujo de trabajo",
-"Tu espacio parece una cueva y tu profesor de Proyectos te lo va a demoler",
-"El error en planta que arruina tu entrega de TFM sin que te des cuenta",
-"Faltan 48 horas para la entrega de Proyectos y tu análisis de lugar no sirve de nada",
-"¿Sales de corregir más perdido que antes? Aplica esta regla en tu siguiente panel"
+"POV: Son las 5:00 AM, la entrega de Proyectos es a las 9:00 AM y el cúter acaba de traicionarte...",
+"¿Sales de corregir más perdido de lo que entraste? Aplica esto antes de redibujar",
+"Tu espacio parece una cueva (y el tribunal lo va a notar en 5 segundos)",
+"Si estás bloqueado con el concepto de tu TFG/PFC, usa estos 3 referentes de inmediato",
+"El error imperceptible en tus plantas que arruina tu entrega de Proyectos"
 ],
 "patrones": [
-"Gancho visual o advertencia directa en los primeros 2 segundos con subtítulos dinámicos resaltados",
-"Grabación de pantalla con flujo rápido mostrando transformación directa antes/después en menos de 20s",
-"Cheat sheets y listas densas de recursos prácticos estructurados explícitamente para guardar",
-"Cierre con CTA de baja fricción enfocado en salvar la entrega: 'Comenta AUDITORÍA para revisar tu TFM gratis'",
-"Ritmo condensado sin silencios ni pausas muertas para disparar la tasa de finalización"
+"Triangulación inmediata: gancho visual activo, texto en pantalla y voz en off sincronizada sin introducciones",
+"Estructura '1 dolor crítico = 1 solución aplicable' con esquemas visuales guardables",
+"Outcome Showcase: mostrar el resultado final aprobado en el segundo 0 antes de explicar el método",
+"Cortes dinámicos o cambios de encuadre cada 2-3 segundos para frenar el skip",
+"Seamless loop conectando el cierre con el gancho inicial para maximizar retención"
 ],
 "evitar": [
-"Intros lentas de presentación personal antes de mostrar el valor",
-"Contenido generado por IA de bajo esfuerzo sin aplicación arquitectónica real",
-"Videos puramente teóricos o abstractos sin planos, maquetas o pantallas de software",
-"Exceder los 30 segundos en tutoriales que pueden sintetizarse en 15 segundos",
-"CTAs agresivos de venta en lugar de ofrecer la auditoría gratuita como solución de alivio"
+"Introducciones lentas, saludos o presentaciones personales al inicio",
+"Estatismo visual de más de 3 segundos sin cortes, zooms o B-roll",
+"Marcas de agua o exportaciones cruzadas entre plataformas",
+"Explicaciones teóricas densas sin aplicación gráfica inmediata para entregas",
+"CTAs débiles centrados en likes en lugar de guardados o solicitud de auditoría"
 ],
-"tono_voz": "Colega veterano y mentor directo: empático con el estrés de entrega, sin tecnicismos vacíos, resolutivo y con un toque de humor ácido sobre el jurado y las desveladas.",
-"duracion_objetivo_s": 18,
+"tono_voz": "Empático, directo y cómplice del estrés de entregas; actúa como un mentor veterano que va al grano sin rodeos académicos.",
+"duracion_objetivo_s": 24,
 "pesos": {
 "tips_tfm": 1.0,
 "tips_proyectos": 1.0,
@@ -32,20 +32,21 @@
 },
 "hashtags": [
 "#arquitectura",
-"#estudiantearquitectura",
 "#tfmarquitectura",
-"#tfgfc",
-"#proyectosdearquitectura",
-"#rendersarquitectura"
+"#tfgarquitectura",
+"#estudiantedearquitectura",
+"#proyectosarquitectura",
+"#entregaproyectos",
+"#pfcarquitectura"
 ],
-"fecha": "2026-11-08",
+"fecha": "2026-11-10",
 "datos": {
-"referentes": 0.1775,
-"tips_tfm": 0.1995,
-"documentacion": 0.0703,
-"tips_proyectos": 0.3115,
-"auditoria": 0.1814,
-"ia": 0.064,
-"test": 0.1191
+"referentes": 0.1744,
+"tips_tfm": 0.1254,
+"documentacion": 0.0649,
+"tips_proyectos": 0.3194,
+"auditoria": 0.1398,
+"ia": 0.0637,
+"test": 0.1214
 }
 }
