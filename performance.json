@@ -131,7 +131,7 @@
 "hook": "4 entregas técnicas de tu TFM",
 "duration": 27.5,
 "review_score": 8.0,
-"views": 655,
+"views": 657,
 "reach": 442,
 "likes": 3,
 "comments": 3,
@@ -163,7 +163,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 169,
+"views": 171,
 "reach": 0,
 "likes": 0,
 "comments": 1,
@@ -181,7 +181,7 @@
 "hook": "4 referentes para tu corrección",
 "duration": 30.5,
 "review_score": 8.0,
-"views": 833,
+"views": 834,
 "reach": 407,
 "likes": 7,
 "comments": 3,
@@ -213,7 +213,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 379,
+"views": 380,
 "reach": 0,
 "likes": 2,
 "comments": 1,
@@ -281,7 +281,7 @@
 "hook": "¿Atascado con la Construcción?",
 "duration": 24.5,
 "review_score": 8.0,
-"views": 733,
+"views": 734,
 "reach": 378,
 "likes": 5,
 "comments": 3,
@@ -313,7 +313,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 326,
+"views": 327,
 "reach": 0,
 "likes": 3,
 "comments": 1,
@@ -331,7 +331,7 @@
 "hook": "Tu espacio parece una cueva",
 "duration": 23.7,
 "review_score": 8.0,
-"views": 169,
+"views": 170,
 "reach": 109,
 "likes": 4,
 "comments": 2,
@@ -353,7 +353,7 @@
 },
 "tiktok_video": {},
 "youtube_short": {
-"views": 44,
+"views": 45,
 "reach": 0,
 "likes": 1,
 "comments": 1,
@@ -461,7 +461,7 @@
 "hook": "TEST DE ARQUITECTURA",
 "duration": 21.5,
 "review_score": 8.0,
-"views": 971,
+"views": 973,
 "reach": 394,
 "likes": 7,
 "comments": 3,
@@ -482,7 +482,7 @@
 "watch_ms": 4645
 },
 "tiktok_video": {
-"views": 262,
+"views": 263,
 "reach": 245,
 "likes": 0,
 "comments": 1,
@@ -493,7 +493,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 550,
+"views": 551,
 "reach": 0,
 "likes": 5,
 "comments": 1,
@@ -511,8 +511,8 @@
 "hook": "Prepara el relato de tu defensa",
 "duration": 26.4,
 "review_score": 8.0,
-"views": 622,
-"reach": 154,
+"views": 625,
+"reach": 283,
 "likes": 1,
 "comments": 3,
 "shares": 0,
@@ -533,7 +533,7 @@
 },
 "tiktok_video": {
 "views": 254,
-"reach": 105,
+"reach": 234,
 "likes": 0,
 "comments": 1,
 "shares": 0,
@@ -543,7 +543,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 316,
+"views": 319,
 "reach": 0,
 "likes": 1,
 "comments": 1,
@@ -561,8 +561,8 @@
 "hook": "4 pasos del boceto al panel",
 "duration": 25.8,
 "review_score": 8.0,
-"views": 742,
-"reach": 201,
+"views": 744,
+"reach": 344,
 "likes": 4,
 "comments": 3,
 "shares": 0,
@@ -583,7 +583,7 @@
 },
 "tiktok_video": {
 "views": 239,
-"reach": 78,
+"reach": 221,
 "likes": 1,
 "comments": 1,
 "shares": 0,
@@ -593,10 +593,60 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 363,
+"views": 365,
 "reach": 0,
 "likes": 2,
 "comments": 1,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+}
+}
+},
+"2026-11-10_mediodia": {
+"date": "2026-11-10",
+"tematica": "vf",
+"hook": "¿VERDADERO O FALSO?",
+"duration": 22.1,
+"review_score": 8.0,
+"views": 207,
+"reach": 172,
+"likes": 0,
+"comments": 0,
+"shares": 0,
+"saved": 0,
+"watch_ms": 4570,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0,
+"por_red": {
+"instagram_reel": {
+"views": 196,
+"reach": 172,
+"likes": 0,
+"comments": 0,
+"shares": 0,
+"saved": 0,
+"watch_ms": 4570
+},
+"tiktok_video": {
+"views": 1,
+"reach": 0,
+"likes": 0,
+"comments": 0,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+},
+"youtube_short": {
+"views": 10,
+"reach": 0,
+"likes": 0,
+"comments": 0,
 "shares": 0,
 "saved": 0,
 "clicks": 0,
