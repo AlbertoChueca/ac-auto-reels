@@ -1,6 +1,6 @@
 # Bot de comunidad
 
-_Última pasada: 2026-11-12 12:55 UTC · 0 respuestas_
+_Última pasada: 2026-11-12 20:55 UTC · 0 respuestas_
 
 | Fecha | Red | Tipo | Gancho | Comentarios | Solución publicada |
 |---|---|---|---|---|---|
@@ -29,3 +29,6 @@ _Última pasada: 2026-11-12 12:55 UTC · 0 respuestas_
 | 2026-11-11 | instagram | documentacion | Así se resuelve la entrega constructiva | 1 | — |
 | 2026-11-11 | tiktok | documentacion | Así se resuelve la entrega constructiva | 1 | — |
 | 2026-11-11 | youtube | documentacion | Así se resuelve la entrega constructiva | 1 | — |
+| 2026-11-12 | instagram | vf | ¿VERDADERO O FALSO? | 0 | pendiente |
+| 2026-11-12 | tiktok | vf | ¿VERDADERO O FALSO? | 0 | pendiente |
+| 2026-11-12 | youtube | vf | ¿VERDADERO O FALSO? | 0 | pendiente |
