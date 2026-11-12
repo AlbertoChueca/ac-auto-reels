@@ -1,27 +1,28 @@
 {
 "ganchos_que_funcionan": [
-"Tu espacio parece una cueva: cómo arreglar la iluminación de tu entrega",
-"Deja de hacer tu análisis de lugar así si quieres aprobar Proyectos",
-"¿Sales de corregir más perdido de lo que entraste? Aplica esto en tu TFM",
-"3 referentes arquitectónicos que te van a subir un punto en la entrega",
-"El error en tu axonometría que el tribunal no te va a perdonar"
+"A 12 horas de la entrega del TFG y el archivo de Revit acaba de colapsar",
+"Tu sección parece sosa: aplica este truco antes de imprimir",
+"El error de representación en tus plantas por el que van a suspenderte",
+"¿Sales de corregir con tu tutor más perdido que antes?",
+"Tu espacio parece una cueva: 3 referentes para salvar el proyecto",
+"Convierte este croquis a lápiz en render hiperrealista en 30 segundos"
 ],
 "patrones": [
-"Visualización directa del error en pantalla antes del segundo 3 (screencast o plano en rojo)",
-"Contraste rápido problema vs. solución condensado en menos de 20 segundos para forzar bucle",
-"Subtítulos dinámicos de alto contraste con palabras clave resaltadas y cortes cada 2 segundos",
-"Llamada a la acción orientada a guardar el recurso o comentar duda para activar el algoritmo",
-"Integración contextual de la auditoría gratuita como solución final a la entrega bloqueada"
+"Anti-introducción contundente en el segundo 0 exponiendo el fallo sin saludar",
+"Resultado inverso: mostrar la lámina o render final al inicio y desglosar el proceso en 3 pasos",
+"Pantalla verde interactiva analizando errores visuales de diagramación o escalas",
+"Edición con cortes dinámicos y zooms cada 1.5 a 2.5 segundos optimizada para audio en tendencia",
+"Cierre con CTA claro invitando a guardar para la entrega o solicitar auditoría gratuita de TFM"
 ],
 "evitar": [
-"Intros lentas con saludos, presentaciones personales o logos al inicio",
-"Explicaciones teóricas densas sin soporte gráfico inmediato",
-"Ganchos centrados puramente en vender la auditoría desde el segundo 0",
-"Vídeos de más de 30 segundos sin dinamismo visual o sin ritmo de voz acelerado",
-"Formatos estáticos sin texto en pantalla ni transiciones"
+"Saludos iniciales y presentaciones lentas que reducen la retención inicial",
+"Contenido puramente teórico sin solución gráfica o aplicable a lámina",
+"Vídeos de más de 45 segundos con ritmo monótono sin cambios de plano",
+"Pitch de venta directo o agresivo de auditoría sin entregar valor práctico previo",
+"Textos largos y estáticos que no sigan el ritmo de la voz en off"
 ],
-"tono_voz": "Colega veterano y directo, empático con la falta de tiempo y el agobio de entregas, ultrapragmático y enfocado en sacar nota.",
-"duracion_objetivo_s": 18,
+"tono_voz": "Cómplice, directo, pragmático y empático; de arquitecto joven o compañero experimentado que entiende el estrés de entregas y habla claro sin tecnicismos innecesarios.",
+"duracion_objetivo_s": 25,
 "pesos": {
 "tips_tfm": 1,
 "tips_proyectos": 1,
@@ -32,22 +33,23 @@
 },
 "hashtags": [
 "#arquitectura",
-"#estudiantearquitectura",
-"#proyectosarquitectura",
+"#estudiantedearquitectura",
+"#tfgarquitectura",
 "#tfmarquitectura",
+"#proyectosarquitectura",
 "#pfc",
-"#entregadearquitectura",
-"#tipsarquitectura"
+"#tipsarquitectura",
+"#rendersarquitectura"
 ],
-"fecha": "2026-11-11",
+"fecha": "2026-11-12",
 "datos": {
-"referentes": 0.1743,
+"referentes": 0.1742,
 "tips_tfm": 0.1254,
-"documentacion": 0.0648,
-"tips_proyectos": 0.3194,
-"auditoria": 0.1398,
-"ia": 0.0637,
-"test": 0.1214,
-"vf": 0.1034
+"documentacion": 0.0744,
+"tips_proyectos": 0.2263,
+"auditoria": 0.1383,
+"ia": 0.0636,
+"test": 0.1213,
+"vf": 0.1312
 }
 }
