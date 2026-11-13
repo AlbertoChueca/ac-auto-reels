@@ -1,113 +1,113 @@
 {
 "formatos_que_funcionan": [
-"POV / Vida de estudiante (Vlog dinámico de 7-15s con cortes rápidos, texto superpuesto y audio cómico o lo-fi)",
-"Workflow de IA + Renders (Tutorial exprés de 15-30s con captura de pantalla acelerada mostrando transformación boceto a render con voz en off)",
-"ASMR y Proceso de Maquetas (Vídeos de 20-40s con planos macro HD enfocados en bisturí, corte láser y pegado)",
-"Referentes e Inspiración de Proyectos (Vídeos de 25-45s con creador en pantalla verde analizando 3 proyectos o conceptos)",
-"Crítica de Láminas / Errores Comunes (Vídeos cara a cámara de 30-50s corrigiendo fallos de diagramación, escalas o plantas)",
-"Micro-guías y 'plantillas de 3 pasos' (30-60s con desgloses prácticos en pantalla)",
-"Demostración en pantalla (UGC nativo con miniatura del creador y voz real)"
+"Grabación de pantalla acelerada (screencast) con voz en off instructiva y subtítulos dinámicos (20 a 30s)",
+"ASMR y proceso de taller en plano detalle cinemático con audio ambiental nítido de corte y pegamento (15 a 25s)",
+"POV y memes cortos de situaciones límite de entrega y revisiones con audios virales (7 a 15s)",
+"Desglose rápido de referentes arquitectónicos y análisis de láminas con diagramas axonométricos (30 a 45s)",
+"Micro-guías y 'Cheatsheets' paso a paso de alta densidad para guardar y consultar después (15 a 30s)",
+"Formato comparativo 'Error vs. Solución directa' ('No hagas X, haz Y') para incentivar compartidos por DM"
 ],
 "ganchos_que_funcionan": [
-"A 12 horas de la entrega del TFG y el archivo de Revit acaba de colapsar",
-"Convierte un croquis a lápiz en un render hiperrealista en 30 segundos con esta IA gratis",
-"Sonido ultra nítido de un bisturí cortando cartón pluma con texto: 'Creando la maqueta para el PFC'",
-"3 referentes de arquitectura que salvarán la entrega de la asignatura de Proyectos",
-"El error de representación en tus plantas por el que van a reprobarte",
-"Aversión a la pérdida: 'Si sigues cometiendo este error en X, estás perdiendo Y'",
-"Resultado inverso: Mostrar el resultado final en el segundo 0.5 y desglosar el cómo se hizo",
-"Anti-introducción: Iniciar directamente con afirmación contundente o pregunta en texto nativo sin saludos"
+"Promesa explícita en menos de 1,5 segundos con texto superior fijo y locución alineada ('Guarda esto antes de...')",
+"Entrada directa al valor eliminando intros y saludos",
+"'¿Sigues perdiendo 8 horas renderizando en V-Ray para tu TFG? Pásate a esto...'",
+"Sonido seco de corte en cartón pluma con texto: 'El truco de maquetería para subir 2 puntos en Proyectos'",
+"'POV: El profesor te cambia el concepto del PFC a 12 horas de la entrega final'",
+"'3 referentes de vivienda colectiva que salvarán tu lámina de entregas este cuatrimestre'"
 ],
 "temas_calientes": [
-"Entregas inminentes de la asignatura de Proyectos y TFG/PFC",
-"Colapso de archivos de Revit a pocas horas de la entrega",
-"Workflows y herramientas de IA gratuitas para pasar de croquis a renders hiperrealistas para láminas finales",
-"Construcción manual de maquetas con bisturí, cartón pluma y corte láser",
-"Búsqueda de referentes arquitectónicos para desbloqueos creativos",
-"Corrección de errores comunes de diagramación, escalas y plantas en láminas de entrega"
+"Workflows de IA (Sketch-to-Render) para transformar croquis o maquetas en renders instantáneos ante entregas urgentes",
+"Técnicas y trucos de maquetería rápida para elevar la nota en la asignatura de Proyectos",
+"Revisiones críticas, correcciones destructivas y desvelos de última hora en TFG, PFC y Proyectos",
+"Referentes arquitectónicos y diagramación axonométrica para resolver láminas del cuatrimestre contrarreloj"
 ],
 "tendencias_de_edicion": [
-"Ritmo dinámico y cortes rápidos con cambios de plano, zooms y transiciones cada 1,5 a 2,5 segundos",
-"Optimización Sound-Off con subtítulos automáticos dinámicos y palabras clave en mayúsculas resaltadas en color",
-"Capturas de pantalla aceleradas con voz en off real",
-"Uso de pantalla verde (Green Screen) para proyectar planos y referencias",
-"Planos macro en alta definición con audio ASMR ultra nítido",
-"Audios cómicos o lo-fi en tendencia combinados con texto superpuesto"
+"Edición limpia y legible con palabras clave destacadas en subtítulos para SEO visual y búsqueda semántica",
+"Prioridad en la claridad y audio nítido sobre transiciones caóticas",
+"Uso de esquemas e infografías dinámicas como apoyos visuales simples para sintetizar datos",
+"Estructuras de ritmo rápido ajustadas a la duración óptima de cada tipología (desde 7s en memes hasta 45s en referentes)"
 ],
 "que_penaliza_el_algoritmo": [
-"Contenido resubido y marcas de agua de terceros",
-"Contenido IA masivo sin valor ('AI Slop') con voces genéricas y plantillas repetitivas sin intervención humana",
-"Gancho engañoso (Clickbait de retención) que provoca abandono antes de los 3 segundos",
-"Saturación en descripciones (hashtag stuffing o enlaces externos directos)"
+"Tasa de salto (Skip Rate) alta en los primeros 2 segundos por falta de gancho inmediato",
+"Marcas de agua y videos resubidos de otras plataformas sin edición nativa",
+"Spam de IA de bajo esfuerzo en cuentas automatizadas (voces sintéticas genéricas con video de stock descontextualizado)",
+"Exceso de hashtags (se penaliza superar los 3 a 5 hashtags específicos) y trampas de engagement bait"
 ],
 "ejemplos": [
 {
-"que": "@arch.student (TikTok) / @arqui.life (Reels) - POV de entregas y pánico con software",
-"por_que": "Genera altísima empatía (relatability) y dispara métricas de compartidos y comentarios entre estudiantes"
+"que": "Screencast acelerado de Workflow IA de croquis a render (@arqmanes / @arestudioapp)",
+"por_que": "Ataca el dolor del estudiante con entregas ajustadas mediante una transformación visual inmediata."
 },
 {
-"que": "@archistudents (Reels) / @rendering_tips (Shorts) - Tutorial exprés de boceto a render con IA",
-"por_que": "Aporta una solución práctica e inmediata para láminas finales y genera alto volumen de guardados"
+"que": "ASMR de corte de cartón pluma y armado de maqueta (@the_architecture_student)",
+"por_que": "Es hipnótico y relajante, apelando a la artesanía técnica y trucos para subir nota en Proyectos."
 },
 {
-"que": "@d.signers (TikTok) / @arch_models (Reels) - ASMR de corte de maquetas",
-"por_que": "Logra una elevada retención de audiencia gracias a la satisfacción visual y auditiva"
+"que": "POV a las 4 AM de cambio de concepto antes de la entrega (@architect.russell / @arquitectoentransito)",
+"por_que": "Genera empatía comunitaria sobre la dureza de las revisiones y se comparte masivamente en grupos de clase."
 },
 {
-"que": "@archdaily (Shorts) / @estudio_arqui (Reels) - Análisis de referentes con Green Screen",
-"por_que": "Resuelve bloqueos creativos y ahorra horas de búsqueda bibliográfica para entregas"
-},
-{
-"que": "@arch_teacher (TikTok) - Crítica de fallos en láminas y plantas",
-"por_que": "Provoca miedo a fallar/curiosidad y genera intensos debates en comentarios"
+"que": "Desglose de referentes con diagramas axonométricos (@architecture_hunter)",
+"por_que": "Ahorra tiempo de investigación y diagramación para las láminas de entregas del cuatrimestre."
 }
 ],
 "ideas_de_reel": [
-"Reel POV (10s): Cara de pánico ante Revit congelado con el texto 'A 12 horas de la entrega del TFG y el archivo de Revit acaba de colapsar' usando audio en tendencia.",
-"Reel Tutorial IA (20s): Captura de pantalla acelerada mostrando cómo pasar de croquis a lápiz a render hiperrealista en 30 segundos con IA gratis, optimizado con subtítulos resaltados.",
-"Reel ASMR Maqueta (25s): Planos macro cortando cartón pluma con bisturí para la maqueta del PFC, priorizando el sonido limpio y cortes cada 2 segundos.",
-"Reel Green Screen (35s): Creador frente a láminas analizando '3 referentes de arquitectura que salvarán la entrega de la asignatura de Proyectos'.",
-"Reel Crítica de láminas (40s): Cara a cámara aplicando aversión a la pérdida: 'El error de representación en tus plantas por el que van a reprobarte', señalando fallos de escalas y diagramación."
+"Screencast IA: 'No pierdas 8h renderizando tu TFG en V-Ray: cómo pasar tu croquis a render en segundos para la entrega de noviembre'",
+"ASMR de taller: 'El detalle de maqueta en cartón pluma para ganar 2 puntos en tu entrega de Proyectos' con corte nítido y texto fijo",
+"Meme POV: 'POV: Corrección de noviembre con el tutor cambiándote el concepto del PFC a 12 horas de entregar'",
+"Cheatsheet / Error vs. Solución: 'No maquetes tu lámina así en esta entrega: 3 referentes y diagramas axonométricos clave'"
 ],
-"fecha": "2026-11-12",
+"fecha": "2026-11-13",
 "fuentes": [
 {
-"titulo": "shortgenius.com",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnPyKIohI-9DMCG2v3O_xIiLX2SnDxUhuaVIZkNP3HoR0eTIX7orT7UC1zvZUty_qI9C1bzHx_oKTFJXOH81dfpnJLoCFYtp1Wc3KdC9U6tilM5noPlYRT0Jg4mrMYARqDrB0ZhPBEbbjz"
+"titulo": "youtube.com",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvGGGmcbUZPhL5_8RXw3H_ayBnCE7BbFn_CTTwsLcSaO3O5bH_No5yQA6Pd-jTdx77doOGXzcxu4tMy0U7lBPPFvi4YV-e99tr71e2cKcJX5_AohHWzOuEFTvHF_pGnOE="
 },
 {
-"titulo": "shortvids.co",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOFZzVnCLV01-6sC4l8WgJGh7uAqfTgCmRDKS_xijxE3VVlcTWVj98gWcAw8EtpfFDLSdAgb_-x5SHGqUPmbRBCfqiU4xlaO_HP35Y32j0juH00wRC09GG3O4eOO20ZKQpZtE="
+"titulo": "youtube.com",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGO6is47LTRlzEB2HsBLBok05AuS1nSBzYtoHlCezCXM6SuzlHWgBZBukAOhNdapCV_16UyI1B8uiVQ4MYrrR3E752S0DEgtTRmwR7oBohVhCeszF40O3_1ZZdhxUH8JI="
 },
 {
-"titulo": "opus.pro",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrY5Hnnf69nTXzZeZiSiMjUTc-JOEmAxwQOeDeyu6QCGNNi_CA7JxOlykG7H3xQMo0tz06jPcxDHV_Z0iPmyfxLpuS0Dq6h_Dlgd-zVKVPTJQiRqu6Ou1Z0ZgthSEomkg6yvuZ7qRv4JNejV9nDfrUAEns-9ObfJTPBVQs0m7hAXy-FwEDT3vt"
+"titulo": "youtube.com",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvkifZq12u_W5Mz9jKUu_qtOqHAUgUp8NRUm5fPNkdWGB2GsieT5M_7r41cn8UPv0Hb8WCkVVi7LuVA17q9O6_tp8DFqM2QLVsELWbeodE9n6VHYaC44_ysyWftn6b9A8="
 },
 {
-"titulo": "tijusacademy.com",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuS2Ntf1o0jxX-iVkyLmnErLbhO89I2vIOMf5hyvAXcX4C3g7FweKXJmmM8nPyKe8Q-bP7p7a7O97_zpMTUwiUIWIEx0ndhEgpaJztCqSAXdcGAuoXImYZcSX30GeKr8H-jIeIrJrmEUHYAeQJnGHhNYd5RvdEXNt1UgRFsQnllldsXYA550YZOX84wmMQ"
+"titulo": "tiktok.com",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGT0Ik4Lm8cmp25BjgsPvXK7RWAwmTTdPkTniDZ3m-fg-KPNXTtbo44DwnrlKvDGE_0m9UpIrfGlfPMp4WqohU7O2MnM3WVuJY3a5aAWJXkezK3_cuVb4vF-j7PYUT9b_L7SkUMMUPIvLMIHI-sA2OxpByh8GDeakM4cNv0"
 },
 {
-"titulo": "socialync.io",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyGZ5xKqunny1pExRG1TmliGp4drKuUV50lXkvyVOJ73M1kNwE4ruutn2mlYuvW4AtuLVbuS4gkwyBFxyL2pB5bH85Oe0z7WlIG2_gLBaA25xakl0DAmq2ApD4qYNkqQG_tJVqmDInWlj9J8UAA5DcrQ=="
+"titulo": "tiktok.com",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGT0Ik4Lm8cmp25BjgsPvXK7RWAwmTTdPkTniDZ3m-fg-KPNXTtbo44DwnrlKvDGE_0m9UpIrfGlfPMp4WqohU7O2MnM3WVuJY3a5aAWJXkezK3_cuVb4vF-j7PYUT9b_L7SkUMMUPIvLMIHI-sA2OxpByh8GDeakM4cNv0"
+},
+{
+"titulo": "youtube.com",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER6rI9JUHKTGVmFUkysZ7o0G-pyLXbYiIqbsJGerXhbfS_WjtYH3x1A_8pFV0rOM178exqtZsPbP9Ist1gEd9XeeZAu5BZJMzHphp0sPWcH81NrfpVodqLM860WFy_ax8="
+},
+{
+"titulo": "tiktok.com",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGT0Ik4Lm8cmp25BjgsPvXK7RWAwmTTdPkTniDZ3m-fg-KPNXTtbo44DwnrlKvDGE_0m9UpIrfGlfPMp4WqohU7O2MnM3WVuJY3a5aAWJXkezK3_cuVb4vF-j7PYUT9b_L7SkUMMUPIvLMIHI-sA2OxpByh8GDeakM4cNv0"
 },
 {
 "titulo": "usefastlane.ai",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFroeCbGdsCBPaeHb_3n8lNSbcJcJr8bTNFZ4rXihUrIM1LTTmJA4qDtacL4BjJ6kobsM2f1aUfnpxSBbFTtg5fOuwZV2EyohcJw7i-4QOrKFuc5XX3NXsgVNvU37XFU1_CbEZX2vyz7KgRNKFpNYo9PBu"
-},
-{
-"titulo": "somin.ai",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_mfgsOT6Ybht3HT4BXmzyLOmBIH3bd-S2Tagh1o1lZhuOyKGil4v9JBCrtohSWfUXNGhsJqrz-sQRzIkDhyPmH4U-22i9LoOFdjdpTBuDWMGpsatme96Q14RPiS577EtfPn8urV4ULXvsc1Hn6K5Jb___qfntX9sXZnORsXGFuutz_PqZ-_wk0CU="
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXyL3XeHkWrC5Rnh8crERK7Il_DTAAGegqLJgOAIoCAcABOfpaaWC72GhM0k2Yc-dZbXcHsl4f6PjRrOX1k3UA1t5eyixIIrVN0EnOk0ivEdvLzDByt0p--FZSIceqZfNZ0GPgKV7_zSSdNkml2iKWZRy9"
 },
 {
 "titulo": "digitalapplied.com",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJAD4PjUGB-362XfOwXML7KLsHqIN2V6jnSQe6LkaPoUmzATiKiJeYSpKhPKCabTTqyfaim2-n2hEYqfITbJXDBANATZFIpOa8GuH2oQux00xCTpvdh3n4rmhxANqBP4Ykk4D0TbUiG0HcqyBqUjHNuDeNtq6HB3dzqVu91Bgz"
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-MvlABc1_6wCBPwavtxJ4XvG5nc3hc5_Ap06yjnt0aGIIOoYOkZfVUVb23krXVptyNWSuKXIXWbjOq3X_DGiNmPyWEFrzP2ryEu9KfSoucsgqDXaMsdKkZRxqMRjQDKtHr7ChhXtlDYQ2Mp9c4s-LIMEj1tsBpI6DU_5I_jy2hLCMXyTe4vUHBlB6"
 },
 {
-"titulo": "growdigi.ca",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6S-OzQ7t1CZPOvCN8FELCtKPZ7eK-EnfiwKqsFbFVg6XnUafymi5plsDZLYEQahLCNMZsYkD2UYszwEFothPXye2oII40Q1aqxgQtWRJGizXW9qkaGpcpPiENBghV7JRxIafJQaHuyj3qLShFbva6bwW-1jWDa1rmmP6nwWY="
+"titulo": "vloglikepro.com",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFP-j5URsnNopt7VfQesALEyg3oY5N0RqxloECXS-8JoDko9rZaSePC257iAgite3ElzDlISLPK94aCEd5rjJ8yAbwZ6uO4oD80sx05RuWMNXBNWOQQqEiwcWB29hukMspsLNl-FvZ4BQ48GeTTWiOI-_Qv3LYG28JitzYA9GYpcsbeRB8pSqC8SV46aVndjhdC4m07MW9XKSKqcBmC"
+},
+{
+"titulo": "reddit.com",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9EgS8uO8i-u-O8DTCEZ3dViDbFGV38nq_A895UlQuMGhVth-fysao9lPJvAPj2oZB4nVVYrTn--6BcqaZWYahTGr59_RwvhYhLhKx18mCbs2dzjZ4cDLuMrqgKOEVzbYXs8eFg68-bLHdk7JynkG78pHMuGkLiUhuFKEVmInO2MnpL93fYSGeZWLMbVKMFIVVbRex7iOGLwMcUPor47bweBfF"
+},
+{
+"titulo": "digitalapplied.com",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBkJDfEPTsjQzdWgCVZ7aQPhsvBA1IgPddc-SLNUTn3Ge2mA_fX3sNL2_-ihadDnCropxA5pUZagvZRiDH6nRoZ7i6gqwIbBY5T8Fznn5LLiKhBg-Ujka1BDa-muj5mh49WkKfxQBCwLFhcOfpG-4T9u3hS1B_3ie22GQPrG0="
 }
 ],
 "verificado": true,
-"modelo_busqueda": "gemini-3.5-flash"
+"modelo_busqueda": "gemini-3.6-flash"
 }
