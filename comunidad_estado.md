@@ -1,6 +1,6 @@
 # Bot de comunidad
 
-_Última pasada: 2026-11-13 01:57 UTC · 0 respuestas_
+_Última pasada: 2026-11-13 09:42 UTC · 0 respuestas_
 
 | Fecha | Red | Tipo | Gancho | Comentarios | Solución publicada |
 |---|---|---|---|---|---|
@@ -19,16 +19,10 @@ _Última pasada: 2026-11-13 01:57 UTC · 0 respuestas_
 | 2026-11-08 | youtube | tips_tfm | Prepara el relato de tu defensa | 1 | — |
 | 2026-11-08 | instagram | documentacion | 4 pasos del boceto al panel | 1 | — |
 | 2026-11-08 | tiktok | documentacion | 4 pasos del boceto al panel | 1 | — |
-| 2026-11-08 | youtube | documentacion | 4 pasos del boceto al panel | 1 | — |
 | 2026-11-10 | instagram | vf | ¿VERDADERO O FALSO? | 1 | sí |
-| 2026-11-10 | tiktok | vf | ¿VERDADERO O FALSO? | 1 | sí |
 | 2026-11-10 | youtube | vf | ¿VERDADERO O FALSO? | 1 | sí |
 | 2026-11-11 | instagram | tips_proyectos | Tu sección parece sosa | 1 | — |
-| 2026-11-11 | tiktok | tips_proyectos | Tu sección parece sosa | 1 | — |
-| 2026-11-11 | youtube | tips_proyectos | Tu sección parece sosa | 1 | — |
 | 2026-11-11 | instagram | documentacion | Así se resuelve la entrega constructiva | 1 | — |
 | 2026-11-11 | tiktok | documentacion | Así se resuelve la entrega constructiva | 1 | — |
 | 2026-11-11 | youtube | documentacion | Así se resuelve la entrega constructiva | 1 | — |
 | 2026-11-12 | instagram | vf | ¿VERDADERO O FALSO? | 0 | pendiente |
-| 2026-11-12 | tiktok | vf | ¿VERDADERO O FALSO? | 0 | pendiente |
-| 2026-11-12 | youtube | vf | ¿VERDADERO O FALSO? | 0 | pendiente |

@@ -1,2 +1,8 @@
 Zernio cuentas de AC: {'instagram': False, 'tiktok': True, 'youtube': True} · conectadas: {'tiktok': ['arquitecturaconfid'], 'youtube': ['arquitecturaconfidencial']}
+youtube:6af0e3d54711d17e2e9dbaf7: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+tiktok:6af357dff1cd29b1025a1c58: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+tiktok:6af476301792174bac355bae: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+youtube:6af476304e48db6b2c7aa9ec: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+tiktok:6af61ac27ba42eeaef96bcec: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+youtube:6af61ac208ffa155aa04c1a6: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 comunidad: 0 respuestas; avisos: ninguno
