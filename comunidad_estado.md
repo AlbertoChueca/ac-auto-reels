@@ -1,10 +1,10 @@
 # Bot de comunidad
 
-_Última pasada: 2026-11-14 14:16 UTC · 0 respuestas_
+_Última pasada: 2026-11-14 19:16 UTC · 0 respuestas_
 
 ## Avisos
 
-- **instagram**: Instagram comentarios 400: {"error":{"message":"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.","code":190,"type":"OAuthException","error_subcode":460,"fbtrace_id":"AZrAVtw_bA3jaV09-V-Iv0R"}}
+- **instagram**: Instagram comentarios 400: {"error":{"message":"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.","code":190,"type":"OAuthException","error_subcode":460,"fbtrace_id":"ASxvydnm5CW4Z4qYkA2UZzb"}}
 
 | Fecha | Red | Tipo | Gancho | Comentarios | Solución publicada |
 |---|---|---|---|---|---|
@@ -28,3 +28,5 @@ _Última pasada: 2026-11-14 14:16 UTC · 0 respuestas_
 | 2026-11-13 | youtube | tips_tfm | Estructura tu TFM en 4 pasos | 1 | — |
 | 2026-11-13 | tiktok | auditoria | 3 alertas críticas del TFM | 1 | — |
 | 2026-11-13 | youtube | auditoria | 3 alertas críticas del TFM | 1 | — |
+| 2026-11-14 | tiktok | tips_tfm | 4 errores fatales TFM | 0 | — |
+| 2026-11-14 | youtube | tips_tfm | 4 errores fatales TFM | 0 | — |
