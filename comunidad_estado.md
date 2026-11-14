@@ -1,10 +1,10 @@
 # Bot de comunidad
 
-_Última pasada: 2026-11-14 06:42 UTC · 0 respuestas_
+_Última pasada: 2026-11-14 14:16 UTC · 0 respuestas_
 
 ## Avisos
 
-- **instagram**: Instagram comentarios 400: {"error":{"message":"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.","code":190,"type":"OAuthException","error_subcode":460,"fbtrace_id":"Aa9Ov44EzIZHOX7ggBor3tj"}}
+- **instagram**: Instagram comentarios 400: {"error":{"message":"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.","code":190,"type":"OAuthException","error_subcode":460,"fbtrace_id":"AZrAVtw_bA3jaV09-V-Iv0R"}}
 
 | Fecha | Red | Tipo | Gancho | Comentarios | Solución publicada |
 |---|---|---|---|---|---|
