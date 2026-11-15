@@ -1,53 +1,53 @@
 {
 "ganchos_que_funcionan": [
-"Deja de perder 6 horas renderizando: haz esto antes de tu entrega de Proyectos",
-"¿VERDADERO O FALSO? Este error en tu TFM te cuesta el aprobado directo",
-"3 alertas críticas en tus planos antes de pasar por el tribunal",
-"POV: Son las 4:00 AM, la entrega es a las 8:00 AM y el plano no cierra",
-"El referente oculto que desbloquea tu planta en 5 minutos (y tu profesor amará)"
+"Deja de entregar tus láminas así si quieres aprobar Proyectos",
+"¿Verdadero o falso? El tribunal no se lee la memoria del TFM",
+"Pasa tu boceto de Proyectos a render en 15 segundos con esta IA",
+"3 alertas críticas que van a suspender tu TFM si no las corriges hoy",
+"Guarda esto si estás bloqueado con tu proyecto a 48 horas de la entrega"
 ],
 "patrones": [
-"Interrupción de patrón visual en los primeros 2 segundos con texto dinámico de alto contraste",
-"Microcortes acelerados y pantalla dividida mostrando problema vs. solución rápida",
-"Cheat sheet o diapositiva densa en los últimos 2 segundos para forzar pausa y guardado",
-"Estructura en bucle (loop) con audio de fondo en tendencia o ASMR de taller",
-"Cierre con CTA directo: Comenta AUDITORÍA para revisar tu entrega gratis"
+"Interrupción de patrón en los primeros 3 segundos con texto en pantalla de alto contraste",
+"Corrección rápida en pantalla dividida (error típico de entrega vs solución optimizada)",
+"Microaprendizaje directo de 15 a 25 segundos resolviendo un cuello de botella técnico",
+"Screen recording acelerado de transformación rápida (boceto a render o maquetación)",
+"Llamada a la acción hacia la auditoría gratuita de TFM ligada a evitar errores críticos de evaluación"
 ],
 "evitar": [
-"Intros lentas con saludos, presentaciones o pausas en los primeros 3 segundos",
-"Videos con marcas de agua de otras redes o baja resolución de exportación",
-"Teoría académica abstracta sin aplicación visual o práctica en plano/maqueta",
-"Audios monótonos sin subtítulos dinámicos de apoyo",
-"Duraciones superiores a 35 segundos sin cambios de ritmo visual constantes"
+"Intros lentas, saludos o presentaciones personales que no aporten valor en los primeros 3 segundos",
+"Vídeos de más de 45 segundos sin cortes dinámicos que destruyan la tasa de retención",
+"Música de fondo que tape o compita con la voz en off",
+"Consejos teóricos abstractos sin aplicación práctica inmediata para entregas",
+"Láminas y planos mostrados a baja resolución o sin zoom en el detalle relevante"
 ],
-"tono_voz": "Colega senior empático, directo, técnico pero sin rodeos académicos, enfocado en salvar la entrega y bajar la ansiedad.",
-"duracion_objetivo_s": 18,
+"tono_voz": "Empático, directo, pragmático y de cómplice de entrega: comprende el estrés y la falta de tiempo del estudiante, evitando el tono académico rígido y yendo al grano para salvar la nota.",
+"duracion_objetivo_s": 22,
 "pesos": {
-"tips_tfm": 1.0,
-"tips_proyectos": 1.0,
-"referentes": 1.0,
-"ia": 1.0,
-"test": 1.0,
-"vf": 1.0
+"tips_tfm": 1,
+"tips_proyectos": 1,
+"referentes": 1,
+"ia": 1,
+"test": 1,
+"vf": 1
 },
 "hashtags": [
 "#arquitectura",
-"#estudiantearquitectura",
+"#estudiantedearquitectura",
 "#tfmarquitectura",
-"#tfg",
 "#pfc",
-"#proyectosarqui",
-"#entregadearquitectura"
+"#proyectosarquitectura",
+"#entregasdearquitectura",
+"#rendersia"
 ],
-"fecha": "2026-11-14",
+"fecha": "2026-11-15",
 "datos": {
-"referentes": 0.019,
-"tips_tfm": 0.0456,
+"referentes": 0.0178,
+"tips_tfm": 0.0368,
 "documentacion": 0.0174,
 "tips_proyectos": 0.2131,
-"auditoria": 0.1701,
+"auditoria": 0.1503,
 "ia": 0.0127,
 "test": 0.011,
-"vf": 0.2074
+"vf": 0.194
 }
 }

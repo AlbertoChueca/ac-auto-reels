@@ -1,87 +1,88 @@
 {
 "formatos_que_funcionan": [
-"Hacks de IA para renders y planos con captura de pantalla acelerada, voz en off directa y texto resaltado (15-25s)",
-"ASMR de maquetas con plano detalle y humor de entrega 'POV sin dormir' en bucle (9-15s)",
-"Solución rápida a bloqueos de diseño con 3 referentes ocultos frente a un problema concreto (20-30s)",
-"Vlog ultrarrápido con microcortes de 0.5s: 'Romantizar vs. Realidad' en entregas de TFG/TFM (15-25s)",
-"Micro-lecciones densas paso a paso de 30-60s enfocadas en resolver un problema práctico puntual",
-"Diapositiva final o 'Cheat Sheet' con lista densa que fuerza la pausa o el guardado",
-"Demostraciones en pantalla faceless con locución natural y clara"
+"POV y humor de entregas finales / vida estudiantil (7-12s, audios en tendencia, texto sobre maquetas o planos de madrugada)",
+"Transformación de boceto o maqueta de cartón a render con IA (15-25s, screen recording a cámara rápida con Krea, Vizcom o Midjourney)",
+"Corrección rápida 'Deja de hacer esto en tus láminas' (20-35s, pantalla dividida mostrando error común vs técnica correcta en Photoshop, Illustrator o Rhino)",
+"'3 Referentes en 30s' para desbloqueo creativo (25-40s, transición dinámica de obras con análisis de una frase)",
+"Microaprendizaje directo (15-45s, resolución de un problema o concepto puntual)",
+"Listas y checklists visuales (pasos numerados o plantillas aplicables)",
+"Demostración superpuesta (creador guiando o reaccionando sobre un tutorial o captura)"
 ],
 "ganchos_que_funcionan": [
-"Deja de perder 6 horas renderizando: prueba esta herramienta de IA",
-"Stop rendering like it's 2020",
-"POV: Son las 4:00 AM y la entrega del PFC es a las 8:00 AM (acompañado de sonido ASMR de corte)",
-"El referente con el que vas a aprobar Proyectos sí o sí (y tu profesor no conoce)",
-"Así se ven 72 horas continuas antes de entregar el TFM",
-"Deja de hacer X en 2026 / 3 errores que frenan tu...",
-"Guarda esto: 3 sitios web gratuitos para...",
-"Interrupción de patrón visual con acción rápida o movimiento inesperado en el segundo 0"
+"Interrupción de patrón: 'Deja de entregar tus láminas así si quieres aprobar Proyectos' / 'El error que cometes en [tema]'",
+"Gancho de valor explícito: 'Pasa tu boceto de Proyectos a render en 15 segundos con esta IA' / 'Guarda esto antes de...'",
+"Drama empático de entrega: 'Son las 4:00 AM, entrego en 3 horas y el plotter acaba de morir...'",
+"Alusión directa a la evaluación: 'El tribunal viendo la estructura de mi TFG'",
+"Resolución de bloqueo: '3 referentes clave si estás bloqueado con tu proyecto esta semana'"
 ],
 "temas_calientes": [
-"Herramientas y flujos de trabajo de IA para acelerar renders y planimetrías ante la falta de tiempo en entregas",
-"Noches sin dormir, estrés y maquetas de última hora para entregas y correcciones críticas de noviembre en Proyectos y PFC",
-"Referentes arquitectónicos poco conocidos para desbloquear problemas de diseño (lotes estrechos, fachadas) antes de corrección con el profesor",
-"Contraste entre la estética romantizada del taller de arquitectura y el caos real de entregas de TFG/TFM"
+"Supervivencia a entregas y correcciones críticas de noviembre (TFG, PFC y Proyectos)",
+"Crisis y desvelos de última hora (fallos de plotter, maquetas a altas horas de la noche)",
+"Renders relámpago con IA a partir de bocetos y maquetas para ahorrar tiempo de entrega",
+"Diagramación, maquetación y montaje de láminas de presentación en Photoshop, Illustrator y Rhino",
+"Desbloqueo creativo rápido y búsqueda de referentes conceptuales y espaciales"
 ],
 "tendencias_de_edicion": [
-"Subtítulos dinámicos de alto contraste con palabras clave resaltadas",
-"Ritmo limpio y sensorial con audios orgánicos y sin sobre-edición agresiva",
-"Microcortes acelerados de 0.5s para dinamizar procesos largos",
-"Plano detalle estético enfocado en texturas y cortes manuales",
-"Estructura orientada al bucle (loop) en piezas de 9 a 15 segundos"
+"Subtítulos dinámicos de alto contraste (optimizados para consumo sin sonido y SEO nativo)",
+"Edición fluida sin sobrecarga (ritmo ágil de cortes priorizando autenticidad sobre hiperproducción)",
+"Audio nativo y voz directa y clara por encima de fondos musicales invasivos",
+"Screen recordings acelerados y formato de pantalla dividida (antes/después o error/acierto)"
 ],
 "que_penaliza_el_algoritmo": [
-"Marcas de agua cruzadas al republicar vídeos con logos de otras plataformas (ej. TikTok)",
-"Clickbait sin recompensa que provoca caídas drásticas de retención en los primeros segundos",
-"Contenido IA automatizado de bajo esfuerzo con guiones genéricos y voces sintéticas despersonalizadas",
-"Intros lentas y saludos vacíos ('¡Hola chicos! Hoy les voy a enseñar...')"
+"Marcas de agua y contenido reciclado de otras plataformas sin modificaciones",
+"Baja tasa de retención provocada por clickbait engañoso (abandonos masivos en los primeros 3 segundos)",
+"Contenido IA de baja calidad ('slop') con voces sintéticas sin curación ni aporte humano",
+"Spam de hashtags (debe sustituirse por palabras clave en texto, subtítulos y locución para SEO)"
 ],
 "ejemplos": [
 {
-"que": "Hack de IA para Renders y Planos (captura acelerada + voz en off)",
-"por_que": "Ataca directamente la falta de tiempo en entregas de noviembre, ofrece gratificación instantánea y eleva drásticamente la tasa de guardados."
+"que": "POV a cámara en primera persona sobre maqueta/planos a las 4:00 AM con texto de fallo de entrega o reacción del tribunal.",
+"por_que": "Apela a la máxima empatía y al drama compartido del desvelo, generando un volumen masivo de comentarios y compartidos en grupos de WhatsApp de clase."
 },
 {
-"que": "ASMR de Maquetas + Humor de Entrega ('POV sin dormir' en loop)",
-"por_que": "Genera empatía inmediata con la comunidad estudiantil mediante comentarios y asegura alta retención visual gracias al audio sensorial."
+"que": "Screen recording a cámara rápida pasando de un garabato o maqueta de cartón a render hiperrealista con herramientas como Krea, Vizcom o Midjourney.",
+"por_que": "Ataca el dolor principal del estudiante (falta de tiempo ante la entrega) y produce un efecto WOW visual inmediato con alta tasa de guardados."
 },
 {
-"que": "El referente oculto que salvará tu entrega de Proyectos",
-"por_que": "Despierta el FOMO universitario y resuelve el bloqueo creativo previo a las correcciones con el tribunal o profesor."
+"que": "Pantalla dividida de 'error vs acierto' maquetando láminas o diagramas en Illustrator/Photoshop/Rhino.",
+"por_que": "Combina gancho de interrupción con utilidad práctica aplicable de inmediato para evitar suspensos en la corrección."
 },
 {
-"que": "Vlog ultrarrápido: Romantizar vs. Realidad del TFG en 72 horas",
-"por_que": "Combina una estética cuidada con la crudeza del estrés real de entrega, detonando conversación y compartidos."
+"que": "Recorrido dinámico de 3 proyectos referentes con una frase de análisis espacial por obra.",
+"por_que": "Ahorra tiempo de búsqueda en Pinterest y desbloquea la fase conceptual en semanas de máxima presión."
 }
 ],
 "ideas_de_reel": [
-"Demostración en pantalla faceless (15s): 'Deja de perder 6 horas renderizando: prueba esta herramienta de IA para tu entrega de noviembre' terminando con un Cheat Sheet para pausar.",
-"Vídeo en bucle ASMR (10s): Plano detalle cortando cartón con cúter bajo el texto 'POV: Son las 4:00 AM y la entrega del PFC es a las 8:00 AM'.",
-"Micro-lección rápida (25s): 'El referente oculto con el que vas a salvar tu corrección de Proyectos' mostrando un problema de fachada ventilada y 3 soluciones poco vistas.",
-"Vlog de microcortes de 0.5s (20s): 'Así se ven 72 horas continuas antes de entregar el TFM en noviembre', alternando café, planos rotos y entrega final."
+"POV (8s): 'Son las 4:00 AM, entrego Proyectos en 3 horas y el plotter acaba de morir...' (vídeo en 1ª persona editando planos de noche con audio en tendencia).",
+"IA express (18s): 'Pasa tu boceto de Proyectos a render en 15 segundos con esta IA' (demostración en pantalla de boceto a render en Krea/Vizcom para salvar la entrega).",
+"Corrección de láminas (25s): 'Deja de entregar tus láminas así si quieres aprobar Proyectos' (pantalla dividida en Illustrator mostrando diagramas confusos vs limpios).",
+"Referentes exprés (30s): '3 referentes clave si estás bloqueado con tu proyecto esta semana' (tres obras explicadas en 1 frase cada una para resolver la volumetría del TFG/PFC)."
 ],
-"fecha": "2026-11-14",
+"fecha": "2026-11-15",
 "fuentes": [
 {
-"titulo": "jetfuel.agency",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE__2bQKIDy9OYdTf3UurgHkgHlWX90jrjlbBxZUmiSBshIz0YO_1J1HT8uKHBpfhAXWYeS8WjOM-gtUB1Ph6kn5e8hPNQpVRF35T-qWBc8Wesrt5Dtau4aduZU9ZxM_hJuNxGRRCP4UR1hljOp6FNILnKf312O4by_qrxxLrLFrz3o"
+"titulo": "digitalapplied.com",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1457krrEaKLacK-cFosAEfazCRi7w88LcGW4_2vM1qYqAWKemEh8qJkgeBip9CGxyhkxyQ1YiIHBXiiwDM46gXxCmzdsp4iBKjauYboQyhf6B2FWo2OMkjABVmcGAwGo5A6oGCd0bSu3GlM8fcpU1YeTN0748q8Wu9Kxa0etc6o3mQSfYREJJ4qSwug=="
 },
 {
-"titulo": "shortgenius.com",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDGiHuZyGANZFK7fDrRnXeOpJxF58H8np0wK_lS3HLMXZ_iLWHYrVgffRVEVM3vVcga51H1BSv8spbmC5rY4xNqy5cVi-aEjGr2PvrK-42LvJFMaHtmIGaSX5KgqTy7sQ7ikxV-mJBpP5GMycU8dMZ"
+"titulo": "aimpakt.com",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGvdQKcUMcVyz_L3NwbuiMlIZgqo3w0Ug1U5_bLmy0hdRU9ea_T4_XG-sM4csNglq4vEiMOIKrdkxmde9BJPuhW3TfriXFDNYCwRcBeYSn8SHfzbFChpZk_JSyyOb-j7-VRBUF6aFkJN7ZltQP_ohxGmj1xh0cgbdshaYCEsEube-K2tLqPJ9Pyz-e92hopzvUDmUk-A=="
 },
 {
-"titulo": "revid.ai",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPDQ8r4Dl1dS4H0xvZEFnK0u4_QMSyCeg5zdVp2jz8H1LOWTw98gMZ6imhaCfNkFp26tt0_uh9LA-oiiOXTJvqmGphn9raAWZUGRbSmdi2C4bV2Bo0nbPSTq7SIoLi5l-OaTQJRxt7"
+"titulo": "klap.app",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzWgdBc0dUj-gitTkVcSLZ5U0-pslommvg0r5gKs3e-WToiIXSiJzXuHqmL9AJHvMm6Fa9dknEuOOhqkC_JbikM9zxw_Nx1I20UeXxTHde9BRVykVJGuP-0G_iDIdwQ28DDoA="
 },
 {
-"titulo": "hooked.so",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd-iCptZb3_oDQW53lHFGX1NLV2xfALAHQ1vu2kJrJrCyMqN4HmS-nhcfpTPS7f4iN76NmoxvL1zGda31e2VDHKl1QSNB2yxYBTR1K5aeGdttuL76tm9-ZGnoZ5f_cqR3oSMPk-A=="
+"titulo": "creatorflow.so",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUZmsAasXKNIMYD3r82W5frXAewXUn7wHIhNunyb1gSgC_b2K-7EQm2tR_wZAB0XUaz7e87SCDL6ZeyctAklVdJ-ti9GqGCYeu9e9YSoprDpeYlwTLGaNI8X0iee99MTdyg0BVBOrjOO_Jldv_LDN4UMLW7tRO"
 },
 {
-"titulo": "youtube.com",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyBgrITtRVCcsLCFSqAU9IyEQTKpuAcmJh2dE-aI0_Vmou_Yl3qnC8RWTtVFyzTlbKYFqvzS4xsJJhAXPoihjEGpgM8yNsaAioO4u4oBkNkzuczJmJYkmZ9e-9rlzpels="
+"titulo": "somin.ai",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkWupQp7HVMV_tm1ANnBvsVJvkylXuill4f7FqplFBXVAJbFtsmeREi9HuLhjcVL-IGqKwl2jOcY5t15FUSJOdF6yPKi_KNqao8DxcrpptWJcCLZbToxGeGcCk_hiKfBdeNvWGTzR_BTESagrKDugrxSEkZmBQm7qQhrNr8KtotbUWXkEghvOQie4="
+},
+{
+"titulo": "usefastlane.ai",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwtzxUN0X42f94oS_qED_2fBKvuO3XEm3TSDFLrPCwD48ekzIGXkaQlUlXphHsucw4TLJ7N3OYAj6opt4yO3Fr9pm6xap_6VuxVqmplRldUsNC6zA8yI4Gt2f-DTA6JwPLUoGeoiMBtK2-7dihgj4m-uoU"
 }
 ],
 "verificado": true,
