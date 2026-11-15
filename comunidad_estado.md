@@ -1,17 +1,13 @@
 # Bot de comunidad
 
-_Última pasada: 2026-11-14 23:07 UTC · 0 respuestas_
+_Última pasada: 2026-11-15 02:49 UTC · 0 respuestas_
 
 ## Avisos
 
-- **instagram**: Instagram comentarios 400: {"error":{"message":"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.","code":190,"type":"OAuthException","error_subcode":460,"fbtrace_id":"AExZQj8JnNBedfRe_6RGZTu"}}
+- **instagram**: Instagram comentarios 400: {"error":{"message":"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.","code":190,"type":"OAuthException","error_subcode":460,"fbtrace_id":"A7lv1WXU_pFPxh0_J91H628"}}
 
 | Fecha | Red | Tipo | Gancho | Comentarios | Solución publicada |
 |---|---|---|---|---|---|
-| 2026-11-07 | tiktok | ia | La IA no aprueba tu TFM | 1 | — |
-| 2026-11-07 | youtube | ia | La IA no aprueba tu TFM | 1 | — |
-| 2026-11-07 | tiktok | test | TEST DE ARQUITECTURA | 1 | sí |
-| 2026-11-07 | youtube | test | TEST DE ARQUITECTURA | 1 | sí |
 | 2026-11-08 | tiktok | tips_tfm | Prepara el relato de tu defensa | 1 | — |
 | 2026-11-08 | youtube | tips_tfm | Prepara el relato de tu defensa | 1 | — |
 | 2026-11-08 | tiktok | documentacion | 4 pasos del boceto al panel | 1 | — |
@@ -29,5 +25,6 @@ _Última pasada: 2026-11-14 23:07 UTC · 0 respuestas_
 | 2026-11-13 | tiktok | auditoria | 3 alertas críticas del TFM | 1 | — |
 | 2026-11-13 | youtube | auditoria | 3 alertas críticas del TFM | 1 | — |
 | 2026-11-14 | tiktok | tips_tfm | 4 errores fatales TFM | 1 | — |
-| 2026-11-14 | tiktok | referentes | 4 referentes de vivienda | 0 | — |
-| 2026-11-14 | youtube | referentes | 4 referentes de vivienda | 0 | — |
+| 2026-11-14 | youtube | tips_tfm | 4 errores fatales TFM | 1 | — |
+| 2026-11-14 | tiktok | referentes | 4 referentes de vivienda | 1 | — |
+| 2026-11-14 | youtube | referentes | 4 referentes de vivienda | 1 | — |

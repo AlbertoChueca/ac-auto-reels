@@ -274,21 +274,21 @@
 "youtube:6af88ef3c46eca29787d6810": {
 "primer": "2026-11-14T19:16:51.118541+00:00",
 "personas": [],
-"comentarios": 0
+"comentarios": 1
 },
 "tiktok:6af8d213a67874ceaa73d5f8": {
 "primer": "2026-11-14T23:07:34.222034+00:00",
 "personas": [],
-"comentarios": 0
+"comentarios": 1
 },
 "youtube:6af8d213a67874ceaa73d5fb": {
 "primer": "2026-11-14T23:07:34.222034+00:00",
 "personas": [],
-"comentarios": 0
+"comentarios": 1
 }
 },
 "errores": {
-"instagram": "Instagram comentarios 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"AExZQj8JnNBedfRe_6RGZTu\"}}"
+"instagram": "Instagram comentarios 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"A7lv1WXU_pFPxh0_J91H628\"}}"
 },
 "nativos": {
 "6ae292d11225d5e8ee1c8544": "7701879747768225056",
