@@ -113,7 +113,7 @@
 "hook": "4 entregas técnicas de tu TFM",
 "duration": 27.5,
 "review_score": 8.0,
-"views": 423,
+"views": 424,
 "reach": 234,
 "likes": 0,
 "comments": 2,
@@ -136,7 +136,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 171,
+"views": 172,
 "reach": 0,
 "likes": 0,
 "comments": 1,
@@ -236,7 +236,7 @@
 "hook": "¿Atascado con la Construcción?",
 "duration": 24.5,
 "review_score": 8.0,
-"views": 597,
+"views": 598,
 "reach": 247,
 "likes": 4,
 "comments": 2,
@@ -259,7 +259,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 333,
+"views": 334,
 "reach": 0,
 "likes": 3,
 "comments": 1,
@@ -462,7 +462,7 @@
 "hook": "4 pasos del boceto al panel",
 "duration": 25.8,
 "review_score": 8.0,
-"views": 606,
+"views": 607,
 "reach": 222,
 "likes": 3,
 "comments": 2,
@@ -485,7 +485,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 367,
+"views": 368,
 "reach": 0,
 "likes": 2,
 "comments": 1,
@@ -503,7 +503,7 @@
 "hook": "¿VERDADERO O FALSO?",
 "duration": 22.1,
 "review_score": 8.0,
-"views": 27,
+"views": 29,
 "reach": 1,
 "likes": 0,
 "comments": 2,
@@ -526,7 +526,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 26,
+"views": 28,
 "reach": 0,
 "likes": 0,
 "comments": 1,
@@ -544,7 +544,7 @@
 "hook": "Tu sección parece sosa",
 "duration": 24.7,
 "review_score": 8.0,
-"views": 947,
+"views": 946,
 "reach": 6,
 "likes": 5,
 "comments": 2,
@@ -567,7 +567,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 941,
+"views": 940,
 "reach": 0,
 "likes": 5,
 "comments": 1,
@@ -626,7 +626,7 @@
 "hook": "¿VERDADERO O FALSO?",
 "duration": 18.1,
 "review_score": 8.0,
-"views": 15,
+"views": 16,
 "reach": 0,
 "likes": 0,
 "comments": 2,
@@ -649,7 +649,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 15,
+"views": 16,
 "reach": 0,
 "likes": 0,
 "comments": 1,
@@ -667,7 +667,7 @@
 "hook": "Estructura tu TFM en 4 pasos",
 "duration": 23.4,
 "review_score": 8.0,
-"views": 39,
+"views": 40,
 "reach": 0,
 "likes": 1,
 "comments": 2,
@@ -690,7 +690,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 39,
+"views": 40,
 "reach": 0,
 "likes": 1,
 "comments": 1,
@@ -708,8 +708,8 @@
 "hook": "3 alertas críticas del TFM",
 "duration": 18.6,
 "review_score": 8.0,
-"views": 18,
-"reach": 0,
+"views": 21,
+"reach": 3,
 "likes": 1,
 "comments": 2,
 "shares": 0,
@@ -720,6 +720,46 @@
 "por_red": {
 "tiktok_video": {
 "views": 3,
+"reach": 3,
+"likes": 0,
+"comments": 1,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+},
+"youtube_short": {
+"views": 18,
+"reach": 0,
+"likes": 1,
+"comments": 1,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+}
+}
+},
+"2026-11-14_mediodia": {
+"date": "2026-11-14",
+"tematica": "tips_tfm",
+"hook": "4 errores fatales TFM",
+"duration": 28.6,
+"review_score": 8.0,
+"views": 297,
+"reach": 0,
+"likes": 0,
+"comments": 2,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0,
+"por_red": {
+"tiktok_video": {
+"views": 237,
 "reach": 0,
 "likes": 0,
 "comments": 1,
@@ -730,9 +770,49 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 15,
+"views": 60,
 "reach": 0,
-"likes": 1,
+"likes": 0,
+"comments": 1,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+}
+}
+},
+"2026-11-14_noche": {
+"date": "2026-11-14",
+"tematica": "referentes",
+"hook": "4 referentes de vivienda",
+"duration": 32.4,
+"review_score": 8.0,
+"views": 302,
+"reach": 0,
+"likes": 0,
+"comments": 2,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 1,
+"profile_visits": 0,
+"por_red": {
+"tiktok_video": {
+"views": 244,
+"reach": 0,
+"likes": 0,
+"comments": 1,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 1,
+"profile_visits": 0
+},
+"youtube_short": {
+"views": 58,
+"reach": 0,
+"likes": 0,
 "comments": 1,
 "shares": 0,
 "saved": 0,
