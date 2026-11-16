@@ -1,4 +1,4 @@
-# Métricas reales (2026-11-15)
+# Métricas reales (2026-11-16)
 
 | fecha | temática | gancho | red | vistas | alcance | likes | coment. | compart. | guard. | retención | interacción/100 vistas |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -49,7 +49,7 @@
 | 2026-11-11 | tips_proyectos | Tu sección parece sosa | youtube | 940 | 0 | 5 | 1 | 0 | 0 | — | 0.1 |
 | 2026-11-11 | documentacion | Así se resuelve la entrega constructiv | instagram | sin datos | | | | | | | |
 | 2026-11-11 | documentacion | Así se resuelve la entrega constructiv | tiktok | 257 | 236 | 1 | 1 | 0 | 1 | — | 0.8 |
-| 2026-11-11 | documentacion | Así se resuelve la entrega constructiv | youtube | 28 | 0 | 0 | 1 | 0 | 0 | — | 3.6 |
+| 2026-11-11 | documentacion | Así se resuelve la entrega constructiv | youtube | 29 | 0 | 0 | 1 | 0 | 0 | — | 3.4 |
 | 2026-11-12 | vf | ¿VERDADERO O FALSO? | instagram | sin datos | | | | | | | |
 | 2026-11-12 | vf | ¿VERDADERO O FALSO? | tiktok | sin datos | | | | | | | |
 | 2026-11-12 | vf | ¿VERDADERO O FALSO? | youtube | 16 | 0 | 0 | 1 | 0 | 0 | — | 6.2 |
@@ -58,7 +58,11 @@
 | 2026-11-13 | tips_tfm | Estructura tu TFM en 4 pasos | youtube | 40 | 0 | 1 | 1 | 0 | 0 | — | 2.5 |
 | 2026-11-13 | auditoria | 3 alertas críticas del TFM | tiktok | 3 | 3 | 0 | 1 | 0 | 0 | — | 33.3 |
 | 2026-11-13 | auditoria | 3 alertas críticas del TFM | youtube | 18 | 0 | 1 | 1 | 0 | 0 | — | 5.6 |
-| 2026-11-14 | tips_tfm | 4 errores fatales TFM | tiktok | 237 | 0 | 0 | 1 | 0 | 0 | — | 0.4 |
-| 2026-11-14 | tips_tfm | 4 errores fatales TFM | youtube | 60 | 0 | 0 | 1 | 0 | 0 | — | 1.7 |
-| 2026-11-14 | referentes | 4 referentes de vivienda | tiktok | 244 | 0 | 0 | 1 | 0 | 0 | — | 0.4 |
-| 2026-11-14 | referentes | 4 referentes de vivienda | youtube | 58 | 0 | 0 | 1 | 0 | 0 | — | 1.7 |
+| 2026-11-14 | tips_tfm | 4 errores fatales TFM | tiktok | 237 | 197 | 0 | 1 | 0 | 0 | — | 0.4 |
+| 2026-11-14 | tips_tfm | 4 errores fatales TFM | youtube | 62 | 0 | 0 | 1 | 0 | 0 | — | 1.6 |
+| 2026-11-14 | referentes | 4 referentes de vivienda | tiktok | 244 | 84 | 0 | 1 | 0 | 0 | — | 0.4 |
+| 2026-11-14 | referentes | 4 referentes de vivienda | youtube | 62 | 0 | 0 | 1 | 0 | 0 | — | 1.6 |
+| 2026-11-15 | ia | El tribunal nota tu render IA | tiktok | 1 | 0 | 0 | 1 | 0 | 0 | — | 100.0 |
+| 2026-11-15 | ia | El tribunal nota tu render IA | youtube | 16 | 0 | 0 | 1 | 0 | 0 | — | 6.2 |
+| 2026-11-15 | documentacion | Esto penaliza tu entrega técnica | tiktok | 268 | 0 | 1 | 1 | 0 | 1 | — | 0.7 |
+| 2026-11-15 | documentacion | Esto penaliza tu entrega técnica | youtube | 36 | 0 | 0 | 1 | 0 | 0 | — | 2.8 |

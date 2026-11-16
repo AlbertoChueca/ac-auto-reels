@@ -585,7 +585,7 @@
 "hook": "Así se resuelve la entrega constructiva",
 "duration": 27.5,
 "review_score": 8.0,
-"views": 285,
+"views": 286,
 "reach": 236,
 "likes": 1,
 "comments": 2,
@@ -608,7 +608,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 28,
+"views": 29,
 "reach": 0,
 "likes": 0,
 "comments": 1,
@@ -748,8 +748,8 @@
 "hook": "4 errores fatales TFM",
 "duration": 28.6,
 "review_score": 8.0,
-"views": 297,
-"reach": 0,
+"views": 299,
+"reach": 197,
 "likes": 0,
 "comments": 2,
 "shares": 0,
@@ -760,7 +760,7 @@
 "por_red": {
 "tiktok_video": {
 "views": 237,
-"reach": 0,
+"reach": 197,
 "likes": 0,
 "comments": 1,
 "shares": 0,
@@ -770,7 +770,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 60,
+"views": 62,
 "reach": 0,
 "likes": 0,
 "comments": 1,
@@ -789,7 +789,7 @@
 "duration": 32.4,
 "review_score": 8.0,
 "views": 306,
-"reach": 0,
+"reach": 84,
 "likes": 0,
 "comments": 2,
 "shares": 0,
@@ -800,7 +800,7 @@
 "por_red": {
 "tiktok_video": {
 "views": 244,
-"reach": 0,
+"reach": 84,
 "likes": 0,
 "comments": 1,
 "shares": 0,
@@ -811,6 +811,86 @@
 },
 "youtube_short": {
 "views": 62,
+"reach": 0,
+"likes": 0,
+"comments": 1,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+}
+}
+},
+"2026-11-15_mediodia": {
+"date": "2026-11-15",
+"tematica": "ia",
+"hook": "El tribunal nota tu render IA",
+"duration": 24.1,
+"review_score": 8.0,
+"views": 17,
+"reach": 0,
+"likes": 0,
+"comments": 2,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0,
+"por_red": {
+"tiktok_video": {
+"views": 1,
+"reach": 0,
+"likes": 0,
+"comments": 1,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+},
+"youtube_short": {
+"views": 16,
+"reach": 0,
+"likes": 0,
+"comments": 1,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+}
+}
+},
+"2026-11-15_noche": {
+"date": "2026-11-15",
+"tematica": "documentacion",
+"hook": "Esto penaliza tu entrega técnica",
+"duration": 29.5,
+"review_score": 8.0,
+"views": 304,
+"reach": 0,
+"likes": 1,
+"comments": 2,
+"shares": 0,
+"saved": 1,
+"clicks": 0,
+"follows": 1,
+"profile_visits": 0,
+"por_red": {
+"tiktok_video": {
+"views": 268,
+"reach": 0,
+"likes": 1,
+"comments": 1,
+"shares": 0,
+"saved": 1,
+"clicks": 0,
+"follows": 1,
+"profile_visits": 0
+},
+"youtube_short": {
+"views": 36,
 "reach": 0,
 "likes": 0,
 "comments": 1,
