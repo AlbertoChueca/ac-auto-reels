@@ -1,30 +1,20 @@
 # Bot de comunidad
 
-_Última pasada: 2026-11-16 02:51 UTC · 0 respuestas_
+_Última pasada: 2026-11-16 11:43 UTC · 0 respuestas_
 
 ## Avisos
 
-- **instagram**: Instagram comentarios 400: {"error":{"message":"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.","code":190,"type":"OAuthException","error_subcode":460,"fbtrace_id":"AwslxicBw_HkZYYMqPpypPs"}}
+- **instagram**: Instagram comentarios 400: {"error":{"message":"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.","code":190,"type":"OAuthException","error_subcode":460,"fbtrace_id":"AYtBY6m1RIU1yCKKCxbPAOr"}}
 
 | Fecha | Red | Tipo | Gancho | Comentarios | Solución publicada |
 |---|---|---|---|---|---|
 | 2026-11-10 | tiktok | vf | ¿VERDADERO O FALSO? | 1 | sí |
 | 2026-11-10 | youtube | vf | ¿VERDADERO O FALSO? | 1 | sí |
 | 2026-11-11 | tiktok | tips_proyectos | Tu sección parece sosa | 1 | — |
-| 2026-11-11 | youtube | tips_proyectos | Tu sección parece sosa | 1 | — |
 | 2026-11-11 | tiktok | documentacion | Así se resuelve la entrega constructiva | 1 | — |
 | 2026-11-11 | youtube | documentacion | Así se resuelve la entrega constructiva | 1 | — |
-| 2026-11-12 | tiktok | vf | ¿VERDADERO O FALSO? | 1 | sí |
-| 2026-11-12 | youtube | vf | ¿VERDADERO O FALSO? | 1 | sí |
-| 2026-11-13 | tiktok | tips_tfm | Estructura tu TFM en 4 pasos | 1 | — |
-| 2026-11-13 | youtube | tips_tfm | Estructura tu TFM en 4 pasos | 1 | — |
-| 2026-11-13 | tiktok | auditoria | 3 alertas críticas del TFM | 1 | — |
 | 2026-11-13 | youtube | auditoria | 3 alertas críticas del TFM | 1 | — |
 | 2026-11-14 | tiktok | tips_tfm | 4 errores fatales TFM | 1 | — |
 | 2026-11-14 | youtube | tips_tfm | 4 errores fatales TFM | 1 | — |
-| 2026-11-14 | tiktok | referentes | 4 referentes de vivienda | 1 | — |
-| 2026-11-14 | youtube | referentes | 4 referentes de vivienda | 1 | — |
-| 2026-11-15 | tiktok | ia | El tribunal nota tu render IA | 1 | — |
-| 2026-11-15 | youtube | ia | El tribunal nota tu render IA | 1 | — |
 | 2026-11-15 | tiktok | documentacion | Esto penaliza tu entrega técnica | 1 | — |
 | 2026-11-15 | youtube | documentacion | Esto penaliza tu entrega técnica | 1 | — |
