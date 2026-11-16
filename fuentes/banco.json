@@ -780,6 +780,37 @@
 }
 ],
 "tipo": "referentes"
+},
+{
+"hook": "5 referentes donde la estructura define la planta",
+"puntos": [
+{
+"titulo": "Todo el peso al perímetro",
+"ref": "Neue Nationalgalerie · Mies van der Rohe (Berlín, 1968)",
+"dato": "Una cubierta reticular de acero apoyada en solo ocho pilares perimetrales libera el espacio expositivo interior por completo.",
+"idea": "cubierta metálica oscura y plana sostenida por esbeltos pilares perimetrales con cerramiento de vidrio continuo"
+},
+{
+"titulo": "Exoesqueleto que vacía el interior",
+"ref": "Centro Pompidou · Renzo Piano y Richard Rogers (París, 1977)",
+"dato": "Al desplazar la estructura y las circulaciones verticales a las fachadas exteriores, las plantas quedan diáfanas y redistribuibles.",
+"idea": "edificio con celosías estructurales y conductos técnicos visibles en fachada exterior liberando naves interiores abiertas"
+},
+{
+"titulo": "Tubos que estructuran e iluminan",
+"ref": "Mediateca de Sendai · Toyo Ito (Sendai, 2001)",
+"dato": "Trece columnas de celosía tubular hueca soportan los forjados y al mismo tiempo canalizan instalaciones, escaleras y luz natural.",
+"idea": "prismático edificio acristalado atravesado verticalmente por columnas cilíndricas huecas de malla de acero"
+},
+{
+"titulo": "Plantas colgadas desde grandes cerchas",
+"ref": "Banco HSBC · Foster and Partners (Hong Kong, 1985)",
+"dato": "Estructuras triangulares exteriores suspenden bloques de forjados mediante tirantes, generando un atrio central vacío de varias alturas.",
+"idea": "torre tecnológica donde módulos de oficinas flotan suspendidos de megamástiles laterales formando un vacío central"
+}
+],
+"tipo": "referentes",
+"id": "refe_c9f16615"
 }
 ],
 "documentacion": [

@@ -1,90 +1,56 @@
 {
 "formatos_que_funcionan": [
-"POV y humor de entregas finales / vida estudiantil (7-12s, audios en tendencia, texto sobre maquetas o planos de madrugada)",
-"Transformación de boceto o maqueta de cartón a render con IA (15-25s, screen recording a cámara rápida con Krea, Vizcom o Midjourney)",
-"Corrección rápida 'Deja de hacer esto en tus láminas' (20-35s, pantalla dividida mostrando error común vs técnica correcta en Photoshop, Illustrator o Rhino)",
-"'3 Referentes en 30s' para desbloqueo creativo (25-40s, transición dinámica de obras con análisis de una frase)",
-"Microaprendizaje directo (15-45s, resolución de un problema o concepto puntual)",
-"Listas y checklists visuales (pasos numerados o plantillas aplicables)",
-"Demostración superpuesta (creador guiando o reaccionando sobre un tutorial o captura)"
+"Grabación de pantalla ultrarrápida (timelapse) de 15 a 30 segundos con voz en off enseñando flujos de trabajo de IA y renders exprés (Rhino/Revit + IA + Photoshop)",
+"Clips cortos estilo POV de 7 a 15 segundos con audios en tendencia sobre el caos real del taller, cortes de cartón pluma de madrugada y caídas de software",
+"Comparativas visuales de 'Antes vs. Después' o 'Bien vs. Mal' (30 a 45 segundos) para transformar láminas, planos y axonometrías",
+"Guías rápidas y checklists paso a paso con resumen o esquema visual final en pantalla",
+"Mini-documentales educativos con narrativa ágil que explican conceptos en menos de 60 segundos"
 ],
 "ganchos_que_funcionan": [
-"Interrupción de patrón: 'Deja de entregar tus láminas así si quieres aprobar Proyectos' / 'El error que cometes en [tema]'",
-"Gancho de valor explícito: 'Pasa tu boceto de Proyectos a render en 15 segundos con esta IA' / 'Guarda esto antes de...'",
-"Drama empático de entrega: 'Son las 4:00 AM, entrego en 3 horas y el plotter acaba de morir...'",
-"Alusión directa a la evaluación: 'El tribunal viendo la estructura de mi TFG'",
-"Resolución de bloqueo: '3 referentes clave si estás bloqueado con tu proyecto esta semana'"
+"Ángulo negativo: 'No hagas tus renders de Proyectos así en 2026...' o 'El error en tus láminas que tu profesor de Proyectos odia...'",
+"POV y contexto de entrega: 'POV: Faltan 3 horas para la entrega del TFG y Rhino deja de responder...'",
+"Promesa de eficiencia: 'This AI workflow saved my final project panel' o 'Aprende este método en 30 segundos'",
+"Curiosidad con dato concreto: 'El truco de diagramación que solo conoce el 5% de los expertos'"
 ],
 "temas_calientes": [
-"Supervivencia a entregas y correcciones críticas de noviembre (TFG, PFC y Proyectos)",
-"Crisis y desvelos de última hora (fallos de plotter, maquetas a altas horas de la noche)",
-"Renders relámpago con IA a partir de bocetos y maquetas para ahorrar tiempo de entrega",
-"Diagramación, maquetación y montaje de láminas de presentación en Photoshop, Illustrator y Rhino",
-"Desbloqueo creativo rápido y búsqueda de referentes conceptuales y espaciales"
+"Flujos de trabajo con IA generativa para resolver renders exprés y paneles a contrarreloj",
+"Supervivencia a las entregas intermedias y correcciones críticas de noviembre (noches en vela, cortes de maqueta a las 4 AM, colapsos de software)",
+"Diagramación rápida y profesional de láminas y axonometrías para evitar rechazos en correcciones de Proyectos, TFG o TFM",
+"Checklists de comprobación previa antes de presentar ante el tribunal o jurado de proyectos"
 ],
 "tendencias_de_edicion": [
-"Subtítulos dinámicos de alto contraste (optimizados para consumo sin sonido y SEO nativo)",
-"Edición fluida sin sobrecarga (ritmo ágil de cortes priorizando autenticidad sobre hiperproducción)",
-"Audio nativo y voz directa y clara por encima de fondos musicales invasivos",
-"Screen recordings acelerados y formato de pantalla dividida (antes/después o error/acierto)"
+"Subtítulos cinéticos con tipografía limpia centrada y resaltado de palabras clave en color",
+"Pacing rápido con cortes estratégicos, b-roll o cambios de plano/zoom cada 1,5 a 2 segundos para retener",
+"Diseño de sonido sutil con efectos suaves (pop/swoosh) y música de fondo que respete la voz principal"
 ],
 "que_penaliza_el_algoritmo": [
-"Marcas de agua y contenido reciclado de otras plataformas sin modificaciones",
-"Baja tasa de retención provocada por clickbait engañoso (abandonos masivos en los primeros 3 segundos)",
-"Contenido IA de baja calidad ('slop') con voces sintéticas sin curación ni aporte humano",
-"Spam de hashtags (debe sustituirse por palabras clave en texto, subtítulos y locución para SEO)"
+"Contenido sintético masivo (slop de IA): voces robóticas genéricas y guiones automatizados sin valor ni curaduría humana",
+"Marcas de agua visibles de otras plataformas, audios distorsionados o baja resolución de vídeo",
+"Engagement bait agresivo que fuerce comentarios artificiales sin ofrecer valor previo real",
+"Vídeos que no incluyen texto o subtítulos visibles desde los primeros segundos"
 ],
 "ejemplos": [
 {
-"que": "POV a cámara en primera persona sobre maqueta/planos a las 4:00 AM con texto de fallo de entrega o reacción del tribunal.",
-"por_que": "Apela a la máxima empatía y al drama compartido del desvelo, generando un volumen masivo de comentarios y compartidos en grupos de WhatsApp de clase."
+"que": "@showitbetter (Instagram / YouTube Shorts)",
+"por_que": "Resuelve la falta de tiempo en entregas mediante timelapses de flujos de IA y renders exprés, logrando una tasa masiva de Guardados."
 },
 {
-"que": "Screen recording a cámara rápida pasando de un garabato o maqueta de cartón a render hiperrealista con herramientas como Krea, Vizcom o Midjourney.",
-"por_que": "Ataca el dolor principal del estudiante (falta de tiempo ante la entrega) y produce un efecto WOW visual inmediato con alta tasa de guardados."
+"que": "@archstudentlife (TikTok / Reels)",
+"por_que": "Conecta con el cansancio emocional del estudiante mediante humor POV de entregas y maquetas nocturnas, generando picos de Compartidos en grupos de clase."
 },
 {
-"que": "Pantalla dividida de 'error vs acierto' maquetando láminas o diagramas en Illustrator/Photoshop/Rhino.",
-"por_que": "Combina gancho de interrupción con utilidad práctica aplicable de inmediato para evitar suspensos en la corrección."
-},
-{
-"que": "Recorrido dinámico de 3 proyectos referentes con una frase de análisis espacial por obra.",
-"por_que": "Ahorra tiempo de búsqueda en Pinterest y desbloquea la fase conceptual en semanas de máxima presión."
+"que": "@studioalternativi (Instagram / TikTok)",
+"por_que": "Aporta valor didáctico inmediato mediante comparativas 'Antes vs. Después' para diagramar láminas y elevar la nota gráfica."
 }
 ],
 "ideas_de_reel": [
-"POV (8s): 'Son las 4:00 AM, entrego Proyectos en 3 horas y el plotter acaba de morir...' (vídeo en 1ª persona editando planos de noche con audio en tendencia).",
-"IA express (18s): 'Pasa tu boceto de Proyectos a render en 15 segundos con esta IA' (demostración en pantalla de boceto a render en Krea/Vizcom para salvar la entrega).",
-"Corrección de láminas (25s): 'Deja de entregar tus láminas así si quieres aprobar Proyectos' (pantalla dividida en Illustrator mostrando diagramas confusos vs limpios).",
-"Referentes exprés (30s): '3 referentes clave si estás bloqueado con tu proyecto esta semana' (tres obras explicadas en 1 frase cada una para resolver la volumetría del TFG/PFC)."
+"Timelapse de 20s: 'No hagas tus renders de Proyectos así en noviembre 2026' mostrando cómo pasar de volumetría básica a render final con IA + Photoshop.",
+"POV de 10s: 'POV: Son las 4 AM en plena semana de entregas de noviembre y Rhino se cierra sin guardar', usando b-roll cortando cartón pluma y audio en tendencia.",
+"Comparativa 'Bien vs. Mal' de 35s: 'El error en tus diagramas que tu profesor de TFG/PFC va a destrozar en la corrección' mostrando el antes y después de una axonometría.",
+"Checklist exprés de 25s: '3 ajustes en tus láminas antes de la entrega de Proyectos para asegurar mejor nota este mes'."
 ],
-"fecha": "2026-11-15",
-"fuentes": [
-{
-"titulo": "digitalapplied.com",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1457krrEaKLacK-cFosAEfazCRi7w88LcGW4_2vM1qYqAWKemEh8qJkgeBip9CGxyhkxyQ1YiIHBXiiwDM46gXxCmzdsp4iBKjauYboQyhf6B2FWo2OMkjABVmcGAwGo5A6oGCd0bSu3GlM8fcpU1YeTN0748q8Wu9Kxa0etc6o3mQSfYREJJ4qSwug=="
-},
-{
-"titulo": "aimpakt.com",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGvdQKcUMcVyz_L3NwbuiMlIZgqo3w0Ug1U5_bLmy0hdRU9ea_T4_XG-sM4csNglq4vEiMOIKrdkxmde9BJPuhW3TfriXFDNYCwRcBeYSn8SHfzbFChpZk_JSyyOb-j7-VRBUF6aFkJN7ZltQP_ohxGmj1xh0cgbdshaYCEsEube-K2tLqPJ9Pyz-e92hopzvUDmUk-A=="
-},
-{
-"titulo": "klap.app",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzWgdBc0dUj-gitTkVcSLZ5U0-pslommvg0r5gKs3e-WToiIXSiJzXuHqmL9AJHvMm6Fa9dknEuOOhqkC_JbikM9zxw_Nx1I20UeXxTHde9BRVykVJGuP-0G_iDIdwQ28DDoA="
-},
-{
-"titulo": "creatorflow.so",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUZmsAasXKNIMYD3r82W5frXAewXUn7wHIhNunyb1gSgC_b2K-7EQm2tR_wZAB0XUaz7e87SCDL6ZeyctAklVdJ-ti9GqGCYeu9e9YSoprDpeYlwTLGaNI8X0iee99MTdyg0BVBOrjOO_Jldv_LDN4UMLW7tRO"
-},
-{
-"titulo": "somin.ai",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkWupQp7HVMV_tm1ANnBvsVJvkylXuill4f7FqplFBXVAJbFtsmeREi9HuLhjcVL-IGqKwl2jOcY5t15FUSJOdF6yPKi_KNqao8DxcrpptWJcCLZbToxGeGcCk_hiKfBdeNvWGTzR_BTESagrKDugrxSEkZmBQm7qQhrNr8KtotbUWXkEghvOQie4="
-},
-{
-"titulo": "usefastlane.ai",
-"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwtzxUN0X42f94oS_qED_2fBKvuO3XEm3TSDFLrPCwD48ekzIGXkaQlUlXphHsucw4TLJ7N3OYAj6opt4yO3Fr9pm6xap_6VuxVqmplRldUsNC6zA8yI4Gt2f-DTA6JwPLUoGeoiMBtK2-7dihgj4m-uoU"
-}
-],
-"verificado": true,
+"fecha": "2026-11-16",
+"fuentes": [],
+"verificado": false,
 "modelo_busqueda": "gemini-3.5-flash"
 }
