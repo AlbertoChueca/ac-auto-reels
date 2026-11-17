@@ -1,10 +1,10 @@
 # Bot de comunidad
 
-_Última pasada: 2026-11-16 22:18 UTC · 0 respuestas_
+_Última pasada: 2026-11-17 04:38 UTC · 0 respuestas_
 
 ## Avisos
 
-- **instagram**: Instagram comentarios 400: {"error":{"message":"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.","code":190,"type":"OAuthException","error_subcode":460,"fbtrace_id":"AUjc5jaaTY7ZgvWWIcE69PT"}}
+- **instagram**: Instagram comentarios 400: {"error":{"message":"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.","code":190,"type":"OAuthException","error_subcode":460,"fbtrace_id":"A57IhLbCWcOfKn-gUkD4ayq"}}
 
 | Fecha | Red | Tipo | Gancho | Comentarios | Solución publicada |
 |---|---|---|---|---|---|
@@ -28,5 +28,5 @@ _Última pasada: 2026-11-16 22:18 UTC · 0 respuestas_
 | 2026-11-15 | youtube | ia | El tribunal nota tu render IA | 1 | — |
 | 2026-11-15 | tiktok | documentacion | Esto penaliza tu entrega técnica | 1 | — |
 | 2026-11-15 | youtube | documentacion | Esto penaliza tu entrega técnica | 1 | — |
-| 2026-11-16 | tiktok | tips_proyectos | 4 fallos que arruinan tu entrega | 0 | — |
-| 2026-11-16 | youtube | tips_proyectos | 4 fallos que arruinan tu entrega | 0 | — |
+| 2026-11-16 | tiktok | tips_proyectos | 4 fallos que arruinan tu entrega | 1 | — |
+| 2026-11-16 | youtube | tips_proyectos | 4 fallos que arruinan tu entrega | 1 | — |
