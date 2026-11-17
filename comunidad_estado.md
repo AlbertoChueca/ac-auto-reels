@@ -1,10 +1,10 @@
 # Bot de comunidad
 
-_Última pasada: 2026-11-17 14:38 UTC · 0 respuestas_
+_Última pasada: 2026-11-17 22:59 UTC · 0 respuestas_
 
 ## Avisos
 
-- **instagram**: Instagram comentarios 400: {"error":{"message":"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.","code":190,"type":"OAuthException","error_subcode":460,"fbtrace_id":"Atgz6lAn7IiuUPufqTClMd-"}}
+- **instagram**: Instagram comentarios 400: {"error":{"message":"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.","code":190,"type":"OAuthException","error_subcode":460,"fbtrace_id":"AafsvtLHledbzXmLbx1-a00"}}
 
 | Fecha | Red | Tipo | Gancho | Comentarios | Solución publicada |
 |---|---|---|---|---|---|
@@ -30,5 +30,7 @@ _Última pasada: 2026-11-17 14:38 UTC · 0 respuestas_
 | 2026-11-15 | youtube | documentacion | Esto penaliza tu entrega técnica | 1 | — |
 | 2026-11-16 | tiktok | tips_proyectos | 4 fallos que arruinan tu entrega | 1 | — |
 | 2026-11-16 | youtube | tips_proyectos | 4 fallos que arruinan tu entrega | 1 | — |
-| 2026-11-17 | tiktok | ia | 4 usos de IA en Proyectos | 0 | — |
-| 2026-11-17 | youtube | ia | 4 usos de IA en Proyectos | 0 | — |
+| 2026-11-17 | tiktok | ia | 4 usos de IA en Proyectos | 1 | — |
+| 2026-11-17 | youtube | ia | 4 usos de IA en Proyectos | 1 | — |
+| 2026-11-17 | tiktok | tips_tfm | El tribunal revisará esto primero | 0 | — |
+| 2026-11-17 | youtube | tips_tfm | El tribunal revisará esto primero | 0 | — |
