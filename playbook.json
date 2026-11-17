@@ -1,49 +1,50 @@
 {
 "ganchos_que_funcionan": [
-"¿VERDADERO O FALSO? [Afirmación polémica sobre tu entrega/TFM]",
-"El error en tus láminas que tu profesor de Proyectos odia",
-"El tribunal nota tu render IA si cometes este detalle",
-"POV: Faltan 3 horas para la entrega y tu software deja de responder",
-"Análisis de lugar que sí sirve para aprobar a la primera"
+"Faltan 12 horas para la entrega de Proyectos y tu maqueta se ve así...",
+"POV: El tribunal de TFM se detiene exactamente en tu primera lámina.",
+"Deja de perder 4 horas renderizando: pasa de boceto a render final con IA en 30 segundos.",
+"El único diagrama conceptual que hace que el jurado entienda tu proyecto al instante.",
+"3 alertas críticas por las que te suspenden la memoria del TFM (y cómo corregirlas ya)."
 ],
 "patrones": [
-"Formato interactivo de 'Verdadero o Falso' para disparar comentarios en los primeros 3 segundos",
-"Comparativa visual de pantalla dividida 'Antes vs. Después' de láminas y axonometrías",
-"Timelapse ultrarrápido de flujo de trabajo (Rhino/Revit + IA + Photoshop) con voz en off directa",
-"Cortes o zoom cada 1.5 a 2 segundos con subtítulos cinéticos centrados",
-"Cierre con CTA directo al 20%: 'Comenta AUDITORÍA si quieres que revisemos tu TFM antes de entregar'"
+"Problema-Solución táctica en menos de 30 segundos con demostración visual inmediata en pantalla.",
+"POV de estrés o caos de entrega real con audio en tendencia y resolución práctica al final.",
+"Screencast acelerado de workflow (Rhino/Illustrator/IA) con voz en off directa y cortes cada 2 segundos.",
+"Despiece por capas de láminas y planimetría mostrando el 'antes vs después' del grafismo.",
+"Llamada a la acción contextualizada al TFM: 'Si tu entrega está cerca y dudas de tu memoria, pide la auditoría gratuita en el link'."
 ],
 "evitar": [
-"Intros lentas de saludo ('Hola arquitectos, hoy os traigo...')",
-"Contenido sintético con voces robóticas de IA sin criterio arquitectónico real",
-"Videos largos de más de 45 segundos para tips que se explican en 20",
-"Publicar con marcas de agua de otras plataformas o compresión de audio deficiente",
-"Explicaciones puramente teóricas sin mostrar planos, láminas o modelos 3D reales"
+"Intros lentas de presentación o saludos que pierdan los primeros 3 segundos de retención.",
+"Engagement bait explícito y vacío como 'espera al final' o 'comenta para parte 2'.",
+"Contenido resubido con marcas de agua o logos de otras plataformas.",
+"Discursos teóricos abstractos sin apoyo visual de planos, modelos 3D o entregas reales.",
+"Videos de más de 60 segundos sin cambios de plano o dinamismo constante."
 ],
-"tono_voz": "Mentor de taller empático, directo y sin rodeos; lenguaje realista de entrega, tribunal y noche en vela sin postureo académico.",
-"duracion_objetivo_s": 25,
+"tono_voz": "Cómplice de taller, directo, pragmático y empático con el estrés de entrega; sin rodeos académicos ni condescendencia.",
+"duracion_objetivo_s": 28,
 "pesos": {
-"tips_tfm": 1,
-"tips_proyectos": 1,
-"referentes": 1,
-"ia": 1,
-"test": 1,
-"vf": 1
+"tips_tfm": 1.0,
+"tips_proyectos": 1.0,
+"referentes": 1.0,
+"ia": 1.0,
+"test": 1.0,
+"vf": 1.0
 },
 "hashtags": [
 "#arquitectura",
+"#estudiantesdearquitectura",
 "#tfmarquitectura",
-"#estudiantearquitectura",
-"#tfgarquitectura",
-"#proyectosarquitectura",
-"#pfcarquitectura"
+"#pfcquitectura",
+"#entregaproyectos",
+"#rendersia",
+"#arquitecturaspain"
 ],
-"fecha": "2026-11-16",
+"fecha": "2026-11-17",
 "datos": {
 "referentes": 0.0178,
-"tips_tfm": 0.0368,
-"documentacion": 0.0191,
-"tips_proyectos": 0.2131,
+"tips_tfm": 0.0367,
+"documentacion": 0.019,
+"tips_proyectos": 0.1575,
 "auditoria": 0.1503,
 "ia": 0.124,
 "test": 0.011,

@@ -1,56 +1,104 @@
 {
 "formatos_que_funcionan": [
-"Grabación de pantalla ultrarrápida (timelapse) de 15 a 30 segundos con voz en off enseñando flujos de trabajo de IA y renders exprés (Rhino/Revit + IA + Photoshop)",
-"Clips cortos estilo POV de 7 a 15 segundos con audios en tendencia sobre el caos real del taller, cortes de cartón pluma de madrugada y caídas de software",
-"Comparativas visuales de 'Antes vs. Después' o 'Bien vs. Mal' (30 a 45 segundos) para transformar láminas, planos y axonometrías",
-"Guías rápidas y checklists paso a paso con resumen o esquema visual final en pantalla",
-"Mini-documentales educativos con narrativa ágil que explican conceptos en menos de 60 segundos"
+"Micro-aprendizaje de un solo problema (15–45s) enfocado en una solución táctica o plantilla visual",
+"Humor POV & Caos de Entrega (12–18s) con audio viral en tendencia",
+"Screencast tutorial acelerado de Workflow con IA y Renders 'Express' (25–40s) con voz en off directa",
+"Desglose de diagramas por capas en Photoshop/Illustrator (30–50s)",
+"Hacks de maqueta con audio ASMR de taller y primeros planos (15–30s)",
+"Demostración humana directa mostrando herramientas y procesos reales en pantalla"
 ],
 "ganchos_que_funcionan": [
-"Ángulo negativo: 'No hagas tus renders de Proyectos así en 2026...' o 'El error en tus láminas que tu profesor de Proyectos odia...'",
-"POV y contexto de entrega: 'POV: Faltan 3 horas para la entrega del TFG y Rhino deja de responder...'",
-"Promesa de eficiencia: 'This AI workflow saved my final project panel' o 'Aprende este método en 30 segundos'",
-"Curiosidad con dato concreto: 'El truco de diagramación que solo conoce el 5% de los expertos'"
+"Faltan 12 horas para la entrega del PFC y mi maqueta se ve así...",
+"POV: El jurado de Proyectos mira tu primera lámina.",
+"Deja de perder horas renderizando. Mira cómo pasar de boceto en Rhino a render final con IA en 30 segundos.",
+"El diagrama conceptual que garantiza que entiendan tu proyecto a la primera.",
+"El truco definitivo para cortar cartón pluma sin deshilacharlo nunca más.",
+"Ganchos basados en mostrar el resultado final o desmontar el error #1 en los primeros 1 a 3 segundos"
 ],
 "temas_calientes": [
-"Flujos de trabajo con IA generativa para resolver renders exprés y paneles a contrarreloj",
-"Supervivencia a las entregas intermedias y correcciones críticas de noviembre (noches en vela, cortes de maqueta a las 4 AM, colapsos de software)",
-"Diagramación rápida y profesional de láminas y axonometrías para evitar rechazos en correcciones de Proyectos, TFG o TFM",
-"Checklists de comprobación previa antes de presentar ante el tribunal o jurado de proyectos"
+"Supervivencia y estrés en entregas y correcciones intermedias de noviembre (Proyectos, TFG y TFM)",
+"Workflows acelerados con IA para sacar renders urgentes desde bocetos de Rhino",
+"Estructuración y despiece de láminas conceptuales ante el jurado",
+"Hacks rápidos de taller y maqueta para entregas inminentes (corte limpio, pegado, impresión 3D)",
+"Solución a bloqueos creativos en la fase de representación gráfica"
 ],
 "tendencias_de_edicion": [
-"Subtítulos cinéticos con tipografía limpia centrada y resaltado de palabras clave en color",
-"Pacing rápido con cortes estratégicos, b-roll o cambios de plano/zoom cada 1,5 a 2 segundos para retener",
-"Diseño de sonido sutil con efectos suaves (pop/swoosh) y música de fondo que respete la voz principal"
+"Primeros 1 a 3 segundos con gancho de alto impacto para evitar el deslizado temprano",
+"Ritmo dinámico con cambios visuales cada 2-3 segundos",
+"Subtítulos nativos integrados y legibles",
+"Grabación de pantalla acelerada con voz en off directa y clara",
+"Audio ASMR limpio en tomas de taller y maqueta",
+"Edición de alta retención sin sobreproducción, priorizando la claridad explicativa sobre efectos ostentosos"
 ],
 "que_penaliza_el_algoritmo": [
-"Contenido sintético masivo (slop de IA): voces robóticas genéricas y guiones automatizados sin valor ni curaduría humana",
-"Marcas de agua visibles de otras plataformas, audios distorsionados o baja resolución de vídeo",
-"Engagement bait agresivo que fuerce comentarios artificiales sin ofrecer valor previo real",
-"Vídeos que no incluyen texto o subtítulos visibles desde los primeros segundos"
+"Contenido resubido con marcas de agua o logotipos visibles de otras plataformas",
+"Cebo de interacción (engagement bait como 'espera al final' o 'comenta para la parte 2')",
+"Alta tasa de abandono temprano (skip rate) en los primeros 2 segundos",
+"Contenido masivo y genérico generado con IA sintética estándar o vídeos de stock repetitivos sin originalidad"
 ],
 "ejemplos": [
 {
-"que": "@showitbetter (Instagram / YouTube Shorts)",
-"por_que": "Resuelve la falta de tiempo en entregas mediante timelapses de flujos de IA y renders exprés, logrando una tasa masiva de Guardados."
+"que": "Humor POV sobre el caos previo a la entrega del PFC/TFM (@arch.student / @estudiantedearquitectura)",
+"por_que": "Genera conexión emocional inmediata y alto volumen de compartidos por mensaje privado y grupos de estudiantes"
 },
 {
-"que": "@archstudentlife (TikTok / Reels)",
-"por_que": "Conecta con el cansancio emocional del estudiante mediante humor POV de entregas y maquetas nocturnas, generando picos de Compartidos en grupos de clase."
+"que": "Tutorial screencast de boceto en Rhino a render express con IA (@showitbetter / @architutors)",
+"por_que": "Aporta una solución táctica rápida contra reloj, maximizando los guardados (saves) para entregas"
 },
 {
-"que": "@studioalternativi (Instagram / TikTok)",
-"por_que": "Aporta valor didáctico inmediato mediante comparativas 'Antes vs. Después' para diagramar láminas y elevar la nota gráfica."
+"que": "Animación por capas despiezando axonométricas para láminas (@archisource / @suricatalab)",
+"por_que": "Resuelve el bloqueo gráfico ante tribunales y aporta valor académico acumulable para guardar"
+},
+{
+"que": "Video ASMR con el truco definitivo para cortar cartón pluma (@scale_models_arch / @delineantenocturno)",
+"por_que": "Retiene a la audiencia gracias al placer sonoro/visual y aporta un micro-hack práctico aplicable en taller"
 }
 ],
 "ideas_de_reel": [
-"Timelapse de 20s: 'No hagas tus renders de Proyectos así en noviembre 2026' mostrando cómo pasar de volumetría básica a render final con IA + Photoshop.",
-"POV de 10s: 'POV: Son las 4 AM en plena semana de entregas de noviembre y Rhino se cierra sin guardar', usando b-roll cortando cartón pluma y audio en tendencia.",
-"Comparativa 'Bien vs. Mal' de 35s: 'El error en tus diagramas que tu profesor de TFG/PFC va a destrozar en la corrección' mostrando el antes y después de una axonometría.",
-"Checklist exprés de 25s: '3 ajustes en tus láminas antes de la entrega de Proyectos para asegurar mejor nota este mes'."
+"POV: El profesor de Proyectos llega a tu mesa en la corrección de noviembre y tu maqueta sigue a medio montar (Humor POV con audio viral, 15s).",
+"Workflow express: Cómo pasar tu volumetría básica de Rhino a render para la entrega de esta semana usando IA en 30 segundos (Screencast tutorial, 30s).",
+"Despiece en Illustrator: El diagrama conceptual por capas que necesitas para que el tribunal de TFG/TFM entienda tu idea a la primera (Micro-aprendizaje táctico, 35s).",
+"ASMR de taller: El corte perfecto en cartón pluma para tu entrega final sin que se deshilache el borde (Hacks de maqueta en primer plano, 20s)."
 ],
-"fecha": "2026-11-16",
-"fuentes": [],
-"verificado": false,
+"fecha": "2026-11-17",
+"fuentes": [
+{
+"titulo": "medium.com",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkR2YdVssqqWF6HJdwHoJkQ0C5rS0KvmWjY6BYcK8pJTctfw4NqspXvGBIpeJcbqCt5uQSDGdZHg1b4tAlQMi5KGwAh1iCPU4JFEH0InwUw-mQ7ot8noTWizUt_Lm7ubb3h9QIgXLtyqyXU8pJVCDFo0xnO921CI715-aPAZesCxvIIyCGwV6nEC2WdezFGukeTvmPkuCVIZ1Sw01cBvA5PWeDkfxWWMMlEf8="
+},
+{
+"titulo": "usefastlane.ai",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3qdaQm7CB7ST5fDl8EZeJPAkIGm0Zg1lZ8_Z8ZxV71pFH9UWn8YP5ntlf7hXzseoQXU3FIIBaiCmFrLezKPDztbeTe4zRTHo8SVp7tpZgJD2JMWRB_uuQjLW82A688-FKKi52cfyWvZq3NU_xAnhhwFGWaA=="
+},
+{
+"titulo": "sproutsocial.com",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBEU9Cbkk4hwSqxozqEugX_z9IiOfR1C_HTvdNLEStZ0xom9CFDleLZrYq8Q1BaCmKXoqb1BPIySJysC9x0oPnTh9WLULuk0ofcRzsfgyfzYJn_DJFKRpUp7BB9Ip7j8T03VwivDgy8RZ660Q="
+},
+{
+"titulo": "taja.ai",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAKn9GMFEmKCVzAOWwtupwpOwZ58USeZVsNRJj3QZgchdo392EMV6WwNv2VnkYFodfGb1_QUe6UZLp9qw86W2iEOvBniLYa6TLMoCBj3iTJVdMpo6kxFqcAHPSodiseVmIN4y498xJpdMS"
+},
+{
+"titulo": "mean.ceo",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF33RzdBkbL383Ou1gyzOcMLghGxE__qqRjkjsWLemy3Sw3NknpxtAxSbn5xpCBMCK6gUHb7T_GAdfN2L0EqjN2J_lz81T1V-IA6_LiLxqo2OPejRrfAJh-fnjbADZ1dnw2pJxE2S-RYRvPLrZy4bDWQCZuHVOKNiI="
+},
+{
+"titulo": "usefastlane.ai",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUo1K8szwzW-Kw335yqMQ6NQcC80Nwb2GYUtbHrSEqxigCRWNui2sYY1Sg9MdbWfzbqr9I4no7BRcj8q6tNvM_zGhI_zVsbDWdlgajhgPB7qqkT_0ID5ykGcvz24venBQ4Z6YCydufiGbJPyO1TL0vsz0Q"
+},
+{
+"titulo": "auditsocials.com",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFb_vYIbrjhONPwMM-IZdG-e16V2u8I66NL5n5VssVzut45uqST23U12mdRg843RvcEN_aClLdyWioDqHxcX4lqLKQkgToiLdrqGEJv7qDSTIKOEV3RhS2e0cP4FEYKLz1qLflcEzq_sJH6fcO0XMQ0Zj6Y1MpXRtA="
+},
+{
+"titulo": "somin.ai",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5pi-ZveJn81dvJhH5d4kLidEmISsUreseTya6l_y5ANoLcGYB3IqNv_fVrJDW3TqYgaCPPispv4AuqHu-DXiuy_FWfEdHmDK7YobtKR13W7CCeRf4mknG800tvNYYK5U7yazP0wlhlbYprzo8fIjTIwzI7Nkh2KTLRSZTqoqzi2ke7lbSHBUqDLM="
+},
+{
+"titulo": "somin.ai",
+"url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5pi-ZveJn81dvJhH5d4kLidEmISsUreseTya6l_y5ANoLcGYB3IqNv_fVrJDW3TqYgaCPPispv4AuqHu-DXiuy_FWfEdHmDK7YobtKR13W7CCeRf4mknG800tvNYYK5U7yazP0wlhlbYprzo8fIjTIwzI7Nkh2KTLRSZTqoqzi2ke7lbSHBUqDLM="
+}
+],
+"verificado": true,
 "modelo_busqueda": "gemini-3.5-flash"
 }
