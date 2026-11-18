@@ -114,7 +114,7 @@
 "duration": 27.5,
 "review_score": 8.0,
 "views": 425,
-"reach": 234,
+"reach": 235,
 "likes": 0,
 "comments": 2,
 "shares": 0,
@@ -126,7 +126,7 @@
 "instagram_reel": {},
 "tiktok_video": {
 "views": 253,
-"reach": 234,
+"reach": 235,
 "likes": 0,
 "comments": 1,
 "shares": 0,
@@ -155,7 +155,7 @@
 "duration": 30.5,
 "review_score": 8.0,
 "views": 645,
-"reach": 237,
+"reach": 238,
 "likes": 3,
 "comments": 2,
 "shares": 0,
@@ -167,7 +167,7 @@
 "instagram_reel": {},
 "tiktok_video": {
 "views": 264,
-"reach": 237,
+"reach": 238,
 "likes": 1,
 "comments": 1,
 "shares": 0,
@@ -237,7 +237,7 @@
 "duration": 24.5,
 "review_score": 8.0,
 "views": 600,
-"reach": 247,
+"reach": 248,
 "likes": 4,
 "comments": 2,
 "shares": 0,
@@ -249,7 +249,7 @@
 "instagram_reel": {},
 "tiktok_video": {
 "views": 265,
-"reach": 247,
+"reach": 248,
 "likes": 1,
 "comments": 1,
 "shares": 0,
@@ -462,8 +462,8 @@
 "hook": "4 pasos del boceto al panel",
 "duration": 25.8,
 "review_score": 8.0,
-"views": 608,
-"reach": 222,
+"views": 609,
+"reach": 223,
 "likes": 3,
 "comments": 2,
 "shares": 0,
@@ -475,7 +475,7 @@
 "instagram_reel": {},
 "tiktok_video": {
 "views": 240,
-"reach": 222,
+"reach": 223,
 "likes": 1,
 "comments": 1,
 "shares": 0,
@@ -485,7 +485,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 368,
+"views": 369,
 "reach": 0,
 "likes": 2,
 "comments": 1,
@@ -544,7 +544,7 @@
 "hook": "Tu sección parece sosa",
 "duration": 24.7,
 "review_score": 8.0,
-"views": 946,
+"views": 948,
 "reach": 6,
 "likes": 5,
 "comments": 2,
@@ -567,7 +567,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 940,
+"views": 942,
 "reach": 0,
 "likes": 5,
 "comments": 1,
@@ -585,7 +585,7 @@
 "hook": "Así se resuelve la entrega constructiva",
 "duration": 27.5,
 "review_score": 8.0,
-"views": 287,
+"views": 296,
 "reach": 236,
 "likes": 1,
 "comments": 2,
@@ -608,7 +608,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 30,
+"views": 39,
 "reach": 0,
 "likes": 0,
 "comments": 1,
@@ -667,7 +667,7 @@
 "hook": "Estructura tu TFM en 4 pasos",
 "duration": 23.4,
 "review_score": 8.0,
-"views": 40,
+"views": 41,
 "reach": 0,
 "likes": 1,
 "comments": 2,
@@ -690,7 +690,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 40,
+"views": 41,
 "reach": 0,
 "likes": 1,
 "comments": 1,
@@ -788,7 +788,7 @@
 "hook": "4 referentes de vivienda",
 "duration": 32.4,
 "review_score": 8.0,
-"views": 309,
+"views": 307,
 "reach": 225,
 "likes": 0,
 "comments": 2,
@@ -810,7 +810,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 65,
+"views": 63,
 "reach": 0,
 "likes": 0,
 "comments": 1,
@@ -868,8 +868,8 @@
 "hook": "Esto penaliza tu entrega técnica",
 "duration": 29.5,
 "review_score": 8.0,
-"views": 312,
-"reach": 114,
+"views": 316,
+"reach": 234,
 "likes": 1,
 "comments": 2,
 "shares": 0,
@@ -880,7 +880,7 @@
 "por_red": {
 "tiktok_video": {
 "views": 268,
-"reach": 114,
+"reach": 234,
 "likes": 1,
 "comments": 1,
 "shares": 0,
@@ -890,7 +890,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 44,
+"views": 48,
 "reach": 0,
 "likes": 0,
 "comments": 1,
@@ -909,7 +909,7 @@
 "duration": 24.4,
 "review_score": 8.0,
 "views": 110,
-"reach": 0,
+"reach": 1,
 "likes": 1,
 "comments": 2,
 "shares": 0,
@@ -920,7 +920,7 @@
 "por_red": {
 "tiktok_video": {
 "views": 1,
-"reach": 0,
+"reach": 1,
 "likes": 0,
 "comments": 1,
 "shares": 0,
@@ -933,6 +933,86 @@
 "views": 109,
 "reach": 0,
 "likes": 1,
+"comments": 1,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+}
+}
+},
+"2026-11-17_mediodia": {
+"date": "2026-11-17",
+"tematica": "ia",
+"hook": "4 usos de IA en Proyectos",
+"duration": 28.1,
+"review_score": 8.0,
+"views": 251,
+"reach": 0,
+"likes": 2,
+"comments": 2,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0,
+"por_red": {
+"tiktok_video": {
+"views": 236,
+"reach": 0,
+"likes": 2,
+"comments": 1,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+},
+"youtube_short": {
+"views": 15,
+"reach": 0,
+"likes": 0,
+"comments": 1,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+}
+}
+},
+"2026-11-17_noche": {
+"date": "2026-11-17",
+"tematica": "tips_tfm",
+"hook": "El tribunal revisará esto primero",
+"duration": 26.0,
+"review_score": 8.0,
+"views": 267,
+"reach": 0,
+"likes": 1,
+"comments": 2,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0,
+"por_red": {
+"tiktok_video": {
+"views": 236,
+"reach": 0,
+"likes": 1,
+"comments": 1,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+},
+"youtube_short": {
+"views": 31,
+"reach": 0,
+"likes": 0,
 "comments": 1,
 "shares": 0,
 "saved": 0,

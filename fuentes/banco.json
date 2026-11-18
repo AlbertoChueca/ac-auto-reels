@@ -593,6 +593,32 @@
 "idea": "estudiante de espaldas mirando un panel de arquitectura en una pared"
 }
 ]
+},
+{
+"hook": "Workflow con IA para no trasnochar renderizando tu entrega",
+"puntos": [
+{
+"titulo": "Volumetría base en SketchUp",
+"dato": "Modela solo masas y carpinterías básicas sin saturar el archivo de texturas pesadas.",
+"idea": "pantalla con un modelo 3D esquemático de un edificio contemporáneo en SketchUp sin texturas"
+},
+{
+"titulo": "Iterar materiales rápido",
+"dato": "Prueba hormigón visto, madera o revoco blanco en segundos para decidir tu paleta.",
+"idea": "tres variantes de fachada del mismo edificio con distintos materiales mostradas en pantalla"
+},
+{
+"titulo": "Escalado y postproducción",
+"dato": "Aumenta la resolución final y ajusta niveles en Photoshop antes de maquetar la lámina.",
+"idea": "primer plano de una lámina digital abierta en Photoshop ajustando niveles de color"
+},
+{
+"titulo": "Consulta las normas",
+"dato": "Comprueba los requisitos de tu departamento sobre el uso de motores generativos en paneles.",
+"idea": "estudiante de arquitectura leyendo la guía docente en un portátil junto a planos impresos"
+}
+],
+"id": "ia_42897f24"
 }
 ],
 "referentes": [

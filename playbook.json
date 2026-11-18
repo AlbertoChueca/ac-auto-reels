@@ -1,27 +1,28 @@
 {
 "ganchos_que_funcionan": [
-"Faltan 12 horas para la entrega de Proyectos y tu maqueta se ve así...",
-"POV: El tribunal de TFM se detiene exactamente en tu primera lámina.",
-"Deja de perder 4 horas renderizando: pasa de boceto a render final con IA en 30 segundos.",
-"El único diagrama conceptual que hace que el jurado entienda tu proyecto al instante.",
-"3 alertas críticas por las que te suspenden la memoria del TFM (y cómo corregirlas ya)."
+"Hook Stack (<1,5s): corte visual rápido + 'No vuelvas a trasnochar renderizando tu entrega'",
+"¿VERDADERO O FALSO? El tribunal sabe en 10 segundos si tu TFM aprueba",
+"POV: Faltan 3 horas para la entrega de Proyectos y se te cierra el programa",
+"El truco de diagramación que tu profesor de Proyectos no quiere que apliques",
+"3 alertas críticas que suspenden tu TFM antes de defenderlo",
+"Turning my 3 AM sketch into a render: de boceto a lámina final en 15 segundos"
 ],
 "patrones": [
-"Problema-Solución táctica en menos de 30 segundos con demostración visual inmediata en pantalla.",
-"POV de estrés o caos de entrega real con audio en tendencia y resolución práctica al final.",
-"Screencast acelerado de workflow (Rhino/Illustrator/IA) con voz en off directa y cortes cada 2 segundos.",
-"Despiece por capas de láminas y planimetría mostrando el 'antes vs después' del grafismo.",
-"Llamada a la acción contextualizada al TFM: 'Si tu entrega está cerca y dudas de tu memoria, pide la auditoría gratuita en el link'."
+"Demostración de resultado final o impacto en los primeros 2 segundos (pattern interrupt)",
+"Cheat sheet / lámina comparativa en pantalla diseñada explícitamente para pausar y guardar",
+"Formato V/F interactivo con pregunta polémica para disparar comentarios en los primeros 5s",
+"Workflow de IA rápido (pantalla dividida o transición rápida) resolviendo un dolor técnico concreto",
+"Microlearning de dolor único (20-30s) cerrando con llamada a la acción para la auditoría gratuita de TFM"
 ],
 "evitar": [
-"Intros lentas de presentación o saludos que pierdan los primeros 3 segundos de retención.",
-"Engagement bait explícito y vacío como 'espera al final' o 'comenta para parte 2'.",
-"Contenido resubido con marcas de agua o logos de otras plataformas.",
-"Discursos teóricos abstractos sin apoyo visual de planos, modelos 3D o entregas reales.",
-"Videos de más de 60 segundos sin cambios de plano o dinamismo constante."
+"Introducciones lentas con saludos o presentaciones personales ('Hola arquitectos...')",
+"Vídeos de más de 45 segundos sin cortes visuales dinámicos cada 2-3 segundos",
+"Teoría abstracta sin aplicación práctica inmediata en láminas, maqueta o software",
+"Ocultar el resultado final hasta el desenlace del vídeo",
+"Vídeos sin subtítulos palabra por palabra optimizados para consumo en silencio"
 ],
-"tono_voz": "Cómplice de taller, directo, pragmático y empático con el estrés de entrega; sin rodeos académicos ni condescendencia.",
-"duracion_objetivo_s": 28,
+"tono_voz": "Cómplice, directo y empático con el estrés de entrega; técnico pero sin rodeos académicos pedantes.",
+"duracion_objetivo_s": 22,
 "pesos": {
 "tips_tfm": 1.0,
 "tips_proyectos": 1.0,
@@ -32,21 +33,21 @@
 },
 "hashtags": [
 "#arquitectura",
-"#estudiantesdearquitectura",
+"#estudiantearquitectura",
 "#tfmarquitectura",
-"#pfcquitectura",
-"#entregaproyectos",
-"#rendersia",
-"#arquitecturaspain"
+"#pfcarquitectura",
+"#proyectsarquitectura",
+"#rendersarquitectura",
+"#entregasarquitectura"
 ],
-"fecha": "2026-11-17",
+"fecha": "2026-11-18",
 "datos": {
 "referentes": 0.0178,
-"tips_tfm": 0.0367,
-"documentacion": 0.019,
-"tips_proyectos": 0.1575,
+"tips_tfm": 0.0325,
+"documentacion": 0.0187,
+"tips_proyectos": 0.1572,
 "auditoria": 0.1503,
-"ia": 0.124,
+"ia": 0.0906,
 "test": 0.011,
 "vf": 0.194
 }
