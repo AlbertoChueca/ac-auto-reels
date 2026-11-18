@@ -173,8 +173,8 @@ def rejilla(c, st):
     rows = math.ceil(n / cols)
     aw, ah = 940, 800
     cell = min(aw / cols, ah / rows, 250)
-    s = cell * 0.33
-    ch = min(cell * 1.35, ah / rows)                                 # filas algo más separadas si hay sitio
+    s = cell * (0.40 if rows <= 4 else 0.33)                         # con pocas filas, iconos más grandes: llenan la pantalla
+    ch = min(cell * (1.7 if rows <= 4 else 1.35), ah / rows)         # filas más separadas si hay sitio
     x0 = CX - cols * cell / 2 + cell / 2; y0 = 1050 - rows * ch / 2 + ch / 2
     res = st.get("resaltar", 0); tr = st.since("resaltar")
     idx = set(res) if isinstance(res, (list, tuple)) else set(range(int(res)))
@@ -607,12 +607,12 @@ def lamina(c, st):
         rrect(c, 0, 0, bw, bh, 10, mixc(CARBON, rgb, 0.22 * hecho if not mal else 0.12), rgb, 5 if (hecho >= 1 or mal or act == i) else 4)
         if hecho > 0 and not mal:                                     # contenido dibujado a medida que se cierra
             for j in range(3):
-                line(c, 22, bh - 30 - j * 24, 22 + (bw - 44) * clamp(hecho * 1.5 - j * 0.25) * (1 - j * 0.22), bh - 30 - j * 24, rgb, 5, 0.75)
-            icono(c, "check", bw - 34, 34, 16, ORO_L, clamp(hecho), t=clamp(hecho * 1.5 - 0.3))
+                line(c, 22, bh - 30 - j * 24, 22 + (bw - 104) * clamp(hecho * 1.5 - j * 0.25) * (1 - j * 0.22), bh - 30 - j * 24, rgb, 5, 0.75)
+            icono(c, "check", bw - 36, bh - 40, 17, ORO_L, clamp(hecho), t=clamp(hecho * 1.5 - 0.3))     # marca abajo: el nombre usa todo el ancho
         if mal and km > 0.3:
-            icono(c, "cruz", bw - 34, 34, 15, CORAL, 1.0, t=clamp(km * 1.5 - 0.3))
+            icono(c, "cruz", bw - 36, bh - 40, 16, CORAL, 1.0, t=clamp(km * 1.5 - 0.3))
         if st.get("nombres", True):
-            sz = max(18, min(34, 34 * (bw - 84) / max(1, tw(BLOQUES[i], 34))))   # deja sitio a la marca de la esquina
+            sz = min(32, *(34 * (cw - 20 - 40) / max(1, tw(n_, 34)) for n_, (_, _, cw, _) in zip(BLOQUES, cajas)))   # mismo cuerpo en todos los bloques
             text(c, BLOQUES[i], 20, 30 + sz * 0.6, sz, CREMA if (hecho >= 1 or mal or act == i) else ORO_D, 1, align="l")
         c.restore()
 
