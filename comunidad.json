@@ -1,5 +1,8 @@
 {
-"contestados": [],
+"contestados": [
+"18649629052029033",
+"18657679483047970"
+],
 "posts": {
 "instagram:ig:18181008577443239": {
 "personas": [],
@@ -231,7 +234,9 @@
 },
 "instagram:ig:18117676139018782": {
 "personas": [],
-"comentarios": 0
+"comentarios": 0,
+"solucion": "2026-11-18T22:08:01.980997+00:00",
+"solucion_id": "18122859368071255"
 },
 "tiktok:6af61ac27ba42eeaef96bcec": {
 "personas": [],
@@ -245,7 +250,11 @@
 "solucion": "2026-11-13T17:52:01.298453+00:00",
 "solucion_id": "UgxPjihcpTlLkExC1DR4AaABAg"
 },
-"instagram:ig:18064488701538990": {},
+"instagram:ig:18064488701538990": {
+"primer": "2026-11-18T22:08:01.980997+00:00",
+"personas": [],
+"comentarios": 0
+},
 "tiktok:6af72b94289ed88a7bbce61a": {
 "primer": "2026-11-13T17:52:01.298453+00:00",
 "personas": [],
@@ -343,11 +352,19 @@
 "youtube:6afda1dbaf8f5e070c1b3ed4": {
 "personas": [],
 "comentarios": 0
+},
+"tiktok:6afe03c6128a16902b562ffd": {
+"primer": "2026-11-18T22:08:01.980997+00:00",
+"personas": [],
+"comentarios": 0
+},
+"youtube:6afe03c66e7931b1a5939882": {
+"primer": "2026-11-18T22:08:01.980997+00:00",
+"personas": [],
+"comentarios": 0
 }
 },
-"errores": {
-"instagram": "Instagram comentarios 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"AysW0y_Jm6HqFP9Qiwn_kG9\"}}"
-},
+"errores": {},
 "nativos": {
 "6ae292d11225d5e8ee1c8544": "7701879747768225056",
 "6ae292d11225d5e8ee1c8536": "AZtm8Jn7fdc",
@@ -400,6 +417,8 @@
 "6afcca7f62a33a3428aed9b9": "7709259381556235553",
 "6afcca7f0a78aa902305817c": "m3NHlCDa0YI",
 "6afda1dbfe155ae7fcd6984c": "7709496162042055969",
-"6afda1dbaf8f5e070c1b3ed4": "v4vn_unpE5U"
+"6afda1dbaf8f5e070c1b3ed4": "v4vn_unpE5U",
+"6afe03c6128a16902b562ffd": "7709603836914044193",
+"6afe03c66e7931b1a5939882": "UUEivJ54ym4"
 }
 }
