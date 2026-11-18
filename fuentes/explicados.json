@@ -1,1834 +1,1834 @@
 {
- "_info": "Guiones de los reels «explicados» de AC (explicado.py). Cada golpe = una frase de voz + una escena (explicado_escenas.py; «=» sigue en la misma) + un rótulo opcional. Contenido ÚTIL para estudiantes agobiados con el TFM; enfoque de asesoría y acompañamiento (marca.py): el proyecto, las decisiones y la defensa son del alumno. Sin estadísticas ni promesas. Estructura: escena con giro → mito tachado → por qué → salida en pasos → reencuadre → «pásaselo a…».",
- "guiones": [
-  {
-   "id": "tres_semanas",
-   "hook": "Quedan 3 semanas y sigues cambiando la planta",
-   "portada": 2,
-   "golpes": [
-    {
-     "voz": "Quedan tres semanas para entregar.",
-     "escena": "despacho",
-     "p": {
-      "hora": 23.0,
-      "pantalla": "aviso",
-      "aviso": "Entrega: 3 semanas",
-      "pose": "trabaja",
-      "pila": 3
-     },
-     "rotulo": "3 semanas",
-     "color": "oro_l"
-    },
-    {
-     "voz": "Y tú sigues cambiando la planta.",
-     "escena": "=",
-     "p": {
-      "pantalla": "plano",
-      "pose": "agobio",
-      "hora": 23.8,
-      "pila": 5,
-      "pila_color": "coral"
-     },
-     "rotulo": "Otra vez la planta",
-     "color": "coral",
-     "claves": [
-      "planta."
-     ],
-     "cam": [
-      540,
-      960,
-      1.2
-     ],
-     "tono": "giro"
-    },
-    {
-     "voz": "Y no, no es perfeccionismo.",
-     "escena": "=",
-     "p": {
-      "hora": 24.0
-     },
-     "rotulo": "Perfeccionismo",
-     "tachado": true,
-     "cam": [
-      540,
-      1050,
-      1.0
-     ]
-    },
-    {
-     "voz": "Es que cada cambio en planta arrastra todo lo demás.",
-     "escena": "lamina",
-     "p": {
-      "hechos": 2,
-      "activo": 1
-     },
-     "rotulo": "Lo arrastra todo",
-     "color": "oro_l",
-     "tono": "porque"
-    },
-    {
-     "voz": "Secciones, construcción, instalaciones, estructura…",
-     "escena": "=",
-     "p": {
-      "resaltar": [
-       2,
-       3,
-       4
-      ]
-     },
-     "color": "coral",
-     "cam": [
-      540,
-      1090,
-      1.1
-     ],
-     "tono": "porque"
-    },
-    {
-     "voz": "Por eso hace falta un día en el que el proyecto se congela.",
-     "escena": "rejilla",
-     "p": {
-      "n": 21,
-      "cols": 7,
-      "icono": "calendario",
-      "resaltar": [
-       6
-      ],
-      "color": "oro_l"
-     },
-     "rotulo": "Día de congelar",
-     "color": "oro_l",
-     "claves": [
-      "congela."
-     ],
-     "tono": "salida"
-    },
-    {
-     "voz": "Desde ahí, solo dibujas lo que ya está decidido.",
-     "escena": "=",
-     "p": {
-      "resaltar": [
-       6,
-       7,
-       8,
-       9,
-       10,
-       11,
-       12,
-       13,
-       14,
-       15,
-       16,
-       17,
-       18,
-       19,
-       20
-      ],
-      "marca": "check"
-     },
-     "tono": "salida"
-    },
-    {
-     "voz": "Y lo que no dé tiempo a cambiar, se defiende.",
-     "escena": "tribunal",
-     "p": {
-      "miembros": 3,
-      "gesto": "ok"
-     },
-     "rotulo": "Se defiende",
-     "color": "oro_l",
-     "tono": "salida"
-    },
-    {
-     "voz": "Un TFM no se termina: se cierra.",
-     "escena": "lamina",
-     "p": {
-      "hechos": 7
-     },
-     "rotulo": "Se cierra",
-     "color": "oro_l",
-     "claves": [
-      "cierra."
-     ],
-     "tono": "reencuadre"
-    }
-   ],
-   "compartir": "Pásaselo a ese compañero que hoy ha vuelto a mover la escalera.",
-   "pregunta": "¿Cuántas veces has cambiado la planta este mes?",
-   "descripcion": "Cada cambio en planta arrastra secciones, construcción, instalaciones y estructura. Ponte un día para congelar el proyecto: desde ahí solo se dibuja lo decidido, y lo que no dé tiempo a cambiar se defiende.",
-   "puntos": [
-    "Fija un día para congelar el proyecto",
-    "Después, solo dibujas lo decidido",
-    "Lo que no cambies, apréndete a defenderlo"
-   ]
-  },
-  {
-   "id": "panel_ruido",
-   "hook": "Tu panel no necesita más dibujos",
-   "portada": 3,
-   "golpes": [
-    {
-     "voz": "Cuelgas los paneles. El tribunal se acerca.",
-     "escena": "tribunal",
-     "p": {
-      "miembros": 3
-     },
-     "rotulo": "El tribunal",
-     "color": "oro_l"
-    },
-    {
-     "voz": "Y antes de que abras la boca, ya está leyendo.",
-     "escena": "=",
-     "p": {
-      "gesto": "duda"
-     },
-     "rotulo": "Ya está leyendo",
-     "color": "coral",
-     "cam": [
-      540,
-      900,
-      1.15
-     ],
-     "tono": "giro"
-    },
-    {
-     "voz": "Y no, no gana el panel más lleno.",
-     "escena": "=",
-     "rotulo": "El panel más lleno",
-     "tachado": true,
-     "cam": [
-      540,
-      1050,
-      1.0
-     ]
-    },
-    {
-     "voz": "Gana el que se entiende de lejos.",
-     "escena": "lamina",
-     "p": {
-      "nombres": false,
-      "hechos": 0,
-      "activo": 5
-     },
-     "rotulo": "De lejos",
-     "color": "oro_l",
-     "claves": [
-      "lejos."
-     ],
-     "tono": "porque"
-    },
-    {
-     "voz": "Una idea. Y un dibujo grande que la cuenta.",
-     "escena": "=",
-     "p": {
-      "hechos": 0,
-      "activo": 5
-     },
-     "rotulo": "1 idea, 1 dibujo",
-     "color": "oro_l",
-     "cam": [
-      540,
-      1130,
-      1.1
-     ],
-     "tono": "porque"
-    },
-    {
-     "voz": "El resto, ordenado para acompañarla.",
-     "escena": "=",
-     "p": {
-      "hechos": 7
-     },
-     "cam": [
-      540,
-      1050,
-      1.0
-     ],
-     "tono": "porque"
-    },
-    {
-     "voz": "Haz la prueba: enséñaselo diez segundos a alguien de fuera.",
-     "escena": "flujo",
-     "p": {
-      "pasos": [
-       {
-        "t": "Enséñalo 10 segundos",
-        "i": "reloj"
-       },
-       {
-        "t": "Pregunta qué ha entendido",
-        "i": "persona"
-       },
-       {
-        "t": "Si no es tu idea, quita",
-        "i": "lapiz"
-       }
-      ],
-      "activo": 0
-     },
-     "rotulo": "La prueba",
-     "color": "oro_l",
-     "tono": "salida"
-    },
-    {
-     "voz": "Y pregúntale de qué va el proyecto.",
-     "escena": "=",
-     "p": {
-      "activo": 1
-     },
-     "tono": "salida"
-    },
-    {
-     "voz": "Si no sabe decirlo, no falta dibujo: sobra ruido.",
-     "escena": "=",
-     "p": {
-      "activo": 2
-     },
-     "rotulo": "Sobra ruido",
-     "color": "coral",
-     "claves": [
-      "ruido."
-     ],
-     "tono": "salida"
-    },
-    {
-     "voz": "Un panel no es un almacén: es un argumento.",
-     "escena": "tribunal",
-     "p": {
-      "miembros": 3,
-      "gesto": "ok"
-     },
-     "rotulo": "Es un argumento",
-     "color": "oro_l",
-     "claves": [
-      "argumento."
-     ],
-     "tono": "reencuadre"
-    }
-   ],
-   "compartir": "Pásaselo a ese compañero que quiere meterlo todo en un A0.",
-   "pregunta": "¿Qué es lo primero que se ve en tu panel?",
-   "descripcion": "El tribunal lee tu panel antes de escucharte. No gana el más lleno, sino el que se entiende de lejos: una idea, un dibujo grande que la cuenta y el resto ordenado alrededor.",
-   "puntos": [
-    "Una idea y un dibujo grande que la cuente",
-    "Enséñalo 10 segundos a alguien de fuera",
-    "Si no sabe decir de qué va, quita cosas"
-   ]
-  },
-  {
-   "id": "instalaciones_tarde",
-   "hook": "Las instalaciones no se dejan para el final",
-   "portada": 1,
-   "golpes": [
-    {
-     "voz": "Por fin tienes la planta perfecta.",
-     "escena": "plano",
-     "p": {
-      "capas": [
-       "cotas"
-      ],
-      "etiqueta": "Planta baja"
-     },
-     "rotulo": "La planta perfecta",
-     "color": "oro_l"
-    },
-    {
-     "voz": "Y entonces llegan las instalaciones.",
-     "escena": "=",
-     "p": {
-      "capas": [
-       "cotas",
-       "fontaneria",
-       "electricidad"
-      ]
-     },
-     "rotulo": "Y entonces…",
-     "color": "coral",
-     "cam": [
-      540,
-      1050,
-      1.12
-     ],
-     "tono": "giro"
-    },
-    {
-     "voz": "Y no, no son cosa del final.",
-     "escena": "=",
-     "rotulo": "Cosa del final",
-     "tachado": true,
-     "cam": [
-      540,
-      1050,
-      1.0
-     ]
-    },
-    {
-     "voz": "Patinillos, falsos techos y cuartos técnicos ocupan sitio.",
-     "escena": "lamina",
-     "p": {
-      "hechos": 2,
-      "resaltar": [
-       3
-      ]
-     },
-     "rotulo": "Ocupan sitio",
-     "color": "coral",
-     "claves": [
-      "sitio."
-     ],
-     "tono": "porque"
-    },
-    {
-     "voz": "Y ese sitio sale de tu planta y de tu sección.",
-     "escena": "=",
-     "p": {
-      "resaltar": [
-       1,
-       3
-      ]
-     },
-     "cam": [
-      540,
-      1000,
-      1.12
-     ],
-     "tono": "porque"
-    },
-    {
-     "voz": "Así que resérvalo desde el principio, aunque sea a ojo.",
-     "escena": "flujo",
-     "p": {
-      "pasos": [
-       {
-        "t": "Un patinillo por núcleo húmedo",
-        "i": "planos"
-       },
-       {
-        "t": "Altura para el falso techo",
-        "i": "doc"
-       },
-       {
-        "t": "Cuarto técnico con acceso",
-        "i": "casa"
-       }
-      ],
-      "activo": 0
-     },
-     "rotulo": "Resérvalo ya",
-     "color": "oro_l",
-     "tono": "salida"
-    },
-    {
-     "voz": "Un patinillo junto a cada núcleo húmedo.",
-     "escena": "=",
-     "p": {
-      "activo": 0
-     },
-     "tono": "salida"
-    },
-    {
-     "voz": "Altura libre para el falso techo.",
-     "escena": "=",
-     "p": {
-      "activo": 1
-     },
-     "tono": "salida"
-    },
-    {
-     "voz": "Y un cuarto técnico al que se pueda entrar.",
-     "escena": "=",
-     "p": {
-      "activo": 2
-     },
-     "tono": "salida"
-    },
-    {
-     "voz": "Las instalaciones no se añaden: se proyectan.",
-     "escena": "plano",
-     "p": {
-      "capas": [
-       "cotas",
-       "estructura",
-       "fontaneria",
-       "electricidad"
-      ]
-     },
-     "rotulo": "Se proyectan",
-     "color": "oro_l",
-     "claves": [
-      "proyectan."
-     ],
-     "tono": "reencuadre"
-    }
-   ],
-   "compartir": "Pásaselo a ese compañero que todavía no ha dibujado ni un patinillo.",
-   "pregunta": "¿En qué fase del proyecto metes tú las instalaciones?",
-   "descripcion": "Patinillos, falsos techos y cuartos técnicos ocupan sitio, y ese sitio sale de tu planta y de tu sección. Resérvalo desde el principio, aunque sea a ojo, y no tendrás que rehacer la planta al final.",
-   "puntos": [
-    "Un patinillo junto a cada núcleo húmedo",
-    "Altura libre para el falso techo",
-    "Un cuarto técnico con acceso"
-   ]
-  },
-  {
-   "id": "correccion_perdido",
-   "hook": "Sales de la corrección más perdido que antes",
-   "portada": 0,
-   "golpes": [
-    {
-     "voz": "Sales de la corrección con veinte comentarios.",
-     "escena": "tribunal",
-     "p": {
-      "miembros": 1,
-      "gesto": "duda",
-      "pose": "agobio"
-     },
-     "rotulo": "20 comentarios",
-     "color": "coral",
-     "claves": [
-      "veinte"
-     ]
-    },
-    {
-     "voz": "Y más perdido que antes de entrar.",
-     "escena": "despacho",
-     "p": {
-      "hora": 19.0,
-      "pantalla": "pendientes",
-      "pendientes": 20,
-      "pose": "agobio",
-      "pila": 4,
-      "entrega": false
-     },
-     "rotulo": "Más perdido",
-     "color": "coral",
-     "tono": "giro"
-    },
-    {
-     "voz": "Y no, no tienes que rehacerlo todo.",
-     "escena": "=",
-     "rotulo": "Rehacerlo todo",
-     "tachado": true
-    },
-    {
-     "voz": "No todos los comentarios pesan lo mismo.",
-     "escena": "rejilla",
-     "p": {
-      "n": 20,
-      "cols": 5,
-      "icono": "doc"
-     },
-     "rotulo": "No pesan lo mismo",
-     "color": "oro_l",
-     "tono": "porque"
-    },
-    {
-     "voz": "Sepáralos en tres montones.",
-     "escena": "flujo",
-     "p": {
-      "pasos": [
-       {
-        "t": "Tocan la idea",
-        "i": "lapiz",
-        "c": "coral"
-       },
-       {
-        "t": "Tocan el dibujo",
-        "i": "planos"
-       },
-       {
-        "t": "Son de gusto",
-        "i": "persona"
-       }
-      ]
-     },
-     "rotulo": "3 montones",
-     "color": "oro_l",
-     "tono": "salida"
-    },
-    {
-     "voz": "Los que tocan la idea van primero.",
-     "escena": "=",
-     "p": {
-      "activo": 0
-     },
-     "tono": "salida"
-    },
-    {
-     "voz": "Los de dibujo, a la lista de tareas.",
-     "escena": "=",
-     "p": {
-      "activo": 1
-     },
-     "tono": "salida"
-    },
-    {
-     "voz": "Y en los de gusto, decides tú.",
-     "escena": "=",
-     "p": {
-      "activo": 2
-     },
-     "rotulo": "Decides tú",
-     "color": "oro_l",
-     "claves": [
-      "tú."
-     ],
-     "tono": "salida"
-    },
-    {
-     "voz": "Y antes de irte, repite en voz alta lo que has entendido.",
-     "escena": "tribunal",
-     "p": {
-      "miembros": 1,
-      "gesto": "ok"
-     },
-     "rotulo": "Repítelo en voz alta",
-     "color": "oro_l",
-     "tono": "salida"
-    },
-    {
-     "voz": "Una corrección no es una sentencia: es una lista por ordenar.",
-     "escena": "rejilla",
-     "p": {
-      "n": 20,
-      "cols": 5,
-      "icono": "doc",
-      "resaltar": [
-       0,
-       1,
-       2
-      ],
-      "color": "oro_l",
-      "marca": "check"
-     },
-     "rotulo": "Una lista por ordenar",
-     "color": "oro_l",
-     "tono": "reencuadre"
-    }
-   ],
-   "compartir": "Pásaselo a ese compañero que sale de cada corrección queriendo empezar de cero.",
-   "pregunta": "¿Cuál es el comentario que más te han repetido?",
-   "descripcion": "No todos los comentarios de una corrección pesan lo mismo. Sepáralos en tres montones: los que tocan la idea (van primero), los de dibujo (a la lista) y los de gusto (decides tú).",
-   "puntos": [
-    "Primero, lo que toca la idea",
-    "Lo de dibujo, a la lista de tareas",
-    "Antes de irte, repite lo que has entendido"
-   ]
-  },
-  {
-   "id": "planificar_atras",
-   "hook": "Tu TFM se planifica al revés",
-   "portada": 4,
-   "golpes": [
-    {
-     "voz": "Abres el calendario y cuentas: ocho semanas.",
-     "escena": "cifra",
-     "p": {
-      "valor": 8,
-      "desde": 0,
-      "sub": "semanas para entregar",
-      "dur": 0.9
-     },
-     "rotulo": "8 semanas",
-     "color": "oro_l",
-     "claves": [
-      "ocho"
-     ]
-    },
-    {
-     "voz": "Te parece muchísimo.",
-     "escena": "despacho",
-     "p": {
-      "hora": 12.0,
-      "luz": "dia",
-      "pantalla": "plano",
-      "pose": "celebra",
-      "pila": 1,
-      "entrega": false
-     },
-     "rotulo": "Muchísimo",
-     "color": "crema",
-     "tono": "giro"
-    },
-    {
-     "voz": "Y no, no se planifica desde hoy.",
-     "escena": "=",
-     "p": {
-      "pose": "mira"
-     },
-     "rotulo": "Desde hoy",
-     "tachado": true
-    },
-    {
-     "voz": "Se planifica desde la entrega, hacia atrás.",
-     "escena": "rejilla",
-     "p": {
-      "n": 8,
-      "cols": 4,
-      "icono": "calendario",
-      "numeros": true,
-      "resaltar": 1,
-      "resaltar_fin": true,
-      "color": "oro_l"
-     },
-     "rotulo": "Hacia atrás",
-     "color": "oro_l",
-     "claves": [
-      "atrás."
-     ],
-     "tono": "porque"
-    },
-    {
-     "voz": "La última semana no es para dibujar: es para maquetar, imprimir y ensayar.",
-     "escena": "=",
-     "p": {
-      "resaltar": 1,
-      "resaltar_fin": true,
-      "color": "coral"
-     },
-     "rotulo": "La última no cuenta",
-     "color": "coral",
-     "tono": "porque"
-    },
-    {
-     "voz": "La anterior, para cerrar paneles y memoria.",
-     "escena": "=",
-     "p": {
-      "resaltar": 2,
-      "resaltar_fin": true,
-      "color": "coral"
-     },
-     "tono": "porque"
-    },
-    {
-     "voz": "Lo que queda es tu tiempo real.",
-     "escena": "=",
-     "p": {
-      "resaltar": 6,
-      "resaltar_fin": false,
-      "color": "oro_l"
-     },
-     "rotulo": "Tu tiempo real",
-     "color": "oro_l",
-     "claves": [
-      "real."
-     ],
-     "tono": "dato"
-    },
-    {
-     "voz": "Repártelo por bloques y ponle fecha a cada uno.",
-     "escena": "lamina",
-     "p": {
-      "hechos": 0,
-      "activo": 0
-     },
-     "rotulo": "Fecha por bloque",
-     "color": "oro_l",
-     "tono": "salida"
-    },
-    {
-     "voz": "Y si un bloque se retrasa, lo sabes esa semana, no la última.",
-     "escena": "=",
-     "p": {
-      "hechos": 3,
-      "resaltar": [
-       3
-      ]
-     },
-     "tono": "salida"
-    },
-    {
-     "voz": "Tu plazo no es el día de entrega: es el día en que dejas de dibujar.",
-     "escena": "rejilla",
-     "p": {
-      "n": 8,
-      "cols": 4,
-      "icono": "calendario",
-      "numeros": true,
-      "resaltar": [
-       5
-      ],
-      "color": "oro_l"
-     },
-     "rotulo": "Dejar de dibujar",
-     "color": "oro_l",
-     "tono": "reencuadre"
-    }
-   ],
-   "compartir": "Pásaselo a ese compañero que siempre dice «todavía hay tiempo».",
-   "pregunta": "¿Cuántas semanas te quedan a ti?",
-   "descripcion": "El TFM se planifica desde la entrega hacia atrás. La última semana es para maquetar, imprimir y ensayar; la anterior, para cerrar paneles y memoria. Lo que queda es tu tiempo real: repártelo por bloques con fecha.",
-   "puntos": [
-    "Cuenta desde la entrega hacia atrás",
-    "Las dos últimas semanas no son para dibujar",
-    "Una fecha para cada bloque"
-   ]
-  },
-  {
-   "id": "render_foto",
-   "hook": "El render no te va a salvar el TFM",
-   "portada": 3,
-   "golpes": [
-    {
-     "voz": "Llevas tres días con el render.",
-     "escena": "despacho",
-     "p": {
-      "hora": 2.0,
-      "pantalla": "plano",
-      "pose": "trabaja",
-      "pila": 2
-     },
-     "rotulo": "3 días",
-     "color": "oro_l"
-    },
-    {
-     "voz": "Y la sección sigue sin estar.",
-     "escena": "=",
-     "p": {
-      "pantalla": "aviso",
-      "aviso": "Sección: sin empezar",
-      "pose": "agobio",
-      "hora": 2.6
-     },
-     "rotulo": "Sin sección",
-     "color": "coral",
-     "claves": [
-      "sección"
-     ],
-     "cam": [
-      540,
-      960,
-      1.2
-     ],
-     "tono": "giro"
-    },
-    {
-     "voz": "Y no, el render no te va a salvar.",
-     "escena": "=",
-     "rotulo": "El render te salva",
-     "tachado": true,
-     "cam": [
-      540,
-      1050,
-      1.0
-     ]
-    },
-    {
-     "voz": "La imagen enseña cómo se ve.",
-     "escena": "versus",
-     "p": {
-      "a": {
-       "t": "RENDER",
-       "filas": [
-        "Cómo se ve",
-        "Un punto de vista",
-        "La atmósfera"
-       ]
-      },
-      "b": {
-       "t": "SECCIÓN",
-       "filas": [
-        "Cómo funciona",
-        "Todo el edificio",
-        "Alturas y estructura"
-       ]
-      },
-      "n": 1
-     },
-     "rotulo": "Cómo se ve",
-     "color": "crema",
-     "tono": "porque"
-    },
-    {
-     "voz": "La sección enseña cómo funciona.",
-     "escena": "=",
-     "p": {
-      "n": 3
-     },
-     "rotulo": "Cómo funciona",
-     "color": "oro_l",
-     "claves": [
-      "funciona."
-     ],
-     "tono": "porque"
-    },
-    {
-     "voz": "Y el tribunal pregunta por lo segundo.",
-     "escena": "tribunal",
-     "p": {
-      "miembros": 3,
-      "gesto": "duda",
-      "foco": 1
-     },
-     "rotulo": "Pregunta por esto",
-     "color": "oro_l",
-     "tono": "dato"
-    },
-    {
-     "voz": "Así que primero, planta y sección cerradas.",
-     "escena": "flujo",
-     "p": {
-      "pasos": [
-       {
-        "t": "Planta y sección",
-        "i": "planos"
-       },
-       {
-        "t": "Construcción y estructura",
-        "i": "casa"
-       },
-       {
-        "t": "Imágenes",
-        "i": "lapiz"
-       }
-      ],
-      "activo": 0
-     },
-     "rotulo": "Este orden",
-     "color": "oro_l",
-     "tono": "salida"
-    },
-    {
-     "voz": "Después, cómo se construye.",
-     "escena": "=",
-     "p": {
-      "activo": 1
-     },
-     "tono": "salida"
-    },
-    {
-     "voz": "Y la imagen, al final: ya sabrás qué enseñar.",
-     "escena": "=",
-     "p": {
-      "activo": 2
-     },
-     "tono": "salida"
-    },
-    {
-     "voz": "El render no es el proyecto: es su foto.",
-     "escena": "lamina",
-     "p": {
-      "hechos": 5,
-      "activo": 5
-     },
-     "rotulo": "Es su foto",
-     "color": "oro_l",
-     "claves": [
-      "foto."
-     ],
-     "tono": "reencuadre"
-    }
-   ],
-   "compartir": "Pásaselo a ese compañero que lleva una semana eligiendo el cielo del render.",
-   "pregunta": "¿Qué haces primero: la sección o el render?",
-   "descripcion": "El render enseña cómo se ve; la sección, cómo funciona. Y el tribunal pregunta por lo segundo. Orden que funciona: planta y sección cerradas, después construcción y estructura, y las imágenes al final.",
-   "puntos": [
-    "Primero, planta y sección cerradas",
-    "Después, cómo se construye",
-    "La imagen, al final"
-   ]
-  },
-  {
-   "id": "memoria_notas",
-   "hook": "La memoria no se escribe la última noche",
-   "portada": 1,
-   "golpes": [
-    {
-     "voz": "Última noche. Los paneles, listos.",
-     "escena": "despacho",
-     "p": {
-      "hora": 23.0,
-      "pantalla": "ok",
-      "pose": "celebra",
-      "pila": 0
-     },
-     "rotulo": "Paneles listos",
-     "color": "oro_l"
-    },
-    {
-     "voz": "Y la memoria, en blanco.",
-     "escena": "=",
-     "p": {
-      "pantalla": "aviso",
-      "aviso": "Memoria: página 1",
-      "pose": "agobio",
-      "hora": 23.5,
-      "pila": 3,
-      "pila_color": "coral"
-     },
-     "rotulo": "En blanco",
-     "color": "coral",
-     "claves": [
-      "blanco."
-     ],
-     "cam": [
-      540,
-      960,
-      1.2
-     ],
-     "tono": "giro"
-    },
-    {
-     "voz": "Y no, la memoria no es un trámite.",
-     "escena": "=",
-     "rotulo": "Un trámite",
-     "tachado": true,
-     "cam": [
-      540,
-      1050,
-      1.0
-     ]
-    },
-    {
-     "voz": "Es donde explicas por qué has decidido cada cosa.",
-     "escena": "lamina",
-     "p": {
-      "hechos": 6,
-      "resaltar": [
-       6
-      ]
-     },
-     "rotulo": "El porqué",
-     "color": "oro_l",
-     "claves": [
-      "por",
-      "qué"
-     ],
-     "tono": "porque"
-    },
-    {
-     "voz": "Y eso solo lo recuerdas bien mientras lo decides.",
-     "escena": "=",
-     "cam": [
-      560,
-      1130,
-      1.1
-     ],
-     "tono": "porque"
-    },
-    {
-     "voz": "Así que abre el documento hoy, solo con el índice.",
-     "escena": "flujo",
-     "p": {
-      "pasos": [
-       {
-        "t": "Abre el índice hoy",
-        "i": "doc"
-       },
-       {
-        "t": "Una nota por decisión",
-        "i": "lapiz"
-       },
-       {
-        "t": "Al final, ordenas",
-        "i": "planos"
-       }
-      ],
-      "activo": 0
-     },
-     "rotulo": "Ábrelo hoy",
-     "color": "oro_l",
-     "tono": "salida"
-    },
-    {
-     "voz": "Cada decisión que tomes, una nota de dos líneas.",
-     "escena": "=",
-     "p": {
-      "activo": 1
-     },
-     "rotulo": "2 líneas",
-     "color": "oro_l",
-     "tono": "salida"
-    },
-    {
-     "voz": "Y al final no escribes: ordenas.",
-     "escena": "=",
-     "p": {
-      "activo": 2
-     },
-     "tono": "salida"
-    },
-    {
-     "voz": "La memoria no se redacta al final: se va apuntando.",
-     "escena": "lamina",
-     "p": {
-      "hechos": 7
-     },
-     "rotulo": "Se va apuntando",
-     "color": "oro_l",
-     "claves": [
-      "apuntando."
-     ],
-     "tono": "reencuadre"
-    }
-   ],
-   "compartir": "Pásaselo a ese compañero que dice «la memoria la hago en una tarde».",
-   "pregunta": "¿Cuántas páginas llevas de memoria? Sé sincero.",
-   "descripcion": "La memoria explica por qué has decidido cada cosa, y eso solo se recuerda bien mientras se decide. Abre hoy el documento con el índice y apunta dos líneas por cada decisión: al final solo tendrás que ordenar.",
-   "puntos": [
-    "Abre el documento hoy, con el índice",
-    "Dos líneas por cada decisión",
-    "Al final no escribes: ordenas"
-   ]
-  },
-  {
-   "id": "estructura_orden",
-   "hook": "La estructura no es un anexo del TFM",
-   "portada": 3,
-   "golpes": [
-    {
-     "voz": "Tienes el proyecto. Y te preguntan por la estructura.",
-     "escena": "tribunal",
-     "p": {
-      "miembros": 3,
-      "gesto": "duda",
-      "foco": 1
-     },
-     "rotulo": "¿Y la estructura?",
-     "color": "coral"
-    },
-    {
-     "voz": "Y te quedas en blanco.",
-     "escena": "=",
-     "p": {
-      "pose": "agobio"
-     },
-     "rotulo": "En blanco",
-     "color": "coral",
-     "cam": [
-      540,
-      1250,
-      1.15
-     ],
-     "tono": "giro"
-    },
-    {
-     "voz": "Y no, la estructura no es un anexo.",
-     "escena": "=",
-     "rotulo": "Un anexo",
-     "tachado": true,
-     "cam": [
-      540,
-      1050,
-      1.0
-     ]
-    },
-    {
-     "voz": "Es el orden del edificio: dónde apoya y cómo bajan las cargas.",
-     "escena": "plano",
-     "p": {
-      "capas": [
-       "estructura"
-      ],
-      "etiqueta": "Pilares y luces"
-     },
-     "rotulo": "El orden del edificio",
-     "color": "oro_l",
-     "claves": [
-      "orden"
-     ],
-     "tono": "porque"
-    },
-    {
-     "voz": "Si la decides tarde, te mueve los pilares… y la planta.",
-     "escena": "=",
-     "p": {
-      "capas": [
-       "estructura",
-       "cotas"
-      ]
-     },
-     "rotulo": "Te mueve la planta",
-     "color": "coral",
-     "cam": [
-      540,
-      1050,
-      1.12
-     ],
-     "tono": "porque"
-    },
-    {
-     "voz": "Empieza por tres preguntas.",
-     "escena": "flujo",
-     "p": {
-      "pasos": [
-       {
-        "t": "¿Qué luces salvas?",
-        "i": "planos"
-       },
-       {
-        "t": "¿Dónde apoyas?",
-        "i": "casa"
-       },
-       {
-        "t": "¿Con qué material?",
-        "i": "doc"
-       }
-      ]
-     },
-     "rotulo": "3 preguntas",
-     "color": "oro_l",
-     "tono": "salida"
-    },
-    {
-     "voz": "Qué luces salvas.",
-     "escena": "=",
-     "p": {
-      "activo": 0
-     },
-     "tono": "salida"
-    },
-    {
-     "voz": "Dónde apoyas.",
-     "escena": "=",
-     "p": {
-      "activo": 1
-     },
-     "tono": "salida"
-    },
-    {
-     "voz": "Y con qué material.",
-     "escena": "=",
-     "p": {
-      "activo": 2
-     },
-     "tono": "salida"
-    },
-    {
-     "voz": "Con eso claro, el cálculo ya tiene dónde agarrarse.",
-     "escena": "tribunal",
-     "p": {
-      "miembros": 3,
-      "gesto": "ok"
-     },
-     "rotulo": "Ya puedes calcular",
-     "color": "oro_l",
-     "tono": "salida"
-    },
-    {
-     "voz": "La estructura no se añade al proyecto: lo ordena.",
-     "escena": "plano",
-     "p": {
-      "capas": [
-       "estructura",
-       "cotas"
-      ]
-     },
-     "rotulo": "Lo ordena",
-     "color": "oro_l",
-     "claves": [
-      "ordena."
-     ],
-     "tono": "reencuadre"
-    }
-   ],
-   "compartir": "Pásaselo a ese compañero que dibuja los pilares el último día.",
-   "pregunta": "¿Qué te da más miedo: estructuras o instalaciones?",
-   "descripcion": "La estructura es el orden del edificio: dónde apoya y cómo bajan las cargas. Si la decides tarde, te mueve la planta. Empieza por tres preguntas: qué luces salvas, dónde apoyas y con qué material.",
-   "puntos": [
-    "¿Qué luces salvas?",
-    "¿Dónde apoyas?",
-    "¿Con qué material?"
-   ]
-  },
-  {
-   "id": "defensa_ensayo",
-   "hook": "La defensa del TFM no se improvisa",
-   "portada": 0,
-   "golpes": [
-    {
-     "voz": "Un año de trabajo. Y unos minutos para contarlo.",
-     "escena": "tribunal",
-     "p": {
-      "miembros": 3
-     },
-     "rotulo": "Unos minutos",
-     "color": "oro_l",
-     "claves": [
-      "minutos"
-     ]
-    },
-    {
-     "voz": "Y tu plan es improvisar.",
-     "escena": "=",
-     "p": {
-      "gesto": "duda",
-      "pose": "agobio"
-     },
-     "rotulo": "¿Improvisar?",
-     "color": "coral",
-     "cam": [
-      540,
-      1250,
-      1.15
-     ],
-     "tono": "giro"
-    },
-    {
-     "voz": "Y no, no basta con saberte el proyecto.",
-     "escena": "=",
-     "rotulo": "Saberte el proyecto",
-     "tachado": true,
-     "cam": [
-      540,
-      1050,
-      1.0
-     ]
-    },
-    {
-     "voz": "Sabértelo no es saber contarlo.",
-     "escena": "versus",
-     "p": {
-      "a": {
-       "t": "SABERLO",
-       "filas": [
-        "Todo te parece importante",
-        "Te pierdes en detalles",
-        "Se acaba el tiempo"
-       ]
-      },
-      "b": {
-       "t": "CONTARLO",
-       "filas": [
-        "Una idea clara",
-        "Tres decisiones",
-        "Cierras a tiempo"
-       ]
-      },
-      "n": 3
-     },
-     "rotulo": "No es lo mismo",
-     "color": "oro_l",
-     "tono": "porque"
-    },
-    {
-     "voz": "Empieza por la idea, en una sola frase.",
-     "escena": "flujo",
-     "p": {
-      "pasos": [
-       {
-        "t": "La idea, en una frase",
-        "i": "lapiz"
-       },
-       {
-        "t": "Tres decisiones clave",
-        "i": "planos"
-       },
-       {
-        "t": "Cómo se construye",
-        "i": "casa"
-       }
-      ],
-      "activo": 0
-     },
-     "rotulo": "1 frase",
-     "color": "oro_l",
-     "tono": "salida"
-    },
-    {
-     "voz": "Después, las tres decisiones que la sostienen.",
-     "escena": "=",
-     "p": {
-      "activo": 1
-     },
-     "rotulo": "3 decisiones",
-     "color": "oro_l",
-     "tono": "salida"
-    },
-    {
-     "voz": "Y cómo se construye.",
-     "escena": "=",
-     "p": {
-      "activo": 2
-     },
-     "tono": "salida"
-    },
-    {
-     "voz": "Ensáyalo en voz alta, con reloj y delante de alguien.",
-     "escena": "tribunal",
-     "p": {
-      "miembros": 1,
-      "gesto": "ok"
-     },
-     "rotulo": "Con reloj",
-     "color": "oro_l",
-     "claves": [
-      "reloj"
-     ],
-     "tono": "salida"
-    },
-    {
-     "voz": "La defensa no se improvisa: se ensaya.",
-     "escena": "tribunal",
-     "p": {
-      "miembros": 3,
-      "gesto": "ok"
-     },
-     "rotulo": "Se ensaya",
-     "color": "oro_l",
-     "claves": [
-      "ensaya."
-     ],
-     "tono": "reencuadre"
-    }
-   ],
-   "compartir": "Pásaselo a ese compañero que piensa improvisar la defensa.",
-   "pregunta": "¿Has ensayado ya tu defensa en voz alta?",
-   "descripcion": "Saberte el proyecto no es saber contarlo. Estructura para la defensa: la idea en una frase, las tres decisiones que la sostienen y cómo se construye. Y ensayarlo en voz alta, con reloj y delante de alguien.",
-   "puntos": [
-    "La idea, en una frase",
-    "Tres decisiones que la sostienen",
-    "Ensayo en voz alta y con reloj"
-   ]
-  },
-  {
-   "id": "sin_mapa",
-   "hook": "No vas tarde con el TFM: vas sin mapa",
-   "portada": 4,
-   "golpes": [
-    {
-     "voz": "Llevas meses con el TFM.",
-     "escena": "despacho",
-     "p": {
-      "hora": 20.0,
-      "pantalla": "plano",
-      "pose": "trabaja",
-      "pila": 4,
-      "entrega": false
-     },
-     "rotulo": "Meses",
-     "color": "oro_l"
-    },
-    {
-     "voz": "Y no sabes si vas bien o vas tarde.",
-     "escena": "=",
-     "p": {
-      "pantalla": "aviso",
-      "aviso": "¿Voy bien?",
-      "aviso_color": "oro_l",
-      "pose": "mira",
-      "hora": 20.5
-     },
-     "rotulo": "¿Voy bien?",
-     "color": "coral",
-     "cam": [
-      540,
-      960,
-      1.2
-     ],
-     "tono": "giro"
-    },
-    {
-     "voz": "Y no, no es que trabajes poco.",
-     "escena": "=",
-     "rotulo": "Trabajas poco",
-     "tachado": true,
-     "cam": [
-      540,
-      1050,
-      1.0
-     ]
-    },
-    {
-     "voz": "Es que te falta el mapa: no ves lo que te queda.",
-     "escena": "lamina",
-     "p": {
-      "hechos": 0
-     },
-     "rotulo": "Te falta el mapa",
-     "color": "oro_l",
-     "claves": [
-      "mapa:"
-     ],
-     "tono": "porque"
-    },
-    {
-     "voz": "Ponlo delante: qué bloques están cerrados…",
-     "escena": "=",
-     "p": {
-      "hechos": 3
-     },
-     "rotulo": "Cerrados",
-     "color": "oro_l",
-     "tono": "salida"
-    },
-    {
-     "voz": "…cuáles están atascados…",
-     "escena": "=",
-     "p": {
-      "resaltar": [
-       3,
-       4
-      ]
-     },
-     "rotulo": "Atascados",
-     "color": "coral",
-     "tono": "salida"
-    },
-    {
-     "voz": "…y qué te pide exactamente tu escuela.",
-     "escena": "=",
-     "p": {
-      "activo": 6
-     },
-     "tono": "salida"
-    },
-    {
-     "voz": "Eso es lo que miramos contigo en la auditoría gratuita de AC.",
-     "escena": "flujo",
-     "p": {
-      "pasos": [
-       {
-        "t": "Dónde estás",
-        "i": "planos"
-       },
-       {
-        "t": "Qué te falta",
-        "i": "doc"
-       },
-       {
-        "t": "Un plan por fases",
-        "i": "calendario"
-       }
-      ],
-      "activo": [
-       0,
-       1
-      ]
-     },
-     "rotulo": "Auditoría gratuita",
-     "color": "oro_l",
-     "tono": "porque"
-    },
-    {
-     "voz": "Y sales con un plan por fases hasta la entrega.",
-     "escena": "=",
-     "p": {
-      "activo": 2
-     },
-     "rotulo": "Plan por fases",
-     "color": "oro_l",
-     "tono": "salida"
-    },
-    {
-     "voz": "No necesitas más horas: necesitas saber en qué gastarlas.",
-     "escena": "lamina",
-     "p": {
-      "hechos": 7
-     },
-     "rotulo": "En qué gastarlas",
-     "color": "oro_l",
-     "tono": "reencuadre"
-    }
-   ],
-   "compartir": "Pásaselo a ese compañero que no sabe por dónde seguir.",
-   "pregunta": "¿Qué bloque llevas más atascado?",
-   "descripcion": "Muchas veces no vas tarde: vas sin mapa. Pon delante qué bloques están cerrados, cuáles atascados y qué pide tu escuela. Es lo que miramos contigo en la auditoría gratuita de AC, y sales con un plan por fases.",
-   "puntos": [
-    "Qué bloques tienes cerrados",
-    "Cuáles están atascados",
-    "Un plan por fases hasta la entrega"
-   ]
-  },
-  {
-   "id": "preguntar_a_tiempo",
-   "hook": "Dos semanas atascado y no has preguntado",
-   "portada": 4,
-   "golpes": [
-    {
-     "voz": "Llevas dos semanas atascado en el mismo detalle.",
-     "escena": "despacho",
-     "p": {
-      "hora": 1.0,
-      "pantalla": "pendientes",
-      "pendientes": 1,
-      "pose": "agobio",
-      "pila": 2
-     },
-     "rotulo": "2 semanas",
-     "color": "coral",
-     "claves": [
-      "dos"
-     ]
-    },
-    {
-     "voz": "Y no se lo has contado a nadie.",
-     "escena": "=",
-     "p": {
-      "hora": 1.6
-     },
-     "rotulo": "A nadie",
-     "color": "crema",
-     "cam": [
-      540,
-      1250,
-      1.15
-     ],
-     "tono": "giro"
-    },
-    {
-     "voz": "Y no, no es que no valgas para esto.",
-     "escena": "=",
-     "rotulo": "No valgo para esto",
-     "tachado": true,
-     "cam": [
-      540,
-      1050,
-      1.0
-     ]
-    },
-    {
-     "voz": "En un estudio de verdad, nadie resuelve un edificio solo.",
-     "escena": "equipo",
-     "p": {
-      "propios": 1,
-      "extra": 0
-     },
-     "rotulo": "Nadie lo hace solo",
-     "color": "oro_l",
-     "tono": "porque"
-    },
-    {
-     "voz": "Uno mira la estructura, otro las instalaciones, otro revisa.",
-     "escena": "=",
-     "p": {
-      "extra": 3,
-      "extra_texto": "CADA UNO REVISA LO SUYO"
-     },
-     "tono": "porque"
-    },
-    {
-     "voz": "En la escuela también puedes preguntar.",
-     "escena": "flujo",
-     "p": {
-      "pasos": [
-       {
-        "t": "Tu tutor",
-        "i": "persona"
-       },
-       {
-        "t": "Un compañero de otro curso",
-        "i": "persona"
-       },
-       {
-        "t": "Una asesoría",
-        "i": "planos"
-       }
-      ]
-     },
-     "rotulo": "Pregunta",
-     "color": "oro_l",
-     "tono": "salida"
-    },
-    {
-     "voz": "Pero lleva una pregunta concreta, no un «no me sale».",
-     "escena": "=",
-     "p": {
-      "activo": 0
-     },
-     "rotulo": "Pregunta concreta",
-     "color": "oro_l",
-     "claves": [
-      "concreta,"
-     ],
-     "tono": "salida"
-    },
-    {
-     "voz": "Qué has probado, dónde se rompe y qué dudas te quedan.",
-     "escena": "=",
-     "p": {
-      "activo": [
-       0,
-       1,
-       2
-      ]
-     },
-     "tono": "salida"
-    },
-    {
-     "voz": "Las decisiones siguen siendo tuyas.",
-     "escena": "tribunal",
-     "p": {
-      "miembros": 1,
-      "gesto": "ok"
-     },
-     "rotulo": "Decides tú",
-     "color": "oro_l",
-     "claves": [
-      "tuyas."
-     ],
-     "tono": "salida"
-    },
-    {
-     "voz": "Preguntar a tiempo no es rendirse: es proyectar como se proyecta de verdad.",
-     "escena": "equipo",
-     "p": {
-      "propios": 1,
-      "extra": 3
-     },
-     "rotulo": "No es rendirse",
-     "color": "oro_l",
-     "tono": "reencuadre"
-    }
-   ],
-   "compartir": "Pásaselo a ese compañero que lleva días atascado y no dice nada.",
-   "pregunta": "¿En qué llevas más tiempo atascado?",
-   "descripcion": "Nadie resuelve un edificio solo, tampoco en un estudio. Si llevas días atascado, pregunta a tu tutor, a un compañero o a una asesoría, pero con una pregunta concreta: qué has probado, dónde se rompe y qué dudas te quedan.",
-   "puntos": [
-    "Lleva una pregunta concreta",
-    "Cuenta qué has probado y dónde se rompe",
-    "Las decisiones siguen siendo tuyas"
-   ]
-  },
-  {
-   "id": "empezar_de_cero",
-   "hook": "No tires tu TFM a mitad de curso",
-   "portada": 3,
-   "golpes": [
-    {
-     "voz": "Mitad de curso. Ves el proyecto de otro.",
-     "escena": "despacho",
-     "p": {
-      "hora": 17.0,
-      "luz": "dia",
-      "pantalla": "plano",
-      "pose": "mira",
-      "pila": 2,
-      "entrega": false
-     },
-     "rotulo": "El proyecto de otro",
-     "color": "oro_l"
-    },
-    {
-     "voz": "Y de repente el tuyo te parece malísimo.",
-     "escena": "=",
-     "p": {
-      "pose": "agobio",
-      "pantalla": "aviso",
-      "aviso": "¿Empiezo de cero?"
-     },
-     "rotulo": "¿Empiezo de cero?",
-     "color": "coral",
-     "cam": [
-      540,
-      960,
-      1.2
-     ],
-     "tono": "giro"
-    },
-    {
-     "voz": "Y no, no hace falta empezar de cero.",
-     "escena": "=",
-     "rotulo": "Empezar de cero",
-     "tachado": true,
-     "cam": [
-      540,
-      1050,
-      1.0
-     ]
-    },
-    {
-     "voz": "Muchas veces no falla la idea: es que está a medio desarrollar.",
-     "escena": "versus",
-     "p": {
-      "a": {
-       "t": "EMPEZAR DE CERO",
-       "filas": [
-        "Pierdes lo hecho",
-        "Mismas dudas",
-        "Menos tiempo"
-       ]
-      },
-      "b": {
-       "t": "DESARROLLAR",
-       "filas": [
-        "Aprovechas lo hecho",
-        "La idea gana fuerza",
-        "Llegas a la entrega"
-       ]
-      },
-      "n": 3
-     },
-     "rotulo": "A medio desarrollar",
-     "color": "oro_l",
-     "tono": "porque"
-    },
-    {
-     "voz": "Antes de tirarla, escríbela en una frase.",
-     "escena": "flujo",
-     "p": {
-      "pasos": [
-       {
-        "t": "Escribe la idea en una frase",
-        "i": "lapiz"
-       },
-       {
-        "t": "¿Se sostiene? Desarróllala",
-        "i": "planos"
-       },
-       {
-        "t": "¿No? Cambia lo mínimo",
-        "i": "doc"
-       }
-      ],
-      "activo": 0
-     },
-     "rotulo": "1 frase",
-     "color": "oro_l",
-     "tono": "salida"
-    },
-    {
-     "voz": "Si la frase se sostiene, lo que falta es desarrollo.",
-     "escena": "=",
-     "p": {
-      "activo": 1
-     },
-     "tono": "salida"
-    },
-    {
-     "voz": "Si no, cambia lo mínimo para que se sostenga.",
-     "escena": "=",
-     "p": {
-      "activo": 2
-     },
-     "rotulo": "Lo mínimo",
-     "color": "oro_l",
-     "claves": [
-      "mínimo"
-     ],
-     "tono": "salida"
-    },
-    {
-     "voz": "Y enséñasela a tu tutor antes de tocar un plano.",
-     "escena": "tribunal",
-     "p": {
-      "miembros": 1,
-      "gesto": "ok"
-     },
-     "tono": "salida"
-    },
-    {
-     "voz": "Un buen TFM no es una gran idea: es una idea llevada hasta el final.",
-     "escena": "lamina",
-     "p": {
-      "hechos": 7
-     },
-     "rotulo": "Hasta el final",
-     "color": "oro_l",
-     "claves": [
-      "final."
-     ],
-     "tono": "reencuadre"
-    }
-   ],
-   "compartir": "Pásaselo a ese compañero que quiere cambiar de proyecto en abril.",
-   "pregunta": "¿Has querido empezar de cero alguna vez?",
-   "descripcion": "Antes de tirar tu proyecto a mitad de curso, escribe la idea en una frase. Si se sostiene, lo que falta es desarrollo; si no, cambia lo mínimo para que se sostenga y enséñasela a tu tutor antes de tocar un plano.",
-   "puntos": [
-    "Escribe la idea en una frase",
-    "Si se sostiene, desarróllala",
-    "Si no, cambia lo mínimo"
-   ]
-  }
- ]
+"_info": "Guiones de los reels «explicados» de AC (explicado.py). Cada golpe = una frase de voz + una escena (explicado_escenas.py; «=» sigue en la misma) + un rótulo opcional. Contenido ÚTIL para estudiantes agobiados con el TFM; enfoque de asesoría y acompañamiento (marca.py): el proyecto, las decisiones y la defensa son del alumno. Sin estadísticas ni promesas. Estructura: escena con giro → mito tachado → por qué → salida en pasos → reencuadre → «pásaselo a…».",
+"guiones": [
+{
+"id": "tres_semanas",
+"hook": "Quedan 3 semanas y sigues cambiando la planta",
+"portada": 2,
+"golpes": [
+{
+"voz": "Quedan tres semanas para entregar.",
+"escena": "despacho",
+"p": {
+"hora": 23.0,
+"pantalla": "aviso",
+"aviso": "Entrega: 3 semanas",
+"pose": "trabaja",
+"pila": 3
+},
+"rotulo": "3 semanas",
+"color": "oro_l"
+},
+{
+"voz": "Y tú sigues cambiando la planta.",
+"escena": "=",
+"p": {
+"pantalla": "plano",
+"pose": "agobio",
+"hora": 23.8,
+"pila": 5,
+"pila_color": "coral"
+},
+"rotulo": "Otra vez la planta",
+"color": "coral",
+"claves": [
+"planta."
+],
+"cam": [
+540,
+960,
+1.2
+],
+"tono": "giro"
+},
+{
+"voz": "Y no, no es perfeccionismo.",
+"escena": "=",
+"p": {
+"hora": 24.0
+},
+"rotulo": "Perfeccionismo",
+"tachado": true,
+"cam": [
+540,
+1050,
+1.0
+]
+},
+{
+"voz": "Es que cada cambio en planta arrastra todo lo demás.",
+"escena": "lamina",
+"p": {
+"hechos": 2,
+"activo": 1
+},
+"rotulo": "Lo arrastra todo",
+"color": "oro_l",
+"tono": "porque"
+},
+{
+"voz": "Secciones, construcción, instalaciones, estructura…",
+"escena": "=",
+"p": {
+"resaltar": [
+2,
+3,
+4
+]
+},
+"color": "coral",
+"cam": [
+540,
+1090,
+1.1
+],
+"tono": "porque"
+},
+{
+"voz": "Por eso hace falta un día en el que el proyecto se congela.",
+"escena": "rejilla",
+"p": {
+"n": 21,
+"cols": 7,
+"icono": "calendario",
+"resaltar": [
+6
+],
+"color": "oro_l"
+},
+"rotulo": "Día de congelar",
+"color": "oro_l",
+"claves": [
+"congela."
+],
+"tono": "salida"
+},
+{
+"voz": "Desde ahí, solo dibujas lo que ya está decidido.",
+"escena": "=",
+"p": {
+"resaltar": [
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+20
+],
+"marca": "check"
+},
+"tono": "salida"
+},
+{
+"voz": "Y lo que no dé tiempo a cambiar, se defiende.",
+"escena": "tribunal",
+"p": {
+"miembros": 3,
+"gesto": "ok"
+},
+"rotulo": "Se defiende",
+"color": "oro_l",
+"tono": "salida"
+},
+{
+"voz": "Un TFM no se termina: se cierra.",
+"escena": "lamina",
+"p": {
+"hechos": 7
+},
+"rotulo": "Se cierra",
+"color": "oro_l",
+"claves": [
+"cierra."
+],
+"tono": "reencuadre"
+}
+],
+"compartir": "Pásaselo a ese compañero que hoy ha vuelto a mover la escalera.",
+"pregunta": "¿Cuántas veces has cambiado la planta este mes?",
+"descripcion": "Cada cambio en planta arrastra secciones, construcción, instalaciones y estructura. Ponte un día para congelar el proyecto: desde ahí solo se dibuja lo decidido, y lo que no dé tiempo a cambiar se defiende.",
+"puntos": [
+"Fija un día para congelar el proyecto",
+"Después, solo dibujas lo decidido",
+"Lo que no cambies, apréndete a defenderlo"
+]
+},
+{
+"id": "panel_ruido",
+"hook": "Tu panel no necesita más dibujos",
+"portada": 3,
+"golpes": [
+{
+"voz": "Cuelgas los paneles. El tribunal se acerca.",
+"escena": "tribunal",
+"p": {
+"miembros": 3
+},
+"rotulo": "El tribunal",
+"color": "oro_l"
+},
+{
+"voz": "Y antes de que abras la boca, ya está leyendo.",
+"escena": "=",
+"p": {
+"gesto": "duda"
+},
+"rotulo": "Ya está leyendo",
+"color": "coral",
+"cam": [
+540,
+900,
+1.15
+],
+"tono": "giro"
+},
+{
+"voz": "Y no, no gana el panel más lleno.",
+"escena": "=",
+"rotulo": "El panel más lleno",
+"tachado": true,
+"cam": [
+540,
+1050,
+1.0
+]
+},
+{
+"voz": "Gana el que se entiende de lejos.",
+"escena": "lamina",
+"p": {
+"nombres": false,
+"hechos": 0,
+"activo": 5
+},
+"rotulo": "De lejos",
+"color": "oro_l",
+"claves": [
+"lejos."
+],
+"tono": "porque"
+},
+{
+"voz": "Una idea. Y un dibujo grande que la cuenta.",
+"escena": "=",
+"p": {
+"hechos": 0,
+"activo": 5
+},
+"rotulo": "1 idea, 1 dibujo",
+"color": "oro_l",
+"cam": [
+540,
+1130,
+1.1
+],
+"tono": "porque"
+},
+{
+"voz": "El resto, ordenado para acompañarla.",
+"escena": "=",
+"p": {
+"hechos": 7
+},
+"cam": [
+540,
+1050,
+1.0
+],
+"tono": "porque"
+},
+{
+"voz": "Haz la prueba: enséñaselo diez segundos a alguien de fuera.",
+"escena": "flujo",
+"p": {
+"pasos": [
+{
+"t": "Enséñalo 10 segundos",
+"i": "reloj"
+},
+{
+"t": "Pregunta qué ha entendido",
+"i": "persona"
+},
+{
+"t": "Si no es tu idea, quita",
+"i": "lapiz"
+}
+],
+"activo": 0
+},
+"rotulo": "La prueba",
+"color": "oro_l",
+"tono": "salida"
+},
+{
+"voz": "Y pregúntale de qué va el proyecto.",
+"escena": "=",
+"p": {
+"activo": 1
+},
+"tono": "salida"
+},
+{
+"voz": "Si no sabe decirlo, no falta dibujo: sobra ruido.",
+"escena": "=",
+"p": {
+"activo": 2
+},
+"rotulo": "Sobra ruido",
+"color": "coral",
+"claves": [
+"ruido."
+],
+"tono": "salida"
+},
+{
+"voz": "Un panel no es un almacén: es un argumento.",
+"escena": "tribunal",
+"p": {
+"miembros": 3,
+"gesto": "ok"
+},
+"rotulo": "Es un argumento",
+"color": "oro_l",
+"claves": [
+"argumento."
+],
+"tono": "reencuadre"
+}
+],
+"compartir": "Pásaselo a ese compañero que quiere meterlo todo en un A0.",
+"pregunta": "¿Qué es lo primero que se ve en tu panel?",
+"descripcion": "El tribunal lee tu panel antes de escucharte. No gana el más lleno, sino el que se entiende de lejos: una idea, un dibujo grande que la cuenta y el resto ordenado alrededor.",
+"puntos": [
+"Una idea y un dibujo grande que la cuente",
+"Enséñalo 10 segundos a alguien de fuera",
+"Si no sabe decir de qué va, quita cosas"
+]
+},
+{
+"id": "instalaciones_tarde",
+"hook": "Las instalaciones no se dejan para el final",
+"portada": 1,
+"golpes": [
+{
+"voz": "Por fin tienes la planta perfecta.",
+"escena": "plano",
+"p": {
+"capas": [
+"cotas"
+],
+"etiqueta": "Planta baja"
+},
+"rotulo": "La planta perfecta",
+"color": "oro_l"
+},
+{
+"voz": "Y entonces llegan las instalaciones.",
+"escena": "=",
+"p": {
+"capas": [
+"cotas",
+"fontaneria",
+"electricidad"
+]
+},
+"rotulo": "Y entonces…",
+"color": "coral",
+"cam": [
+540,
+1050,
+1.12
+],
+"tono": "giro"
+},
+{
+"voz": "Y no, no son cosa del final.",
+"escena": "=",
+"rotulo": "Cosa del final",
+"tachado": true,
+"cam": [
+540,
+1050,
+1.0
+]
+},
+{
+"voz": "Patinillos, falsos techos y cuartos técnicos ocupan sitio.",
+"escena": "lamina",
+"p": {
+"hechos": 2,
+"resaltar": [
+3
+]
+},
+"rotulo": "Ocupan sitio",
+"color": "coral",
+"claves": [
+"sitio."
+],
+"tono": "porque"
+},
+{
+"voz": "Y ese sitio sale de tu planta y de tu sección.",
+"escena": "=",
+"p": {
+"resaltar": [
+1,
+3
+]
+},
+"cam": [
+540,
+1000,
+1.12
+],
+"tono": "porque"
+},
+{
+"voz": "Así que resérvalo desde el principio, aunque sea a ojo.",
+"escena": "flujo",
+"p": {
+"pasos": [
+{
+"t": "Un patinillo por núcleo húmedo",
+"i": "planos"
+},
+{
+"t": "Altura para el falso techo",
+"i": "doc"
+},
+{
+"t": "Cuarto técnico con acceso",
+"i": "casa"
+}
+],
+"activo": 0
+},
+"rotulo": "Resérvalo ya",
+"color": "oro_l",
+"tono": "salida"
+},
+{
+"voz": "Un patinillo junto a cada núcleo húmedo.",
+"escena": "=",
+"p": {
+"activo": 0
+},
+"tono": "salida"
+},
+{
+"voz": "Altura libre para el falso techo.",
+"escena": "=",
+"p": {
+"activo": 1
+},
+"tono": "salida"
+},
+{
+"voz": "Y un cuarto técnico al que se pueda entrar.",
+"escena": "=",
+"p": {
+"activo": 2
+},
+"tono": "salida"
+},
+{
+"voz": "Las instalaciones no se añaden: se proyectan.",
+"escena": "plano",
+"p": {
+"capas": [
+"cotas",
+"estructura",
+"fontaneria",
+"electricidad"
+]
+},
+"rotulo": "Se proyectan",
+"color": "oro_l",
+"claves": [
+"proyectan."
+],
+"tono": "reencuadre"
+}
+],
+"compartir": "Pásaselo a ese compañero que todavía no ha dibujado ni un patinillo.",
+"pregunta": "¿En qué fase del proyecto metes tú las instalaciones?",
+"descripcion": "Patinillos, falsos techos y cuartos técnicos ocupan sitio, y ese sitio sale de tu planta y de tu sección. Resérvalo desde el principio, aunque sea a ojo, y no tendrás que rehacer la planta al final.",
+"puntos": [
+"Un patinillo junto a cada núcleo húmedo",
+"Altura libre para el falso techo",
+"Un cuarto técnico con acceso"
+]
+},
+{
+"id": "correccion_perdido",
+"hook": "Sales de la corrección más perdido que antes",
+"portada": 0,
+"golpes": [
+{
+"voz": "Sales de la corrección con veinte comentarios.",
+"escena": "tribunal",
+"p": {
+"miembros": 1,
+"gesto": "duda",
+"pose": "agobio"
+},
+"rotulo": "20 comentarios",
+"color": "coral",
+"claves": [
+"veinte"
+]
+},
+{
+"voz": "Y más perdido que antes de entrar.",
+"escena": "despacho",
+"p": {
+"hora": 19.0,
+"pantalla": "pendientes",
+"pendientes": 20,
+"pose": "agobio",
+"pila": 4,
+"entrega": false
+},
+"rotulo": "Más perdido",
+"color": "coral",
+"tono": "giro"
+},
+{
+"voz": "Y no, no tienes que rehacerlo todo.",
+"escena": "=",
+"rotulo": "Rehacerlo todo",
+"tachado": true
+},
+{
+"voz": "No todos los comentarios pesan lo mismo.",
+"escena": "rejilla",
+"p": {
+"n": 20,
+"cols": 5,
+"icono": "doc"
+},
+"rotulo": "No pesan lo mismo",
+"color": "oro_l",
+"tono": "porque"
+},
+{
+"voz": "Sepáralos en tres montones.",
+"escena": "flujo",
+"p": {
+"pasos": [
+{
+"t": "Tocan la idea",
+"i": "lapiz",
+"c": "coral"
+},
+{
+"t": "Tocan el dibujo",
+"i": "planos"
+},
+{
+"t": "Son de gusto",
+"i": "persona"
+}
+]
+},
+"rotulo": "3 montones",
+"color": "oro_l",
+"tono": "salida"
+},
+{
+"voz": "Los que tocan la idea van primero.",
+"escena": "=",
+"p": {
+"activo": 0
+},
+"tono": "salida"
+},
+{
+"voz": "Los de dibujo, a la lista de tareas.",
+"escena": "=",
+"p": {
+"activo": 1
+},
+"tono": "salida"
+},
+{
+"voz": "Y en los de gusto, decides tú.",
+"escena": "=",
+"p": {
+"activo": 2
+},
+"rotulo": "Decides tú",
+"color": "oro_l",
+"claves": [
+"tú."
+],
+"tono": "salida"
+},
+{
+"voz": "Y antes de irte, repite en voz alta lo que has entendido.",
+"escena": "tribunal",
+"p": {
+"miembros": 1,
+"gesto": "ok"
+},
+"rotulo": "Repítelo en voz alta",
+"color": "oro_l",
+"tono": "salida"
+},
+{
+"voz": "Una corrección no es una sentencia: es una lista por ordenar.",
+"escena": "rejilla",
+"p": {
+"n": 20,
+"cols": 5,
+"icono": "doc",
+"resaltar": [
+0,
+1,
+2
+],
+"color": "oro_l",
+"marca": "check"
+},
+"rotulo": "Una lista por ordenar",
+"color": "oro_l",
+"tono": "reencuadre"
+}
+],
+"compartir": "Pásaselo a ese compañero que sale de cada corrección queriendo empezar de cero.",
+"pregunta": "¿Cuál es el comentario que más te han repetido?",
+"descripcion": "No todos los comentarios de una corrección pesan lo mismo. Sepáralos en tres montones: los que tocan la idea (van primero), los de dibujo (a la lista) y los de gusto (decides tú).",
+"puntos": [
+"Primero, lo que toca la idea",
+"Lo de dibujo, a la lista de tareas",
+"Antes de irte, repite lo que has entendido"
+]
+},
+{
+"id": "planificar_atras",
+"hook": "Tu TFM se planifica al revés",
+"portada": 4,
+"golpes": [
+{
+"voz": "Abres el calendario y cuentas: ocho semanas.",
+"escena": "cifra",
+"p": {
+"valor": 8,
+"desde": 0,
+"sub": "semanas para entregar",
+"dur": 0.9
+},
+"rotulo": "8 semanas",
+"color": "oro_l",
+"claves": [
+"ocho"
+]
+},
+{
+"voz": "Te parece muchísimo.",
+"escena": "despacho",
+"p": {
+"hora": 12.0,
+"luz": "dia",
+"pantalla": "plano",
+"pose": "celebra",
+"pila": 1,
+"entrega": false
+},
+"rotulo": "Muchísimo",
+"color": "crema",
+"tono": "giro"
+},
+{
+"voz": "Y no, no se planifica desde hoy.",
+"escena": "=",
+"p": {
+"pose": "mira"
+},
+"rotulo": "Desde hoy",
+"tachado": true
+},
+{
+"voz": "Se planifica desde la entrega, hacia atrás.",
+"escena": "rejilla",
+"p": {
+"n": 8,
+"cols": 4,
+"icono": "calendario",
+"numeros": true,
+"resaltar": 1,
+"resaltar_fin": true,
+"color": "oro_l"
+},
+"rotulo": "Hacia atrás",
+"color": "oro_l",
+"claves": [
+"atrás."
+],
+"tono": "porque"
+},
+{
+"voz": "La última semana no es para dibujar: es para maquetar, imprimir y ensayar.",
+"escena": "=",
+"p": {
+"resaltar": 1,
+"resaltar_fin": true,
+"color": "coral"
+},
+"rotulo": "La última no cuenta",
+"color": "coral",
+"tono": "porque"
+},
+{
+"voz": "La anterior, para cerrar paneles y memoria.",
+"escena": "=",
+"p": {
+"resaltar": 2,
+"resaltar_fin": true,
+"color": "coral"
+},
+"tono": "porque"
+},
+{
+"voz": "Lo que queda es tu tiempo real.",
+"escena": "=",
+"p": {
+"resaltar": 6,
+"resaltar_fin": false,
+"color": "oro_l"
+},
+"rotulo": "Tu tiempo real",
+"color": "oro_l",
+"claves": [
+"real."
+],
+"tono": "dato"
+},
+{
+"voz": "Repártelo por bloques y ponle fecha a cada uno.",
+"escena": "lamina",
+"p": {
+"hechos": 0,
+"activo": 0
+},
+"rotulo": "Fecha por bloque",
+"color": "oro_l",
+"tono": "salida"
+},
+{
+"voz": "Y si un bloque se retrasa, lo sabes esa semana, no la última.",
+"escena": "=",
+"p": {
+"hechos": 3,
+"resaltar": [
+3
+]
+},
+"tono": "salida"
+},
+{
+"voz": "Tu plazo no es el día de entrega: es el día en que dejas de dibujar.",
+"escena": "rejilla",
+"p": {
+"n": 8,
+"cols": 4,
+"icono": "calendario",
+"numeros": true,
+"resaltar": [
+5
+],
+"color": "oro_l"
+},
+"rotulo": "Dejar de dibujar",
+"color": "oro_l",
+"tono": "reencuadre"
+}
+],
+"compartir": "Pásaselo a ese compañero que siempre dice «todavía hay tiempo».",
+"pregunta": "¿Cuántas semanas te quedan a ti?",
+"descripcion": "El TFM se planifica desde la entrega hacia atrás. La última semana es para maquetar, imprimir y ensayar; la anterior, para cerrar paneles y memoria. Lo que queda es tu tiempo real: repártelo por bloques con fecha.",
+"puntos": [
+"Cuenta desde la entrega hacia atrás",
+"Las dos últimas semanas no son para dibujar",
+"Una fecha para cada bloque"
+]
+},
+{
+"id": "render_foto",
+"hook": "El render no te va a salvar el TFM",
+"portada": 3,
+"golpes": [
+{
+"voz": "Llevas tres días con el render.",
+"escena": "despacho",
+"p": {
+"hora": 2.0,
+"pantalla": "plano",
+"pose": "trabaja",
+"pila": 2
+},
+"rotulo": "3 días",
+"color": "oro_l"
+},
+{
+"voz": "Y la sección sigue sin estar.",
+"escena": "=",
+"p": {
+"pantalla": "aviso",
+"aviso": "Sección: sin empezar",
+"pose": "agobio",
+"hora": 2.6
+},
+"rotulo": "Sin sección",
+"color": "coral",
+"claves": [
+"sección"
+],
+"cam": [
+540,
+960,
+1.2
+],
+"tono": "giro"
+},
+{
+"voz": "Y no, el render no te va a salvar.",
+"escena": "=",
+"rotulo": "El render te salva",
+"tachado": true,
+"cam": [
+540,
+1050,
+1.0
+]
+},
+{
+"voz": "La imagen enseña cómo se ve.",
+"escena": "versus",
+"p": {
+"a": {
+"t": "RENDER",
+"filas": [
+"Cómo se ve",
+"Un punto de vista",
+"La atmósfera"
+]
+},
+"b": {
+"t": "SECCIÓN",
+"filas": [
+"Cómo funciona",
+"Todo el edificio",
+"Alturas y estructura"
+]
+},
+"n": 1
+},
+"rotulo": "Cómo se ve",
+"color": "crema",
+"tono": "porque"
+},
+{
+"voz": "La sección enseña cómo funciona.",
+"escena": "=",
+"p": {
+"n": 3
+},
+"rotulo": "Cómo funciona",
+"color": "oro_l",
+"claves": [
+"funciona."
+],
+"tono": "porque"
+},
+{
+"voz": "Y el tribunal pregunta por lo segundo.",
+"escena": "tribunal",
+"p": {
+"miembros": 3,
+"gesto": "duda",
+"foco": 1
+},
+"rotulo": "Pregunta por esto",
+"color": "oro_l",
+"tono": "dato"
+},
+{
+"voz": "Así que primero, planta y sección cerradas.",
+"escena": "flujo",
+"p": {
+"pasos": [
+{
+"t": "Planta y sección",
+"i": "planos"
+},
+{
+"t": "Construcción y estructura",
+"i": "casa"
+},
+{
+"t": "Imágenes",
+"i": "lapiz"
+}
+],
+"activo": 0
+},
+"rotulo": "Este orden",
+"color": "oro_l",
+"tono": "salida"
+},
+{
+"voz": "Después, cómo se construye.",
+"escena": "=",
+"p": {
+"activo": 1
+},
+"tono": "salida"
+},
+{
+"voz": "Y la imagen, al final: ya sabrás qué enseñar.",
+"escena": "=",
+"p": {
+"activo": 2
+},
+"tono": "salida"
+},
+{
+"voz": "El render no es el proyecto: es su foto.",
+"escena": "lamina",
+"p": {
+"hechos": 5,
+"activo": 5
+},
+"rotulo": "Es su foto",
+"color": "oro_l",
+"claves": [
+"foto."
+],
+"tono": "reencuadre"
+}
+],
+"compartir": "Pásaselo a ese compañero que lleva una semana eligiendo el cielo del render.",
+"pregunta": "¿Qué haces primero: la sección o el render?",
+"descripcion": "El render enseña cómo se ve; la sección, cómo funciona. Y el tribunal pregunta por lo segundo. Orden que funciona: planta y sección cerradas, después construcción y estructura, y las imágenes al final.",
+"puntos": [
+"Primero, planta y sección cerradas",
+"Después, cómo se construye",
+"La imagen, al final"
+]
+},
+{
+"id": "memoria_notas",
+"hook": "La memoria no se escribe la última noche",
+"portada": 1,
+"golpes": [
+{
+"voz": "Última noche. Los paneles, listos.",
+"escena": "despacho",
+"p": {
+"hora": 23.0,
+"pantalla": "ok",
+"pose": "celebra",
+"pila": 0
+},
+"rotulo": "Paneles listos",
+"color": "oro_l"
+},
+{
+"voz": "Y la memoria, en blanco.",
+"escena": "=",
+"p": {
+"pantalla": "aviso",
+"aviso": "Memoria: página 1",
+"pose": "agobio",
+"hora": 23.5,
+"pila": 3,
+"pila_color": "coral"
+},
+"rotulo": "En blanco",
+"color": "coral",
+"claves": [
+"blanco."
+],
+"cam": [
+540,
+960,
+1.2
+],
+"tono": "giro"
+},
+{
+"voz": "Y no, la memoria no es un trámite.",
+"escena": "=",
+"rotulo": "Un trámite",
+"tachado": true,
+"cam": [
+540,
+1050,
+1.0
+]
+},
+{
+"voz": "Es donde explicas por qué has decidido cada cosa.",
+"escena": "lamina",
+"p": {
+"hechos": 6,
+"resaltar": [
+6
+]
+},
+"rotulo": "El porqué",
+"color": "oro_l",
+"claves": [
+"por",
+"qué"
+],
+"tono": "porque"
+},
+{
+"voz": "Y eso solo lo recuerdas bien mientras lo decides.",
+"escena": "=",
+"cam": [
+560,
+1130,
+1.1
+],
+"tono": "porque"
+},
+{
+"voz": "Así que abre el documento hoy, solo con el índice.",
+"escena": "flujo",
+"p": {
+"pasos": [
+{
+"t": "Abre el índice hoy",
+"i": "doc"
+},
+{
+"t": "Una nota por decisión",
+"i": "lapiz"
+},
+{
+"t": "Al final, ordenas",
+"i": "planos"
+}
+],
+"activo": 0
+},
+"rotulo": "Ábrelo hoy",
+"color": "oro_l",
+"tono": "salida"
+},
+{
+"voz": "Cada decisión que tomes, una nota de dos líneas.",
+"escena": "=",
+"p": {
+"activo": 1
+},
+"rotulo": "2 líneas",
+"color": "oro_l",
+"tono": "salida"
+},
+{
+"voz": "Y al final no escribes: ordenas.",
+"escena": "=",
+"p": {
+"activo": 2
+},
+"tono": "salida"
+},
+{
+"voz": "La memoria no se redacta al final: se va apuntando.",
+"escena": "lamina",
+"p": {
+"hechos": 7
+},
+"rotulo": "Se va apuntando",
+"color": "oro_l",
+"claves": [
+"apuntando."
+],
+"tono": "reencuadre"
+}
+],
+"compartir": "Pásaselo a ese compañero que dice «la memoria la hago en una tarde».",
+"pregunta": "¿Cuántas páginas llevas de memoria? Sé sincero.",
+"descripcion": "La memoria explica por qué has decidido cada cosa, y eso solo se recuerda bien mientras se decide. Abre hoy el documento con el índice y apunta dos líneas por cada decisión: al final solo tendrás que ordenar.",
+"puntos": [
+"Abre el documento hoy, con el índice",
+"Dos líneas por cada decisión",
+"Al final no escribes: ordenas"
+]
+},
+{
+"id": "estructura_orden",
+"hook": "La estructura no es un anexo del TFM",
+"portada": 3,
+"golpes": [
+{
+"voz": "Tienes el proyecto. Y te preguntan por la estructura.",
+"escena": "tribunal",
+"p": {
+"miembros": 3,
+"gesto": "duda",
+"foco": 1
+},
+"rotulo": "¿Y la estructura?",
+"color": "coral"
+},
+{
+"voz": "Y te quedas en blanco.",
+"escena": "=",
+"p": {
+"pose": "agobio"
+},
+"rotulo": "En blanco",
+"color": "coral",
+"cam": [
+540,
+1250,
+1.15
+],
+"tono": "giro"
+},
+{
+"voz": "Y no, la estructura no es un anexo.",
+"escena": "=",
+"rotulo": "Un anexo",
+"tachado": true,
+"cam": [
+540,
+1050,
+1.0
+]
+},
+{
+"voz": "Es el orden del edificio: dónde apoya y cómo bajan las cargas.",
+"escena": "plano",
+"p": {
+"capas": [
+"estructura"
+],
+"etiqueta": "Pilares y luces"
+},
+"rotulo": "El orden del edificio",
+"color": "oro_l",
+"claves": [
+"orden"
+],
+"tono": "porque"
+},
+{
+"voz": "Si la decides tarde, te mueve los pilares… y la planta.",
+"escena": "=",
+"p": {
+"capas": [
+"estructura",
+"cotas"
+]
+},
+"rotulo": "Te mueve la planta",
+"color": "coral",
+"cam": [
+540,
+1050,
+1.12
+],
+"tono": "porque"
+},
+{
+"voz": "Empieza por tres preguntas.",
+"escena": "flujo",
+"p": {
+"pasos": [
+{
+"t": "¿Qué luces salvas?",
+"i": "planos"
+},
+{
+"t": "¿Dónde apoyas?",
+"i": "casa"
+},
+{
+"t": "¿Con qué material?",
+"i": "doc"
+}
+]
+},
+"rotulo": "3 preguntas",
+"color": "oro_l",
+"tono": "salida"
+},
+{
+"voz": "Qué luces salvas.",
+"escena": "=",
+"p": {
+"activo": 0
+},
+"tono": "salida"
+},
+{
+"voz": "Dónde apoyas.",
+"escena": "=",
+"p": {
+"activo": 1
+},
+"tono": "salida"
+},
+{
+"voz": "Y con qué material.",
+"escena": "=",
+"p": {
+"activo": 2
+},
+"tono": "salida"
+},
+{
+"voz": "Con eso claro, el cálculo ya tiene dónde agarrarse.",
+"escena": "tribunal",
+"p": {
+"miembros": 3,
+"gesto": "ok"
+},
+"rotulo": "Ya puedes calcular",
+"color": "oro_l",
+"tono": "salida"
+},
+{
+"voz": "La estructura no se añade al proyecto: lo ordena.",
+"escena": "plano",
+"p": {
+"capas": [
+"estructura",
+"cotas"
+]
+},
+"rotulo": "Lo ordena",
+"color": "oro_l",
+"claves": [
+"ordena."
+],
+"tono": "reencuadre"
+}
+],
+"compartir": "Pásaselo a ese compañero que dibuja los pilares el último día.",
+"pregunta": "¿Qué te da más miedo: estructuras o instalaciones?",
+"descripcion": "La estructura es el orden del edificio: dónde apoya y cómo bajan las cargas. Si la decides tarde, te mueve la planta. Empieza por tres preguntas: qué luces salvas, dónde apoyas y con qué material.",
+"puntos": [
+"¿Qué luces salvas?",
+"¿Dónde apoyas?",
+"¿Con qué material?"
+]
+},
+{
+"id": "defensa_ensayo",
+"hook": "La defensa del TFM no se improvisa",
+"portada": 0,
+"golpes": [
+{
+"voz": "Un año de trabajo. Y unos minutos para contarlo.",
+"escena": "tribunal",
+"p": {
+"miembros": 3
+},
+"rotulo": "Unos minutos",
+"color": "oro_l",
+"claves": [
+"minutos"
+]
+},
+{
+"voz": "Y tu plan es improvisar.",
+"escena": "=",
+"p": {
+"gesto": "duda",
+"pose": "agobio"
+},
+"rotulo": "¿Improvisar?",
+"color": "coral",
+"cam": [
+540,
+1250,
+1.15
+],
+"tono": "giro"
+},
+{
+"voz": "Y no, no basta con saberte el proyecto.",
+"escena": "=",
+"rotulo": "Saberte el proyecto",
+"tachado": true,
+"cam": [
+540,
+1050,
+1.0
+]
+},
+{
+"voz": "Sabértelo no es saber contarlo.",
+"escena": "versus",
+"p": {
+"a": {
+"t": "SABERLO",
+"filas": [
+"Todo te parece importante",
+"Te pierdes en detalles",
+"Se acaba el tiempo"
+]
+},
+"b": {
+"t": "CONTARLO",
+"filas": [
+"Una idea clara",
+"Tres decisiones",
+"Cierras a tiempo"
+]
+},
+"n": 3
+},
+"rotulo": "No es lo mismo",
+"color": "oro_l",
+"tono": "porque"
+},
+{
+"voz": "Empieza por la idea, en una sola frase.",
+"escena": "flujo",
+"p": {
+"pasos": [
+{
+"t": "La idea, en una frase",
+"i": "lapiz"
+},
+{
+"t": "Tres decisiones clave",
+"i": "planos"
+},
+{
+"t": "Cómo se construye",
+"i": "casa"
+}
+],
+"activo": 0
+},
+"rotulo": "1 frase",
+"color": "oro_l",
+"tono": "salida"
+},
+{
+"voz": "Después, las tres decisiones que la sostienen.",
+"escena": "=",
+"p": {
+"activo": 1
+},
+"rotulo": "3 decisiones",
+"color": "oro_l",
+"tono": "salida"
+},
+{
+"voz": "Y cómo se construye.",
+"escena": "=",
+"p": {
+"activo": 2
+},
+"tono": "salida"
+},
+{
+"voz": "Ensáyalo en voz alta, con reloj y delante de alguien.",
+"escena": "tribunal",
+"p": {
+"miembros": 1,
+"gesto": "ok"
+},
+"rotulo": "Con reloj",
+"color": "oro_l",
+"claves": [
+"reloj"
+],
+"tono": "salida"
+},
+{
+"voz": "La defensa no se improvisa: se ensaya.",
+"escena": "tribunal",
+"p": {
+"miembros": 3,
+"gesto": "ok"
+},
+"rotulo": "Se ensaya",
+"color": "oro_l",
+"claves": [
+"ensaya."
+],
+"tono": "reencuadre"
+}
+],
+"compartir": "Pásaselo a ese compañero que piensa improvisar la defensa.",
+"pregunta": "¿Has ensayado ya tu defensa en voz alta?",
+"descripcion": "Saberte el proyecto no es saber contarlo. Estructura para la defensa: la idea en una frase, las tres decisiones que la sostienen y cómo se construye. Y ensayarlo en voz alta, con reloj y delante de alguien.",
+"puntos": [
+"La idea, en una frase",
+"Tres decisiones que la sostienen",
+"Ensayo en voz alta y con reloj"
+]
+},
+{
+"id": "sin_mapa",
+"hook": "No vas tarde con el TFM: vas sin mapa",
+"portada": 4,
+"golpes": [
+{
+"voz": "Llevas meses con el TFM.",
+"escena": "despacho",
+"p": {
+"hora": 20.0,
+"pantalla": "plano",
+"pose": "trabaja",
+"pila": 4,
+"entrega": false
+},
+"rotulo": "Meses",
+"color": "oro_l"
+},
+{
+"voz": "Y no sabes si vas bien o vas tarde.",
+"escena": "=",
+"p": {
+"pantalla": "aviso",
+"aviso": "¿Voy bien?",
+"aviso_color": "oro_l",
+"pose": "mira",
+"hora": 20.5
+},
+"rotulo": "¿Voy bien?",
+"color": "coral",
+"cam": [
+540,
+960,
+1.2
+],
+"tono": "giro"
+},
+{
+"voz": "Y no, no es que trabajes poco.",
+"escena": "=",
+"rotulo": "Trabajas poco",
+"tachado": true,
+"cam": [
+540,
+1050,
+1.0
+]
+},
+{
+"voz": "Es que te falta el mapa: no ves lo que te queda.",
+"escena": "lamina",
+"p": {
+"hechos": 0
+},
+"rotulo": "Te falta el mapa",
+"color": "oro_l",
+"claves": [
+"mapa:"
+],
+"tono": "porque"
+},
+{
+"voz": "Ponlo delante: qué bloques están cerrados…",
+"escena": "=",
+"p": {
+"hechos": 3
+},
+"rotulo": "Cerrados",
+"color": "oro_l",
+"tono": "salida"
+},
+{
+"voz": "…cuáles están atascados…",
+"escena": "=",
+"p": {
+"resaltar": [
+3,
+4
+]
+},
+"rotulo": "Atascados",
+"color": "coral",
+"tono": "salida"
+},
+{
+"voz": "…y qué te pide exactamente tu escuela.",
+"escena": "=",
+"p": {
+"activo": 6
+},
+"tono": "salida"
+},
+{
+"voz": "Eso es lo que miramos contigo en la auditoría gratuita de AC.",
+"escena": "flujo",
+"p": {
+"pasos": [
+{
+"t": "Dónde estás",
+"i": "planos"
+},
+{
+"t": "Qué te falta",
+"i": "doc"
+},
+{
+"t": "Un plan por fases",
+"i": "calendario"
+}
+],
+"activo": [
+0,
+1
+]
+},
+"rotulo": "Auditoría gratuita",
+"color": "oro_l",
+"tono": "porque"
+},
+{
+"voz": "Y sales con un plan por fases hasta la entrega.",
+"escena": "=",
+"p": {
+"activo": 2
+},
+"rotulo": "Plan por fases",
+"color": "oro_l",
+"tono": "salida"
+},
+{
+"voz": "No necesitas más horas: necesitas saber en qué gastarlas.",
+"escena": "lamina",
+"p": {
+"hechos": 7
+},
+"rotulo": "En qué gastarlas",
+"color": "oro_l",
+"tono": "reencuadre"
+}
+],
+"compartir": "Pásaselo a ese compañero que no sabe por dónde seguir.",
+"pregunta": "¿Qué bloque llevas más atascado?",
+"descripcion": "Muchas veces no vas tarde: vas sin mapa. Pon delante qué bloques están cerrados, cuáles atascados y qué pide tu escuela. Es lo que miramos contigo en la auditoría gratuita de AC, y sales con un plan por fases.",
+"puntos": [
+"Qué bloques tienes cerrados",
+"Cuáles están atascados",
+"Un plan por fases hasta la entrega"
+]
+},
+{
+"id": "preguntar_a_tiempo",
+"hook": "Dos semanas atascado y no has preguntado",
+"portada": 4,
+"golpes": [
+{
+"voz": "Llevas dos semanas atascado en el mismo detalle.",
+"escena": "despacho",
+"p": {
+"hora": 1.0,
+"pantalla": "pendientes",
+"pendientes": 1,
+"pose": "agobio",
+"pila": 2
+},
+"rotulo": "2 semanas",
+"color": "coral",
+"claves": [
+"dos"
+]
+},
+{
+"voz": "Y no se lo has contado a nadie.",
+"escena": "=",
+"p": {
+"hora": 1.6
+},
+"rotulo": "A nadie",
+"color": "crema",
+"cam": [
+540,
+1250,
+1.15
+],
+"tono": "giro"
+},
+{
+"voz": "Y no, no es que no valgas para esto.",
+"escena": "=",
+"rotulo": "No valgo para esto",
+"tachado": true,
+"cam": [
+540,
+1050,
+1.0
+]
+},
+{
+"voz": "En un estudio de verdad, nadie resuelve un edificio solo.",
+"escena": "equipo",
+"p": {
+"propios": 1,
+"extra": 0
+},
+"rotulo": "Nadie lo hace solo",
+"color": "oro_l",
+"tono": "porque"
+},
+{
+"voz": "Uno mira la estructura, otro las instalaciones, otro revisa.",
+"escena": "=",
+"p": {
+"extra": 3,
+"extra_texto": "CADA UNO REVISA LO SUYO"
+},
+"tono": "porque"
+},
+{
+"voz": "En la escuela también puedes preguntar.",
+"escena": "flujo",
+"p": {
+"pasos": [
+{
+"t": "Tu tutor",
+"i": "persona"
+},
+{
+"t": "Un compañero de otro curso",
+"i": "persona"
+},
+{
+"t": "Una asesoría",
+"i": "planos"
+}
+]
+},
+"rotulo": "Pregunta",
+"color": "oro_l",
+"tono": "salida"
+},
+{
+"voz": "Pero lleva una pregunta concreta, no un «no me sale».",
+"escena": "=",
+"p": {
+"activo": 0
+},
+"rotulo": "Pregunta concreta",
+"color": "oro_l",
+"claves": [
+"concreta,"
+],
+"tono": "salida"
+},
+{
+"voz": "Qué has probado, dónde se rompe y qué dudas te quedan.",
+"escena": "=",
+"p": {
+"activo": [
+0,
+1,
+2
+]
+},
+"tono": "salida"
+},
+{
+"voz": "Las decisiones siguen siendo tuyas.",
+"escena": "tribunal",
+"p": {
+"miembros": 1,
+"gesto": "ok"
+},
+"rotulo": "Decides tú",
+"color": "oro_l",
+"claves": [
+"tuyas."
+],
+"tono": "salida"
+},
+{
+"voz": "Preguntar a tiempo no es rendirse: es proyectar como se proyecta de verdad.",
+"escena": "equipo",
+"p": {
+"propios": 1,
+"extra": 3
+},
+"rotulo": "No es rendirse",
+"color": "oro_l",
+"tono": "reencuadre"
+}
+],
+"compartir": "Pásaselo a ese compañero que lleva días atascado y no dice nada.",
+"pregunta": "¿En qué llevas más tiempo atascado?",
+"descripcion": "Nadie resuelve un edificio solo, tampoco en un estudio. Si llevas días atascado, pregunta a tu tutor, a un compañero o a una asesoría, pero con una pregunta concreta: qué has probado, dónde se rompe y qué dudas te quedan.",
+"puntos": [
+"Lleva una pregunta concreta",
+"Cuenta qué has probado y dónde se rompe",
+"Las decisiones siguen siendo tuyas"
+]
+},
+{
+"id": "empezar_de_cero",
+"hook": "No tires tu TFM a mitad de curso",
+"portada": 3,
+"golpes": [
+{
+"voz": "Mitad de curso. Ves el proyecto de otro.",
+"escena": "despacho",
+"p": {
+"hora": 17.0,
+"luz": "dia",
+"pantalla": "plano",
+"pose": "mira",
+"pila": 2,
+"entrega": false
+},
+"rotulo": "El proyecto de otro",
+"color": "oro_l"
+},
+{
+"voz": "Y de repente el tuyo te parece malísimo.",
+"escena": "=",
+"p": {
+"pose": "agobio",
+"pantalla": "aviso",
+"aviso": "¿Empiezo de cero?"
+},
+"rotulo": "¿Empiezo de cero?",
+"color": "coral",
+"cam": [
+540,
+960,
+1.2
+],
+"tono": "giro"
+},
+{
+"voz": "Y no, no hace falta empezar de cero.",
+"escena": "=",
+"rotulo": "Empezar de cero",
+"tachado": true,
+"cam": [
+540,
+1050,
+1.0
+]
+},
+{
+"voz": "Muchas veces no falla la idea: es que está a medio desarrollar.",
+"escena": "versus",
+"p": {
+"a": {
+"t": "EMPEZAR DE CERO",
+"filas": [
+"Pierdes lo hecho",
+"Mismas dudas",
+"Menos tiempo"
+]
+},
+"b": {
+"t": "DESARROLLAR",
+"filas": [
+"Aprovechas lo hecho",
+"La idea gana fuerza",
+"Llegas a la entrega"
+]
+},
+"n": 3
+},
+"rotulo": "A medio desarrollar",
+"color": "oro_l",
+"tono": "porque"
+},
+{
+"voz": "Antes de tirarla, escríbela en una frase.",
+"escena": "flujo",
+"p": {
+"pasos": [
+{
+"t": "Escribe la idea en una frase",
+"i": "lapiz"
+},
+{
+"t": "¿Se sostiene? Desarróllala",
+"i": "planos"
+},
+{
+"t": "¿No? Cambia lo mínimo",
+"i": "doc"
+}
+],
+"activo": 0
+},
+"rotulo": "1 frase",
+"color": "oro_l",
+"tono": "salida"
+},
+{
+"voz": "Si la frase se sostiene, lo que falta es desarrollo.",
+"escena": "=",
+"p": {
+"activo": 1
+},
+"tono": "salida"
+},
+{
+"voz": "Si no, cambia lo mínimo para que se sostenga.",
+"escena": "=",
+"p": {
+"activo": 2
+},
+"rotulo": "Lo mínimo",
+"color": "oro_l",
+"claves": [
+"mínimo"
+],
+"tono": "salida"
+},
+{
+"voz": "Y enséñasela a tu tutor antes de tocar un plano.",
+"escena": "tribunal",
+"p": {
+"miembros": 1,
+"gesto": "ok"
+},
+"tono": "salida"
+},
+{
+"voz": "Un buen TFM no es una gran idea: es una idea llevada hasta el final.",
+"escena": "lamina",
+"p": {
+"hechos": 7
+},
+"rotulo": "Hasta el final",
+"color": "oro_l",
+"claves": [
+"final."
+],
+"tono": "reencuadre"
+}
+],
+"compartir": "Pásaselo a ese compañero que quiere cambiar de proyecto en abril.",
+"pregunta": "¿Has querido empezar de cero alguna vez?",
+"descripcion": "Antes de tirar tu proyecto a mitad de curso, escribe la idea en una frase. Si se sostiene, lo que falta es desarrollo; si no, cambia lo mínimo para que se sostenga y enséñasela a tu tutor antes de tocar un plano.",
+"puntos": [
+"Escribe la idea en una frase",
+"Si se sostiene, desarróllala",
+"Si no, cambia lo mínimo"
+]
+}
+]
 }
