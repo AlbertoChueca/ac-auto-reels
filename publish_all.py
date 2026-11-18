@@ -15,6 +15,11 @@ def on(name):
     return os.environ.get(name, "true").lower() == "true"
 
 
+def _token_caido(e):
+    s = str(e)
+    return any(x in s for x in ("access token", "OAuthException", "Session has expired", "session has been invalidated"))
+
+
 def publish(reel, caption, meta):
     """Devuelve {destino: id de la publicación o 'error: ...'}."""
     if not os.environ.get("ZERNIO_API_KEY") and not os.environ.get("IG_TOKEN"):
@@ -44,6 +49,12 @@ def publish(reel, caption, meta):
                 try:
                     m = IG.publish_reel(video, caption, thumb_ms=meta.get("thumb_ms"), cover_url=cu)
                 except Exception as e:
+                    if _token_caido(e):                        # token de Meta invalidado: por Zernio si la cuenta está allí
+                        print("Instagram: el token de Meta no vale; pruebo por Zernio:", str(e)[:120], flush=True)
+                        try:
+                            return Z.instagram_reel(url(video), caption, meta.get("thumb_ms"))
+                        except Exception as e2:
+                            raise RuntimeError(f"{str(e)[:150]} · respaldo por Zernio: {str(e2)[:80]}")
                     if not cu:
                         raise
                     print("Instagram no acepta la portada; uso el fotograma:", str(e)[:150], flush=True)

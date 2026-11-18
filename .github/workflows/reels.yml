@@ -12,6 +12,11 @@ on:
         type: choice
         options: [auto, explicado, tips_tfm, tips_proyectos, referentes, ia, test, vf, documentacion, auditoria, encuesta, postpro]
         default: auto
+      hueco:
+        description: "Hueco al que cuenta este reel (manual = uno extra; mediodia/noche = cubre ese hueco del día)"
+        type: choice
+        options: [manual, mediodia, noche]
+        default: manual
       publicar_a:
         description: "Hora de publicación (HH:MM, hora de España). Vacío = en cuanto esté listo"
         default: ""
@@ -22,6 +27,8 @@ on:
 
 permissions:
   contents: write
+  actions: write
+  issues: write
 
 concurrency:
   group: reels-${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && github.run_id || 'publicar' }}
@@ -33,11 +40,19 @@ jobs:
     timeout-minutes: 120
     steps:
       - uses: actions/checkout@v5
+        with:
+          ref: main                  # siempre lo último: si otro trabajo acaba de publicar este hueco, se ve y no se repite
 
       - name: Elegir hueco
         id: slot
         run: |
-          if [ -z "${{ github.event.schedule }}" ]; then echo "slot=manual" >> "$GITHUB_OUTPUT"; exit 0; fi
+          if [ -z "${{ github.event.schedule }}" ]; then
+            H="${{ inputs.hueco || 'manual' }}"
+            if [ "$H" != "manual" ] && [ "${{ inputs.dry_run }}" != "true" ] && python3 -c "import elegir_hueco as E,datetime,sys;from zoneinfo import ZoneInfo;sys.exit(0 if E.publicado('$H',str(datetime.datetime.now(ZoneInfo('Europe/Madrid')).date())) else 1)"; then
+              echo "slot=skip" >> "$GITHUB_OUTPUT"; echo "El hueco $H ya está publicado hoy"; exit 0
+            fi
+            echo "slot=$H" >> "$GITHUB_OUTPUT"; exit 0
+          fi
           if [ "${{ vars.ACTIVO }}" != "true" ]; then echo "slot=skip" >> "$GITHUB_OUTPUT"; echo "Apagado: pon la variable ACTIVO = true"; exit 0; fi
           H=$(python3 elegir_hueco.py); echo "slot=$H" >> "$GITHUB_OUTPUT"; echo "Hueco: $H"
 
@@ -136,3 +151,17 @@ jobs:
       - name: Guardar el estado
         if: always() && steps.slot.outputs.slot != 'skip' && (github.event_name != 'workflow_dispatch' || !inputs.dry_run)
         run: python sincronizar.py "Reel ${{ steps.slot.outputs.slot }} $(date +%F)" log.jsonl used.json review_log.jsonl image_log.jsonl errores_reels.log fuentes/banco.json fuentes/explicados.json playbook.json performance.json tendencias.json
+
+      - name: Aviso si una red lleva dos publicaciones fallando
+        if: always() && steps.slot.outputs.slot != 'skip' && (github.event_name != 'workflow_dispatch' || !inputs.dry_run)
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: python alerta.py
+
+      - name: Despertador para el siguiente hueco
+        if: always() && steps.slot.outputs.slot != 'manual' && steps.slot.outputs.slot != 'skip' && (github.event_name != 'workflow_dispatch' || !inputs.dry_run)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run despertador.yml --ref main || true

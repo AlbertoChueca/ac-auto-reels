@@ -1,0 +1,30 @@
+# Despertador: lanza cada reel (14:00 y 21:00) a su hora sin depender de los programados de GitHub, que llegan con horas
+# de retraso o no llegan. Ver despertador.py. Lo relanza «Reels diarios» al terminar cada hueco.
+name: Despertador
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 4,9,11,15,17 * * *"   # red de seguridad por si la cadena se rompiera (si llega, mejor)
+
+permissions:
+  contents: read
+  actions: write
+
+concurrency:
+  group: despertador
+  cancel-in-progress: true          # solo un despertador: el más nuevo recalcula y sustituye al anterior
+
+jobs:
+  esperar:
+    if: vars.ACTIVO == 'true'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - name: Esperar al siguiente hueco y lanzarlo
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 despertador.py
