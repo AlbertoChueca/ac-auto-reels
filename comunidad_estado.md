@@ -1,10 +1,10 @@
 # Bot de comunidad
 
-_Última pasada: 2026-11-18 04:32 UTC · 0 respuestas_
+_Última pasada: 2026-11-18 14:16 UTC · 0 respuestas_
 
 ## Avisos
 
-- **instagram**: Instagram comentarios 400: {"error":{"message":"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.","code":190,"type":"OAuthException","error_subcode":460,"fbtrace_id":"AKIIRgdWTgQDDJZVKmL2Yky"}}
+- **instagram**: Instagram comentarios 400: {"error":{"message":"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.","code":190,"type":"OAuthException","error_subcode":460,"fbtrace_id":"AysW0y_Jm6HqFP9Qiwn_kG9"}}
 
 | Fecha | Red | Tipo | Gancho | Comentarios | Solución publicada |
 |---|---|---|---|---|---|
@@ -12,7 +12,6 @@ _Última pasada: 2026-11-18 04:32 UTC · 0 respuestas_
 | 2026-11-11 | youtube | tips_proyectos | Tu sección parece sosa | 1 | — |
 | 2026-11-11 | tiktok | documentacion | Así se resuelve la entrega constructiva | 1 | — |
 | 2026-11-11 | youtube | documentacion | Así se resuelve la entrega constructiva | 1 | — |
-| 2026-11-12 | tiktok | vf | ¿VERDADERO O FALSO? | 1 | sí |
 | 2026-11-12 | youtube | vf | ¿VERDADERO O FALSO? | 1 | sí |
 | 2026-11-13 | tiktok | tips_tfm | Estructura tu TFM en 4 pasos | 1 | — |
 | 2026-11-13 | youtube | tips_tfm | Estructura tu TFM en 4 pasos | 1 | — |
@@ -32,3 +31,5 @@ _Última pasada: 2026-11-18 04:32 UTC · 0 respuestas_
 | 2026-11-17 | youtube | ia | 4 usos de IA en Proyectos | 1 | — |
 | 2026-11-17 | tiktok | tips_tfm | El tribunal revisará esto primero | 1 | — |
 | 2026-11-17 | youtube | tips_tfm | El tribunal revisará esto primero | 1 | — |
+| 2026-11-18 | tiktok | test | TEST DE ARQUITECTURA | 0 | pendiente |
+| 2026-11-18 | youtube | test | TEST DE ARQUITECTURA | 0 | pendiente |
