@@ -72,6 +72,10 @@ def merge(path, mine, theirs):
             if k not in seen:
                 seen.add(k); out.append(e)
         return out
+    if path == "fuentes/explicados.json":          # guiones: manda el repositorio; de este workflow solo entran los NUEVOS
+        t, m = theirs or {"guiones": []}, mine or {"guiones": []}
+        ids = {g.get("id") for g in t.get("guiones", [])}
+        return dict(t, guiones=list(t.get("guiones", [])) + [g for g in m.get("guiones", []) if g.get("id") not in ids])
     if path == "handled_comments.json":
         t, m = theirs or {"comments": [], "dm": {}}, mine or {"comments": [], "dm": {}}
         dm = dict(t.get("dm", {}))
