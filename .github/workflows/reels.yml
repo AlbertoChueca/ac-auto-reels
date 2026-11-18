@@ -10,7 +10,7 @@ on:
       tematica:
         description: "Temática (auto = la del calendario)"
         type: choice
-        options: [auto, tips_tfm, tips_proyectos, referentes, ia, test, vf, documentacion, auditoria, encuesta, postpro]
+        options: [auto, explicado, tips_tfm, tips_proyectos, referentes, ia, test, vf, documentacion, auditoria, encuesta, postpro]
         default: auto
       publicar_a:
         description: "Hora de publicación (HH:MM, hora de España). Vacío = en cuanto esté listo"
@@ -67,7 +67,14 @@ jobs:
 
       - name: Paquetes de Python
         if: steps.slot.outputs.slot != 'skip'
-        run: timeout 300 pip install --prefer-binary --timeout 20 -q -r requirements.txt || pip install --prefer-binary -q -r requirements.txt
+        run: |
+          timeout 300 pip install --prefer-binary --timeout 20 -q -r requirements.txt || pip install --prefer-binary -q -r requirements.txt
+          # Skia (dibujo vectorial de los reels explicados) necesita librerías del sistema que el runner no siempre trae
+          if ! python -c "import skia" 2>/dev/null; then
+            (timeout 120 sudo apt-get update -qq || true)
+            timeout 300 sudo apt-get install -y -qq --no-install-recommends libegl1 libgl1 libopengl0 libfontconfig1 || timeout 300 sudo apt-get install -y -qq libegl1 libgl1 || true
+            python -c "import skia; print('Skia', skia.__version__, 'listo')" || echo "::warning::Skia no disponible: los reels explicados usarán la reserva"
+          fi
 
       - name: Generar y publicar
         if: steps.slot.outputs.slot != 'skip'
@@ -122,8 +129,10 @@ jobs:
         timeout-minutes: 15
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python ampliar_banco.py
+        run: |
+          python ampliar_banco.py
+          python explicado.py --ampliar || true
 
       - name: Guardar el estado
         if: always() && steps.slot.outputs.slot != 'skip' && (github.event_name != 'workflow_dispatch' || !inputs.dry_run)
-        run: python sincronizar.py "Reel ${{ steps.slot.outputs.slot }} $(date +%F)" log.jsonl used.json review_log.jsonl image_log.jsonl errores_reels.log fuentes/banco.json playbook.json performance.json tendencias.json
+        run: python sincronizar.py "Reel ${{ steps.slot.outputs.slot }} $(date +%F)" log.jsonl used.json review_log.jsonl image_log.jsonl errores_reels.log fuentes/banco.json fuentes/explicados.json playbook.json performance.json tendencias.json

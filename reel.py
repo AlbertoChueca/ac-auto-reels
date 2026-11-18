@@ -24,11 +24,11 @@ BANCO = os.path.join(HERE, "fuentes", "banco.json")
 PORTFOLIO = os.path.join(HERE, "assets", "portfolio")
 LISTA = ["tips_tfm", "tips_proyectos", "referentes", "ia", "documentacion", "auditoria"]
 QUIZ = ["test", "vf", "encuesta"]
-TEMATICAS = LISTA + QUIZ + ["postpro"]
+TEMATICAS = LISTA + QUIZ + ["postpro", "explicado"]
 NOMBRE = {"tips_tfm": "Tips para el TFM", "tips_proyectos": "Tips para la asignatura de Proyectos",
           "referentes": "Referentes para proyectar", "ia": "IA para arquitectura", "documentacion": "Documentación (venta)",
           "auditoria": "Auditoría gratuita (venta)", "test": "Test", "vf": "Verdadero o falso", "encuesta": "Encuesta",
-          "postpro": "Render sin y con postproducción"}
+          "postpro": "Render sin y con postproducción", "explicado": "Explicado (animación vectorial)"}
 ACENTO, CLARO, OSCURO = fx.AMARILLO, fx.PAPEL, fx.TINTA
 FOTO = "Fotografía de arquitectura de revista: luz natural bonita, colores reales, encuadre editorial, nítida"
 REGLAS = ("Imagen vertical 9:16. NADA de texto, letras, números, rótulos, cotas legibles ni logotipos. Arquitectura "
@@ -659,6 +659,9 @@ Devuelve JSON: {{"overall": number, "issues": [str], "suggestions": [str], "mala
 
 # ------------------------------------------------------------------ todo junto
 def hacer(tematica, out, seed=0, recientes=(), max_montajes=3, limite_s=40 * 60):
+    if tematica == "explicado":                                       # explicativo animado (explicado.py): guion del banco, sin imágenes de IA
+        import explicado
+        return explicado.hacer(out, seed)
     import agentes, voz
     t0 = time.time()
     P = pieza(tematica, seed)

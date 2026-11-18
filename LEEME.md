@@ -12,13 +12,13 @@ comentarios y publica la solución de los tests al día siguiente.
 ## Calendario (14 reels a la semana: 80 % útil, 20 % venta)
 | | 14:00 | 21:00 |
 |---|---|---|
-| Lunes | Tips TFM | Referentes |
+| Lunes | Tips TFM | **Explicado** |
 | Martes | IA para arquitectura | Test |
-| Miércoles | Tips Proyectos | **Documentación (venta)** |
+| Miércoles | **Explicado** | **Documentación (venta)** |
 | Jueves | Tips TFM | Verdadero o falso |
-| Viernes | Referentes | **Auditoría gratuita (venta)** |
-| Sábado | IA para arquitectura | Tips Proyectos |
-| Domingo | Tips TFM | **Documentación (venta)** |
+| Viernes | **Explicado** | **Auditoría gratuita (venta)** |
+| Sábado | Referentes | Tips Proyectos |
+| Domingo | **Explicado** | **Documentación (venta)** |
 
 Cuando hay datos reales (12+ reels medidos), el estratega cambia los huecos útiles hacia lo que más se guarda, comparte
 y comenta. Los de venta no se tocan.
@@ -28,6 +28,13 @@ y comenta. Los de venta no se tocan.
   subtítulos grandes de 2-3 palabras (se ve sin sonido), barra de progreso y cierre de 2 s con pregunta para comentar.
 - **Todos** los reels llevan voz en off (castellano de España, con altibajos), subtítulos al ritmo de la voz y
   **arquitecturaconfidencial.com visible en todos los fotogramas** y en el cierre.
+- **Explicado** (4 a la semana, huecos fijos; `explicado.py`): explicativo animado con dibujo vectorial en los colores
+  de AC (amarillo sobre tinta), subtítulos palabra a palabra, mito tachado y «pásaselo a ese compañero que…». Guiones en
+  `fuentes/explicados.json`: una escena en la que el alumno se reconoce (quedan 3 semanas y sigue cambiando la planta),
+  por qué pasa y qué hacer hoy. Enfoque de asesoría: el proyecto, las decisiones y la defensa son del alumno; el
+  validador rechaza cualquier guion que venda hacer el TFM, prometa notas o lleve estadísticas inventadas. Sin imágenes
+  de IA. Cuando quedan 2 guiones sin usar, un agente escribe nuevos con las mismas reglas (verificados y montados de
+  prueba antes de entrar).
 - **Tests y V/F**: el reel acaba en la pregunta y nunca enseña la solución. El bot la publica 12-24 h después.
 - **Documentación (venta)**: planos REALES del equipo (assets/portfolio), recortados para que no salga ningún nombre,
   logo, cartela, calle ni fecha, con la etiqueta «Trabajo real». Nunca se menciona UDA.
@@ -78,6 +85,9 @@ Velocidad: 3-4 y 5-6-8 trabajan a la vez; imágenes y voz se generan en paralelo
 
 ## Archivos
 - `reel.py`: motor (imágenes, montaje, portada, revisión). `agentes.py`: los agentes. `voz.py`: voz. `tematicas.py`: calendario.
+- `explicado.py` (motor), `explicado_escenas.py` (dibujos: mesa de trabajo, tribunal, panel por bloques, planta,
+  pasos, comparativa…) y `explicado_kit.py` (utensilios de dibujo, Skia). `python explicado.py --lista | --valida`;
+  prueba local: `VOZ=mock python explicado.py --render <id> out/x.mp4`.
 - `assets/portfolio/`: planos reales anonimizados por tipo (planimetria, construccion, instalaciones, estructuras).
 - `fuentes/banco.json`: banco de contenido. En test y V/F la opción correcta va primera (se baraja al montar).
   `ampliar_banco.py` lo amplía solo cuando se gasta; cada pregunta nueva la resuelve a ciegas otro modelo y solo entra si

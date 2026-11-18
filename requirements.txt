@@ -2,3 +2,4 @@ pillow
 numpy
 soundfile
 requests
+skia-python==144.1

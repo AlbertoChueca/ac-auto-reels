@@ -1,26 +1,28 @@
 """Calendario semanal de AC: 2 reels al día, 14 a la semana. 80 % útil (11) y 20 % venta (3).
 
            14:00             21:00
-    lun    tips_tfm          referentes
+    lun    tips_tfm          explicado
     mar    ia                test
-    mié    tips_proyectos    documentacion   (venta)
+    mié    explicado         documentacion   (venta)
     jue    tips_tfm          vf
-    vie    referentes        auditoria       (venta)
-    sáb    ia                tips_proyectos
-    dom    tips_tfm          documentacion   (venta)
+    vie    explicado         auditoria       (venta)
+    sáb    referentes        tips_proyectos
+    dom    explicado         documentacion   (venta)
 
-El estratega (agentes.py) aprende de los resultados reales: cuando hay datos suficientes, los huecos ÚTILES pueden
+«explicado» (explicado.py) es el explicativo animado para el alumno agobiado con el TFM: 4 a la semana, en huecos FIJOS.
+El estratega (agentes.py) aprende de los resultados reales: cuando hay datos suficientes, los demás huecos ÚTILES pueden
 cambiar a la temática útil que mejor funciona (sin repetir la anterior). Los de venta no se tocan (siempre el 20 %).
 """
 import datetime, json, os, random
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SLOTS = {"mediodia": 0, "noche": 1}
-PLAN = [["tips_tfm", "referentes"], ["ia", "test"], ["tips_proyectos", "documentacion"], ["tips_tfm", "vf"],
-        ["referentes", "auditoria"], ["ia", "tips_proyectos"], ["tips_tfm", "documentacion"]]
+PLAN = [["tips_tfm", "explicado"], ["ia", "test"], ["explicado", "documentacion"], ["tips_tfm", "vf"],
+        ["explicado", "auditoria"], ["referentes", "tips_proyectos"], ["explicado", "documentacion"]]
 UTIL = ["tips_tfm", "tips_proyectos", "referentes", "ia", "test", "vf"]
 VENTA = ["documentacion", "auditoria"]
-TEMAS = UTIL + VENTA + ["encuesta", "postpro"]
+FIJO = ["explicado"]                                         # huecos que el estratega no cambia
+TEMAS = UTIL + VENTA + FIJO + ["encuesta", "postpro"]
 
 
 def plan(fecha, slot):
@@ -47,7 +49,7 @@ def tema_de(fecha, slot, recientes=()):
     if slot not in SLOTS:                                    # lanzamiento manual: la que lleva más sin salir
         return min([t for t in UTIL + VENTA if not rec or t != rec[-1]], key=lambda t: (_ultimo(t, rec), TEMAS.index(t)))
     p = plan(fecha, slot)
-    if p in VENTA:
+    if p in VENTA or p in FIJO:
         return p
     pesos, datos = _pesos()
     if datos >= 12 and pesos:                                # con datos: la útil que mejor funciona, con algo de variedad
