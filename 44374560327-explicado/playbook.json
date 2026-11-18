@@ -1,0 +1,54 @@
+{
+"ganchos_que_funcionan": [
+"Hook Stack (<1,5s): corte visual rápido + 'No vuelvas a trasnochar renderizando tu entrega'",
+"¿VERDADERO O FALSO? El tribunal sabe en 10 segundos si tu TFM aprueba",
+"POV: Faltan 3 horas para la entrega de Proyectos y se te cierra el programa",
+"El truco de diagramación que tu profesor de Proyectos no quiere que apliques",
+"3 alertas críticas que suspenden tu TFM antes de defenderlo",
+"Turning my 3 AM sketch into a render: de boceto a lámina final en 15 segundos"
+],
+"patrones": [
+"Demostración de resultado final o impacto en los primeros 2 segundos (pattern interrupt)",
+"Cheat sheet / lámina comparativa en pantalla diseñada explícitamente para pausar y guardar",
+"Formato V/F interactivo con pregunta polémica para disparar comentarios en los primeros 5s",
+"Workflow de IA rápido (pantalla dividida o transición rápida) resolviendo un dolor técnico concreto",
+"Microlearning de dolor único (20-30s) cerrando con llamada a la acción para la auditoría gratuita de TFM"
+],
+"evitar": [
+"Introducciones lentas con saludos o presentaciones personales ('Hola arquitectos...')",
+"Vídeos de más de 45 segundos sin cortes visuales dinámicos cada 2-3 segundos",
+"Teoría abstracta sin aplicación práctica inmediata en láminas, maqueta o software",
+"Ocultar el resultado final hasta el desenlace del vídeo",
+"Vídeos sin subtítulos palabra por palabra optimizados para consumo en silencio"
+],
+"tono_voz": "Cómplice, directo y empático con el estrés de entrega; técnico pero sin rodeos académicos pedantes.",
+"duracion_objetivo_s": 22,
+"pesos": {
+"tips_tfm": 1.0,
+"tips_proyectos": 1.0,
+"referentes": 1.0,
+"ia": 1.0,
+"test": 1.0,
+"vf": 1.0
+},
+"hashtags": [
+"#arquitectura",
+"#estudiantearquitectura",
+"#tfmarquitectura",
+"#pfcarquitectura",
+"#proyectsarquitectura",
+"#rendersarquitectura",
+"#entregasarquitectura"
+],
+"fecha": "2026-11-18",
+"datos": {
+"referentes": 0.0178,
+"tips_tfm": 0.0325,
+"documentacion": 0.0187,
+"tips_proyectos": 0.1572,
+"auditoria": 0.1503,
+"ia": 0.0906,
+"test": 0.011,
+"vf": 0.194
+}
+}
