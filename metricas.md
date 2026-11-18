@@ -1,4 +1,4 @@
-# Métricas reales (2026-11-17)
+# Métricas reales (2026-11-18)
 
 | fecha | temática | gancho | red | vistas | alcance | likes | coment. | compart. | guard. | retención | interacción/100 vistas |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -12,16 +12,16 @@
 | 2026-10-29 | tips_tfm | ¿Sales de corregir más perdido? | tiktok | sin datos | | | | | | | |
 | 2026-10-29 | tips_tfm | ¿Sales de corregir más perdido? | youtube | 5 | 0 | 0 | 0 | 0 | 0 | — | 0.0 |
 | 2026-11-01 | documentacion | 4 entregas técnicas de tu TFM | instagram | sin datos | | | | | | | |
-| 2026-11-01 | documentacion | 4 entregas técnicas de tu TFM | tiktok | 253 | 234 | 0 | 1 | 0 | 1 | — | 0.8 |
+| 2026-11-01 | documentacion | 4 entregas técnicas de tu TFM | tiktok | 253 | 235 | 0 | 1 | 0 | 1 | — | 0.8 |
 | 2026-11-01 | documentacion | 4 entregas técnicas de tu TFM | youtube | 172 | 0 | 0 | 1 | 0 | 0 | — | 0.6 |
 | 2026-11-02 | referentes | 4 referentes para tu corrección | instagram | sin datos | | | | | | | |
-| 2026-11-02 | referentes | 4 referentes para tu corrección | tiktok | 264 | 237 | 1 | 1 | 0 | 0 | — | 0.4 |
+| 2026-11-02 | referentes | 4 referentes para tu corrección | tiktok | 264 | 238 | 1 | 1 | 0 | 0 | — | 0.4 |
 | 2026-11-02 | referentes | 4 referentes para tu corrección | youtube | 381 | 0 | 2 | 1 | 0 | 0 | — | 0.3 |
 | 2026-11-04 | tips_proyectos | Análisis de lugar que sí sirve | instagram | sin datos | | | | | | | |
 | 2026-11-04 | tips_proyectos | Análisis de lugar que sí sirve | tiktok | 3 | 2 | 0 | 1 | 0 | 0 | — | 33.3 |
 | 2026-11-04 | tips_proyectos | Análisis de lugar que sí sirve | youtube | 9 | 0 | 1 | 1 | 0 | 0 | — | 11.1 |
 | 2026-11-04 | documentacion | ¿Atascado con la Construcción? | instagram | sin datos | | | | | | | |
-| 2026-11-04 | documentacion | ¿Atascado con la Construcción? | tiktok | 265 | 247 | 1 | 1 | 0 | 0 | — | 0.4 |
+| 2026-11-04 | documentacion | ¿Atascado con la Construcción? | tiktok | 265 | 248 | 1 | 1 | 0 | 0 | — | 0.4 |
 | 2026-11-04 | documentacion | ¿Atascado con la Construcción? | youtube | 335 | 0 | 3 | 1 | 0 | 0 | — | 0.3 |
 | 2026-11-06 | referentes | Tu espacio parece una cueva | instagram | sin datos | | | | | | | |
 | 2026-11-06 | referentes | Tu espacio parece una cueva | tiktok | sin datos | | | | | | | |
@@ -39,32 +39,36 @@
 | 2026-11-08 | tips_tfm | Prepara el relato de tu defensa | tiktok | 254 | 234 | 0 | 1 | 0 | 0 | — | 0.4 |
 | 2026-11-08 | tips_tfm | Prepara el relato de tu defensa | youtube | 321 | 0 | 1 | 1 | 0 | 0 | — | 0.3 |
 | 2026-11-08 | documentacion | 4 pasos del boceto al panel | instagram | sin datos | | | | | | | |
-| 2026-11-08 | documentacion | 4 pasos del boceto al panel | tiktok | 240 | 222 | 1 | 1 | 0 | 0 | — | 0.4 |
-| 2026-11-08 | documentacion | 4 pasos del boceto al panel | youtube | 368 | 0 | 2 | 1 | 0 | 0 | — | 0.3 |
+| 2026-11-08 | documentacion | 4 pasos del boceto al panel | tiktok | 240 | 223 | 1 | 1 | 0 | 0 | — | 0.4 |
+| 2026-11-08 | documentacion | 4 pasos del boceto al panel | youtube | 369 | 0 | 2 | 1 | 0 | 0 | — | 0.3 |
 | 2026-11-10 | vf | ¿VERDADERO O FALSO? | instagram | sin datos | | | | | | | |
 | 2026-11-10 | vf | ¿VERDADERO O FALSO? | tiktok | 1 | 1 | 0 | 1 | 0 | 0 | — | 100.0 |
 | 2026-11-10 | vf | ¿VERDADERO O FALSO? | youtube | 28 | 0 | 0 | 1 | 0 | 0 | — | 3.6 |
 | 2026-11-11 | tips_proyectos | Tu sección parece sosa | instagram | sin datos | | | | | | | |
 | 2026-11-11 | tips_proyectos | Tu sección parece sosa | tiktok | 6 | 6 | 0 | 1 | 0 | 0 | — | 16.7 |
-| 2026-11-11 | tips_proyectos | Tu sección parece sosa | youtube | 940 | 0 | 5 | 1 | 0 | 0 | — | 0.1 |
+| 2026-11-11 | tips_proyectos | Tu sección parece sosa | youtube | 942 | 0 | 5 | 1 | 0 | 0 | — | 0.1 |
 | 2026-11-11 | documentacion | Así se resuelve la entrega constructiv | instagram | sin datos | | | | | | | |
 | 2026-11-11 | documentacion | Así se resuelve la entrega constructiv | tiktok | 257 | 236 | 1 | 1 | 0 | 1 | — | 0.8 |
-| 2026-11-11 | documentacion | Así se resuelve la entrega constructiv | youtube | 30 | 0 | 0 | 1 | 0 | 0 | — | 3.3 |
+| 2026-11-11 | documentacion | Así se resuelve la entrega constructiv | youtube | 39 | 0 | 0 | 1 | 0 | 0 | — | 2.6 |
 | 2026-11-12 | vf | ¿VERDADERO O FALSO? | instagram | sin datos | | | | | | | |
 | 2026-11-12 | vf | ¿VERDADERO O FALSO? | tiktok | sin datos | | | | | | | |
 | 2026-11-12 | vf | ¿VERDADERO O FALSO? | youtube | 16 | 0 | 0 | 1 | 0 | 0 | — | 6.2 |
 | 2026-11-13 | tips_tfm | Estructura tu TFM en 4 pasos | instagram | sin datos | | | | | | | |
 | 2026-11-13 | tips_tfm | Estructura tu TFM en 4 pasos | tiktok | sin datos | | | | | | | |
-| 2026-11-13 | tips_tfm | Estructura tu TFM en 4 pasos | youtube | 40 | 0 | 1 | 1 | 0 | 0 | — | 2.5 |
+| 2026-11-13 | tips_tfm | Estructura tu TFM en 4 pasos | youtube | 41 | 0 | 1 | 1 | 0 | 0 | — | 2.4 |
 | 2026-11-13 | auditoria | 3 alertas críticas del TFM | tiktok | 3 | 3 | 0 | 1 | 0 | 0 | — | 33.3 |
 | 2026-11-13 | auditoria | 3 alertas críticas del TFM | youtube | 18 | 0 | 1 | 1 | 0 | 0 | — | 5.6 |
 | 2026-11-14 | tips_tfm | 4 errores fatales TFM | tiktok | 237 | 225 | 0 | 1 | 0 | 0 | — | 0.4 |
 | 2026-11-14 | tips_tfm | 4 errores fatales TFM | youtube | 64 | 0 | 0 | 1 | 0 | 0 | — | 1.6 |
 | 2026-11-14 | referentes | 4 referentes de vivienda | tiktok | 244 | 225 | 0 | 1 | 0 | 0 | — | 0.4 |
-| 2026-11-14 | referentes | 4 referentes de vivienda | youtube | 65 | 0 | 0 | 1 | 0 | 0 | — | 1.5 |
+| 2026-11-14 | referentes | 4 referentes de vivienda | youtube | 63 | 0 | 0 | 1 | 0 | 0 | — | 1.6 |
 | 2026-11-15 | ia | El tribunal nota tu render IA | tiktok | 1 | 1 | 0 | 1 | 0 | 0 | — | 100.0 |
 | 2026-11-15 | ia | El tribunal nota tu render IA | youtube | 16 | 0 | 0 | 1 | 0 | 0 | — | 6.2 |
-| 2026-11-15 | documentacion | Esto penaliza tu entrega técnica | tiktok | 268 | 114 | 1 | 1 | 0 | 1 | — | 0.7 |
-| 2026-11-15 | documentacion | Esto penaliza tu entrega técnica | youtube | 44 | 0 | 0 | 1 | 0 | 0 | — | 2.3 |
-| 2026-11-16 | tips_proyectos | 4 fallos que arruinan tu entrega | tiktok | 1 | 0 | 0 | 1 | 0 | 0 | — | 100.0 |
+| 2026-11-15 | documentacion | Esto penaliza tu entrega técnica | tiktok | 268 | 234 | 1 | 1 | 0 | 1 | — | 0.7 |
+| 2026-11-15 | documentacion | Esto penaliza tu entrega técnica | youtube | 48 | 0 | 0 | 1 | 0 | 0 | — | 2.1 |
+| 2026-11-16 | tips_proyectos | 4 fallos que arruinan tu entrega | tiktok | 1 | 1 | 0 | 1 | 0 | 0 | — | 100.0 |
 | 2026-11-16 | tips_proyectos | 4 fallos que arruinan tu entrega | youtube | 109 | 0 | 1 | 1 | 0 | 0 | — | 0.9 |
+| 2026-11-17 | ia | 4 usos de IA en Proyectos | tiktok | 236 | 0 | 2 | 1 | 0 | 0 | — | 0.4 |
+| 2026-11-17 | ia | 4 usos de IA en Proyectos | youtube | 15 | 0 | 0 | 1 | 0 | 0 | — | 6.7 |
+| 2026-11-17 | tips_tfm | El tribunal revisará esto primero | tiktok | 236 | 0 | 1 | 1 | 0 | 0 | — | 0.4 |
+| 2026-11-17 | tips_tfm | El tribunal revisará esto primero | youtube | 32 | 0 | 0 | 1 | 0 | 0 | — | 3.1 |
