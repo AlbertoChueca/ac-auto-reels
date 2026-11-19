@@ -1,54 +1,56 @@
 {
 "ganchos_que_funcionan": [
-"Hook Stack (<1,5s): corte visual rápido + 'No vuelvas a trasnochar renderizando tu entrega'",
-"¿VERDADERO O FALSO? El tribunal sabe en 10 segundos si tu TFM aprueba",
-"POV: Faltan 3 horas para la entrega de Proyectos y se te cierra el programa",
-"El truco de diagramación que tu profesor de Proyectos no quiere que apliques",
-"3 alertas críticas que suspenden tu TFM antes de defenderlo",
-"Turning my 3 AM sketch into a render: de boceto a lámina final en 15 segundos"
+"Tu espacio parece una cueva (confrontación visual directa)",
+"Deja de perder 10 horas renderizando tu entrega de Proyectos",
+"Son las 4:00 AM, entregas a las 8:00 y la maqueta no se sostiene",
+"3 referentes poco conocidos que harán que tu jurado te ponga un 10",
+"El error en la memoria gráfica que hunde tu TFM antes de defender",
+"¿Sales de corregir con el profesor más perdido de lo que entraste?"
 ],
 "patrones": [
-"Demostración de resultado final o impacto en los primeros 2 segundos (pattern interrupt)",
-"Cheat sheet / lámina comparativa en pantalla diseñada explícitamente para pausar y guardar",
-"Formato V/F interactivo con pregunta polémica para disparar comentarios en los primeros 5s",
-"Workflow de IA rápido (pantalla dividida o transición rápida) resolviendo un dolor técnico concreto",
-"Microlearning de dolor único (20-30s) cerrando con llamada a la acción para la auditoría gratuita de TFM"
+"Micro-gancho visual y sonoro en los primeros 1.5 segundos (corte de cúter, zoom o texto polémico)",
+"Pantalla dividida con Before/After o workflow acelerado para maximizar guardados",
+"Pausas estratégicas con 'Cheat Sheets' o diagramas densos para forzar el pausado del reel",
+"Transiciones al corte cada 2-4 segundos con B-roll de planos, renders y maquetas",
+"Final en bucle (loop perfecto) conectando la frase de cierre con el gancho inicial",
+"Call to Action claro al 80% del vídeo invitando a comentar para plantilla o solicitar auditoría TFM"
 ],
 "evitar": [
-"Introducciones lentas con saludos o presentaciones personales ('Hola arquitectos...')",
-"Vídeos de más de 45 segundos sin cortes visuales dinámicos cada 2-3 segundos",
-"Teoría abstracta sin aplicación práctica inmediata en láminas, maqueta o software",
-"Ocultar el resultado final hasta el desenlace del vídeo",
-"Vídeos sin subtítulos palabra por palabra optimizados para consumo en silencio"
+"Intros lentas con saludos tipo 'Hola a todos' o transiciones de logo",
+"Explicaciones teóricas abstractas sin aplicación práctica inmediata en plano o maqueta",
+"Vídeos de más de 45 segundos sin cambio continuo de estímulo visual",
+"Voz monótona sin subtítulos dinámicos de alto contraste",
+"Hablar de conceptos de diseño sin mostrar el referente gráfico exacto en pantalla"
 ],
-"tono_voz": "Cómplice, directo y empático con el estrés de entrega; técnico pero sin rodeos académicos pedantes.",
-"duracion_objetivo_s": 22,
+"tono_voz": "Cómplice y empático con la agonía de las entregas, pero quirúrgico, pragmático y con alta autoridad técnica.",
+"duracion_objetivo_s": 24,
 "pesos": {
-"tips_tfm": 1.0,
-"tips_proyectos": 1.0,
-"referentes": 1.0,
-"ia": 1.0,
-"test": 1.0,
-"vf": 1.0
+"tips_tfm": 1,
+"tips_proyectos": 1,
+"referentes": 1,
+"ia": 1,
+"test": 1,
+"vf": 1
 },
 "hashtags": [
 "#arquitectura",
-"#estudiantearquitectura",
+"#estudiantedearquitectura",
 "#tfmarquitectura",
-"#pfcarquitectura",
-"#proyectsarquitectura",
-"#rendersarquitectura",
-"#entregasarquitectura"
+"#proyectosarquitectura",
+"#tfg",
+"#pfc",
+"#entregadearquitectura",
+"#maquetaarquitectura"
 ],
-"fecha": "2026-11-18",
+"fecha": "2026-11-19",
 "datos": {
-"referentes": 0.0178,
-"tips_tfm": 0.0325,
-"documentacion": 0.0187,
-"tips_proyectos": 0.1572,
-"auditoria": 0.1503,
-"ia": 0.0906,
-"test": 0.011,
-"vf": 0.194
+"referentes": 0.1419,
+"tips_tfm": 0.0779,
+"documentacion": 0.0563,
+"tips_proyectos": 0.1626,
+"auditoria": 0.1882,
+"ia": 0.1074,
+"test": 0.0606,
+"vf": 0.1247
 }
 }
