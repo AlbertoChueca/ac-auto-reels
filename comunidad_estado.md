@@ -1,6 +1,6 @@
 # Bot de comunidad
 
-_Última pasada: 2026-11-19 03:39 UTC · 1 respuestas_
+_Última pasada: 2026-11-19 13:28 UTC · 0 respuestas_
 
 | Fecha | Red | Tipo | Gancho | Comentarios | Solución publicada |
 |---|---|---|---|---|---|
@@ -26,7 +26,9 @@ _Última pasada: 2026-11-19 03:39 UTC · 1 respuestas_
 | 2026-11-17 | youtube | ia | 4 usos de IA en Proyectos | 1 | — |
 | 2026-11-17 | tiktok | tips_tfm | El tribunal revisará esto primero | 1 | — |
 | 2026-11-17 | youtube | tips_tfm | El tribunal revisará esto primero | 1 | — |
-| 2026-11-18 | tiktok | test | TEST DE ARQUITECTURA | 0 | pendiente |
-| 2026-11-18 | youtube | test | TEST DE ARQUITECTURA | 0 | pendiente |
+| 2026-11-18 | tiktok | test | TEST DE ARQUITECTURA | 0 | sí |
+| 2026-11-18 | youtube | test | TEST DE ARQUITECTURA | 0 | sí |
 | 2026-11-18 | tiktok | documentacion | Instalaciones que no dan vergüenza | 1 | — |
 | 2026-11-18 | youtube | documentacion | Instalaciones que no dan vergüenza | 1 | — |
+| 2026-11-19 | tiktok | tips_proyectos | ¿Tu panel se lee a distancia? | 0 | — |
+| 2026-11-19 | youtube | tips_proyectos | ¿Tu panel se lee a distancia? | 0 | — |

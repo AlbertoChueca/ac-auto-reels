@@ -351,11 +351,15 @@
 },
 "tiktok:6afda1dbfe155ae7fcd6984c": {
 "personas": [],
-"comentarios": 0
+"comentarios": 0,
+"solucion": "2026-11-19T13:28:53.664959+00:00",
+"solucion_id": "7709812785743495969"
 },
 "youtube:6afda1dbaf8f5e070c1b3ed4": {
 "personas": [],
-"comentarios": 0
+"comentarios": 0,
+"solucion": "2026-11-19T13:28:53.664959+00:00",
+"solucion_id": "UgxBw2wZEQ3e0AQzUV94AaABAg"
 },
 "tiktok:6afe03c6128a16902b562ffd": {
 "primer": "2026-11-18T22:08:01.980997+00:00",
@@ -366,6 +370,16 @@
 "primer": "2026-11-18T22:08:01.980997+00:00",
 "personas": [],
 "comentarios": 1
+},
+"tiktok:6afef2d47cda0f54db6209c3": {
+"primer": "2026-11-19T13:28:53.664959+00:00",
+"personas": [],
+"comentarios": 0
+},
+"youtube:6afef2d4b3299fc5167b1fed": {
+"primer": "2026-11-19T13:28:53.664959+00:00",
+"personas": [],
+"comentarios": 0
 }
 },
 "errores": {},
@@ -423,6 +437,8 @@
 "6afda1dbfe155ae7fcd6984c": "7709496162042055969",
 "6afda1dbaf8f5e070c1b3ed4": "v4vn_unpE5U",
 "6afe03c6128a16902b562ffd": "7709603836914044193",
-"6afe03c66e7931b1a5939882": "UUEivJ54ym4"
+"6afe03c66e7931b1a5939882": "UUEivJ54ym4",
+"6afef2d47cda0f54db6209c3": "7709866694373690656",
+"6afef2d4b3299fc5167b1fed": "6DY9FlGA9ds"
 }
 }
