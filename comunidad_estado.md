@@ -1,19 +1,13 @@
 # Bot de comunidad
 
-_Última pasada: 2026-11-18 22:08 UTC · 0 respuestas_
+_Última pasada: 2026-11-19 03:39 UTC · 1 respuestas_
 
 | Fecha | Red | Tipo | Gancho | Comentarios | Solución publicada |
 |---|---|---|---|---|---|
-| 2026-11-11 | instagram | tips_proyectos | Tu sección parece sosa | 1 | — |
-| 2026-11-11 | tiktok | tips_proyectos | Tu sección parece sosa | 1 | — |
-| 2026-11-11 | youtube | tips_proyectos | Tu sección parece sosa | 1 | — |
-| 2026-11-11 | instagram | documentacion | Así se resuelve la entrega constructiva | 1 | — |
-| 2026-11-11 | tiktok | documentacion | Así se resuelve la entrega constructiva | 1 | — |
-| 2026-11-11 | youtube | documentacion | Así se resuelve la entrega constructiva | 1 | — |
-| 2026-11-12 | instagram | vf | ¿VERDADERO O FALSO? | 0 | sí |
+| 2026-11-12 | instagram | vf | ¿VERDADERO O FALSO? | 1 | sí |
 | 2026-11-12 | tiktok | vf | ¿VERDADERO O FALSO? | 1 | sí |
 | 2026-11-12 | youtube | vf | ¿VERDADERO O FALSO? | 1 | sí |
-| 2026-11-13 | instagram | tips_tfm | Estructura tu TFM en 4 pasos | 0 | — |
+| 2026-11-13 | instagram | tips_tfm | Estructura tu TFM en 4 pasos | 1 | — |
 | 2026-11-13 | tiktok | tips_tfm | Estructura tu TFM en 4 pasos | 1 | — |
 | 2026-11-13 | youtube | tips_tfm | Estructura tu TFM en 4 pasos | 1 | — |
 | 2026-11-13 | tiktok | auditoria | 3 alertas críticas del TFM | 1 | — |
@@ -34,5 +28,5 @@ _Última pasada: 2026-11-18 22:08 UTC · 0 respuestas_
 | 2026-11-17 | youtube | tips_tfm | El tribunal revisará esto primero | 1 | — |
 | 2026-11-18 | tiktok | test | TEST DE ARQUITECTURA | 0 | pendiente |
 | 2026-11-18 | youtube | test | TEST DE ARQUITECTURA | 0 | pendiente |
-| 2026-11-18 | tiktok | documentacion | Instalaciones que no dan vergüenza | 0 | — |
-| 2026-11-18 | youtube | documentacion | Instalaciones que no dan vergüenza | 0 | — |
+| 2026-11-18 | tiktok | documentacion | Instalaciones que no dan vergüenza | 1 | — |
+| 2026-11-18 | youtube | documentacion | Instalaciones que no dan vergüenza | 1 | — |
