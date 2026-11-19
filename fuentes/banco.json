@@ -837,6 +837,37 @@
 ],
 "tipo": "referentes",
 "id": "refe_c9f16615"
+},
+{
+"hook": "5 referentes de fachada y envolvente para tu proyecto",
+"puntos": [
+{
+"titulo": "Celosía de escala monumental",
+"ref": "Instituto del Mundo Árabe · Jean Nouvel (París, 1987)",
+"dato": "Diafragmas metálicos móviles inspirados en la celosía tradicional que regulan mecánicamente la entrada de luz.",
+"idea": "fachada sur de un centro de arte cubierta por paneles modulares de latón perforado con patrones geométricos variables"
+},
+{
+"titulo": "Desmaterialización con vidrio reflectante",
+"ref": "Fundación Cartier · Jean Nouvel (París, 1994)",
+"dato": "Planos acristalados sobredimensionados que rebasan el volumen cerrado para fundir el edificio con los árboles mediante reflejos.",
+"idea": "pantalla exenta de vidrio extraclaro que prolonga la fachada de un pabellón y duplica el arbolado circundante"
+},
+{
+"titulo": "Muro masivo de gaviones",
+"ref": "Bodegas Dominus · Herzog & de Meuron (Yountville, 1997)",
+"dato": "Cestas de alambre rellenas de piedra basáltica local con densidad variable que aportan inercia térmica y filtran la luz.",
+"idea": "edificio lineal en el paisaje cerrado por muros de gaviones de piedra caliza con aperturas en zonas donde la piedra es más suelta"
+},
+{
+"titulo": "Piel textil traslúcida continua",
+"ref": "Centro Pompidou Metz · Shigeru Ban (Metz, 2010)",
+"dato": "Una membrana técnica de fibra de vidrio y teflón suspendida sobre celosía de madera que ilumina el interior sin deslumbramientos.",
+"idea": "gran cubierta alabeada de membrana textil blanca tensada sobre costillas estructurales de madera laminada"
+}
+],
+"tipo": "referentes",
+"id": "refe_4d8838b3"
 }
 ],
 "documentacion": [
