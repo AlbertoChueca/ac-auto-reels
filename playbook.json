@@ -1,56 +1,53 @@
 {
 "ganchos_que_funcionan": [
-"Tu espacio parece una cueva (confrontación visual directa)",
-"Deja de perder 10 horas renderizando tu entrega de Proyectos",
-"Son las 4:00 AM, entregas a las 8:00 y la maqueta no se sostiene",
-"3 referentes poco conocidos que harán que tu jurado te ponga un 10",
-"El error en la memoria gráfica que hunde tu TFM antes de defender",
-"¿Sales de corregir con el profesor más perdido de lo que entraste?"
+"No gastes 6 horas de renderizado la noche antes de la entrega...",
+"Deja de usar los mismos 3 referentes de siempre para tu entrega de Proyectos...",
+"POV: El profesor de Proyectos te tira el concepto a 48 horas de la entrega final",
+"Tu espacio parece una cueva (y el tribunal te lo va a decir)",
+"Guarda esto antes de tu próxima corrección de TFM"
 ],
 "patrones": [
-"Micro-gancho visual y sonoro en los primeros 1.5 segundos (corte de cúter, zoom o texto polémico)",
-"Pantalla dividida con Before/After o workflow acelerado para maximizar guardados",
-"Pausas estratégicas con 'Cheat Sheets' o diagramas densos para forzar el pausado del reel",
-"Transiciones al corte cada 2-4 segundos con B-roll de planos, renders y maquetas",
-"Final en bucle (loop perfecto) conectando la frase de cierre con el gancho inicial",
-"Call to Action claro al 80% del vídeo invitando a comentar para plantilla o solicitar auditoría TFM"
+"Workflow 'De boceto a render IA en segundos' con pantalla dividida (15-25s)",
+"POV Humor / Taller conectando con el estrés de entrega y corrección (10-18s)",
+"Curaduría ágil de referentes alternativos y hacks de diagramación en Illustrator/Photoshop (25-40s)",
+"Formato comparativa directa 'No hagas X, haz Y' con texto de alto contraste",
+"Remate hacia CTA del 20% para auditoría gratuita de TFM enlazado al dolor de la entrega"
 ],
 "evitar": [
-"Intros lentas con saludos tipo 'Hola a todos' o transiciones de logo",
-"Explicaciones teóricas abstractas sin aplicación práctica inmediata en plano o maqueta",
-"Vídeos de más de 45 segundos sin cambio continuo de estímulo visual",
-"Voz monótona sin subtítulos dinámicos de alto contraste",
-"Hablar de conceptos de diseño sin mostrar el referente gráfico exacto en pantalla"
+"Intros lentas o saludos sin gancho visual en los primeros 2 segundos",
+"Sobre-edición artificial o renders IA sin base crítica de arquitectura",
+"Vídeos de más de 45 segundos sin cortes dinámicos o cambios de plano",
+"Explicaciones teóricas densas sin aplicación práctica inmediata para la entrega",
+"Llamadas a la acción genéricas sin beneficio directo y urgente"
 ],
-"tono_voz": "Cómplice y empático con la agonía de las entregas, pero quirúrgico, pragmático y con alta autoridad técnica.",
-"duracion_objetivo_s": 24,
+"tono_voz": "Empático, directo, cómplice de taller, profesional sin rodeos y enfocado a salvar entregas",
+"duracion_objetivo_s": 22,
 "pesos": {
-"tips_tfm": 1,
-"tips_proyectos": 1,
-"referentes": 1,
-"ia": 1,
-"test": 1,
-"vf": 1
+"tips_tfm": 1.0,
+"tips_proyectos": 1.0,
+"referentes": 1.0,
+"ia": 1.0,
+"test": 1.0,
+"vf": 1.0
 },
 "hashtags": [
 "#arquitectura",
-"#estudiantedearquitectura",
 "#tfmarquitectura",
+"#tfgarquitectura",
+"#estudiantearquitectura",
 "#proyectosarquitectura",
-"#tfg",
-"#pfc",
-"#entregadearquitectura",
-"#maquetaarquitectura"
+"#entregaproyectos",
+"#renderarquitectura"
 ],
-"fecha": "2026-11-19",
+"fecha": "2026-11-20",
 "datos": {
-"referentes": 0.1419,
-"tips_tfm": 0.0779,
-"documentacion": 0.0563,
-"tips_proyectos": 0.1626,
+"referentes": 0.1236,
+"tips_tfm": 0.0786,
+"documentacion": 0.0562,
+"tips_proyectos": 0.1291,
 "auditoria": 0.1882,
-"ia": 0.1074,
-"test": 0.0606,
-"vf": 0.1247
+"ia": 0.1036,
+"test": 0.1783,
+"vf": 0.1246
 }
 }

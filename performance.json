@@ -411,25 +411,25 @@
 "hook": "La IA no aprueba tu TFM",
 "duration": 25.0,
 "review_score": 8.0,
-"views": 399,
-"reach": 323,
+"views": 401,
+"reach": 324,
 "likes": 0,
 "comments": 3,
 "shares": 0,
 "saved": 0,
-"watch_ms": 2426,
+"watch_ms": 2523,
 "clicks": 0,
 "follows": 0,
 "profile_visits": 0,
 "por_red": {
 "instagram_reel": {
-"views": 83,
-"reach": 80,
+"views": 84,
+"reach": 81,
 "likes": 0,
 "comments": 1,
 "shares": 0,
 "saved": 0,
-"watch_ms": 2426
+"watch_ms": 2523
 },
 "tiktok_video": {
 "views": 260,
@@ -443,7 +443,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 56,
+"views": 57,
 "reach": 0,
 "likes": 0,
 "comments": 1,
@@ -512,7 +512,7 @@
 "duration": 26.4,
 "review_score": 8.0,
 "views": 629,
-"reach": 283,
+"reach": 285,
 "likes": 1,
 "comments": 3,
 "shares": 0,
@@ -533,7 +533,7 @@
 },
 "tiktok_video": {
 "views": 256,
-"reach": 234,
+"reach": 236,
 "likes": 0,
 "comments": 1,
 "shares": 0,
@@ -611,7 +611,7 @@
 "hook": "¿VERDADERO O FALSO?",
 "duration": 22.1,
 "review_score": 8.0,
-"views": 226,
+"views": 228,
 "reach": 174,
 "likes": 0,
 "comments": 3,
@@ -643,7 +643,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 29,
+"views": 31,
 "reach": 0,
 "likes": 0,
 "comments": 1,
@@ -661,7 +661,7 @@
 "hook": "Tu sección parece sosa",
 "duration": 24.7,
 "review_score": 8.0,
-"views": 1165,
+"views": 1167,
 "reach": 208,
 "likes": 10,
 "comments": 3,
@@ -693,7 +693,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 943,
+"views": 945,
 "reach": 0,
 "likes": 5,
 "comments": 1,
@@ -711,7 +711,7 @@
 "hook": "Así se resuelve la entrega constructiva",
 "duration": 27.5,
 "review_score": 8.0,
-"views": 452,
+"views": 454,
 "reach": 374,
 "likes": 2,
 "comments": 3,
@@ -743,7 +743,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 39,
+"views": 41,
 "reach": 0,
 "likes": 0,
 "comments": 1,
@@ -942,7 +942,7 @@
 "duration": 32.4,
 "review_score": 8.0,
 "views": 307,
-"reach": 225,
+"reach": 226,
 "likes": 0,
 "comments": 2,
 "shares": 0,
@@ -953,7 +953,7 @@
 "por_red": {
 "tiktok_video": {
 "views": 244,
-"reach": 225,
+"reach": 226,
 "likes": 0,
 "comments": 1,
 "shares": 0,
@@ -1061,7 +1061,7 @@
 "hook": "4 fallos que arruinan tu entrega",
 "duration": 24.4,
 "review_score": 8.0,
-"views": 114,
+"views": 113,
 "reach": 1,
 "likes": 1,
 "comments": 2,
@@ -1083,7 +1083,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 113,
+"views": 112,
 "reach": 0,
 "likes": 1,
 "comments": 1,
@@ -1101,7 +1101,7 @@
 "hook": "4 usos de IA en Proyectos",
 "duration": 28.1,
 "review_score": 8.0,
-"views": 256,
+"views": 260,
 "reach": 220,
 "likes": 2,
 "comments": 2,
@@ -1123,7 +1123,7 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 20,
+"views": 24,
 "reach": 0,
 "likes": 0,
 "comments": 1,
@@ -1141,9 +1141,9 @@
 "hook": "El tribunal revisará esto primero",
 "duration": 26.0,
 "review_score": 8.0,
-"views": 271,
-"reach": 92,
-"likes": 1,
+"views": 273,
+"reach": 222,
+"likes": 2,
 "comments": 2,
 "shares": 0,
 "saved": 0,
@@ -1153,7 +1153,7 @@
 "por_red": {
 "tiktok_video": {
 "views": 236,
-"reach": 92,
+"reach": 222,
 "likes": 1,
 "comments": 1,
 "shares": 0,
@@ -1163,9 +1163,9 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 35,
+"views": 37,
 "reach": 0,
-"likes": 0,
+"likes": 1,
 "comments": 1,
 "shares": 0,
 "saved": 0,
@@ -1181,10 +1181,10 @@
 "hook": "TEST DE ARQUITECTURA",
 "duration": 17.4,
 "review_score": 8.0,
-"views": 15,
-"reach": 0,
+"views": 17,
+"reach": 1,
 "likes": 0,
-"comments": 1,
+"comments": 2,
 "shares": 0,
 "saved": 0,
 "clicks": 0,
@@ -1193,7 +1193,7 @@
 "por_red": {
 "tiktok_video": {
 "views": 1,
-"reach": 0,
+"reach": 1,
 "likes": 0,
 "comments": 1,
 "shares": 0,
@@ -1203,10 +1203,10 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 14,
+"views": 16,
 "reach": 0,
 "likes": 0,
-"comments": 0,
+"comments": 1,
 "shares": 0,
 "saved": 0,
 "clicks": 0,
@@ -1221,8 +1221,8 @@
 "hook": "Instalaciones que no dan vergüenza",
 "duration": 30.0,
 "review_score": 8.0,
-"views": 282,
-"reach": 0,
+"views": 283,
+"reach": 123,
 "likes": 1,
 "comments": 2,
 "shares": 0,
@@ -1233,7 +1233,7 @@
 "por_red": {
 "tiktok_video": {
 "views": 239,
-"reach": 0,
+"reach": 123,
 "likes": 1,
 "comments": 1,
 "shares": 0,
@@ -1243,7 +1243,87 @@
 "profile_visits": 0
 },
 "youtube_short": {
-"views": 43,
+"views": 44,
+"reach": 0,
+"likes": 0,
+"comments": 1,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+}
+}
+},
+"2026-11-19_mediodia": {
+"date": "2026-11-19",
+"tematica": "tips_proyectos",
+"hook": "¿Tu panel se lee a distancia?",
+"duration": 23.1,
+"review_score": 8.0,
+"views": 246,
+"reach": 0,
+"likes": 3,
+"comments": 2,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0,
+"por_red": {
+"tiktok_video": {
+"views": 231,
+"reach": 0,
+"likes": 2,
+"comments": 1,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+},
+"youtube_short": {
+"views": 15,
+"reach": 0,
+"likes": 1,
+"comments": 1,
+"shares": 0,
+"saved": 0,
+"clicks": 0,
+"follows": 0,
+"profile_visits": 0
+}
+}
+},
+"2026-11-19_noche": {
+"date": "2026-11-19",
+"tematica": "referentes",
+"hook": "Tus pilares destrozan la planta",
+"duration": 29.3,
+"review_score": 8.0,
+"views": 282,
+"reach": 0,
+"likes": 2,
+"comments": 2,
+"shares": 1,
+"saved": 0,
+"clicks": 0,
+"follows": 1,
+"profile_visits": 0,
+"por_red": {
+"tiktok_video": {
+"views": 246,
+"reach": 0,
+"likes": 2,
+"comments": 1,
+"shares": 1,
+"saved": 0,
+"clicks": 0,
+"follows": 1,
+"profile_visits": 0
+},
+"youtube_short": {
+"views": 36,
 "reach": 0,
 "likes": 0,
 "comments": 1,
