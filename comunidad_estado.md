@@ -1,6 +1,6 @@
 # Bot de comunidad
 
-_Última pasada: 2026-11-20 13:10 UTC · 0 respuestas_
+_Última pasada: 2026-11-20 21:16 UTC · 0 respuestas_
 
 | Fecha | Red | Tipo | Gancho | Comentarios | Solución publicada |
 |---|---|---|---|---|---|
@@ -31,5 +31,7 @@ _Última pasada: 2026-11-20 13:10 UTC · 0 respuestas_
 | 2026-11-19 | youtube | tips_proyectos | ¿Tu panel se lee a distancia? | 1 | — |
 | 2026-11-19 | tiktok | referentes | Tus pilares destrozan la planta | 1 | — |
 | 2026-11-19 | youtube | referentes | Tus pilares destrozan la planta | 1 | — |
-| 2026-11-20 | tiktok | explicado | Quedan 3 semanas y sigues cambiando la p | 0 | — |
-| 2026-11-20 | youtube | explicado | Quedan 3 semanas y sigues cambiando la p | 0 | — |
+| 2026-11-20 | tiktok | explicado | Quedan 3 semanas y sigues cambiando la p | 1 | — |
+| 2026-11-20 | youtube | explicado | Quedan 3 semanas y sigues cambiando la p | 1 | — |
+| 2026-11-20 | tiktok | auditoria | 3 señales: no llegas a entregar | 0 | — |
+| 2026-11-20 | youtube | auditoria | 3 señales: no llegas a entregar | 0 | — |
