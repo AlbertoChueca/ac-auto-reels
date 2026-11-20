@@ -1,12 +1,9 @@
 # Bot de comunidad
 
-_Última pasada: 2026-11-19 22:16 UTC · 0 respuestas_
+_Última pasada: 2026-11-20 03:31 UTC · 0 respuestas_
 
 | Fecha | Red | Tipo | Gancho | Comentarios | Solución publicada |
 |---|---|---|---|---|---|
-| 2026-11-12 | instagram | vf | ¿VERDADERO O FALSO? | 1 | sí |
-| 2026-11-12 | tiktok | vf | ¿VERDADERO O FALSO? | 1 | sí |
-| 2026-11-12 | youtube | vf | ¿VERDADERO O FALSO? | 1 | sí |
 | 2026-11-13 | instagram | tips_tfm | Estructura tu TFM en 4 pasos | 1 | — |
 | 2026-11-13 | tiktok | tips_tfm | Estructura tu TFM en 4 pasos | 1 | — |
 | 2026-11-13 | youtube | tips_tfm | Estructura tu TFM en 4 pasos | 1 | — |
@@ -32,5 +29,5 @@ _Última pasada: 2026-11-19 22:16 UTC · 0 respuestas_
 | 2026-11-18 | youtube | documentacion | Instalaciones que no dan vergüenza | 1 | — |
 | 2026-11-19 | tiktok | tips_proyectos | ¿Tu panel se lee a distancia? | 1 | — |
 | 2026-11-19 | youtube | tips_proyectos | ¿Tu panel se lee a distancia? | 1 | — |
-| 2026-11-19 | tiktok | referentes | Tus pilares destrozan la planta | 0 | — |
-| 2026-11-19 | youtube | referentes | Tus pilares destrozan la planta | 0 | — |
+| 2026-11-19 | tiktok | referentes | Tus pilares destrozan la planta | 1 | — |
+| 2026-11-19 | youtube | referentes | Tus pilares destrozan la planta | 1 | — |
