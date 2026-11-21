@@ -1,14 +1,9 @@
 # Bot de comunidad
 
-_Última pasada: 2026-11-20 21:16 UTC · 0 respuestas_
+_Última pasada: 2026-11-21 02:31 UTC · 0 respuestas_
 
 | Fecha | Red | Tipo | Gancho | Comentarios | Solución publicada |
 |---|---|---|---|---|---|
-| 2026-11-13 | instagram | tips_tfm | Estructura tu TFM en 4 pasos | 1 | — |
-| 2026-11-13 | tiktok | tips_tfm | Estructura tu TFM en 4 pasos | 1 | — |
-| 2026-11-13 | youtube | tips_tfm | Estructura tu TFM en 4 pasos | 1 | — |
-| 2026-11-13 | tiktok | auditoria | 3 alertas críticas del TFM | 1 | — |
-| 2026-11-13 | youtube | auditoria | 3 alertas críticas del TFM | 1 | — |
 | 2026-11-14 | tiktok | tips_tfm | 4 errores fatales TFM | 1 | — |
 | 2026-11-14 | youtube | tips_tfm | 4 errores fatales TFM | 1 | — |
 | 2026-11-14 | tiktok | referentes | 4 referentes de vivienda | 1 | — |
@@ -33,5 +28,5 @@ _Última pasada: 2026-11-20 21:16 UTC · 0 respuestas_
 | 2026-11-19 | youtube | referentes | Tus pilares destrozan la planta | 1 | — |
 | 2026-11-20 | tiktok | explicado | Quedan 3 semanas y sigues cambiando la p | 1 | — |
 | 2026-11-20 | youtube | explicado | Quedan 3 semanas y sigues cambiando la p | 1 | — |
-| 2026-11-20 | tiktok | auditoria | 3 señales: no llegas a entregar | 0 | — |
-| 2026-11-20 | youtube | auditoria | 3 señales: no llegas a entregar | 0 | — |
+| 2026-11-20 | tiktok | auditoria | 3 señales: no llegas a entregar | 1 | — |
+| 2026-11-20 | youtube | auditoria | 3 señales: no llegas a entregar | 1 | — |
